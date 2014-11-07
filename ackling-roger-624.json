@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Isleworth, United Kingdom", 
+      "placeName": "Isleworth", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1947
+    }
+  }, 
+  "birthYear": 1947, 
+  "date": "1947\u20132014", 
+  "death": {
+    "time": {
+      "startYear": 2014
+    }
+  }, 
+  "fc": "Roger Ackling", 
+  "gender": "Male", 
+  "id": 624, 
+  "mda": "Ackling, Roger", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }
+  ], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/roger-ackling-624"
+}

@@ -1,8 +1,9 @@
+import json
+from pprint import pprint
 import model 
 import csv
-from model import connect
+from model import session
 
-# using sqlalchemy session
 
 def unicode_csv_reader(utf8_data, dialect=csv.excel, **kwargs):
     csv_reader = csv.reader(utf8_data, dialect=dialect, **kwargs)
@@ -41,7 +42,6 @@ def load_artwork(session):
         artwork = model.Artwork()
         artwork.artworkId = int(row[0])
         artwork.accession_number = row[1]
-        artwork.artist = row[2]
         artwork.artistRole = row[3]
         artwork.artistId = int(row[4])
         artwork.title = row[5]
@@ -64,16 +64,54 @@ def load_artwork(session):
     session.commit()
 
 
+def load_json(file_name):
+    file = open(file_name)
+    json_text = file.read()
+    file.close()
+
+    data = json.loads(json_text)
+    pprint(data)
+
+    m = model.Movements()
+    am = model.Artist_movements()
+
+    movements_list = data["movements"]
+    am.artistId = data["id"] # Artist_movements.artistId # assign unique artId to artist_movements table
+
+    print "****************************"
+    print am.artistId
+
+    for i in movements_list:
+        # if i["id"] not in m:
+        if model.session.query(model.Movements.id).filter(i["id"]).count()<= 0:
+
+            if model.session.query(model.Movements.id).filter(i["id"]).get() != null:
+
+#How to check if something is already in a file.
+            m.id = i["id"]
+            print i["id"]
+        else:
+            print "im here already" 
+
+        m.name = i["name"]
+        print i["name"]
+
+        session.add(m)
+        session.add(am)
+
+    session.commit()
 
 
-
+# check movements table to see if movement already exists, get id if yes, add
 
 
 def main():
     """In case we need this for something"""
-    session = connect()
-    load_artists(session)
-    load_artwork(session)
+    # model.create_tables()
+
+    load_json("ackling-roger-624.json")
+    # load_artists(session)
+    # load_artwork(session)
 
 
 if __name__ == "__main__":

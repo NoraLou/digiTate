@@ -1,47 +1,51 @@
+
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
 from sqlalchemy import Column, Integer, String
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker 
 
 from sqlalchemy import ForeignKey
-from sqlalchemy.orm import relationship, backref
+from sqlalchemy.orm import relationship, backref, scoped_session
 
-ENGINE = None
-Session = None
-
-# artist has one id.
-# one artist_id has many artworks.
-
-# each artwork has one id and one artist_id
-
-# each artist has one gender
-# one gender has many artists.
-
+engine = create_engine("sqlite:///tate.db", echo=False)
+session = scoped_session(sessionmaker(bind=engine,autocommit = False, autoflush=False))
 
 Base = declarative_base()
+Base.query = session.query_property()
+
 
 class Artist(Base):
     __tablename__ = 'artist' 
 
     id = Column(Integer, primary_key = True)
-    name = Column(String(64), primary_key = True)
+    name = Column(String(64))
     gender = Column(String(64), nullable = True)
     dates = Column(String(64), nullable=True) 
     yearOfBirth = Column(String(15), nullable = True)
     yearOfDeath = Column(String(64), nullable = True)
     placeOfBirth = Column(String(64), nullable = True)
     info_url = Column(String(64), nullable = True)
-    #artwork = relationship("Artwork", backref = backref("artist", order_by = "Artwork.artistId"))
 
- # created an attribute called artistpy that backref to artwork table
+    # artwork = relationship("Artwork", backref = backref("artist"))
+    # artist_movements = relationship("Artist_movements", backref = backref("artist_movements"))
+
+
+
+
+
+    # class Artist_movements(Base):
+    # __tablename__ = 'artist_movements'
+
+    # id = Column(Integer, primary_key = True)
+    # artistId = Column(Integer, ForeignKey("artist.id"))
+
 
 class Artwork(Base):
     __tablename__ = 'artwork'
 
     id = Column(Integer, primary_key = True)
-    artworkId = Column(Integer, nullable = True)
     accession_number = Column(Integer, nullable = True)
-    artistId = Column(Integer, ForeignKey("artist.id"))
+    artistId = Column(Integer, ForeignKey("artist.id")) 
     artistRole = Column(String(64), nullable = True)
     title = Column(String(64), nullable = True)
     dateText = Column(String(64), nullable = True)
@@ -57,23 +61,38 @@ class Artwork(Base):
     inscription = Column(String(64), nullable = True)
     thumbnailCopyright = Column(String(64), nullable = True)
     thumbnailURL = Column(String(64), nullable = True)
-    url = Column(String(64), nullable = True)
+    url = Column(String(1024), nullable = True)
+
+# def format date Text.. 
+
+class Artist_movements(Base):
+    __tablename__ = 'artist_movements'
+
+    id = Column(Integer, primary_key = True)
+    artistId = Column(Integer, ForeignKey("artist.id"))  # check to see if it makes the names wrong
+    movementId = Column(Integer, ForeignKey("movements.id"))
+
+    artist = relationship("Artist", backref=backref("artist_movements"))
+    movement = relationship("Movements", backref=backref("artist_movements"))
 
 
+class Movements(Base):
+    __tablename__ = 'movements'
 
+    id = Column(Integer, primary_key = True) # actual movement id from the JSON
+    name = Column(String(64), nullable = True)
+    # artist_movementsId = Column(Integer, ForeignKey("artist_movements.id"))
+    # artist_movements = relationship("Artist_movements", backref=backref("movements"))
 
-    
-    
-    
-def connect():
-    global ENGINE
-    global Session
+     
+def create_tables():
 
-    ENGINE = create_engine("sqlite:///tate.db", echo=True)
-    Base.metadata.create_all(ENGINE)
-    Session = sessionmaker(bind=ENGINE)
+    # global ENGINE
+    # global Session
 
-    return Session()
+    # ENGINE = create_engine("sqlite:///tate.db", echo=True)
+    Base.metadata.create_all(engine)
+    # Session = sessionmaker(bind=ENGINE)
 
 
 def main():
