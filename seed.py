@@ -1,8 +1,9 @@
 import json
-from pprint import pprint
+# from pprint import pprint
 import model 
 import csv
 from model import session
+import os
 
 
 def unicode_csv_reader(utf8_data, dialect=csv.excel, **kwargs):
@@ -70,46 +71,84 @@ def load_json(file_name):
     file.close()
 
     data = json.loads(json_text)
-    pprint(data)
+    # pprint(data)
 
-    m = model.Movements()
-    am = model.Artist_movements()
+    artist_id = data.get("id")
+    artist = model.session.query(model.Artist).filter_by(id = artist_id).first()
 
-    movements_list = data["movements"]
-    am.artistId = data["id"] # Artist_movements.artistId # assign unique artId to artist_movements table
+    # print "found artist", artist.name
 
-    print "****************************"
-    print am.artistId
+    if data.get("movements",[]):
+        print "found movements"
+        print data["movements"]
+        for movement in data["movements"]:
+            print "found movement"
+            print movement
 
-    for i in movements_list:
-        # if i["id"] not in m:
-        if model.session.query(model.Movements.id).filter(i["id"]).count()<= 0:
 
-            if model.session.query(model.Movements.id).filter(i["id"]).get() != null:
 
-#How to check if something is already in a file.
-            m.id = i["id"]
-            print i["id"]
-        else:
-            print "im here already" 
+            if movement.get("era"):
+                print movement["era"]
+              
+                era_id = movement["era"].get("id")
+                era_name = movement["era"].get("name")
+                
+                if era_id:
+                     print era_id
+                     print era_name
 
-        m.name = i["name"]
-        print i["name"]
 
-        session.add(m)
-        session.add(am)
+            movement_id = movement.get("id")
+            movement_name = movement.get("name")
+
+            if movement_id:
+                print movement_id 
+                print movement_name
+            
+                m = session.query(model.Movement).get(movement_id)
+                if not m:
+                    m = model.Movement()
+                    m.id = movement_id
+                    m.name = movement_name
+                    m.era_id = era_id
+                    m.era_name = era_name
+
+                    session.add(m)
+
+                else:
+                    if m.name != movement_name:
+                        print "ERROR!  movement name doesn't match!"
+                        print movement_id, movement_name
+                        print "database has: ", m.name
+
+                am = model.Artist_movement()
+                am.movementId = movement_id
+                am.artistId = artist_id
+
+                session.add(am)
+
 
     session.commit()
 
+def loop_Dir (file_path):
+    for directr in os.listdir(file_path):
+        print directr
+        new_dir = file_path + "/" + directr
+        print new_dir
+        print os.listdir(new_dir)
+        file_names = os.listdir(new_dir)
+        for i in file_names:
+            print i
+            load_json(new_dir + "/" + i)
 
-# check movements table to see if movement already exists, get id if yes, add
+
 
 
 def main():
     """In case we need this for something"""
     # model.create_tables()
 
-    load_json("ackling-roger-624.json")
+    loop_Dir("./collection-master/artists")
     # load_artists(session)
     # load_artwork(session)
 
