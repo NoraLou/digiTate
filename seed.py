@@ -94,8 +94,13 @@ def load_json(file_name):
                 era_name = movement["era"].get("name")
                 
                 if era_id:
-                     print era_id
-                     print era_name
+                    e = session.query(model.Era).get(era_id)
+                    if not e:
+                        e = model.Era()
+                        e.id = era_id
+                        e.name = era_name
+
+                        session.add(e)
 
 
             movement_id = movement.get("id")
@@ -110,9 +115,7 @@ def load_json(file_name):
                     m = model.Movement()
                     m.id = movement_id
                     m.name = movement_name
-                    m.era_id = era_id
-                    m.era_name = era_name
-
+                
                     session.add(m)
 
                 else:
@@ -124,6 +127,7 @@ def load_json(file_name):
                 am = model.Artist_movement()
                 am.movementId = movement_id
                 am.artistId = artist_id
+                am.era_id = era_id
 
                 session.add(am)
 
@@ -147,10 +151,10 @@ def loop_Dir (file_path):
 def main():
     """In case we need this for something"""
     # model.create_tables()
-
-    loop_Dir("./collection-master/artists")
     # load_artists(session)
     # load_artwork(session)
+
+    # loop_Dir("./collection-master/artists")
 
 
 if __name__ == "__main__":

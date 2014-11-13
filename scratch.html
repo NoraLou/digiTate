@@ -1,0 +1,5 @@
+{% if move.artist_movements[loop.index].artist.artworks[0].thumbnailURL %}
+		<img src = '{{move.artist_movements[loop.index].artist.artworks[0].thumbnailURL}}'></img>
+	{% else %}
+		<h3> no image </h3>
+	{% endif %}

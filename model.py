@@ -26,6 +26,10 @@ class Artist(Base):
     placeOfBirth = Column(String(64), nullable = True)
     info_url = Column(String(64), nullable = True)
 
+    artworks = relationship("Artwork", backref=backref("artist"))
+
+    #backref to artist_movements table
+
 class Artwork(Base):
     __tablename__ = 'artwork'
 
@@ -49,32 +53,39 @@ class Artwork(Base):
     thumbnailURL = Column(String(64), nullable = True)
     url = Column(String(1024), nullable = True)
 
-# def format date Text.. 
+    # backref to artist table
+
+    # def format date Text.. ????
+
 
 class Artist_movement(Base):
     __tablename__ = 'artist_movements'
 
     id = Column(Integer, primary_key = True)
-    artistId = Column(Integer, ForeignKey("artist.id"))  # check to see if it makes the names wrong
+    artistId = Column(Integer, ForeignKey("artist.id"))  
     movementId = Column(Integer, ForeignKey("movements.id"))
+    era_id = Column(Integer, ForeignKey("eras.id"))
 
     artist = relationship("Artist", backref=backref("artist_movements"))
     movement = relationship("Movement", backref=backref("artist_movements"))
+    era = relationship("Era", backref=backref("artist_movements"))
 
-    # model.session.query(model.Artist_movement).filter_by(name = "Conceptual").all()
-    # example of how we might actually query this.
+   
 
 class Movement(Base):
     __tablename__ = 'movements'
 
-    id = Column(Integer, primary_key = True) # actual movement id from the JSON
+    id = Column(Integer, primary_key = True)
     name = Column(String(64), nullable = True)
-    era_id = Column(String(64), nullable = True)
-    era_name = Column(String(64), nullable = True)
 
-    
+    #backref to artist_movements table
 
+class Era(Base):
+    __tablename__ ='eras'
+    id = Column(Integer,primary_key = True)
+    name = Column(String(64), nullable = True)
 
+    #backref to artist_movements table
 
      
 def create_tables():
