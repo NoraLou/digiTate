@@ -70,6 +70,9 @@ class Artist_movement(Base):
     movement = relationship("Movement", backref=backref("artist_movements"))
     era = relationship("Era", backref=backref("artist_movements"))
 
+
+    
+
    
 
 class Movement(Base):
@@ -77,6 +80,10 @@ class Movement(Base):
 
     id = Column(Integer, primary_key = True)
     name = Column(String(64), nullable = True)
+    thumbnailURL = Column(String(64), nullable = True)
+    numArtist = Column(Integer, nullable = True)
+    numArtwork = Column(Integer, nullable = True)
+
 
     #backref to artist_movements table
 
@@ -84,8 +91,18 @@ class Era(Base):
     __tablename__ ='eras'
     id = Column(Integer,primary_key = True)
     name = Column(String(64), nullable = True)
+    thumbnailURL = Column(String(64), nullable = True)
+    numArtist = Column(Integer, nullable = True)
+    numArtwork = Column(Integer, nullable = True)
 
-    #backref to artist_movements table
+
+
+    # era.artist_movement.movementId
+    # get the number of distinct movements per era. 
+
+    # backref to artist_movements table
+
+
 
      
 def create_tables():

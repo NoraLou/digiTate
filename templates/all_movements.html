@@ -1,0 +1,21 @@
+<html>
+<body>
+<h1>Movements</h1>
+
+{% for move in moves %}
+	<h3>{{move.name}}</h3>
+	artists: {{move.numArtist}}<br>
+	artwork: {{move.numArtwork}}<br>
+	{% if move.thumbnailURL %}
+		<a href="/show/{{move.id}}"><img id= "movement_img"src ='{{move.thumbnailURL}}'></img></a>
+	{% else %}
+		<h3> no image </h3>
+	{% endif %}
+
+{% endfor %}
+
+
+
+</body>
+
+</html>

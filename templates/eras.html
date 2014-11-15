@@ -2,10 +2,16 @@
 <body>
 <h1>ERAS!</h1>
 
+<ul>
 {% for era in eras %}
-	<h3>{{era.name}}</h3>
+	<li>{{era.name}}</li>
+	<ul>
+	{% for am in era.artist_movements %}
+		<li>{{am.movement.name}}</li>
+	{% endfor %}
+</ul>
 {% endfor %}
-
+</ul>
 
 </body>
 

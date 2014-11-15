@@ -145,16 +145,41 @@ def loop_Dir (file_path):
             print i
             load_json(new_dir + "/" + i)
 
+def add_details():
+    movements = model.session.query(model.Movement).all()
+
+    for movement in movements: 
+        artistThumbnail = None
+        numArtwork = 0
+        for am in movement.artist_movements:
+            if len(am.artist.artworks)>0:
+            # if this movement has an artist with an artwork
+                for artwork in range(len(am.artist.artworks)):
+                    # for all the artworks assoc w/ movement
+                    if am.artist.artworks[artwork].thumbnailURL: 
+                        artistThumbnail = am.artist.artworks[artwork].thumbnailURL
+                        numArtwork += len(am.artist.artworks)
+
+        movement.thumbnailURL = artistThumbnail
+        movement.numArtwork = numArtwork 
+        movement.numArtist = len(movement.artist_movements)
+
+        session.add(movement)
+
+    session.commit()
+
 
 
 
 def main():
     """In case we need this for something"""
-    # model.create_tables()
-    # load_artists(session)
-    # load_artwork(session)
+    model.create_tables()
+    load_artists(session)
+    load_artwork(session)
 
-    # loop_Dir("./collection-master/artists")
+    loop_Dir("./collection-master/artists")
+
+    add_details()
 
 
 if __name__ == "__main__":
