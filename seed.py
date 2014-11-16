@@ -166,7 +166,40 @@ def add_details():
 
         session.add(movement)
 
+        eras = model.session.query(model.Era).all()
+
+    for era in eras:
+        moves_in_era = []
+        numArtwork=0
+        numArtist=0 
+        print "*****************"
+        print era.id
+        print era.name
+        movements_in_era = model.session.query(model.Artist_movement).filter(model.Artist_movement.era_id==era.id).group_by(model.Artist_movement.movementId).all()
+        for artist_move in movements_in_era:
+            moves_in_era.append([artist_move.movement.name])
+            numArtist += artist_move.movement.numArtist
+            numArtwork += artist_move.movement.numArtwork
+        print moves_in_era
+        print "numArtwork", numArtwork
+        print "numArtist", numArtist
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
     session.commit()
+
+
 
 
 

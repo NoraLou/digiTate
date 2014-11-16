@@ -17,28 +17,24 @@ def index():
 
     eras = model.session.query(model.Era).all()
 
-    # movements_eras = eras.artist_movements(distinct(artist_movements.movementId)).all()
-
-    # movements_eras = model.session.query(model.Er)
-
-
-    #print eras
-    
     for era in eras:
-        #movements_in_era = model.session.query(distinct(model.Artist_movement))
-        #print movements_in_era
+        moves_in_era = []
+        numArtwork=0
+        numArtist=0 
+        print "*****************"
         print era.id
+        print era.name
         movements_in_era = model.session.query(model.Artist_movement).filter(model.Artist_movement.era_id==era.id).group_by(model.Artist_movement.movementId).all()
-        for mie in movements_in_era:
-            print mie.movement.name
+        for artist_move in movements_in_era:
+            moves_in_era.append([artist_move.movement.name])
+            numArtist += artist_move.movement.numArtist
+            numArtwork += artist_move.movement.numArtwork
+        print moves_in_era
+        print "numArtwork", numArtwork
+        print "numArtist", numArtist
 
-    # for era in eras:
-    #       artistThumbnail = None
-    #       numArtwork = 0
-    #       for movement in era.artist_movements:
-    #         print dir(era.artist_movements)
-
-
+       
+         
 
     return render_template("index.html")
 
@@ -48,53 +44,50 @@ def show_eras():
 
     print("Hello!")
 
+    eras_w_moves = []
+    eras = model.session.query(model.Era).all()
+    for era in eras:
+        print era.name
+        movements_in_era = model.session.query(model.Artist_movement).filter(model.Artist_movement.era_id==era.id).group_by(model.Artist_movement.movementId).all()
+        for m in movements_in_era:
+            print m.movementId
+            print m.movement.name
+        
+        # eras_w_moves.append({"era": era.name, "movements_in_era":[movements_in_era]})
+        # print"*************"
+        # print"*************"
+        # print eras_w_moves
+        
+
+
     # get a list of eras and display an image for each one. 
     # each image links to all the distinct movements.
-    # each movement links to all artists
-
-    eras = model.session.query(model.Era).limit(5)
-
-
-    return render_template("eras.html", eras = eras)
-
+    # each movement links to all artis
+    return render_template("eras.html", eras_w_moves = eras_w_moves)
     
-@app.route("/all_movements")
-def show_movements():
 
-    movements = model.session.query(model.Movement).all()
-
-    # moves = []
-    # for movement in movements: 
-    #     artistThumbnail = None
-    #     numArtwork = 0
-    #     for am in movement.artist_movements:
-    #         if len(am.artist.artworks)>0:
-    #         # if this movement has an artist with an artwork
-    #             for artwork in range(len(am.artist.artworks)):
-    #                 # for all the artworks assoc w/ movement
-    #                 if am.artist.artworks[artwork].thumbnailURL: 
-    #                     artistThumbnail = am.artist.artworks[artwork].thumbnailURL
-    #                     numArtwork += len(am.artist.artworks)
+@app.route("/show/eras_movements")
+def eras_movements(era_id):
+    movements_in_era = model.session.query(model.Artist_movement).filter(model.Artist_movement.era_id==era.id).group_by(model.Artist_movement.movementId).all()
+    return render_template("eras_movements", movements_in_era = movements_in_era
+   
+# @app.route("/movements")
+# def show_movements():
 
 
-    #     moves.append({"name": movement.name, "thumbnailURL": artistThumbnail, 
-    #                   "numArtist": len(movement.artist_movements), "numArtwork":numArtwork,
-    #                   "movementId": movement.id})
-
-    # moves_sorted = sorted(moves, key= itemgetter("numArtwork"))
-
-    return render_template("all_movements.html", moves = movements)
+#     movements = model.session.query(model.Movement).all()
+#     return render_template("movements.html", moves = movements)
 
 
-@app.route("/show/<int:movement>")
-def artists(movement):
+@app.route("/show/movement")
+def artists(movement_id):
     display_artwork = model.session.query(model.Movement).filter_by(id = 419).one()
 
     print display_artwork
     print display_artwork
 
     #get 10 images from the db based on "movement"
-    # pass data retrieved from DB to a template
+    #pass data retrieved from DB to a template
     #return render_template(html file, data from database)
     return render_template("show_M.html")
 

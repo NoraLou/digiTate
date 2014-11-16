@@ -71,10 +71,6 @@ class Artist_movement(Base):
     era = relationship("Era", backref=backref("artist_movements"))
 
 
-    
-
-   
-
 class Movement(Base):
     __tablename__ = 'movements'
 
@@ -95,10 +91,6 @@ class Era(Base):
     numArtist = Column(Integer, nullable = True)
     numArtwork = Column(Integer, nullable = True)
 
-
-
-    # era.artist_movement.movementId
-    # get the number of distinct movements per era. 
 
     # backref to artist_movements table
 

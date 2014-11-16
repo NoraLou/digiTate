@@ -3,11 +3,11 @@
 <h1>ERAS!</h1>
 
 <ul>
-{% for era in eras %}
-	<li>{{era.name}}</li>
+{% for e in eras_w_moves %}
+	<li>{{e.era}}</li>
 	<ul>
-	{% for am in era.artist_movements %}
-		<li>{{am.movement.name}}</li>
+	{% for m in e.movements_in_era %}
+		<li>{{m.movementId}}</li>
 	{% endfor %}
 </ul>
 {% endfor %}
