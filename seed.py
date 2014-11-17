@@ -79,7 +79,7 @@ def load_json(file_name):
     # print "found artist", artist.name
 
     if data.get("movements",[]):
-        print "found movements"
+        # print "found movements"
         print data["movements"]
         for movement in data["movements"]:
             print "found movement"
@@ -115,6 +115,7 @@ def load_json(file_name):
                     m = model.Movement()
                     m.id = movement_id
                     m.name = movement_name
+                    m.era_id = era_id
                 
                     session.add(m)
 
@@ -127,7 +128,6 @@ def load_json(file_name):
                 am = model.Artist_movement()
                 am.movementId = movement_id
                 am.artistId = artist_id
-                am.era_id = era_id
 
                 session.add(am)
 
@@ -152,13 +152,20 @@ def add_details():
         artistThumbnail = None
         numArtwork = 0
         for am in movement.artist_movements:
+            numArtwork += len(am.artist.artworks)
             if len(am.artist.artworks)>0:
-            # if this movement has an artist with an artwork
+      # if this movement has an artist with an artwork
                 for artwork in range(len(am.artist.artworks)):
                     # for all the artworks assoc w/ movement
                     if am.artist.artworks[artwork].thumbnailURL: 
                         artistThumbnail = am.artist.artworks[artwork].thumbnailURL
-                        numArtwork += len(am.artist.artworks)
+                        
+                        # potential optimization: only load one artwork per movement
+                        # select artworks.* from artworks
+                        # join artists on artworks.artist_id=artists.id
+                        # join artist_movements on artist_movements.artist_id=artists.id
+                        # where artist_movements.movement_id={movement_id}
+
 
         movement.thumbnailURL = artistThumbnail
         movement.numArtwork = numArtwork 
@@ -166,36 +173,26 @@ def add_details():
 
         session.add(movement)
 
-        eras = model.session.query(model.Era).all()
+    eras = model.session.query(model.Era).all()
 
     for era in eras:
-        moves_in_era = []
         numArtwork=0
         numArtist=0 
         print "*****************"
         print era.id
         print era.name
-        movements_in_era = model.session.query(model.Artist_movement).filter(model.Artist_movement.era_id==era.id).group_by(model.Artist_movement.movementId).all()
-        for artist_move in movements_in_era:
-            moves_in_era.append([artist_move.movement.name])
-            numArtist += artist_move.movement.numArtist
-            numArtwork += artist_move.movement.numArtwork
-        print moves_in_era
+        movements_in_era = model.session.query(model.Movement).filter(model.Movement.era_id == era.id).all()
+        for movement in movements_in_era:
+            numArtist += movement.numArtist
+            numArtwork += movement.numArtwork
+
         print "numArtwork", numArtwork
         print "numArtist", numArtist
 
+        era.numArtist = numArtist
+        era.numArtwork = numArtwork
 
-
-
-
-
-
-
-
-
-
-
-        
+        session.add(era)
 
     session.commit()
 

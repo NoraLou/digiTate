@@ -64,33 +64,34 @@ class Artist_movement(Base):
     id = Column(Integer, primary_key = True)
     artistId = Column(Integer, ForeignKey("artist.id"))  
     movementId = Column(Integer, ForeignKey("movements.id"))
-    era_id = Column(Integer, ForeignKey("eras.id"))
+    # era_id = Column(Integer, ForeignKey("eras.id"))
 
     artist = relationship("Artist", backref=backref("artist_movements"))
     movement = relationship("Movement", backref=backref("artist_movements"))
-    era = relationship("Era", backref=backref("artist_movements"))
+    # era = relationship("Era", backref=backref("artist_movements"))
 
 
 class Movement(Base):
     __tablename__ = 'movements'
 
     id = Column(Integer, primary_key = True)
+    era_id = Column(Integer, ForeignKey("eras.id"))
     name = Column(String(64), nullable = True)
     thumbnailURL = Column(String(64), nullable = True)
     numArtist = Column(Integer, nullable = True)
     numArtwork = Column(Integer, nullable = True)
 
-
+    # era = relationship("Era", backref=backref("movements"))
     #backref to artist_movements table
 
 class Era(Base):
     __tablename__ ='eras'
     id = Column(Integer,primary_key = True)
     name = Column(String(64), nullable = True)
-    thumbnailURL = Column(String(64), nullable = True)
     numArtist = Column(Integer, nullable = True)
     numArtwork = Column(Integer, nullable = True)
-
+    
+    movements = relationship("Movement", backref=backref("era"))
 
     # backref to artist_movements table
 
