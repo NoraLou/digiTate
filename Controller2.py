@@ -20,8 +20,6 @@ def utility_processor():
 
     return dict(thumbnail_format=thumbnail_format)
 
-
-
 # def login():
 # def signout():
 # def lightbox():
@@ -32,14 +30,71 @@ def index():
 
     print("Hello!")
 
-    eras = model.session.query(model.Era).all()
+    # eras = model.session.query(model.Era).all()
 
-    for era in eras:
-        print "*****************"
-        print era.id
-        print era.name
-        # movements_in_era_easy = model.session.query(model.Movement).filter(model.Movement.era_id == era.id).all()
-        
+    # for era in eras:
+    #     print "*****************"
+    #     print era.id
+    #     print era.name
+    #     movements_in_era_easy = model.session.query(model.Movement).filter(model.Movement.era_id == era.id).all()
+    #     print movements_in_era_easy
+
+    #     for movement in movements_in_era_easy:
+    #         print movement.name
+
+    # current_era = model.session.query(model.Era).filter_by(id = 19376).all()
+    
+    # moves_in_current_era = model.session.query(model.Movement).filter(model.Movement.era_id == 19376).all()
+    # print moves_in_current_era
+
+    # for i in moves_in_current_era: 
+    #     print i.name
+    #     print i.numArtist
+    #     print i.numArtwork
+    # print i.artist_movements.artistId
+
+
+
+    # Find era artwork 
+    # eras = model.session.query(model.Era).all()
+
+    # for era in eras:
+    #     print "*****************"
+    #     print era.id
+    #     print era.name
+    #     print 
+
+    #     movements_in_era_easy = model.session.query(model.Movement).filter(model.Movement.era_id == era.id).all()
+    #     print movements_in_era_easy
+
+    #     sixteenthcentury = model.session.query(model.Era).filter_by(id =289 ).all()
+
+    # find artwork in a given era, movement, artist#
+
+    sixteenthcentury = model.session.query(model.Movement).filter(model.Movement.era_id == 350
+        ).all()
+        # print  sixteenthcentury
+
+    for move in sixteenthcentury:
+        print "************************************************************"
+        print move.name,  "numArtwork:", move.numArtwork, "numArtist:", move.numArtist
+        mam = move.artist_movements
+        for am in mam:
+            print "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            print am.artist.name
+            print am.artistId
+            current_artist = am.artistId
+            artwork = model.session.query(model.Artwork).filter(model.Artwork.artistId == current_artist)
+            for piece in artwork:
+                print piece.thumbnailURL
+
+
+     # def url_from_era(era_id):
+     #    era = 
+
+
+    # def imgs_from_movement(movement_object)
+       
         
 
     return render_template("index.html")

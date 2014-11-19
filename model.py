@@ -64,11 +64,11 @@ class Artist_movement(Base):
     id = Column(Integer, primary_key = True)
     artistId = Column(Integer, ForeignKey("artist.id"))  
     movementId = Column(Integer, ForeignKey("movements.id"))
-    # era_id = Column(Integer, ForeignKey("eras.id"))
+    
 
     artist = relationship("Artist", backref=backref("artist_movements"))
     movement = relationship("Movement", backref=backref("artist_movements"))
-    # era = relationship("Era", backref=backref("artist_movements"))
+    
 
 
 class Movement(Base):

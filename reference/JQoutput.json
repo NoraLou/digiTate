@@ -1,3 +1,4 @@
+  # number of artists per movement
    1 "Art Brut"
    1 "Blaue Reiter, Der"
    1 "Digital art"
@@ -138,3 +139,46 @@
   43 "British War Art"
   47 "Victorian/Genre"
   60 "Conceptual Art"
+
+# number of artists in N amout of movmements, 
+  sqlite> select m_count, count(*) from (select a.id, count(*) as m_count from artist a left join artist_movements am on a.id = am.artistId group by a.id) m_counts group by m_count;
+1|3280
+2|174
+3|48
+4|19
+5|6
+6|4
+7|1
+
+# number of movements per ERA
+
+for 21st century a problem:
+
+
+19376 era id
+21st century
+INFO:sqlalchemy.engine.base.Engine:SELECT movements.id AS movements_id, movements.era_id AS movements_era_id, movements.name AS movements_name, movements."thumbnailURL" AS "movements_thumbnailURL", movements."numArtist" AS "movements_numArtist", movements."numArtwork" AS "movements_numArtwork" 
+FROM movements 
+WHERE movements.era_id = ?
+INFO:sqlalchemy.engine.base.Engine:(19376,)
+[<model.Movement object at 0x10ae1d250>]
+
+[<model.Movement object at 0x10348b450>]
+Digital art
+1  number of artists
+22 number of artwork ???? **** Do these artworks have images *****
+
+**** should we get a collection by querying the dateText from 
+
+
+
+
+
+#number of artwork per movment
+
+
+
+
+# by materials? 
+
+# by works? 
