@@ -1,9 +1,51 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link href="../static/CSS/style.css" rel="stylesheet">
+	<script src="../static/js/index.js"></script>
+</head>
 <body>
-<h1>HELLO WORLD!!!</h1>
 
-<a href="/movements"> Movements</a><br>
+<ul id="columnWrapper">
+	<li id="eraColumn">
+
+		<ul>
+			<li><img data-era="1600s" src="../static/img/T03456_9.jpg" /></li>
+			<li><img data-era="1800s" src="http://www.placekitten.com/g/200/201" /></li>
+			<li><img data-era="1700s" src="http://www.placekitten.com/g/201/200" /></li>
+		</ul>
+
+	</li>
+	<li id="movementColumn">
+
+		<div>
+			<ul>
+				<li><img data-movement="1900s" src="http://www.placekitten.com/g/200/202" /></li>
+				<li><img data-movement="1800s" src="http://www.placekitten.com/g/201/202" /></li>
+				<li><img data-movement="1700s" src="http://www.placekitten.com/g/202/201" /></li>
+			</ul>
+		</div>
+
+		<div id="closeMovements">X</div>
+
+	</li>
+	<li id="artworkColumn">
+
+		<div>
+			<ul>
+				<li><img data-movement="1900s" src="http://www.placekitten.com/g/205/203" /></li>
+				<li><img data-movement="1800s" src="http://www.placekitten.com/g/205/202" /></li>
+				<li><img data-movement="1700s" src="http://www.placekitten.com/g/202/205" /></li>
+			</ul>
+		</div>
+
+		<div id="closeArtwork">X</div>
+
+	</li>
+</ul>
 
 </body>
 </html>

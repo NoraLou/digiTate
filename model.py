@@ -14,6 +14,8 @@ Base = declarative_base()
 Base.query = session.query_property()
 
 
+
+
 class Artist(Base):
     __tablename__ = 'artist' 
 
@@ -29,6 +31,8 @@ class Artist(Base):
     artworks = relationship("Artwork", backref=backref("artist"))
 
     #backref to artist_movements table
+    # !!!! ADD CONVERT TO JSON METHOD
+
 
 class Artwork(Base):
     __tablename__ = 'artwork'
@@ -53,9 +57,15 @@ class Artwork(Base):
     thumbnailURL = Column(String(64), nullable = True)
     url = Column(String(1024), nullable = True)
 
+    def convert_to_JSON(self): 
+        # whenever you have an artwork object, you call example.covert_to_JSON
+        d = {}
+        d = {"id": self.id, "thumbnailURL": self.thumbnailURL}
+        # d["artist"]= self.artist.conver_to_JSON()
+        return d 
+
     # backref to artist table
 
-    # def format date Text.. ????
 
 
 class Artist_movement(Base):

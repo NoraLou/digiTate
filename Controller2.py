@@ -3,6 +3,7 @@ from flask import Flask, render_template, redirect, request, flash, session
 import model
 from operator import itemgetter
 from sqlalchemy.orm import subqueryload
+import json
 
 import logging
 logging.basicConfig()
@@ -11,7 +12,7 @@ logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 app = Flask(__name__)
 app.secret_key = 'some_secret'
 
-
+    
 @app.context_processor
 def utility_processor():
     def thumbnail_format(url, format= 8):
@@ -24,11 +25,26 @@ def utility_processor():
 # def signout():
 # def lightbox():
 
-
 @app.route("/")
 def index():
 
     print("Hello!")
+
+    page = render_template("index.html",)
+    return page
+
+@app.route("/monkey")
+def test():
+
+    artwork = model.session.query(model.Artwork).first()
+    return json.dumps(artwork.convert_to_JSON())
+
+
+    
+    # dumps into a string... 
+
+    
+
 
     # eras = model.session.query(model.Era).all()
 
@@ -71,36 +87,32 @@ def index():
 
     # find artwork in a given era, movement, artist#
 
-    sixteenthcentury = model.session.query(model.Movement).filter(model.Movement.era_id == 350
-        ).all()
-        # print  sixteenthcentury
+    # sixteenthcentury = model.session.query(model.Movement).filter(model.Movement.era_id == 350
+    #     ).all()
+    #     # print  sixteenthcentury
 
-    for move in sixteenthcentury:
-        print "************************************************************"
-        print move.name,  "numArtwork:", move.numArtwork, "numArtist:", move.numArtist
-        mam = move.artist_movements
-        for am in mam:
-            print "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-            print am.artist.name
-            print am.artistId
-            current_artist = am.artistId
-            artwork = model.session.query(model.Artwork).filter(model.Artwork.artistId == current_artist)
-            for piece in artwork:
-                print piece.thumbnailURL
-
-
-     # def url_from_era(era_id):
-     #    era = 
+    # for move in sixteenthcentury:
+    #     print "************************************************************"
+    #     print move.name,  "numArtwork:", move.numArtwork, "numArtist:", move.numArtist
+    #     mam = move.artist_movements
+    #     for am in mam:
+    #         print "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    #         print am.artist.name
+    #         print am.artistId
+    #         current_artist = am.artistId
+    #         artwork = model.session.query(model.Artwork).filter(model.Artwork.artistId == current_artist)
+    #         for piece in artwork:
+    #             print piece.thumbnailURL
 
 
     # def imgs_from_movement(movement_object)
        
         
 
-    return render_template("index.html")
+    
 
 
-@app.route("/eras")
+@app.route("/")
 def show_eras():
 
     print("Hello!")
