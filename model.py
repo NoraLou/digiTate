@@ -96,8 +96,14 @@ class Movement(Base):
 
     def convert_to_JSON(self): 
         # whenever you have an object, you call example.covert_to_JSON
-        d = {}
-        d = {"id": self.id, "thumbnailURL": self.thumbnailURL, "era_id": self.era_id, "name": self.name, "numArtist": self.numArtist, "numArtwork": self.numArtwork}
+        d = {
+            "id": self.id, 
+            "thumbnailURL": self.thumbnailURL, 
+            "era_id": self.era_id, 
+            "name": self.name, 
+            "numArtist": self.numArtist, 
+            "numArtwork": self.numArtwork
+        }
        
         return d 
 

@@ -7,33 +7,49 @@
 		});
 
 
-		function addArtwork(evt){
-      alert(evt.currentTarget.dataset.era);
+function addArtwork(evt){
+    alert(evt.currentTarget.dataset.era);
 
-      $.get({
-        url : "/test", 
+    $.get("/test",{ 
         data : evt.currentTarget.dataset.era, 
       })
-      .done(function(data){
-        console.log(data)
-        // # CALL FUNCTION CALLED HANDLE DATA  PASS DATA IN AS A PARAMETER!!!
-        //take json, pull out URL, insert into DOM, create img elements
+      	.done(function(data){
+	        console.log(data);
+	        displayData(data);
 
       })
-      .fail(function(){
+      	.fail(function(){
         alert("error")
       });
 
-    }
+}
 
-		function init()
+function displayData(data){
+	//for array in data
+	for(var a = 0; a<data.length; a++){
+		var item = data[a]
+		
+		if(item.hasOwnProperty('thumbnailURL'))
+			console.log(item['thumbnailURL']);
+			var image_url = item['thumbnailURL'];
+			$(new Image()).attr('src', '' + image_url).appendTo($('li#movementColumn>div>ul>li')).fadeIn();
+		   
+	}
+}
+
+// funtion handledoubleClick(evt)
+// if user clicks twice on an image durint the session ;images will not load twice!
+
+
+
+	function init()
 		{
 			$('li#eraColumn>ul>li>img').click(function(evt)
 			{
 				var era = $(this).attr("data-era");
 				transitionToMovements(era);
-        console.log(evt);
-        addArtwork(evt);
+        		console.log(evt);
+        		addArtwork(evt);
 
 			});
 
@@ -49,7 +65,7 @@
 			});
 		}
 
-		function closePane(pane)
+	function closePane(pane)
 		{
 			var paneToExpand = pane.parent().prev();
 			console.log(paneToExpand.attr("id"));
@@ -64,7 +80,7 @@
 			}
 		}
 
-		function transitionToEras(pane)
+	function transitionToEras(pane)
 		{
 			console.log(pane.attr("id"));
 			$("#eraColumn").animate({
@@ -86,7 +102,7 @@
 			});
 		}
 
-		function transitionToPrev(paneToExpand)
+	function transitionToPrev(paneToExpand)
 		{
 			console.log(paneToExpand.attr("id"));
 			paneToExpand.prev().animate({
@@ -108,7 +124,7 @@
 			});
 		}
 
-		function transitionToMovements(era)
+	function transitionToMovements(era)
 		{
 			$("#eraColumn").animate({
 				"width": "20%"
@@ -118,7 +134,7 @@
 			});
 		}
 
-		function transitionToArtists(movement)
+	function transitionToArtists(movement)
 		{
 			$("#eraColumn").animate({
 				"width": "0%"

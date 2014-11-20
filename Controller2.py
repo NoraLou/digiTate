@@ -1,5 +1,5 @@
 
-from flask import Flask, render_template, redirect, request, flash, session
+from flask import Flask, render_template, redirect, request, flash, session, Response
 import model
 from sqlalchemy.orm import subqueryload
 import json
@@ -35,15 +35,24 @@ def index():
 @app.route("/test", methods=['GET','POST'])
 def load_images():
 
-    # get the era name that is being being clicked on from ajax json 
-    era = request.json['data']
+    era = request.args.get('data')
 
-    # get all the movements for the era, get a piece of representative artwork 
+    print era
+
     eras_movements = model.session.query(model.Movement).filter_by(era_id = era).limit(5).all()
-    # still need to write the getting arwork bit!!!!!!!!!!!!!!!!!!
     print eras_movements
+    print "*************************************"
+
+    json_movement_objs = [movement.convert_to_JSON()for movement in eras_movements]
+
+                          # [movement.convert_to_JSON().thumbnailURL for movement in eras_movements]
+    print json_movement_objs
+
+        # ls[]
+        # for i in ls ; do something
+        # ls.append( i w/ something done)
     
-    return json.dumps(eras_movements.convert_to_JSON())
+    return Response(json.dumps(json_movement_objs), mimetype="text/json")
 
 
 
