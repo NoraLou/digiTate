@@ -1,7 +1,6 @@
 
 from flask import Flask, render_template, redirect, request, flash, session
 import model
-from operator import itemgetter
 from sqlalchemy.orm import subqueryload
 import json
 
@@ -33,17 +32,23 @@ def index():
     page = render_template("index.html",)
     return page
 
-@app.route("/monkey")
-def test():
+@app.route("/test", methods=['GET','POST'])
+def load_images():
 
-    artwork = model.session.query(model.Artwork).first()
-    return json.dumps(artwork.convert_to_JSON())
+    # get the era name that is being being clicked on from ajax json 
+    era = request.json['data']
 
-
+    # get all the movements for the era, get a piece of representative artwork 
+    eras_movements = model.session.query(model.Movement).filter_by(era_id = era).limit(5).all()
+    # still need to write the getting arwork bit!!!!!!!!!!!!!!!!!!
+    print eras_movements
     
-    # dumps into a string... 
+    return json.dumps(eras_movements.convert_to_JSON())
 
-    
+
+
+
+
 
 
     # eras = model.session.query(model.Era).all()

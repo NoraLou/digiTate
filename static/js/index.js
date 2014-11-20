@@ -3,14 +3,27 @@
 		$(document).ready(function()
 		{
 			init();
-      addArtwork("things");
+      // addArtwork("things");
 		});
 
 
-		function addArtwork(artwork){
-      $.get("/monkey", function(monkies) {
-        console.log(monkies);
+		function addArtwork(evt){
+      alert(evt.currentTarget.dataset.era);
+
+      $.get({
+        url : "/test", 
+        data : evt.currentTarget.dataset.era, 
+      })
+      .done(function(data){
+        console.log(data)
+        // # CALL FUNCTION CALLED HANDLE DATA  PASS DATA IN AS A PARAMETER!!!
+        //take json, pull out URL, insert into DOM, create img elements
+
+      })
+      .fail(function(){
+        alert("error")
       });
+
     }
 
 		function init()
@@ -19,6 +32,9 @@
 			{
 				var era = $(this).attr("data-era");
 				transitionToMovements(era);
+        console.log(evt);
+        addArtwork(evt);
+
 			});
 
 			$('li#movementColumn>div>ul>li>img').click(function(evt)

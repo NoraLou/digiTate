@@ -61,7 +61,7 @@ class Artwork(Base):
         # whenever you have an artwork object, you call example.covert_to_JSON
         d = {}
         d = {"id": self.id, "thumbnailURL": self.thumbnailURL}
-        # d["artist"]= self.artist.conver_to_JSON()
+        # d["artist"]= self.artist.convert_to_JSON()
         return d 
 
     # backref to artist table
@@ -94,6 +94,13 @@ class Movement(Base):
     # era = relationship("Era", backref=backref("movements"))
     #backref to artist_movements table
 
+    def convert_to_JSON(self): 
+        # whenever you have an object, you call example.covert_to_JSON
+        d = {}
+        d = {"id": self.id, "thumbnailURL": self.thumbnailURL, "era_id": self.era_id, "name": self.name, "numArtist": self.numArtist, "numArtwork": self.numArtwork}
+       
+        return d 
+
 class Era(Base):
     __tablename__ ='eras'
     id = Column(Integer,primary_key = True)
@@ -104,6 +111,8 @@ class Era(Base):
     movements = relationship("Movement", backref=backref("era"))
 
     # backref to artist_movements table
+
+
 
 
 
