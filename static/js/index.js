@@ -3,18 +3,16 @@
 		$(document).ready(function()
 		{
 			init();
-      // addArtwork("things");
 		});
 
 
 function addArtwork(evt){
-    alert(evt.currentTarget.dataset.era);
-
     $.get("/test",{ 
         data : evt.currentTarget.dataset.era, 
       })
       	.done(function(data){
 	        console.log(data);
+	        $('#movementContainer').empty();
 	        displayData(data);
 
       })
@@ -28,33 +26,50 @@ function displayData(data){
 	//for array in data
 	for(var a = 0; a<data.length; a++){
 		var item = data[a]
-		
+		console.log(item)
+
+		if(item.hasOwnProperty('id'))
+			var id =(item['id']);
+
+		if(item.hasOwnProperty('name'))
+			var name = (item['name']);
+
 		if(item.hasOwnProperty('thumbnailURL'))
 			console.log(item['thumbnailURL']);
-			var image_url = item['thumbnailURL'];
-			$(new Image()).attr('src', '' + image_url).appendTo($('li#movementColumn>div>ul>li')).fadeIn();
+
+		var image_url = item['thumbnailURL'];
+		$(new Image()).attr('src', '' + image_url).attr('data-id',id).attr('alt',name).appendTo($('#movementContainer')).fadeIn();
+		// $(new Image(),{
+		// 	src : "image_url",
+		// 	data : "id",
+		// 	data : "name",
+		// }).appendTo($('#movementContainer')).fadeIn();
 		   
 	}
 }
 
-// funtion handledoubleClick(evt)
-// if user clicks twice on an image durint the session ;images will not load twice!
 
 
+
+
+var activeTimePeriod = '';
 
 	function init()
 		{
 			$('li#eraColumn>ul>li>img').click(function(evt)
 			{
 				var era = $(this).attr("data-era");
-				transitionToMovements(era);
-        		console.log(evt);
-        		addArtwork(evt);
+				if(era != activeTimePeriod){
+					activeTimePeriod = era;
+					transitionToMovements(era);
+        			console.log(evt);
+        			addArtwork(evt);
+				}
 
 			});
 
-			$('li#movementColumn>div>ul>li>img').click(function(evt)
-			{
+			$('#movementContainer>img').click(function(evt){
+				alert(evt.currentTarget.dataset.era);
 				var movement = $(this).attr("data-movement");
 				transitionToArtists(movement);
 			});
