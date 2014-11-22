@@ -28,17 +28,23 @@ def utility_processor():
 def index():
 
     print("Hello!")
+    movements_artwork = model.session.query(model.Artist_movement).filter_by(movementId = 320).all()
+    artwork_ls = []
+    for am in movements_artwork:
+        current_artist = am.artistId
+        artwork = model.session.query(model.Artwork).filter(model.Artwork.artistId == current_artist)
+        for piece in artwork:
+
+            artwork_ls.append({"thumbnailURL":piece.thumbnailURL, "id":piece.id, "name":piece.title, "artistId":piece.artistId} )
+    print artwork_ls
 
     page = render_template("index.html",)
     return page
 
-@app.route("/test", methods=['GET','POST'])
-def load_images():
-
+@app.route("/api/movements", methods=['GET','POST'])
+def load_movments():
     era = request.args.get('data')
-
     print era
-
     eras_movements = model.session.query(model.Movement).filter_by(era_id = era).limit(5).all()
     print eras_movements
     print "*************************************"
@@ -54,13 +60,25 @@ def load_images():
     
     return Response(json.dumps(json_movement_objs), mimetype="text/json")
 
+@app.route("/api/artwork",methods=['GET','POST'])
+def load_artwork():
+    movement = request.args.get('data')
+    print movement
+
+    movements_artwork = model.session.query(model.Artist_movement).filter_by(movementId = movement).all()
+    artwork_ls = []
+    for am in movements_artwork:
+        current_artist = am.artistId
+        artwork = model.session.query(model.Artwork).filter(model.Artwork.artistId == current_artist)
+        for piece in artwork:
+
+            artwork_ls.append({"thumbnailURL":piece.thumbnailURL, "id":piece.id, "name":piece.title, "artistId":piece.artistId} )
+    
+    return Response(json.dumps(artwork_ls), mimetype="text/json")
 
 
 
-
-
-
-    # eras = model.session.query(model.Era).all()
+    # eras = model.session.query(model.Era).all()r
 
     # for era in eras:
     #     print "*****************"
@@ -109,61 +127,59 @@ def load_images():
     #     print "************************************************************"
     #     print move.name,  "numArtwork:", move.numArtwork, "numArtist:", move.numArtist
     #     mam = move.artist_movements
-    #     for am in mam:
-    #         print "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-    #         print am.artist.name
-    #         print am.artistId
-    #         current_artist = am.artistId
-    #         artwork = model.session.query(model.Artwork).filter(model.Artwork.artistId == current_artist)
-    #         for piece in artwork:
-    #             print piece.thumbnailURL
+        # for am in mam:
+        #     print "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        #     print am.artist.name
+        #     print am.artistId
+        #     current_artist = am.artistId
+        #     artwork = model.session.query(model.Artwork).filter(model.Artwork.artistId == current_artist)
+        #     for piece in artwork:
+        #         print piece.thumbnailURL
 
 
     # def imgs_from_movement(movement_object)
        
         
 
-    
 
+# @app.route("/")
+# def show_eras():
 
-@app.route("/")
-def show_eras():
+#     print("Hello!")
 
-    print("Hello!")
+#     eras = model.session.query(model.Era).options(subqueryload('movements')).all()
 
-    eras = model.session.query(model.Era).options(subqueryload('movements')).all()
+#     return render_template("eras.html", eras = eras)
 
-    return render_template("eras.html", eras = eras)
-
-@app.route("/show/eras_movements")
-def eras_movements(era):
-    movements_in_era = model.session.query(model.Artist_movement).filter(model.Artist_movement.era_id == era.id).group_by(model.Artist_movement.movementId).all()
-    return render_template("eras_movements.html", movements_in_era = movements_in_era)
+# @app.route("/show/eras_movements")
+# def eras_movements(era):
+#     movements_in_era = model.session.query(model.Artist_movement).filter(model.Artist_movement.era_id == era.id).group_by(model.Artist_movement.movementId).all()
+#     return render_template("eras_movements.html", movements_in_era = movements_in_era)
 
 
 
-@app.route("/show/<int:movement>")
-def movement(movement):
-    display_artwork = model.session.query(model.Movement).filter_by(id = 419).one()
+# @app.route("/show/<int:movement>")
+# def movement(movement):
+#     display_artwork = model.session.query(model.Movement).filter_by(id = 419).one()
 
-    print display_artwork
-    print display_artwork
+#     print display_artwork
+#     print display_artwork
 
-    #get 10 images from the db based on "movement"
-    # pass data retrieved from DB to a template
-    #return render_template(html file, data from database)
-    return render_template("show_M.html")
+#     #get 10 images from the db based on "movement"
+#     # pass data retrieved from DB to a template
+#     #return render_template(html file, data from database)
+#     return render_template("show_M.html")
 
-@app.route("/show/movements_artists")
-def movements_artists(movement):
+# @app.route("/show/movements_artists")
+# def movements_artists(movement):
 
-    pass
+#     pass
 
-@app.route("/show/artist")
-def artist(artist):
+# @app.route("/show/artist")
+# def artist(artist):
 
 
-    pass
+#     pass
 
 if __name__ == "__main__":
     app.run(debug = True)

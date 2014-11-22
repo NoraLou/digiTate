@@ -1,78 +1,89 @@
 
-		movementsVisable = false;
-		$(document).ready(function()
-		{
-			init();
-		});
+movementsVisable = false;
+	$(document).ready(function()
+	{
+		init();
+	});
 
-
-function addArtwork(evt){
-    $.get("/test",{ 
-        data : evt.currentTarget.dataset.era, 
-      })
-      	.done(function(data){
-	        console.log(data);
-	        $('#movementContainer').empty();
-	        displayData(data);
-
-      })
-      	.fail(function(){
-        alert("error")
-      });
-
+function addArtwork(url, data, container){
+	console.log(url,data,container);
+	$.get(url,data).done(function(rsp){
+		console.log(rsp)
+	//makea ajax call to url getting json back
+		displayData(rsp, container);
+	}); 
 }
 
-function displayData(data){
-	//for array in data
-	for(var a = 0; a<data.length; a++){
-		var item = data[a]
-		console.log(item)
-
-		if(item.hasOwnProperty('id'))
-			var id =(item['id']);
-
-		if(item.hasOwnProperty('name'))
-			var name = (item['name']);
-
-		if(item.hasOwnProperty('thumbnailURL'))
-			console.log(item['thumbnailURL']);
-
-		var image_url = item['thumbnailURL'];
-		$(new Image()).attr('src', '' + image_url).attr('data-id',id).attr('alt',name).appendTo($('#movementContainer')).fadeIn();
-		// $(new Image(),{
-		// 	src : "image_url",
-		// 	data : "id",
-		// 	data : "name",
-		// }).appendTo($('#movementContainer')).fadeIn();
-		   
+function displayData(data, container){
+	console.log("debug1")
+	if (container == null){
+		return;
 	}
-}
+	var id, name,thumbnailURL,obj,img = null;
+	$('#'+container).empty();
 
+	for(var i = 0; i<data.length; i++){
+		obj = data[i];
+		// console.log(obj);
 
+		if(obj.hasOwnProperty("id")){
+			id = obj.id;
+		}
 
+		if(obj.hasOwnProperty("name")){
+			name = obj.name;
+		}
 
+		if(obj.hasOwnProperty("thumbnailURL")){
+			thumbnailURL = obj.thumbnailURL;
+		}
 
-var activeTimePeriod = '';
-
+		if (id == null || name == null | thumbnailURL == null){
+			//move on to next obj if this one is empty
+			continue; 
+		}
+//make a new img out of item
+		var img = $(new Image()).attr({
+			"src" : thumbnailURL,
+			"data-id" : id,
+			"data-name" : name,
+		});
+		img.click(function(evt)
+		{
+			var nextContainer = null;
+			switch(container){
+				case("movementContainer"):
+					nextContainer = "artworkContainer";
+					nextUrl = "/api/artwork";
+					transitionToArtists()
+					break;
+			}
+		
+			addArtwork(nextUrl, {data:id}, nextContainer);
+		});
+		//once loaded add them to the container
+		// console.log(img);
+		$('#'+container).append(img);
+	}
+}	   
 	function init()
 		{
 			$('li#eraColumn>ul>li>img').click(function(evt)
 			{
 				var era = $(this).attr("data-era");
-				if(era != activeTimePeriod){
-					activeTimePeriod = era;
-					transitionToMovements(era);
-        			console.log(evt);
-        			addArtwork(evt);
-				}
-
+				transitionToMovements(era);
+				console.log(era);
+        		console.log(evt);
+        		console.log(evt.target);
+				addArtwork("/api/movements", {"data":era}, "movementContainer")
+			
 			});
 
-			$('#movementContainer>img').click(function(evt){
-				alert(evt.currentTarget.dataset.era);
-				var movement = $(this).attr("data-movement");
-				transitionToArtists(movement);
-			});
+			// $('#movementContainer>img').click(function(evt){
+			// 	alert(evt.currentTarget.dataset.id);
+			// 	var movement = $(this).attr("data-movement");
+			// 	transitionToArtists(movement);
+			// });
 
 			$('#closeMovements,#closeArtwork').click(function(evt)
 			{
