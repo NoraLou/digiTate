@@ -66,8 +66,9 @@ function displayData(data, container){
 			console.log("debug2 ********************************************")
 			console.log(img)
 			console.log(obj) 
-//the obj being passed as the id is always the last  one in the group... 
-			addArtwork(nextUrl,{data:id},nextContainer);
+
+//the obj being passed as the id is always the last  one in the group... ???? 
+			addArtwork(nextUrl,{data:$(this).attr("data-id")},nextContainer);
 		});
 
 		$('#'+container).append(img);		
@@ -79,32 +80,32 @@ function displayData(data, container){
 }
 
 
-function setequalHeight(){
-	// var eraColumn = $('#eraColumn').height();
-	// console.log(eraColumn);
-	// var movementColumn = $('#movementColumn').height();
-	// console.log(movementColumn);
-	// var artworkColumn = $('#artworkColumn').height();
-	// console.log(artworkColumn);
-	var highestBox = 0;
+// function setequalHeight(){
+// 	// var eraColumn = $('#eraColumn').height();
+// 	// console.log(eraColumn);
+// 	// var movementColumn = $('#movementColumn').height();
+// 	// console.log(movementColumn);
+// 	// var artworkColumn = $('#artworkColumn').height();
+// 	// console.log(artworkColumn);
+// 	var highestBox = 0;
 
-	$('.fan').each(function(){
-		// console.log($(this).height());
-			if($(this).height() > highestBox){
-				highestBox = $(this).height();
-				// console.log(highestBox);
-			}
-	});
-	$('.fan').each(function(){
-		$(this).height(highestBox);
+// 	$('.fan').each(function(){
+// 		// console.log($(this).height());
+// 			if($(this).height() > highestBox){
+// 				highestBox = $(this).height();
+// 				// console.log(highestBox);
+// 			}
+// 	});
+// 	$('.fan').each(function(){
+// 		$(this).height(highestBox);
 
-	})
+// 	})
 
-}
+// }
 
 	function init()
 		{
-			$('li#eraColumn>ul>li>img').click(function(evt)
+			$('li#eraColumn>div>ul>li>img').click(function(evt)
 			{
 				// setequalHeight();
 				var era = $(this).attr("data-era");

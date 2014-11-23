@@ -34,7 +34,7 @@ def index():
 def load_movments():
     era = request.args.get('data')
     print era
-    eras_movements = model.session.query(model.Movement).filter_by(era_id = era).limit(5).all()
+    eras_movements = model.session.query(model.Movement).filter_by(era_id = era).all()
     print eras_movements
     print "*************************************"
 
@@ -56,7 +56,7 @@ def load_artwork():
     movement = request.args.get('data')
     print movement
 
-    movements_artwork = model.session.query(model.Artist_movement).filter_by(movementId = movement).limit(5).all()
+    movements_artwork = model.session.query(model.Artist_movement).filter_by(movementId = movement).all()
     artwork_ls = []
     for am in movements_artwork:
         current_artist = am.artistId
