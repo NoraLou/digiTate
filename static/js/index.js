@@ -15,7 +15,7 @@ function addArtwork(url, data, container){
 }
 
 function displayData(data, container){
-	console.log("debug1")
+	// console.log("debug1")
 	if (container == null){
 		return;
 	}
@@ -50,6 +50,7 @@ function displayData(data, container){
 		});
 		img.click(function(evt)
 		{
+			setequalHeight();
 			var nextContainer = null;
 			switch(container){
 				case("movementContainer"):
@@ -61,20 +62,44 @@ function displayData(data, container){
 		
 			addArtwork(nextUrl, {data:id}, nextContainer);
 		});
-		//once loaded add them to the container
-		// console.log(img);
 		$('#'+container).append(img);
 	}
-}	   
+}
+
+
+function setequalHeight(){
+	// var eraColumn = $('#eraColumn').height();
+	// console.log(eraColumn);
+	// var movementColumn = $('#movementColumn').height();
+	// console.log(movementColumn);
+	// var artworkColumn = $('#artworkColumn').height();
+	// console.log(artworkColumn);
+	var highestBox = 0;
+
+	$('.fan').each(function(){
+		console.log($(this).height());
+			if($(this).height() > highestBox){
+				highestBox = $(this).height();
+				console.log(highestBox);
+			}
+	});
+	$('.fan').each(function(){
+		$(this).height(highestBox);
+
+	})
+
+}
+
 	function init()
 		{
 			$('li#eraColumn>ul>li>img').click(function(evt)
 			{
+				setequalHeight();
 				var era = $(this).attr("data-era");
 				transitionToMovements(era);
-				console.log(era);
-        		console.log(evt);
-        		console.log(evt.target);
+				// console.log(era);
+    //     		console.log(evt);
+    //     		console.log(evt.target);
 				addArtwork("/api/movements", {"data":era}, "movementContainer")
 			
 			});
