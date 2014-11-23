@@ -8,8 +8,8 @@ movementsVisable = false;
 function addArtwork(url, data, container){
 	console.log(url,data,container);
 	$.get(url,data).done(function(rsp){
+		console.log("************************")
 		console.log(rsp)
-	//makea ajax call to url getting json back
 		displayData(rsp, container);
 	}); 
 }
@@ -19,11 +19,13 @@ function displayData(data, container){
 	if (container == null){
 		return;
 	}
-	var id, name,thumbnailURL,obj,img = null;
+	var id,name,thumbnailURL,obj,img = null;
+
 	$('#'+container).empty();
 
 	for(var i = 0; i<data.length; i++){
 		obj = data[i];
+		// console.log("debug1")
 		// console.log(obj);
 
 		if(obj.hasOwnProperty("id")){
@@ -42,28 +44,38 @@ function displayData(data, container){
 			//move on to next obj if this one is empty
 			continue; 
 		}
-//make a new img out of item
+//new images are made on the page with the correct attributes
 		var img = $(new Image()).attr({
 			"src" : thumbnailURL,
 			"data-id" : id,
 			"data-name" : name,
 		});
+//the click function only gets set on last item in group : addArtwork gets called with same id over and over
+		
 		img.click(function(evt)
 		{
-			setequalHeight();
+			// setequalHeight();
 			var nextContainer = null;
 			switch(container){
 				case("movementContainer"):
 					nextContainer = "artworkContainer";
 					nextUrl = "/api/artwork";
-					transitionToArtists()
+					transitionToArtwork()
 					break;
 			}
-		
-			addArtwork(nextUrl, {data:id}, nextContainer);
+			console.log("debug2 ********************************************")
+			console.log(img)
+			console.log(obj) 
+//the obj being passed as the id is always the last  one in the group... 
+			addArtwork(nextUrl,{data:id},nextContainer);
 		});
-		$('#'+container).append(img);
+
+		$('#'+container).append(img);		
 	}
+	$('img').load(function(){
+		setequalHeight();
+	});
+
 }
 
 
@@ -77,10 +89,10 @@ function setequalHeight(){
 	var highestBox = 0;
 
 	$('.fan').each(function(){
-		console.log($(this).height());
+		// console.log($(this).height());
 			if($(this).height() > highestBox){
 				highestBox = $(this).height();
-				console.log(highestBox);
+				// console.log(highestBox);
 			}
 	});
 	$('.fan').each(function(){
@@ -94,7 +106,7 @@ function setequalHeight(){
 		{
 			$('li#eraColumn>ul>li>img').click(function(evt)
 			{
-				setequalHeight();
+				// setequalHeight();
 				var era = $(this).attr("data-era");
 				transitionToMovements(era);
 				// console.log(era);
@@ -119,7 +131,7 @@ function setequalHeight(){
 	function closePane(pane)
 		{
 			var paneToExpand = pane.parent().prev();
-			console.log(paneToExpand.attr("id"));
+			// console.log(paneToExpand.attr("id"));
 
 			switch (paneToExpand.attr("id"))
 			{
@@ -133,7 +145,7 @@ function setequalHeight(){
 
 	function transitionToEras(pane)
 		{
-			console.log(pane.attr("id"));
+			// console.log(pane.attr("id"));
 			$("#eraColumn").animate({
 				"width": "100%"
 			},250,function()
@@ -185,7 +197,7 @@ function setequalHeight(){
 			});
 		}
 
-	function transitionToArtists(movement)
+	function transitionToArtwork(movement)
 		{
 			$("#eraColumn").animate({
 				"width": "0%"

@@ -27,17 +27,6 @@ def utility_processor():
 @app.route("/")
 def index():
 
-    print("Hello!")
-    movements_artwork = model.session.query(model.Artist_movement).filter_by(movementId = 320).all()
-    artwork_ls = []
-    for am in movements_artwork:
-        current_artist = am.artistId
-        artwork = model.session.query(model.Artwork).filter(model.Artwork.artistId == current_artist)
-        for piece in artwork:
-
-            artwork_ls.append({"thumbnailURL":piece.thumbnailURL, "id":piece.id, "name":piece.title, "artistId":piece.artistId} )
-    print artwork_ls
-
     page = render_template("index.html",)
     return page
 
@@ -60,12 +49,14 @@ def load_movments():
     
     return Response(json.dumps(json_movement_objs), mimetype="text/json")
 
+
+# get artwork for a given movement
 @app.route("/api/artwork",methods=['GET','POST'])
 def load_artwork():
     movement = request.args.get('data')
     print movement
 
-    movements_artwork = model.session.query(model.Artist_movement).filter_by(movementId = movement).all()
+    movements_artwork = model.session.query(model.Artist_movement).filter_by(movementId = movement).limit(5).all()
     artwork_ls = []
     for am in movements_artwork:
         current_artist = am.artistId
@@ -73,7 +64,8 @@ def load_artwork():
         for piece in artwork:
 
             artwork_ls.append({"thumbnailURL":piece.thumbnailURL, "id":piece.id, "name":piece.title, "artistId":piece.artistId} )
-    
+    print artwork_ls 
+
     return Response(json.dumps(artwork_ls), mimetype="text/json")
 
 
