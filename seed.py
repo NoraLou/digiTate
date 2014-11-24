@@ -134,7 +134,7 @@ def load_json(file_name):
 
     session.commit()
 
-def loop_Dir (file_path):
+def loop_directories (file_path):
     for directr in os.listdir(file_path):
         print directr
         new_dir = file_path + "/" + directr
@@ -194,12 +194,25 @@ def add_details():
 
         session.add(era)
 
+    artists = model.session.query(model.Artist).all()
+
+    for artist in artists:
+        numImgs = 0
+        numArtwork = len(artist.artworks)
+        if numArtwork > 0 :
+            for art in range(len(artist.artworks)):
+                if artist.artworks[art].thumbnailURL:
+                    numImgs += 1
+                thumbnailURL = artist.artworks[0].thumbnailURL      
+
+        artist.numImgs = numImgs
+        artist.numArtwork = numArtwork
+        artist.thumbnailURL = thumbnailURL
+
+        session.add(artist)
+
+
     session.commit()
-
-
-
-
-
 
 def main():
     """In case we need this for something"""
@@ -207,7 +220,7 @@ def main():
     load_artists(session)
     load_artwork(session)
 
-    loop_Dir("./collection-master/artists")
+    loop_directories("./collection-master/artists")
 
     add_details()
 

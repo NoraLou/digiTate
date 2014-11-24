@@ -23,55 +23,45 @@ def utility_processor():
 @app.route("/")
 def index():
 
-    movements_artists = model.session.query(model.Artist_movement).filter_by(movementId = 436).limit(10).all()
+    # get all artists in a movement
 
-    move_artists = []
-    for artist in movements_artists: 
-        name = artist.artist.name
-        dates = artist.artist.dates
-        numArtwork = len(artist.artist.artworks)
-        artistId = artist.artist.id
-        artworks  = artist.artist.artworks
-        print "**********************************************************************"
-        print name
-        print artworks[0]
-        for art in range(len(artworks)):
-            # found =  False
-            # while thumbnailURL = 0 :
-               if artist.artist.artworks[art].thumbnailURL:
-                   thumbnailURL = artist.artist.artworks[art].thumbnailURL
-                   move_artists.append({"name":name, "id":artistId, "dates":dates, "numArtwork": numArtwork, "thumbnailURL": thumbnailURL})
-                   break
-        print "**********************************************************************"
+    # artists = model.session.query(model.Artist_movement).filter_by(movementId = 436).limit(5).all()
 
-    print move_artists
+    # move_artists = []
+    # for artist in artists: 
+    #     name = artist.artist.name
+    #     dates = artist.artist.dates
+    #     numArtwork = artist.artist.numArtwork
+    #     thumbnailURL = artist.artist.thumbnailURL
+    #     print "****************************************************************"
+    #     print name, dates, numArtwork, thumbnailURL
+    #     id = artist.artist.id
+    #     move_artists.append({"name":name, 
+    #         "id":id, 
+    #         "dates":dates, 
+    #         "numArtwork": numArtwork, 
+    #         "thumbnailURL": thumbnailURL})
+
+    artists = model.session.query(model.Artist).all()
+    for artist in artists:
+        numImgs = 0
+        numArtwork = len(artist.artworks)
+        if numArtwork > 0 :
+            for art in range(len(artist.artworks)):
+                if artist.artworks[art].thumbnailURL:
+                    numImgs += 1
+                thumbnailURL = artist.artworks[0].thumbnailURL
+        print artist.name
+        print numArtwork
+        print thumbnailURL
+        print numImgs
+        print "**********************************************************"   
 
 
     page = render_template("index.html")
     return page
 
-   
 
-
-
-
-# def add_details():
-#     movements = model.session.query(model.Movement).all()
-
-#     for movement in movements: 
-#         artistThumbnail = None
-#         numArtwork = 0
-#         for am in movement.artist_movements:
-#             numArtwork += len(am.artist.artworks)
-#             if len(am.artist.artworks)>0:
-#       # if this movement has an artist with an artwork
-#                 for artwork in range(len(am.artist.artworks)):
-#                     # for all the artworks assoc w/ movement
-#                     if am.artist.artworks[artwork].thumbnailURL: 
-#                         artistThumbnail = am.artist.artworks[artwork].thumbnailURL
-
-
-    # move_artists.append({"name":name, "id":artistId, "dates":dates, "numArtwork": numArtwork, "thumbnailURL": thumbnailURL})
 
 
 @app.route("/api/movements", methods=['GET','POST'])

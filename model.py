@@ -14,8 +14,6 @@ Base = declarative_base()
 Base.query = session.query_property()
 
 
-
-
 class Artist(Base):
     __tablename__ = 'artist' 
 
@@ -27,6 +25,9 @@ class Artist(Base):
     yearOfDeath = Column(String(64), nullable = True)
     placeOfBirth = Column(String(64), nullable = True)
     info_url = Column(String(64), nullable = True)
+    numArtwork = Column(Integer, nullable = True)
+    thumbnailURL = Column(String(64), nullable = True)
+    numImgs = Column(Integer, nullable = True)
 
     artworks = relationship("Artwork", backref=backref("artist"))
 
