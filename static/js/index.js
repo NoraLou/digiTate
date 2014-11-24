@@ -73,9 +73,9 @@ function displayData(data, container){
 
 		$('#'+container).append(img);		
 	}
-	$('img').load(function(){
-		setequalHeight();
-	});
+	// $('img').load(function(){
+	// 	setequalHeight();
+	// });
 
 }
 
@@ -125,19 +125,21 @@ function displayData(data, container){
 
 			$('#closeMovements,#closeArtwork').click(function(evt)
 			{
-				closePane($(this));
+				closePane($(this).parent());
 			});
 		}
 
 	function closePane(pane)
 		{
-			var paneToExpand = pane.parent().prev();
+			var paneToExpand = pane.prev();
 			// console.log(paneToExpand.attr("id"));
+
+			pane.find(".fan").empty();
 
 			switch (paneToExpand.attr("id"))
 			{
 				case ("eraColumn"):
-					transitionToEras(pane.parent());
+					transitionToEras(pane);
 					break;
 				default:
 					transitionToPrev(paneToExpand);

@@ -27,17 +27,23 @@ def utility_processor():
 @app.route("/")
 def index():
 
+    # get number of artists, artworks, per movement
+    # movements = model.session.query(model.Movement).all()
+    # for move in movements:
+    #     print "************************************"
+    #     print move.name
+    #     print move.era.
+    #     print move.numArtist
+    #     print move.numArtwork
+
     page = render_template("index.html",)
     return page
 
 @app.route("/api/movements", methods=['GET','POST'])
 def load_movments():
-    era = request.args.get('data')
-    print era
-    eras_movements = model.session.query(model.Movement).filter_by(era_id = era).all()
-    print eras_movements
-    print "*************************************"
 
+    era = request.args.get('data')
+    eras_movements = model.session.query(model.Movement).filter_by(era_id = era).all()
     json_movement_objs = [movement.convert_to_JSON()for movement in eras_movements]
 
                           # [movement.convert_to_JSON().thumbnailURL for movement in eras_movements]
@@ -68,7 +74,14 @@ def load_artwork():
 
     return Response(json.dumps(artwork_ls), mimetype="text/json")
 
+#get artists for a given movment
+@app.route("/api/artists", methods= ['GET','POST'])
+def load_artists():
+    movement = request.args.get('data')
+    print movement
 
+    movements_artists = model.session.query(model.Artist_movement).filter_by(movementId = movement).limit(5).all()
+    print movements_artists
 
     # eras = model.session.query(model.Era).all()r
 
