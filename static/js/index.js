@@ -47,41 +47,45 @@ function displayData(data, container){
 			"data-id" : id,
 			"data-name" : name,
 		});
-		$('#'+container).append(img);		
+		$('#'+container).append(img);
+		setequalHeight();		
 	}
 	// call masonry for image layout 
 
 }
 
 
-// function setequalHeight(){
-// 	// var eraColumn = $('#eraColumn').height();
-// 	// console.log(eraColumn);
-// 	// var movementColumn = $('#movementColumn').height();
-// 	// console.log(movementColumn);
-// 	// var artworkColumn = $('#artworkColumn').height();
-// 	// console.log(artworkColumn);
-// 	var highestBox = 0;
+function setequalHeight(){
+	// var eraColumn = $('#eraColumn').height();
+	// console.log(eraColumn);
+	// var movementColumn = $('#movementColumn').height();
+	// console.log(movementColumn);
+	// var artworkColumn = $('#artworkColumn').height();
+	// console.log(artworkColumn);
+	// var highestBox = 0;
 
-// 	$('.fan').each(function(){
-// 		// console.log($(this).height());
-// 			if($(this).height() > highestBox){
-// 				highestBox = $(this).height();
-// 				// console.log(highestBox);
-// 			}
-// 	});
-// 	$('.fan').each(function(){
-// 		$(this).height(highestBox);
+	// $('.fan').each(function(){
+	// 	// console.log($(this).height());
+	// 		if    .height() > highestBox){
+	// 			highestBox = $(this).height();
+	// 			// console.log(highestBox);
+	// 		}
+	// });
 
-// 	})
 
-// }
+	$('.fan').each(function(){
+		$(this).height(window.innerHeight-25);
+	})
+    // getting the height of browser window, 
+    // styling scroll bar
+    // $(this).height(window.innerHeight-25);
+}
 
 	function init()
 		{
 			$('li#eraColumn>div>ul>li>img').click(function(evt)
 			{
-				// setequalHeight();
+				setequalHeight();
 				var era = $(this).attr("data-era");
 				transitionToMovements(era);
 				
@@ -89,7 +93,7 @@ function displayData(data, container){
 			
 			});
 
-			$('#closeMovements,#closeArtwork').click(function(evt)
+			$('#closeMovements,#closeArtists').click(function(evt)
 			{
 				closePane($(this).parent());
 			});
@@ -98,14 +102,22 @@ function displayData(data, container){
 
 	 		$("#movementColumn").on("click", ".fan img", function()
 	 		{
-	 			transitionToArtwork();
-	 			addArtwork("/api/artwork",{data:$(this).attr("data-id")}, "artworkContainer");
+	 			var movement = $(this).attr("data-id");
+	 			console.log(movement)
+	 			transitionToArtists(movement);
+
+	 			addArtwork("/api/artists",{"data":movement}, "artistContainer");
+	 									   // {data:$(this).attr("data-id")}
+	 									   // {"data":movement}
 	 		});
+
+
+	 		// {data:$(this).attr("data-id")}
 
 	 		// $("#artistColumn").on("click", ".fan img", function()
 	 		// {
  			//  	transitionToArtwork();
- 			//  	addArtwork("/api/artist",{data:$(this).attr("data-id")}, "artworkContainer");
+ 			//  	addArtwork("/api/artwork",{data:$(this).attr("data-id")}, "artworkContainer");
 	 		// }
  	
 	 		$("#artworkColumn").on("click", ".fan img", function()
@@ -188,7 +200,7 @@ function displayData(data, container){
 			});
 		}
 
-	function transitionToArtwork(movement)
+	function transitionToArtists(movement)
 		{
 			$("#eraColumn").animate({
 				"width": "0%"

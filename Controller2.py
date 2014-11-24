@@ -22,45 +22,8 @@ def utility_processor():
 
 @app.route("/")
 def index():
-
-    # get all artists in a movement
-
-    # artists = model.session.query(model.Artist_movement).filter_by(movementId = 436).limit(5).all()
-
-    # move_artists = []
-    # for artist in artists: 
-    #     name = artist.artist.name
-    #     dates = artist.artist.dates
-    #     numArtwork = artist.artist.numArtwork
-    #     thumbnailURL = artist.artist.thumbnailURL
-    #     print "****************************************************************"
-    #     print name, dates, numArtwork, thumbnailURL
-    #     id = artist.artist.id
-    #     move_artists.append({"name":name, 
-    #         "id":id, 
-    #         "dates":dates, 
-    #         "numArtwork": numArtwork, 
-    #         "thumbnailURL": thumbnailURL})
-
-    artists = model.session.query(model.Artist).all()
-    for artist in artists:
-        numImgs = 0
-        numArtwork = len(artist.artworks)
-        if numArtwork > 0 :
-            for art in range(len(artist.artworks)):
-                if artist.artworks[art].thumbnailURL:
-                    numImgs += 1
-                thumbnailURL = artist.artworks[0].thumbnailURL
-        print artist.name
-        print numArtwork
-        print thumbnailURL
-        print numImgs
-        print "**********************************************************"   
-
-
     page = render_template("index.html")
     return page
-
 
 
 
@@ -79,46 +42,51 @@ def load_movments():
     return Response(json.dumps(json_movement_objs), mimetype="text/json")
 
 
-@app.route("/api/artwork",methods=['GET','POST'])
-# get artwork for a given movement
-def load_artwork():
+# @app.route("/api/artwork",methods=['GET','POST'])
+# # get artwork for a given movement
+# def load_artwork():
+#     movement = request.args.get('data')
+#     print movement
+
+#     movements_artwork = model.session.query(model.Artist_movement).filter_by(movementId = movement).all()
+#     artwork_ls = []
+#     for am in movements_artwork:
+#         current_artist = am.artistId
+#         artwork = model.session.query(model.Artwork).filter(model.Artwork.artistId == current_artist)
+#         for piece in artwork:
+
+#             artwork_ls.append({"thumbnailURL":piece.thumbnailURL, "id":piece.id, "name":piece.title, "artistId":piece.artistId})
+
+#     return Response(json.dumps(artwork_ls), mimetype="text/json")
+
+
+@app.route("/api/artists", methods= ['GET','POST'])
+# get artists for a given movement
+def load_artists():
+
     movement = request.args.get('data')
+
     print movement
 
-    movements_artwork = model.session.query(model.Artist_movement).filter_by(movementId = movement).all()
-    artwork_ls = []
-    for am in movements_artwork:
-        current_artist = am.artistId
-        artwork = model.session.query(model.Artwork).filter(model.Artwork.artistId == current_artist)
-        for piece in artwork:
+    movement_artists = model.session.query(model.Artist_movement).filter_by(movementId = movement).all()
 
-            artwork_ls.append({"thumbnailURL":piece.thumbnailURL, "id":piece.id, "name":piece.title, "artistId":piece.artistId})
+    print movement_artists
 
-    return Response(json.dumps(artwork_ls), mimetype="text/json")
+    move_artists = []
+    for artist in movement_artists: 
+        name = artist.artist.name
+        dates = artist.artist.dates
+        numImgs = artist.artist.numImgs
+        artistId = artist.artist.id
+        thumbnailURL = artist.artist.thumbnailURL
 
-
-# @app.route("/api/artists", methods= ['GET','POST'])
-# # get artists for a given movement
-# def load_artists():
-
-#     movement = request.args.get('data')
-
-#     movements_artists = model.session.query(model.Artist_movement).filter_by(movementId = movement).limit(5).all()
-
-#     move_artists = []
-#     for artist in movements_artists: 
-#         name = artist.artist.name
-#         dates = artist.artist.dates
-#         numArtwork = len(artist.artist.artworks)
-#         artistId = artist.artist.id
-
-
-
-
-
-#         move_artists.append({"name":name, "id":artistId, "dates":dates, "numArtwork": numArtwork, "thumbnailURL": thumbnailURL})
-
-#     return Response(json.dumps(move_artists), mimetype="text/json")
+        move_artists.append({"name":name,
+            "id":artistId,
+            "dates":dates,
+            "numImgs": numImgs, 
+            "thumbnailURL": thumbnailURL})
+ 
+    return Response(json.dumps(move_artists), mimetype="text/json")
 
 
 # @app.route("/api/artwork", methods = ['GET','POST'])
