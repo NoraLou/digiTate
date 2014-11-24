@@ -40,13 +40,13 @@
 			padding: 0 5px;
 		}
 
-		#columnWrapper>li#artworkColumn
+		#columnWrapper>li#artistColumn
 		{
 			background-color: #0F0;
 			z-index: 80;
 			overflow: hidden;
 		}
-		#columnWrapper>li#artworkColumn>div
+		#columnWrapper>li#artistColumn>div
 		{
 			margin-left: 20%;
 			padding: 0 5px;
@@ -59,7 +59,7 @@
 			font-size: 50px;
 			font-weight: bold;
 		}
-		#closeArtwork
+		#closeArtists
 		{
 			position: absolute;
 			top: -10px;
