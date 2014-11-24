@@ -5,11 +5,8 @@ movementsVisable = false;
 		init();
 	});
 
-function addArtwork(url, data, container){
-	console.log(url,data,container);
-	$.get(url,data).done(function(rsp){
-		console.log("************************")
-		console.log(rsp)
+function addArtwork(url, data, container){	
+	$.get(url,data).done(function(rsp){	
 		displayData(rsp, container);
 	}); 
 }
@@ -50,32 +47,9 @@ function displayData(data, container){
 			"data-id" : id,
 			"data-name" : name,
 		});
-//the click function only gets set on last item in group : addArtwork gets called with same id over and over
-		
-		img.click(function(evt)
-		{
-			// setequalHeight();
-			var nextContainer = null;
-			switch(container){
-				case("movementContainer"):
-					nextContainer = "artworkContainer";
-					nextUrl = "/api/artwork";
-					transitionToArtwork()
-					break;
-			}
-			console.log("debug2 ********************************************")
-			console.log(img)
-			console.log(obj) 
-
-//the obj being passed as the id is always the last  one in the group... ???? 
-			addArtwork(nextUrl,{data:$(this).attr("data-id")},nextContainer);
-		});
-
 		$('#'+container).append(img);		
 	}
-	// $('img').load(function(){
-	// 	setequalHeight();
-	// });
+	// call masonry for image layout 
 
 }
 
@@ -110,25 +84,39 @@ function displayData(data, container){
 				// setequalHeight();
 				var era = $(this).attr("data-era");
 				transitionToMovements(era);
-				// console.log(era);
-    //     		console.log(evt);
-    //     		console.log(evt.target);
+				
 				addArtwork("/api/movements", {"data":era}, "movementContainer")
 			
 			});
-
-			// $('#movementContainer>img').click(function(evt){
-			// 	alert(evt.currentTarget.dataset.id);
-			// 	var movement = $(this).attr("data-movement");
-			// 	transitionToArtists(movement);
-			// });
 
 			$('#closeMovements,#closeArtwork').click(function(evt)
 			{
 				closePane($(this).parent());
 			});
-		}
+			
+// SET UP EVENT HANDLERS
 
+	 		$("#movementColumn").on("click", ".fan img", function()
+	 		{
+	 			transitionToArtwork();
+	 			addArtwork("/api/artwork",{data:$(this).attr("data-id")}, "artworkContainer");
+	 		});
+
+	 		// $("#artistColumn").on("click", ".fan img", function()
+	 		// {
+ 			//  	transitionToArtwork();
+ 			//  	addArtwork("/api/artist",{data:$(this).attr("data-id")}, "artworkContainer");
+	 		// }
+ 	
+	 		$("#artworkColumn").on("click", ".fan img", function()
+	 		{
+	 			console.log("artwork clicked");
+	 		});
+ 	
+ 	
+	 	}
+
+	
 	function closePane(pane)
 		{
 			var paneToExpand = pane.prev();
