@@ -60,6 +60,7 @@ function displayData(data, container){
 
 			var overlay = document.createElement('div');
 			$(overlay).addClass('overlay');
+			$(overlay).append("<h4>"+img.attr("data-name")+"<h4>");
 
 			$(imgContainer).append(img).append(overlay);
 			
@@ -76,7 +77,6 @@ function displayData(data, container){
 			});
 
 			$(imgContainer).append(img);
-
 		}
 		$('#'+container).append(imgContainer);
 		setequalHeight();
