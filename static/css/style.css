@@ -8,6 +8,12 @@
 			overflow: scroll;
 
 		}
+		/*#artistContainer>.fan>img:hover {
+			border-style: solid 5px;
+
+
+		}
+*/
 
 		#columnWrapper,#columnWrapper>li>ul,#columnWrapper>li>div>ul
 		{

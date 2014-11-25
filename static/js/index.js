@@ -7,6 +7,7 @@ movementsVisable = false;
 
 function addArtwork(url, data, container){	
 	$.get(url,data).done(function(rsp){	
+		console.log(rsp)
 		displayData(rsp, container);
 	}); 
 }
@@ -24,7 +25,6 @@ function displayData(data, container){
 		obj = data[i];
 		// console.log("debug1")
 		// console.log(obj);
-
 		if(obj.hasOwnProperty("id")){
 			id = obj.id;
 		}
@@ -37,42 +37,62 @@ function displayData(data, container){
 			thumbnailURL = obj.thumbnailURL;
 		}
 
-		if (id == null || name == null | thumbnailURL == null){
+		if (id == "" || name == "" || thumbnailURL == ""){
 			//move on to next obj if this one is empty
 			continue; 
 		}
-//new images are made on the page with the correct attributes
-		var img = $(new Image()).attr({
+
+		if(obj.hasOwnProperty("numImgs") && obj.hasOwnProperty("dates")) {
+			numImgs = obj.numImgs;
+			dates = obj.dates;
+			var img = $(new Image()).attr({
 			"src" : thumbnailURL,
 			"data-id" : id,
 			"data-name" : name,
-		});
+			"numImgs" : numImgs,
+			"dates" : dates,
+			"id" : "artistImg",
+			});
+			img.append("<div id='overlay'></div>");
+			var imgHeight = img.height()
+			var imgWidth = img.width()
+			$("overlay").height(imgHeight)
+			$("overlay").width(imgHeight)
+			$("#overlay").on("mouseover", function(){
+	 			console.log( "I hovered")
+	 		});
+
+		} else {
+			var img = $(new Image()).attr({
+				"src" : thumbnailURL,
+				"data-id" : id,
+				"data-name" : name,
+			});
+		}
 		$('#'+container).append(img);
-		setequalHeight();		
+		setequalHeight();
 	}
 	// call masonry for image layout 
 
-}
+}				
+
+// //new images are made on the page with the correct attributes
+// 		var img = $(new Image()).attr({
+// 			"src" : thumbnailURL,
+// 			"data-id" : id,
+// 			"data-name" : name,
+// 			// "numImgs" : numImgs,
+// 			// "dates" : dates,
+// 		});
+// 		$('#'+container).append(img);
+// // 		setequalHeight();		
+// 	}
+// 	// call masonry for image layout 
+
+// }
 
 
 function setequalHeight(){
-	// var eraColumn = $('#eraColumn').height();
-	// console.log(eraColumn);
-	// var movementColumn = $('#movementColumn').height();
-	// console.log(movementColumn);
-	// var artworkColumn = $('#artworkColumn').height();
-	// console.log(artworkColumn);
-	// var highestBox = 0;
-
-	// $('.fan').each(function(){
-	// 	// console.log($(this).height());
-	// 		if    .height() > highestBox){
-	// 			highestBox = $(this).height();
-	// 			// console.log(highestBox);
-	// 		}
-	// });
-
-
 	$('.fan').each(function(){
 		$(this).height(window.innerHeight-25);
 	})
@@ -110,6 +130,32 @@ function setequalHeight(){
 	 									   // {data:$(this).attr("data-id")}
 	 									   // {"data":movement}
 	 		});
+
+
+
+
+
+
+	 		// $("#artistImg").on("mouseover", function(){
+
+	 		// 	console.log( "I hovered")
+	 		// 	var imgHeight = $(this).height();
+	 		// 	var imgWidth = $(this).width();
+
+	 		// 	$(this).append("<div id='overlay'></div>");
+
+	 		// 	$("#overlay")
+	 		// 		.height(imgHeight)
+	 		// 		.width(imgWidth)
+	 		// 		.css({
+	 		// 			"opacity" : 0.4,
+	 		// 			"position" : "absolute",
+	 		// 			"top":0,
+	 		// 			"left":0,
+	 		// 			"color" : "black", 
+	 		// 			"z-index": 85
+	 		// 		}); 
+	 		// });
 
 
 	 		// {data:$(this).attr("data-id")}
