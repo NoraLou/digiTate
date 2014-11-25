@@ -8,12 +8,13 @@ movementsVisable = false;
 function addArtwork(url, data, container){	
 	$.get(url,data).done(function(rsp){	
 		console.log(rsp)
+		// add a switch case here based on the container to display Artwork a different way.
 		displayData(rsp, container);
 	}); 
 }
 
 function displayData(data, container){
-	// console.log("debug1")
+
 	if (container == null){
 		return;
 	}
@@ -23,8 +24,7 @@ function displayData(data, container){
 
 	for(var i = 0; i<data.length; i++){
 		obj = data[i];
-		// console.log("debug1")
-		// console.log(obj);
+		
 		if(obj.hasOwnProperty("id")){
 			id = obj.id;
 		}
@@ -38,38 +38,47 @@ function displayData(data, container){
 		}
 
 		if (id == "" || name == "" || thumbnailURL == ""){
-			//move on to next obj if this one is empty
+			//possible optimiztion move this to the top
 			continue; 
 		}
 
 		if(obj.hasOwnProperty("numImgs") && obj.hasOwnProperty("dates")) {
 			numImgs = obj.numImgs;
 			dates = obj.dates;
+
+			var imgContainer = document.createElement('div');
+			$(imgContainer).addClass('imgContainer');
+
 			var img = $(new Image()).attr({
 			"src" : thumbnailURL,
 			"data-id" : id,
 			"data-name" : name,
 			"numImgs" : numImgs,
 			"dates" : dates,
-			"id" : "artistImg",
+			"class" : "artistImg",
 			});
-			img.append("<div id='overlay'></div>");
-			var imgHeight = img.height()
-			var imgWidth = img.width()
-			$("overlay").height(imgHeight)
-			$("overlay").width(imgHeight)
-			$("#overlay").on("mouseover", function(){
-	 			console.log( "I hovered")
-	 		});
 
+			var overlay = document.createElement('div');
+			$(overlay).addClass('overlay');
+
+			$(imgContainer).append(img).append(overlay);
+			
+			
 		} else {
+
+			var imgContainer = document.createElement('div');
+			$(imgContainer).addClass('imgContainer');
+
 			var img = $(new Image()).attr({
 				"src" : thumbnailURL,
 				"data-id" : id,
 				"data-name" : name,
 			});
+
+			$(imgContainer).append(img);
+
 		}
-		$('#'+container).append(img);
+		$('#'+container).append(imgContainer);
 		setequalHeight();
 	}
 	// call masonry for image layout 

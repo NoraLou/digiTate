@@ -38,7 +38,6 @@ function displayData(data, container)
 		if (id == null || name == null | thumbnailURL == null)
 		{
 			continue;
-		}
 
 		img = $("<img />").attr({
 			"src": thumbnailURL

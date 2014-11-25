@@ -8,12 +8,27 @@
 			overflow: scroll;
 
 		}
-		/*#artistContainer>.fan>img:hover {
-			border-style: solid 5px;
-
-
+		.imgContainer{
+			position:relative;
+			display: inline-block;
 		}
-*/
+
+		.imgContainer:hover .overlay{
+			display:block;
+		}
+
+		.overlay{
+			display: none;
+			position: absolute;
+			bottom:0;
+			left:0;
+			background-color:black;
+			width: 100%;
+			opacity: .5;
+			height:100%;
+			color:white;
+		}
+
 
 		#columnWrapper,#columnWrapper>li>ul,#columnWrapper>li>div>ul
 		{
