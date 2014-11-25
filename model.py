@@ -61,13 +61,20 @@ class Artwork(Base):
     def convert_to_JSON(self): 
         # whenever you have an artwork object, you call example.covert_to_JSON
         d = {}
-        d = {"id": self.id, "thumbnailURL": self.thumbnailURL}
-        # d["artist"]= self.artist.convert_to_JSON()
+        d = {"id": self.id, 
+            "thumbnailURL": self.thumbnailURL,
+            "artist": self.artist.name,
+            "title" : self.title,
+            "year" : self.year,
+            "medium" : self.medium,
+            "dimensions" : self.dimensions,
+             }
+       
         return d 
 
     # backref to artist table
 
-
+ # d["artist"]= self.artist.convert_to_JSON()
 
 class Artist_movement(Base):
     __tablename__ = 'artist_movements'

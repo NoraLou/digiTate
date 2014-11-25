@@ -22,6 +22,30 @@ def utility_processor():
 
 @app.route("/")
 def index():
+    # get all artwork for artist based on artist ID.
+
+    # artworks = model.session.query(model.Artwork).filter_by(artistId = 2121).limit(3).all()
+    # json_artwork_objs = [art.convert_to_JSON()for art in artworks] 
+
+    # print json.dumps(json_artwork_objs)
+
+
+# create a list of json objs
+
+# era = request.args.get('data')
+#     eras_movements = model.session.query(model.Movement).filter_by(era_id = era).all()
+#     json_movement_objs = [movement.convert_to_JSON()for movement in eras_movements]
+
+#     # [movement.convert_to_JSON().thumbnailURL for movement in eras_movements]
+#         # ls[]
+#         # for i in ls ; do something
+#         # ls.append( i w/ something done)
+    
+#     return Response(json.dumps(json_movement_objs), mimetype="text/json")
+
+
+
+
     page = render_template("index.html")
     return page
 
@@ -34,11 +58,6 @@ def load_movments():
     eras_movements = model.session.query(model.Movement).filter_by(era_id = era).all()
     json_movement_objs = [movement.convert_to_JSON()for movement in eras_movements]
 
-    # [movement.convert_to_JSON().thumbnailURL for movement in eras_movements]
-        # ls[]
-        # for i in ls ; do something
-        # ls.append( i w/ something done)
-    
     return Response(json.dumps(json_movement_objs), mimetype="text/json")
 
 
@@ -89,9 +108,19 @@ def load_artists():
     return Response(json.dumps(move_artists), mimetype="text/json")
 
 
-# @app.route("/api/artwork", methods = ['GET','POST'])
-# # get artwork for a given artist
-# def load artwork():
+@app.route("/api/artwork", methods = ['GET','POST'])
+# get artwork for a given artist
+def load_artwork():
+
+    artist = request.args.get('data')
+
+    print artist
+
+    artworks = model.session.query(model.Artwork).filter_by(artistId = artist).all()
+    json_artwork_objs = [art.convert_to_JSON()for art in artworks] 
+
+    return Response(json.dumps(json_artwork_objs), mimetype="text/json")
+
 
 
 if __name__ == "__main__":

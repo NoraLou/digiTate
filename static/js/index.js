@@ -141,44 +141,19 @@ function setequalHeight(){
 	 		});
 
 
-
-
-
-
-	 		// $("#artistImg").on("mouseover", function(){
-
-	 		// 	console.log( "I hovered")
-	 		// 	var imgHeight = $(this).height();
-	 		// 	var imgWidth = $(this).width();
-
-	 		// 	$(this).append("<div id='overlay'></div>");
-
-	 		// 	$("#overlay")
-	 		// 		.height(imgHeight)
-	 		// 		.width(imgWidth)
-	 		// 		.css({
-	 		// 			"opacity" : 0.4,
-	 		// 			"position" : "absolute",
-	 		// 			"top":0,
-	 		// 			"left":0,
-	 		// 			"color" : "black", 
-	 		// 			"z-index": 85
-	 		// 		}); 
-	 		// });
-
-
-	 		// {data:$(this).attr("data-id")}
-
-	 		// $("#artistColumn").on("click", ".fan img", function()
-	 		// {
- 			//  	transitionToArtwork();
- 			//  	addArtwork("/api/artwork",{data:$(this).attr("data-id")}, "artworkContainer");
-	 		// }
- 	
-	 		$("#artworkColumn").on("click", ".fan img", function()
-	 		{
-	 			console.log("artwork clicked");
+	 		$("#artistColumn").on("click", ".fan .overlay", function()	 			
+	 		{ 
+	 			var artist = $(this).prev().attr("data-id");
+	 			//.prev()gets previous element on the same level
+	 			console.log(artist);
+ 			 	// transitionToArtwork();
+ 			 	// addArtwork("/api/artwork",{data:$(this).attr("data-id")}, "artworkContainer");
 	 		});
+ 	
+	 		// $("#artworkColumn").on("click", ".fan img", function()
+	 		// {
+	 		// 	console.log("artwork clicked");
+	 		// });
  	
  	
 	 	}
@@ -275,3 +250,21 @@ function setequalHeight(){
 				
 			});
 		}
+	function transitionToArtwork(artist)
+		{
+			$()
+
+
+
+
+
+		}
+
+
+
+
+
+
+
+
+
