@@ -77,6 +77,28 @@
 			margin-left: 20%;
 			padding: 0 5px;
 		}
+/************************************************************************************************************/
+		#columnWrapper>li#artworkColumn
+		{
+			background-color:#f6e85f;
+			z-index:70;
+			overflow: hidden;
+
+		}
+		#columnWrapper>li#artworkColumn>div
+		{
+			margin-left: 20%;
+			padding: 0 5px;
+		}
+		#closeArtwork
+		{
+			position: absolute;
+			top: -10px;
+			right: 10px;
+			font-size: 50px;
+			font-weight: bold;
+		}
+/************************************************************************************************************/
 		#closeMovements
 		{
 			position: absolute;

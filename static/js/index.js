@@ -122,7 +122,7 @@ function setequalHeight(){
 			
 			});
 
-			$('#closeMovements,#closeArtists').click(function(evt)
+			$('#closeMovements,#closeArtists,#closeArtwork').click(function(evt)
 			{
 				closePane($(this).parent());
 			});
@@ -132,7 +132,7 @@ function setequalHeight(){
 	 		$("#movementColumn").on("click", ".fan img", function()
 	 		{
 	 			var movement = $(this).attr("data-id");
-	 			console.log(movement)
+	 			// console.log(movement)
 	 			transitionToArtists(movement);
 
 	 			addArtwork("/api/artists",{"data":movement}, "artistContainer");
@@ -146,19 +146,13 @@ function setequalHeight(){
 	 			var artist = $(this).prev().attr("data-id");
 	 			//.prev()gets previous element on the same level
 	 			console.log(artist);
- 			 	// transitionToArtwork();
- 			 	// addArtwork("/api/artwork",{data:$(this).attr("data-id")}, "artworkContainer");
+ 			 	transitionToArtwork(artist);
+ 			 	addArtwork("/api/artwork",{data:$(this).prev().attr("data-id")}, "artworkContainer");
 	 		});
- 	
-	 		// $("#artworkColumn").on("click", ".fan img", function()
-	 		// {
-	 		// 	console.log("artwork clicked");
-	 		// });
- 	
  	
 	 	}
 
-	
+
 	function closePane(pane)
 		{
 			var paneToExpand = pane.prev();
@@ -250,14 +244,28 @@ function setequalHeight(){
 				
 			});
 		}
+
+		
 	function transitionToArtwork(artist)
 		{
-			$()
+			$("#movementColumn").animate({
+				"width" : "0%"
+			},250,function()
+			{
+				
+			});
 
+			$("#artistColumn>div").animate({
+				"marginLeft" : "0%"
+		
+			});
 
+			$("#artistColumn").animate({
+				"width" : "20%"
+			},250,function()
+			{
 
-
-
+			});
 		}
 
 

@@ -58,11 +58,17 @@ class Artwork(Base):
     thumbnailURL = Column(String(64), nullable = True)
     url = Column(String(1024), nullable = True)
 
+
+    def thumbnail_format(self):
+        base_url = self.thumbnailURL.split("_8.jpg")[0]
+        return base_url+"_"+"9"+".jpg"
+
+
+
     def convert_to_JSON(self): 
         # whenever you have an artwork object, you call example.covert_to_JSON
-        d = {}
         d = {"id": self.id, 
-            "thumbnailURL": self.thumbnailURL,
+            "thumbnailURL": self.thumbnail_format(),
             "artist": self.artist.name,
             "title" : self.title,
             "year" : self.year,
@@ -72,9 +78,8 @@ class Artwork(Base):
        
         return d 
 
-    # backref to artist table
 
- # d["artist"]= self.artist.convert_to_JSON()
+  
 
 class Artist_movement(Base):
     __tablename__ = 'artist_movements'

@@ -22,29 +22,12 @@ def utility_processor():
 
 @app.route("/")
 def index():
-    # get all artwork for artist based on artist ID.
+   
 
-    # artworks = model.session.query(model.Artwork).filter_by(artistId = 2121).limit(3).all()
-    # json_artwork_objs = [art.convert_to_JSON()for art in artworks] 
+    artworks = model.session.query(model.Artwork).filter_by(artistId = 2121).limit(3).all()
+    json_artwork_objs = [art.convert_to_JSON()for art in artworks] 
 
-    # print json.dumps(json_artwork_objs)
-
-
-# create a list of json objs
-
-# era = request.args.get('data')
-#     eras_movements = model.session.query(model.Movement).filter_by(era_id = era).all()
-#     json_movement_objs = [movement.convert_to_JSON()for movement in eras_movements]
-
-#     # [movement.convert_to_JSON().thumbnailURL for movement in eras_movements]
-#         # ls[]
-#         # for i in ls ; do something
-#         # ls.append( i w/ something done)
-    
-#     return Response(json.dumps(json_movement_objs), mimetype="text/json")
-
-
-
+    print json.dumps(json_artwork_objs)
 
     page = render_template("index.html")
     return page
