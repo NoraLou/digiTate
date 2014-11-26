@@ -8,8 +8,14 @@ movementsVisable = false;
 function addArtwork(url, data, container){	
 	$.get(url,data).done(function(rsp){	
 		console.log(rsp)
-		// add a switch case here based on the container to display Artwork a different way.
-		displayData(rsp, container);
+
+		if(container == "artworkContainer"){
+			console.log("ARTWORK_CONTAINER");		
+			displayArtwork(rsp,container);
+
+		}else{
+		  displayData(rsp, container);
+		}
 	}); 
 }
 
@@ -42,13 +48,13 @@ function displayData(data, container){
 			continue; 
 		}
 
-		if(obj.hasOwnProperty("numImgs") && obj.hasOwnProperty("dates")) {
+		if(obj.hasOwnProperty("numImgs") && obj.hasOwnProperty("dates")){
 			numImgs = obj.numImgs;
 			dates = obj.dates;
 
 			var imgContainer = document.createElement('div');
 			$(imgContainer).addClass('imgContainer');
-
+// possibly dont need to set all as attributes
 			var img = $(new Image()).attr({
 			"src" : thumbnailURL,
 			"data-id" : id,
@@ -83,22 +89,65 @@ function displayData(data, container){
 	}
 	// call masonry for image layout 
 
-}				
+}
 
-// //new images are made on the page with the correct attributes
-// 		var img = $(new Image()).attr({
-// 			"src" : thumbnailURL,
-// 			"data-id" : id,
-// 			"data-name" : name,
-// 			// "numImgs" : numImgs,
-// 			// "dates" : dates,
-// 		});
-// 		$('#'+container).append(img);
-// // 		setequalHeight();		
-// 	}
-// 	// call masonry for image layout 
+function displayArtwork(data, container){
+	if (container == null){
+		return;
+	}
+	var obj,id,thumbnailURL,artist,title,year,medium,dimensions,img = null;
 
-// }
+	$('#'+container).empty();
+
+	for(var i = 0; i<data.length; i++){
+		obj = data[i];
+
+		if(obj.hasOwnProperty("id")){
+			id = obj.id;
+		}
+
+		if(obj.hasOwnProperty("thumbnailURL")){
+			thumbnailURL = obj.thumbnailURL;
+		}
+
+		if(obj.hasOwnProperty("artist")){
+			artist = obj.artist;
+		}
+
+		if(obj.hasOwnProperty("title")){
+			title = obj.title;
+		}
+
+		if(obj.hasOwnProperty("year")){
+			year = obj.year;
+		}
+		if(obj.hasOwnProperty("medium")){
+			medium = obj.medium;
+		}
+		if(obj.hasOwnProperty("dimensions")){
+			dimensions = obj.dimensions;
+		}
+
+		var imgContainer = document.createElement('div');
+		$(imgContainer).addClass('large_artContainer');
+
+// possibly dont need to set all as attributes
+		var img = $(new Image()).attr({
+			"src" : thumbnailURL,
+			"data-id" : id,
+			"artist" : artist,
+			"title" : title,
+			"year" : year,
+			"medium" : medium,
+			"class" : "large_artImage",
+			"dimensions" : dimensions
+		}); 
+
+		$(imgContainer).append(img);
+		$('#'+container).append(imgContainer);
+		setequalHeight;
+	}
+}
 
 
 function setequalHeight(){
