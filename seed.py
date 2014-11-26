@@ -155,46 +155,61 @@ def loop_directories (file_path):
             load_json(new_dir + "/" + i)
 
 def add_details():
+
     movements = model.session.query(model.Movement).all()
 
     for movement in movements:
         artwork_list = [] 
-        artistThumbnail = None
         numArtwork = 0
 
-        # movement.artist_movements:# a list of all artist movement objects in a movement
+                # movement.artist_movements:# a list of all artist movement objects in a movement
         for am in movement.artist_movements:
         # one artist
+
             numArtwork += len(am.artist.artworks)
             # combining all the artists for total
-            artwork_list.append(am.artist.artworks)
-        
+            artwork_list.extend(am.artist.artworks)
+
+    
+        rep_image = random.choice(artwork_list)
+
+        if rep_image.thumbnailURL:
+            thumbnailURL = rep_image.thumbnailURL
+        else: 
+            random.choice(artwork_list)
 
 
-        # make a list of artwork per movement.
-        # make a dictionary of lists, one list per movement with the artwork i
-
-        # sql alchemly  
-
-
-
-            if len(am.artist.artworks)>0:
-                 # if this movement has an artist with an artwork
-
-                for artwork in range(len(am.artist.artworks)):
-
-                    # for all the artworks assoc w/ movement
-                    if am.artist.artworks[artwork].thumbnailURL: 
-                        artistThumbnail = am.artist.artworks[artwork].thumbnailURL
-                        
-                       # potential optimization: only load one artwork per movement
-
-
-        movement.thumbnailURL = artistThumbnail
+        movement.thumbnailURL = thumbnailURL
         movement.numArtwork = numArtwork 
         movement.numArtist = len(movement.artist_movements)
 
         session.add(movement)
+
+
+
+    # for movement in movements:
+    #     artwork_list = [] 
+    #     artistThumbnail = None
+    #     numArtwork = 0
+    #     # movement.artist_movements:# a list of all artist movement objects in a movement
+    #     for am in movement.artist_movements:
+    #     # one artist
+    #         numArtwork += len(am.artist.artworks)
+    #         # combining all the artists for total
+    #         artwork_list.append(am.artist.artworks)
+    #     # make a list of artwork per movement.
+    #     # make a dictionary of lists, one list per movement with the artwork i
+    #     # sql alchemly  
+    #         if len(am.artist.artworks)>0:
+    #              # if this movement has an artist with an artwork
+
+    #             for artwork in range(len(am.artist.artworks)):
+
+    #                 # for all the artworks assoc w/ movement
+    #                 if am.artist.artworks[artwork].thumbnailURL: 
+    #                     artistThumbnail = am.artist.artworks[artwork].thumbnailURL
+                        
+    #                    # potential optimization: only load one artwork per movement
 
     eras = model.session.query(model.Era).all()
 
@@ -237,12 +252,12 @@ def add_details():
 
     session.commit()
 
-def cleanup():
+# def cleanup():
 
-    clean_list = [403, 406, 412, 411, 6210, 16649, 299, 321, 322, 6949,16667, 1684, 17579, 342]
-    for move_id in clean_list:
-        movement  = session.model.query(model.Movement).filter_by(id = move_id)
-        print movement.name
+#     clean_list = [403, 406, 412, 411, 6210, 16649, 299, 321, 322, 6949,16667, 1684, 17579, 342]
+#     for move_id in clean_list:
+#         movement  = session.model.query(model.Movement).filter_by(id = move_id)
+#         print movement.name
 
 
 

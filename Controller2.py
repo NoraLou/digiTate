@@ -24,36 +24,6 @@ def utility_processor():
 @app.route("/")
 def index():
 
-    movements = model.session.query(model.Movement).all()
-
-    for movement in movements:
-        artwork_list = [] 
-        artistThumbnail = None
-        numArtwork = 0
-
-        # movement.artist_movements:# a list of all artist movement objects in a movement
-        for am in movement.artist_movements:
-        # one artist
-            numArtwork += len(am.artist.artworks)
-            # combining all the artists for total
-            artwork_list.extend(am.artist.artworks)
-
-        print movement.name
-        print artwork_list
-        print "************************************************************"
-        rep_image = random.choice(artwork_list)
-        print rep_image
-        if rep_image.thumbnailURL:
-            thumbnailURL = rep_image.thumbnailURL
-        else: 
-            random.choice(artwork_list)
-
-        print thumbnailURL
-
-         # a list of all the artwork per movement. 
-
-
-
 
     page = render_template("index.html")
     return page
