@@ -29,6 +29,12 @@
 			color:white;
 		}
 
+		.large_artContainer{
+			display: block;
+			positiion: relative;
+
+		}
+
 
 		#columnWrapper,#columnWrapper>li>ul,#columnWrapper>li>div>ul
 		{

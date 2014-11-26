@@ -47,7 +47,16 @@ function displayData(data, container){
 			//possible optimiztion move this to the top
 			continue; 
 		}
+		// if (obj.hasOwnProperty("numArtist"){
+		// 	numArtist = obj.numArtist;
 
+		// }
+		// if (obj.hasOwnProperty("numArtist"){
+		// 	numArtist = obj.numArtist;
+
+		// }
+
+//ARTISTS 
 		if(obj.hasOwnProperty("numImgs") && obj.hasOwnProperty("dates")){
 			numImgs = obj.numImgs;
 			dates = obj.dates;
@@ -72,7 +81,7 @@ function displayData(data, container){
 			
 			
 		} else {
-
+//MOVEMENTS 
 			var imgContainer = document.createElement('div');
 			$(imgContainer).addClass('imgContainer');
 
@@ -82,7 +91,11 @@ function displayData(data, container){
 				"data-name" : name,
 			});
 
-			$(imgContainer).append(img);
+			var overlay = document.createElement('div');
+			$(overlay).addClass('overlay');
+			$(overlay).append("<h4>"+img.attr("data-name")+" "+img.attr("data-id")+"<h4>");
+
+			$(imgContainer).append(img).append(overlay);
 		}
 		$('#'+container).append(imgContainer);
 		setequalHeight();
@@ -178,9 +191,9 @@ function setequalHeight(){
 			
 // SET UP EVENT HANDLERS
 
-	 		$("#movementColumn").on("click", ".fan img", function()
+	 		$("#movementColumn").on("click", ".fan .overlay", function()
 	 		{
-	 			var movement = $(this).attr("data-id");
+	 			var movement = $(this).prev().attr("data-id");
 	 			// console.log(movement)
 	 			transitionToArtists(movement);
 
