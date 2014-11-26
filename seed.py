@@ -4,7 +4,7 @@ import model
 import csv
 from model import session
 import os
-
+import random
 
 def unicode_csv_reader(utf8_data, dialect=csv.excel, **kwargs):
     csv_reader = csv.reader(utf8_data, dialect=dialect, **kwargs)
@@ -106,6 +106,15 @@ def load_json(file_name):
             movement_id = movement.get("id")
             movement_name = movement.get("name")
 
+            if movement_id == 22012:
+                    continue;
+            if movement_id == 22014:
+                    continue;
+            if movement_id == 425:
+                    continue;
+            if movement_id == 343:
+                    continue;
+
             if movement_id:
                 print movement_id 
                 print movement_name
@@ -148,23 +157,37 @@ def loop_directories (file_path):
 def add_details():
     movements = model.session.query(model.Movement).all()
 
-    for movement in movements: 
+    for movement in movements:
+        artwork_list = [] 
         artistThumbnail = None
         numArtwork = 0
+
+        # movement.artist_movements:# a list of all artist movement objects in a movement
         for am in movement.artist_movements:
+        # one artist
             numArtwork += len(am.artist.artworks)
+            # combining all the artists for total
+            artwork_list.append(am.artist.artworks)
+        
+
+
+        # make a list of artwork per movement.
+        # make a dictionary of lists, one list per movement with the artwork i
+
+        # sql alchemly  
+
+
+
             if len(am.artist.artworks)>0:
-      # if this movement has an artist with an artwork
+                 # if this movement has an artist with an artwork
+
                 for artwork in range(len(am.artist.artworks)):
+
                     # for all the artworks assoc w/ movement
                     if am.artist.artworks[artwork].thumbnailURL: 
                         artistThumbnail = am.artist.artworks[artwork].thumbnailURL
                         
-                        # potential optimization: only load one artwork per movement
-                        # select artworks.* from artworks
-                        # join artists on artworks.artist_id=artists.id
-                        # join artist_movements on artist_movements.artist_id=artists.id
-                        # where artist_movements.movement_id={movement_id}
+                       # potential optimization: only load one artwork per movement
 
 
         movement.thumbnailURL = artistThumbnail
@@ -213,6 +236,15 @@ def add_details():
 
 
     session.commit()
+
+def cleanup():
+
+    clean_list = [403, 406, 412, 411, 6210, 16649, 299, 321, 322, 6949,16667, 1684, 17579, 342]
+    for move_id in clean_list:
+        movement  = session.model.query(model.Movement).filter_by(id = move_id)
+        print movement.name
+
+
 
 def main():
     """In case we need this for something"""

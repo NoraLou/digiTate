@@ -5,6 +5,15 @@ movementsVisable = false;
 		init();
 	});
 
+/**
+ * Short description of the function's function
+ *
+ * @param url String API URL
+ * @param data Object Data ID object to pass to API
+ * @param container String Where to place API response
+ *
+ * @return null
+ */
 function addArtwork(url, data, container){	
 	$.get(url,data).done(function(rsp){	
 		console.log(rsp)
@@ -218,6 +227,7 @@ function setequalHeight(){
 	function closePane(pane)
 		{
 			var paneToExpand = pane.prev();
+			var paneToExpand2 = pane;
 			// console.log(paneToExpand.attr("id"));
 
 			pane.find(".fan").empty();
@@ -228,6 +238,7 @@ function setequalHeight(){
 					transitionToEras(pane);
 					break;
 				default:
+					transitionToPrev(paneToExpand2);
 					transitionToPrev(paneToExpand);
 			}
 		}

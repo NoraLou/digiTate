@@ -3,6 +3,7 @@ from flask import Flask, render_template, redirect, request, flash, session, Res
 import model
 from sqlalchemy.orm import subqueryload
 import json
+import random
 
 import logging
 logging.basicConfig()
@@ -22,12 +23,37 @@ def utility_processor():
 
 @app.route("/")
 def index():
-   
 
-    artworks = model.session.query(model.Artwork).filter_by(artistId = 2121).limit(3).all()
-    json_artwork_objs = [art.convert_to_JSON()for art in artworks] 
+    movements = model.session.query(model.Movement).all()
 
-    print json.dumps(json_artwork_objs)
+    for movement in movements:
+        artwork_list = [] 
+        artistThumbnail = None
+        numArtwork = 0
+
+        # movement.artist_movements:# a list of all artist movement objects in a movement
+        for am in movement.artist_movements:
+        # one artist
+            numArtwork += len(am.artist.artworks)
+            # combining all the artists for total
+            artwork_list.extend(am.artist.artworks)
+
+        print movement.name
+        print artwork_list
+        print "************************************************************"
+        rep_image = random.choice(artwork_list)
+        print rep_image
+        if rep_image.thumbnailURL:
+            thumbnailURL = rep_image.thumbnailURL
+        else: 
+            random.choice(artwork_list)
+
+        print thumbnailURL
+
+         # a list of all the artwork per movement. 
+
+
+
 
     page = render_template("index.html")
     return page
