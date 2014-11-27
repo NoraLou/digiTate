@@ -6,11 +6,28 @@
 		}
 		.fan{
 			overflow: scroll;
+		}
+
+/**SET UP IMAGE LAYOUT ***************************/
+		.era_img{
+			max-width: 100%;
+			height: auto;
+		}
+
+		.movement_img, .artist_img{
+			width: 150%;
+			height:auto;
 
 		}
+
 		.imgContainer{
 			position:relative;
 			display: inline-block;
+			/*width: auto;
+			height: auto;*/
+			margin-left:5%;
+			margin-right:17%;
+			margin-top:5%;
 		}
 
 		.imgContainer:hover .overlay{
@@ -23,17 +40,45 @@
 			bottom:0;
 			left:0;
 			background-color:black;
+			width: 150%;
+			opacity: .5;
+			height:100%;
+			color:white;
+		}
+
+		.large_imgContainer{ 
+			display: block;
+			positiion: relative;
+			margin: 60px;
+		}
+
+/*********SIDE BAR CLASSES********/
+		.sidebar_imgContainer{
+			position:relative;
+			display: inline-block;
+			margin:auto;
+		}
+		.overlay{
+			display: none;
+			position: absolute;
+			bottom:0;
+			left:0;
+			background-color:black;
 			width: 100%;
 			opacity: .5;
 			height:100%;
 			color:white;
 		}
 
-		.large_artContainer{
-			display: block;
-			positiion: relative;
+		.imgContainer:hover .sidebar_overlay{
+			display:block;
+		}
+		.sidebar_img{
+			width:"70%";
+			height:auto;
 
 		}
+
 
 
 		#columnWrapper,#columnWrapper>li>ul,#columnWrapper>li>div>ul

@@ -72,14 +72,14 @@ function displayData(data, container){
 
 			var imgContainer = document.createElement('div');
 			$(imgContainer).addClass('imgContainer');
-// possibly dont need to set all as attributes
+			// possibly dont need to set all as attributes
 			var img = $(new Image()).attr({
 			"src" : thumbnailURL,
 			"data-id" : id,
 			"data-name" : name,
 			"numImgs" : numImgs,
 			"dates" : dates,
-			"class" : "artistImg",
+			"class" : "artist_img",
 			});
 
 			var overlay = document.createElement('div');
@@ -98,6 +98,7 @@ function displayData(data, container){
 				"src" : thumbnailURL,
 				"data-id" : id,
 				"data-name" : name,
+				"class" : "movement_img"
 			});
 
 			var overlay = document.createElement('div');
@@ -151,7 +152,7 @@ function displayArtwork(data, container){
 		}
 
 		var imgContainer = document.createElement('div');
-		$(imgContainer).addClass('large_artContainer');
+		$(imgContainer).addClass('large_imgContainer');
 
 // possibly dont need to set all as attributes
 		var img = $(new Image()).attr({
@@ -161,7 +162,7 @@ function displayArtwork(data, container){
 			"title" : title,
 			"year" : year,
 			"medium" : medium,
-			"class" : "large_artImage",
+			"class" : "artwork_img",
 			"dimensions" : dimensions
 		}); 
 
@@ -275,6 +276,10 @@ function setequalHeight(){
 				
 			});
 
+			paneToExpand.prev().find(".imgContainer>img").css({
+				"width": "70%"
+			});
+
 			paneToExpand.children("div").animate({
 				"marginLeft": "20%"
 			});
@@ -285,6 +290,11 @@ function setequalHeight(){
 			{
 				
 			});
+
+			paneToExpand.find(".imgContainer>img").css({
+				"width": "150%"
+			});
+
 		}
 
 	function transitionToMovements(era)
@@ -314,8 +324,26 @@ function setequalHeight(){
 				"width": "20%"
 			},250,function()
 			{
-				
 			});
+
+			$("#movementColumn .imgContainer>img").css({
+				"width": "70%"
+
+			});
+
+
+			// $(".imgContainer").attr({
+			// 	"margin": "auto",
+			// });
+
+			// $(".movement_img").attr({
+			// 	"width": "70%",
+			// });
+
+			// $(".overlay").attr({
+			// 	"width": "70%",
+				
+			// });
 		}
 
 		
@@ -339,6 +367,15 @@ function setequalHeight(){
 			{
 
 			});
+
+			$("#artistColumn .imgContainer>img").css({
+				"width": "70%"
+
+			})
+			// $(".imgContainer").removeClass(".imgContainer").addClass(".sidebar_imgContainer")
+
+			// $(".movement_img").removeClass(".movement_img").addClass(".sidebar_img").removeClass(".overlay").addClass(".sidebar_overlay");
+				
 		}
 
 
