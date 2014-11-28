@@ -23,8 +23,8 @@
 		.imgContainer{
 			position:relative;
 			display: inline-block;
-			/*width: auto;
-			height: auto;*/
+			width: auto;
+			height: auto;
 			margin-left:5%;
 			margin-right:17%;
 			margin-top:5%;
@@ -35,7 +35,7 @@
 		}
 
 		.overlay{
-			display: none;
+			display:none;
 			position: absolute;
 			bottom:0;
 			left:0;
@@ -53,7 +53,7 @@
 		}
 
 /*********SIDE BAR CLASSES********/
-		.sidebar_imgContainer{
+/*		.sidebar_imgContainer{
 			position:relative;
 			display: inline-block;
 			margin:auto;
@@ -77,7 +77,7 @@
 			width:"70%";
 			height:auto;
 
-		}
+		}*/
 
 
 

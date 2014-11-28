@@ -18,8 +18,7 @@ function addArtwork(url, data, container){
 	$.get(url,data).done(function(rsp){	
 		console.log(rsp)
 
-		if(container == "artworkContainer"){
-			console.log("ARTWORK_CONTAINER");		
+		if(container == "artworkContainer"){	
 			displayArtwork(rsp,container);
 
 		}else{
@@ -290,11 +289,23 @@ function setequalHeight(){
 			{
 				
 			});
+// ////////////////////////////////////////////////////////////////////////////////////////////
+
+			paneToExpand.find(".imgContainer").css({
+				"margin-left":"5%",
+			    "margin-right":"17%",
+			    "margin-top":"5%",
+
+			});
 
 			paneToExpand.find(".imgContainer>img").css({
 				"width": "150%"
 			});
 
+			paneToExpand.find(".overlay").css({
+				"width": "150%",
+				"left": "0%"
+			});
 		}
 
 	function transitionToMovements(era)
@@ -326,24 +337,21 @@ function setequalHeight(){
 			{
 			});
 
-			$("#movementColumn .imgContainer>img").css({
-				"width": "70%"
-
+			$("#movementColumn .imgContainer").css({
+				"margin-top": "5%",
+				
 			});
 
-
-			// $(".imgContainer").attr({
-			// 	"margin": "auto",
-			// });
-
-			// $(".movement_img").attr({
-			// 	"width": "70%",
-			// });
-
-			// $(".overlay").attr({
-			// 	"width": "70%",
+			$("#movementColumn .imgContainer>img").css({
+				"width": "70%",
 				
-			// });
+			});
+
+			$("#movementColumn .overlay").css({
+				"width": "70%",
+				"left":"15%"
+			});
+
 		}
 
 		
@@ -368,13 +376,20 @@ function setequalHeight(){
 
 			});
 
+			$("#artistColumn .imgContainer").css({
+				"margin-top": "5%",
+				
+			});
+
 			$("#artistColumn .imgContainer>img").css({
-				"width": "70%"
+				"width": "70%",
+				
+			});
 
-			})
-			// $(".imgContainer").removeClass(".imgContainer").addClass(".sidebar_imgContainer")
-
-			// $(".movement_img").removeClass(".movement_img").addClass(".sidebar_img").removeClass(".overlay").addClass(".sidebar_overlay");
+			$("#artistColumn .overlay").css({
+				"width": "70%",
+				"left":"15%"
+			});
 				
 		}
 
