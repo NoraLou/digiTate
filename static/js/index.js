@@ -86,7 +86,12 @@ function displayData(data, container){
 
 			var overlay = document.createElement('div');
 			$(overlay).addClass('overlay');
-			$(overlay).append("<h4>"+img.attr("data-name")+"<h4>");
+
+				if(numImgs == 1){
+					$(overlay).append("<p>"+img.attr("data-name")+"</p>"+"<div>" + img.attr("dates") + "<br>" + img.attr("numImgs") + " " + "image" + "</div>");
+				}else{
+					$(overlay).append("<p>"+img.attr("data-name")+"</p>"+"<div>" + img.attr("dates") + "<br>" + img.attr("numImgs") + " " + "images" + "</div>");
+				}
 
 			$(imgContainer).append(img).append(overlay);
 			
@@ -105,18 +110,19 @@ function displayData(data, container){
 				"numArtist" : numArtist
 			});
 
-			var figcaption = document.createElement('figure');
-			$(figcaption).addClass('group_info');
-			figcaption.innerHTML = img.attr("data-name");
-
-
 			var overlay = document.createElement('div');
 			$(overlay).addClass('overlay');
 
+			// var icon = $(new Image()).attr({
+			// 	"src" : "../static/img/expand_icon.png"
+			// });
+				if(numArtist == 1){
+					$(overlay).append("<p>"+img.attr("data-name")+"</p>" + "<div>" + img.attr("numArtist") + " " + "artist" + "</div>");
+				}else{
+					$(overlay).append("<p>"+img.attr("data-name")+"</p>" + "<div>" + img.attr("numArtist") + " " + "artists" + "</div>");
+				}
 
-			$(overlay).append("<div>"+img.attr("numArtist")+" "+ "artists" + "<br>" + img.attr("numArtwork")+ " "+ "images" + "</div>");
-
-			$(imgContainer).append(img).append(figcaption).append(overlay);
+			$(imgContainer).append(img).append(overlay);
 		}
 		$('#'+container).append(imgContainer);
 		setequalHeight();
@@ -322,6 +328,14 @@ function setequalHeight(){
 				"width": "156%",
 				"left": "0%"
 			});
+
+			paneToExpand.find(".overlay>p").css({
+				"font-size":"2.5em",
+			});
+
+			paneToExpand.find(".overlay>div").css({
+				"font-size":"1.5em",
+			});
 		}
 
 	function transitionToMovements(era)
@@ -365,7 +379,11 @@ function setequalHeight(){
 
 			$("#movementColumn .overlay").css({
 				"width": "80%",
-				"left":"10%"
+				"left":"10%",
+			});
+
+			$("#movementColumn .overlay>*").css({
+				"font-size":"18px"
 			});
 
 		}
@@ -405,6 +423,10 @@ function setequalHeight(){
 			$("#artistColumn .overlay").css({
 				"width": "80%",
 				"left":"10%"
+			});
+
+			$("#artistColumn .overlay>*").css({
+				"font-size":"18px"
 			});
 				
 		}
