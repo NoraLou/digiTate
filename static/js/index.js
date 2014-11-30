@@ -19,7 +19,7 @@ function addArtwork(url, data, container){
 		console.log(rsp)
 
 		if(container == "artworkContainer"){	
-			displayArtwork(rsp,container);
+			displayArtwork(rsp, container);
 
 		}else{
 		  displayData(rsp, container);
@@ -150,7 +150,7 @@ function displayArtwork(data, container){
 			dimensions = obj.dimensions;
 		}
 
-		var imgContainer = document.createElement('div');
+		var imgContainer = document.createElement('figure');
 		$(imgContainer).addClass('large_imgContainer');
 
 // possibly dont need to set all as attributes
@@ -163,11 +163,17 @@ function displayArtwork(data, container){
 			"medium" : medium,
 			"class" : "artwork_img",
 			"dimensions" : dimensions
-		}); 
+		});
 
-		$(imgContainer).append(img);
+		var caption = document.createElement("figcaption");
+		caption.innerHTML = img.attr("artist") + "<br>" + img.attr("title") + "<br>"+ img.attr("year") + "<br>" + img.attr("medium") + "<br>" + img.attr("dimensions")
+
+// .append("<h4>"+img.attr("data-name")+" "+img.attr("data-id")+"<h4>");
+
+
+		$(imgContainer).append(img).append(caption);
 		$('#'+container).append(imgContainer);
-		setequalHeight;
+		setequalHeight();
 	}
 }
 
@@ -289,7 +295,6 @@ function setequalHeight(){
 			{
 				
 			});
-// ////////////////////////////////////////////////////////////////////////////////////////////
 
 			paneToExpand.find(".imgContainer").css({
 				"margin-left":"5%",
