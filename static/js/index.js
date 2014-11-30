@@ -51,18 +51,21 @@ function displayData(data, container){
 			thumbnailURL = obj.thumbnailURL;
 		}
 
+		if (obj.hasOwnProperty("numArtwork")){
+			numArtwork = obj.numArtwork;
+
+		}
+		if (obj.hasOwnProperty("numArtist")){
+			numArtist = obj.numArtist;
+
+		}
+
 		if (id == "" || name == "" || thumbnailURL == ""){
 			//possible optimiztion move this to the top
 			continue; 
 		}
-		// if (obj.hasOwnProperty("numArtist"){
-		// 	numArtist = obj.numArtist;
+		
 
-		// }
-		// if (obj.hasOwnProperty("numArtist"){
-		// 	numArtist = obj.numArtist;
-
-		// }
 
 //ARTISTS 
 		if(obj.hasOwnProperty("numImgs") && obj.hasOwnProperty("dates")){
@@ -90,27 +93,35 @@ function displayData(data, container){
 			
 		} else {
 //MOVEMENTS 
-			var imgContainer = document.createElement('div');
+			var imgContainer = document.createElement('figure');
 			$(imgContainer).addClass('imgContainer');
 
 			var img = $(new Image()).attr({
 				"src" : thumbnailURL,
 				"data-id" : id,
 				"data-name" : name,
-				"class" : "movement_img"
+				"class" : "movement_img",
+				"numArtwork" : numArtwork,
+				"numArtist" : numArtist
 			});
+
+			var figcaption = document.createElement('figure');
+			$(figcaption).addClass('group_info');
+			figcaption.innerHTML = img.attr("data-name");
+
 
 			var overlay = document.createElement('div');
 			$(overlay).addClass('overlay');
-			$(overlay).append("<h4>"+img.attr("data-name")+" "+img.attr("data-id")+"<h4>");
 
-			$(imgContainer).append(img).append(overlay);
+
+			$(overlay).append("<div>"+img.attr("numArtist")+" "+ "artists" + "<br>" + img.attr("numArtwork")+ " "+ "images" + "</div>");
+
+			$(imgContainer).append(img).append(figcaption).append(overlay);
 		}
 		$('#'+container).append(imgContainer);
 		setequalHeight();
 	}
-	// call masonry for image layout 
-
+	
 }
 
 function displayArtwork(data, container){

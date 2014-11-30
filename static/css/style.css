@@ -17,11 +17,11 @@
 			width: 150%;
 			height:auto;
 			border: 7px solid white;
-			box-shadow: 0 10px 8px -6px rgba(0,0,0,0.2); 
-
+			margin-bottom: -10px;
 		}
 
-		.imgContainer{
+		.imgContainer
+		{
 			position:relative;
 			display: inline-block;
 			width: auto;
@@ -31,11 +31,31 @@
 			margin-top:5%;
 		}
 
-		.imgContainer:hover .overlay{
-			display:block;
+		.imgContainer:hover .overlay
+		{
+			visibility: visible; 
+			opacity: .5;
+			
 		}
 
-		.overlay{
+		.overlay
+		{
+			opacity: 0;
+			display:block;
+			visibility: hidden;
+			transition: visibility 0.2s linear, opacity 0.2s linear ease;
+			position:absolute;
+			background-color: black;
+			top: 0;
+			left: 0;
+			width: 155.5%;
+			height: 100%;
+			opacity: .5;
+			color: white;
+			text-align: center;
+		}
+
+		/*.overlay{
 			display:none;
 			position: absolute;
 			bottom:0;
@@ -46,6 +66,54 @@
 			height:100%;
 			color:white;
 		}
+*/
+		.overlay>div
+		{
+			font-size: 2em;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			font-family: sans-serif;
+		}
+		
+		figure.group_info
+		{   
+			/*position: absolute;*/
+			width: 146.5%;
+			margin:0;
+			padding: 5px;
+  			text-align: left;
+            color: #333;
+            font-family: Avenir, Arial, sans-serif;
+            border: 7px solid white;
+			box-shadow: 0 10px 8px -6px rgba(0,0,0,0.2); 
+			background-color: white;
+
+
+
+
+
+		}
+
+
+
+
+/*		figure.group_info
+		{
+			display:block;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background-color: black;
+			height: 10%;
+			opacity: .75;
+			color: white;
+			text-align: center;
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+			width: 155.5%;
+		}*/
+
 
 		div#artworkContainer > * {
 			border: 7px solid white;
