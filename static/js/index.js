@@ -303,7 +303,7 @@ function setequalHeight(){
 			});
 
 			paneToExpand.find(".overlay").css({
-				"width": "150%",
+				"width": "156%",
 				"left": "0%"
 			});
 		}
@@ -348,8 +348,8 @@ function setequalHeight(){
 			});
 
 			$("#movementColumn .overlay").css({
-				"width": "70%",
-				"left":"15%"
+				"width": "80%",
+				"left":"10%"
 			});
 
 		}
@@ -387,13 +387,12 @@ function setequalHeight(){
 			});
 
 			$("#artistColumn .overlay").css({
-				"width": "70%",
-				"left":"15%"
+				"width": "80%",
+				"left":"10%"
 			});
 				
 		}
-
-
+			
 
 
 

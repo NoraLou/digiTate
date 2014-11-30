@@ -3,10 +3,9 @@
 		{
 			margin: 0;
 			padding: 0;
+			font-family: sans-serif;
 		}
-		.fan{
-			overflow: scroll;
-		}
+		
 
 /**SET UP IMAGE LAYOUT ***************************/
 		.era_img{
@@ -17,6 +16,8 @@
 		.movement_img, .artist_img{
 			width: 150%;
 			height:auto;
+			border: 7px solid white;
+			box-shadow: 0 10px 8px -6px rgba(0,0,0,0.2); 
 
 		}
 
@@ -40,7 +41,7 @@
 			bottom:0;
 			left:0;
 			background-color:black;
-			width: 150%;
+			width: 156%;
 			opacity: .5;
 			height:100%;
 			color:white;
@@ -52,35 +53,7 @@
 			margin: 60px;
 		}
 
-/*********SIDE BAR CLASSES********/
-/*		.sidebar_imgContainer{
-			position:relative;
-			display: inline-block;
-			margin:auto;
-		}
-		.overlay{
-			display: none;
-			position: absolute;
-			bottom:0;
-			left:0;
-			background-color:black;
-			width: 100%;
-			opacity: .5;
-			height:100%;
-			color:white;
-		}
-
-		.imgContainer:hover .sidebar_overlay{
-			display:block;
-		}
-		.sidebar_img{
-			width:"70%";
-			height:auto;
-
-		}*/
-
-
-
+/** DOCUMENT LAYOUT ***************************/
 		#columnWrapper,#columnWrapper>li>ul,#columnWrapper>li>div>ul
 		{
 			list-style: none;
@@ -100,14 +73,14 @@
 		}
 		#columnWrapper>li#eraColumn
 		{			
-			background-color: #F00;
+			background-color: #dbdbda;
 			z-index: 100;
 			overflow: hidden;
 		}
 
 		#columnWrapper>li#movementColumn
 		{
-			background-color: #00F;
+			background-color: #dbdbda;
 			z-index: 90;
 			overflow: hidden;
 		}
@@ -119,7 +92,7 @@
 
 		#columnWrapper>li#artistColumn
 		{
-			background-color: #0F0;
+			background-color: #dbdbda;
 			z-index: 80;
 			overflow: hidden;
 		}
@@ -128,10 +101,9 @@
 			margin-left: 20%;
 			padding: 0 5px;
 		}
-/************************************************************************************************************/
 		#columnWrapper>li#artworkColumn
 		{
-			background-color:#f6e85f;
+			background-color:#dbdbda;
 			z-index:70;
 			overflow: hidden;
 
@@ -141,29 +113,51 @@
 			margin-left: 20%;
 			padding: 0 5px;
 		}
+
+		.fan{
+			overflow: scroll;
+		}
+
+
 		#closeArtwork
 		{
 			position: absolute;
-			top: -10px;
-			right: 10px;
-			font-size: 50px;
-			font-weight: bold;
+			top: 20px;
+			right: 30px;
+			
 		}
-/************************************************************************************************************/
+		#closeArtwork>img
+		{
+			max-width: 50%;
+			height: auto;
+		}
+
 		#closeMovements
 		{
 			position: absolute;
-			top: -10px;
-			right: 10px;
-			font-size: 50px;
-			font-weight: bold;
+			top: 20px;
+			right: 30px;
 		}
-		#closeArtists
+
+		#closeMovements>img
 		{
-			position: absolute;
-			top: -10px;
-			right: 10px;
-			font-size: 50px;
-			font-weight: bold;
+			max-width: 50%;
+			height: auto;		
 		}
+
+
+		#closeArtists
+		{ 
+			position: absolute;
+			top: 20px;
+			right: 30px;
+			
+		}
+
+		#closeArtists>img
+		{
+			max-width: 50%;
+			height: auto;		
+		}
+
 	
