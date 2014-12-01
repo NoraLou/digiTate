@@ -6,17 +6,29 @@
 			font-family: Avenir, Arial, sans-serif; 
 		}
 
-		#logo{
+		nav
+		{ 
+		  margin:0;
+
+		}
+
+		#logo
+		{
 			max-width: 100%;
-			/*width: 200px;*/
 			height: auto;
 			padding-top:2%;
 			padding-left:15%;
 			margin:0;
+		}
+		#intro
+		{ 
+			text-align: center;
+			width: 80%;
+			font:  zapfino;
 
 		}
 
-		
+
 
 		
 
@@ -26,6 +38,8 @@
 			position:relative;
 			max-width: 100%;
 			height: auto;
+			border: 7px solid white;
+			box-shadow: 0 10px 8px -6px rgba(0,0,0,0.2);
 		}
 
 		.movement_img, .artist_img{
