@@ -273,10 +273,10 @@ function closePane(pane){
 		}
 }
 
-function updateNav(container, data-name){
+// function updateNav(container, data){
 
-	
-}
+
+// }
 
 
 function transitionToEras(pane){
