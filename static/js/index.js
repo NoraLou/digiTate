@@ -6,7 +6,7 @@ movementsVisable = false;
 	});
 
 /**
- * Short description of the function's function
+ * Make ajax requests and return data to respective display container
  *
  * @param url String API URL
  * @param data Object Data ID object to pass to API
@@ -207,12 +207,30 @@ function setequalHeight(){
 	function init()
 		{
 			$('li#eraColumn>div>ul>li>img').click(function(evt)
-			{
+			{	
+					$("#columnWrapper>li").css({
+						"position":"absolute",
+						"width":"100%"
+					}); 
+
+					$('#era').css({
+						"display": "block"
+					});
+
+					$('#columnWrapper>li#eraColumn').css({
+						"padding":"0",
+						"height": "auto"
+					});
+
+					$("#columnWrapper,#columnWrapper>li>ul,#columnWrapper>li>div>ul").css({
+						"height": "auto"
+					});
+
 				setequalHeight();
 				var era = $(this).attr("data-era");
 				transitionToMovements(era);
 				
-				addArtwork("/api/movements", {"data":era}, "movementContainer")
+				addArtwork("/api/movements", {"data":era}, "movementContainer");
 			
 			});
 
@@ -220,25 +238,19 @@ function setequalHeight(){
 			{
 				closePane($(this).parent());
 			});
-			
-// SET UP EVENT HANDLERS
 
 	 		$("#movementColumn").on("click", ".fan .overlay", function()
 	 		{
-	 			var movement = $(this).prev().attr("data-id");
-	 			// console.log(movement)
+	 			var movement = $(this).prev().attr("data-id")
 	 			transitionToArtists(movement);
 
 	 			addArtwork("/api/artists",{"data":movement}, "artistContainer");
-	 									   // {data:$(this).attr("data-id")}
-	 									   // {"data":movement}
 	 		});
 
 
 	 		$("#artistColumn").on("click", ".fan .overlay", function()	 			
 	 		{ 
 	 			var artist = $(this).prev().attr("data-id");
-	 			//.prev()gets previous element on the same level
 	 			console.log(artist);
  			 	transitionToArtwork(artist);
  			 	addArtwork("/api/artwork",{data:$(this).prev().attr("data-id")}, "artworkContainer");
@@ -268,7 +280,6 @@ function setequalHeight(){
 
 	function transitionToEras(pane)
 		{
-			// console.log(pane.attr("id"));
 			$("#eraColumn").animate({
 				"width": "100%"
 			},250,function()
@@ -346,6 +357,32 @@ function setequalHeight(){
 			{
 				movementsVisable = true;
 			});
+
+			$("#columnWrapper>li#movementColumn").css({
+				"display" : "block"
+			});
+
+			$("#columnWrapper>li#artistColumn").css({
+				"display" : "block"
+			});
+
+			$("#columnWrapper>li#artworkColumn").css({
+				"display" : "block"
+			});
+
+
+
+
+
+
+			$(".fan").css({
+				"overflow" : "scroll"
+			});
+
+			$("#closeArtwork>img ").css({
+				"display" : "block"
+			})
+			
 		}
 
 	function transitionToArtists(movement)

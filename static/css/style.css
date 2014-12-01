@@ -8,7 +8,7 @@
 		
 
 /** IMAGE LAYOUT ***************************/
-		.era_img{
+		.start_img{
 			max-width: 100%;
 			height: auto;
 		}
@@ -96,6 +96,7 @@
 			list-style: none;
 			margin: 0;
 			padding: 0;
+			height:100%;
 			width: 100%;
 			position: relative;
 		}
@@ -103,24 +104,53 @@
 		{
 			text-align: center;
 			vertical-align: top;
-			width: 100%;
-			position: absolute;
+			width: 80%;
+			/*position: absolute;*/
 			left: 0;
 			top: 0;
 		}
 		#columnWrapper>li#eraColumn
 		{			
-			background-color: #dbdbda;
+			background-color: white;
 			z-index: 100;
 			overflow: hidden;
+			height: 100%;
+			margin: 0;
+			padding: 10%;
 		}
 
+		#era
+		{
+        display:flex;
+   	    box-orient: horizontal;
+   	    flex-direction: row;
+   	    justify-content: center;
+		}
+
+		.rotate
+		{ 
+		-webkit-box-flex: 1;
+    	-moz-box-flex: 1;
+    	box-flex: 1;
+    	-webkit-flex: 1 1 auto;
+    	flex: 1 1 auto;
+    	margin: 5px;
+		}
+
+		/********************************************************************/
 		#columnWrapper>li#movementColumn
 		{
+			display:none;
 			background-color: #dbdbda;
 			z-index: 90;
 			overflow: hidden;
 		}
+		/*///////////////////////////////////////////////////////////////////*/
+
+
+
+
+
 		#columnWrapper>li#movementColumn>div
 		{
 			margin-left: 20%;
@@ -129,6 +159,7 @@
 
 		#columnWrapper>li#artistColumn
 		{
+			display:none;
 			background-color: #dbdbda;
 			z-index: 80;
 			overflow: hidden;
@@ -140,6 +171,7 @@
 		}
 		#columnWrapper>li#artworkColumn
 		{
+			display:none;
 			background-color:#dbdbda;
 			z-index:70;
 			overflow: hidden;
@@ -150,11 +182,12 @@
 			margin-left: 20%;
 			padding: 0 5px;
 		}
-
+/*******************************************************************/
 		.fan{
-			overflow: scroll;
+			/*overflow: scroll;*/
+			overflow: hidden;
 		}
-
+/*******************************************************************/
 
 		#closeArtwork
 		{
@@ -165,6 +198,7 @@
 		}
 		#closeArtwork>img
 		{
+			display: none;
 			max-width: 50%;
 			height: auto;
 		}
@@ -178,6 +212,8 @@
 
 		#closeMovements>img
 		{
+			/*display:none;
+			visibility: hidden;*/
 			max-width: 50%;
 			height: auto;		
 		}
@@ -193,6 +229,7 @@
 
 		#closeArtists>img
 		{
+			/*visibility: hidden;*/
 			max-width: 50%;
 			height: auto;		
 		}
