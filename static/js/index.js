@@ -208,9 +208,18 @@ function setequalHeight(){
 		{
 			$('li#eraColumn>div>ul>li>img').click(function(evt)
 			{	
+
 					$("#columnWrapper>li").css({
 						"position":"absolute",
 						"width":"100%"
+					});
+
+					$("#logo").css({
+						"width": "200px",
+						"padding-left": "5px",
+						"padding-top":"10px",
+						"padding-bottom": "2px"
+
 					}); 
 
 					$('#era').css({
