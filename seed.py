@@ -114,6 +114,13 @@ def load_json(file_name):
                     continue;
             if movement_id == 343:
                     continue;
+            if movement_id == 22043:
+                    continue;
+            if movement_id == 367:
+                    continue;
+            if movement_id == 293:
+                    continue;
+            
 
             if movement_id:
                 print movement_id 
@@ -252,12 +259,6 @@ def add_details():
 
     session.commit()
 
-# def cleanup():
-
-#     clean_list = [403, 406, 412, 411, 6210, 16649, 299, 321, 322, 6949,16667, 1684, 17579, 342]
-#     for move_id in clean_list:
-#         movement  = session.model.query(model.Movement).filter_by(id = move_id)
-#         print movement.name
 
 
 

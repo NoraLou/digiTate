@@ -39,15 +39,15 @@ function displayData(data, container){
 	for(var i = 0; i<data.length; i++){
 		obj = data[i];
 		
-		if(obj.hasOwnProperty("id")){
+		if (obj.hasOwnProperty("id")){
 			id = obj.id;
 		}
 
-		if(obj.hasOwnProperty("name")){
+		if (obj.hasOwnProperty("name")){
 			name = obj.name;
 		}
 
-		if(obj.hasOwnProperty("thumbnailURL")){
+		if (obj.hasOwnProperty("thumbnailURL")){
 			thumbnailURL = obj.thumbnailURL;
 		}
 
@@ -76,19 +76,21 @@ function displayData(data, container){
 			$(imgContainer).addClass('imgContainer');
 			// possibly dont need to set all as attributes
 			var img = $(new Image()).attr({
-			"src" : thumbnailURL,
-			"data-id" : id,
-			"data-name" : name,
-			"numImgs" : numImgs,
-			"dates" : dates,
-			"class" : "artist_img",
+				"src" : thumbnailURL,
+				"data-id" : id,
+				"data-name" : name,
+				"numImgs" : numImgs,
+				"dates" : dates,
+				"class" : "artist_img",
 			});
 
 			var overlay = document.createElement('div');
 			$(overlay).addClass('overlay');
 
 				if(numImgs == 1){
-					$(overlay).append("<p>"+img.attr("data-name")+"</p>"+"<div>" + img.attr("dates") + "<br>" + img.attr("numImgs") + " " + "image" + "</div>");
+					$(overlay).append("<p>" 
+						+ img.attr("data-name")
+						+ "</p>"+"<div>" + img.attr("dates") + "<br>" + img.attr("numImgs") + " " + "image" + "</div>");
 				}else{
 					$(overlay).append("<p>"+img.attr("data-name")+"</p>"+"<div>" + img.attr("dates") + "<br>" + img.attr("numImgs") + " " + "images" + "</div>");
 				}
@@ -195,6 +197,15 @@ function displayArtwork(data, container){
 }
 
 
+// function resizeColumns(){
+// 	$( window ).resize(function() {
+// 		$('.fan').each(function(){
+// 		$(this).height(window.innerHeight-25);
+// 	    })
+//  	});
+// }
+
+
 function setequalHeight(){
 	$('.fan').each(function(){
 		$(this).height(window.innerHeight-25);
@@ -203,6 +214,7 @@ function setequalHeight(){
     // styling scroll bar
     // $(this).height(window.innerHeight-25);
 }
+
 
 function init()
 	{
