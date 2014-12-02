@@ -17,7 +17,6 @@ movementsVisable = false;
  */
 function addArtwork(url, data, container){	
 	$.get(url,data).done(function(rsp){	
-		console.log(rsp)
 
 		if(container == "artworkContainer"){	
 			displayArtwork(rsp, container);
@@ -28,6 +27,15 @@ function addArtwork(url, data, container){
 	}); 
 }
 
+
+/**
+ * Parse ajax response and create correct display 
+ *
+ * @param data Json ajax response
+ * @param container String to append display to
+ *
+ * @return null
+ */
 function displayData(data, container){
 
 	if (container == null){
@@ -39,6 +47,10 @@ function displayData(data, container){
 
 	for(var i = 0; i<data.length; i++){
 		obj = data[i];
+
+		if (id == "" || name == "" || thumbnailURL == ""){
+			continue; 
+		}
 		
 		if (obj.hasOwnProperty("id")){
 			id = obj.id;
@@ -60,22 +72,14 @@ function displayData(data, container){
 			numArtist = obj.numArtist;
 
 		}
-
-		if (id == "" || name == "" || thumbnailURL == ""){
-			//possible optimiztion move this to the top
-			continue; 
-		}
-		
-
-
-//ARTISTS 
+ 
 		if(obj.hasOwnProperty("numImgs") && obj.hasOwnProperty("dates")){
 			numImgs = obj.numImgs;
 			dates = obj.dates;
 
 			var imgContainer = document.createElement('div');
 			$(imgContainer).addClass('imgContainer');
-			// possibly dont need to set all as attributes
+		
 			var img = $(new Image()).attr({
 				"src" : thumbnailURL,
 				"data-id" : id,
@@ -127,9 +131,11 @@ function displayData(data, container){
 			$(overlay).addClass('stats_overlay');
 
 				if(numArtist == 1){
-					$(overlay).append("<p>"+img.attr("data-name")+"</p>" + "<div>" + img.attr("numArtist") + " " + "artist" + "</div>");
+					$(overlay).append("<p>"+img.attr("data-name") +"</p>" 
+									+ "<div>" + img.attr("numArtist") + " " + "artist" + "</div>");
 				}else{
-					$(overlay).append("<p>"+img.attr("data-name")+"</p>" + "<div>" + img.attr("numArtist") + " " + "artists" + "</div>");
+					$(overlay).append("<p>"+img.attr("data-name")+"</p>" 
+									+ "<div>" + img.attr("numArtist") + " " + "artists" + "</div>");
 				}
 
 			$(imgContainer).append(img).append(overlay);
@@ -140,6 +146,14 @@ function displayData(data, container){
 	
 }
 
+/**
+ * Parse ajax response specific to individual artworks
+ *
+ * @param data Json ajax response
+ * @param container String to append display to
+ *
+ * @return null
+ */
 function displayArtwork(data, container){
 	if (container == null){
 		return;
@@ -150,6 +164,10 @@ function displayArtwork(data, container){
 
 	for(var i = 0; i<data.length; i++){
 		obj = data[i];
+
+		if (thumbnailURL == ""){
+			continue; 
+		}
 
 		if(obj.hasOwnProperty("id")){
 			id = obj.id;
@@ -180,7 +198,7 @@ function displayArtwork(data, container){
 		var imgContainer = document.createElement('figure');
 		$(imgContainer).addClass('large_imgContainer');
 
-// possibly dont need to set all as attributes
+
 		var img = $(new Image()).attr({
 			"src" : thumbnailURL,
 			"data-id" : id,
@@ -193,9 +211,12 @@ function displayArtwork(data, container){
 		});
 
 		var caption = document.createElement("figcaption");
-		caption.innerHTML = img.attr("artist") + "<br>" + img.attr("title") + "<br>"+ img.attr("year") + "<br>" + img.attr("medium") + "<br>" + img.attr("dimensions")
-
-// .append("<h4>"+img.attr("data-name")+" "+img.attr("data-id")+"<h4>");
+		caption.innerHTML = img.attr("artist") 
+							+ "<br>" 
+							+ img.attr("title") 
+							+ "<br>"+ img.attr("year") 
+							+ "<br>" + img.attr("medium") 
+							+ "<br>" + img.attr("dimensions")
 
 
 		$(imgContainer).append(img).append(caption);
@@ -204,18 +225,21 @@ function displayArtwork(data, container){
 	}
 }
 
-
-function resizeColumns() {
+/*
+* Resize collumns browser re-size
+*/ 
+function resizeColumns(){
 
 	$( window ).resize(function(){
 		setequalHeight();
-		// $('.fan').each(function(){
-		// 	$(this).height(window.innerHeight-25);
-	 //    })
+
  	});
 }
 
-// for ajax image load
+
+/*
+* Resize collumns on image load
+*/ 
 function setequalHeight(){
 
 	$('.fan').each(function(){
@@ -224,12 +248,15 @@ function setequalHeight(){
     
 }
 
-
+/**
+ * Set up inital event handlers for display collumns
+ *
+ * @return call to addArtwork() or closePane()
+ */
 function init(){
 
-		// $('li#eraColumn>div>ul>li>img').click(function(evt)
-		$('.overlay').click(function(evt)
-		{	
+		$('.overlay').click(function(evt){
+
 				$("#columnWrapper>li").css({
 					"position":"absolute",
 					"width":"100%"
@@ -267,13 +294,11 @@ function init(){
 		
 		});
 
-		$('#closeMovements,#closeArtists,#closeArtwork').click(function(evt)
-		{
+		$('#closeMovements,#closeArtists,#closeArtwork').click(function(evt){
 			closePane($(this).parent());
 		});
-
-///////		
- 		$("#movementColumn").on("click", ".fan .stats_overlay", function() {
+	
+ 		$("#movementColumn").on("click", ".fan .stats_overlay", function(){
  		
  			var movement = $(this).prev().attr("data-id")
  			transitionToArtists(movement);
@@ -289,8 +314,7 @@ function init(){
  		});
 
 
- 		$("#artistColumn").on("click", ".fan .stats_overlay", function()	 			
- 		{ 
+ 		$("#artistColumn").on("click", ".fan .stats_overlay", function(){ 
  			var artist = $(this).prev().attr("data-id");
  			console.log(artist);
  		 	transitionToArtwork(artist);
@@ -307,6 +331,12 @@ function init(){
  
  	}
 
+ /**
+ * Close current display windows, empty contents, move to prior display 
+ *
+ * @param pane String Container function called from
+ * @return null
+ */
 function closePane(pane){
 
 		var paneToExpand = pane.prev();
@@ -328,8 +358,12 @@ function closePane(pane){
 		}
 }
 
-
-
+/**
+ * Close current display windows move to inital display 
+ *
+ * @param pane String Container function called from
+ * @return null
+ */
 function transitionToEras(pane){
 
 		$("#eraColumn").animate({
@@ -353,6 +387,12 @@ function transitionToEras(pane){
 		});
 }
 
+/**
+* Expand previous display window reset CSS attributes 
+*
+* @param paneToExpand String representing the previous pane function called from
+* @return null
+*/
 function transitionToPrev(paneToExpand){
 
 		console.log(paneToExpand.attr("id"));
@@ -394,6 +434,14 @@ function transitionToPrev(paneToExpand){
 		});
 }
 
+
+/**
+* Minimize era display set attributes for movement display
+*
+* @param era Object data-id for image set
+* 
+* @return null
+*/
 function transitionToMovements(era){
 
 		$("#eraColumn").animate({
@@ -419,6 +467,13 @@ function transitionToMovements(era){
 		})
 }
 
+/**
+* Minimize movement display set attributes for artists display
+*
+* @param era Object data-id for image set
+* 
+* @return null
+*/
 function transitionToArtists(movement){
 
 		$("#eraColumn").animate({
@@ -451,7 +506,14 @@ function transitionToArtists(movement){
 			"font-size":"18px"
 		});
 }
-	
+
+/**
+* Minimize artist display set attributes for artwork display
+*
+* @param artist Object data-id for image set
+* 
+* @return null
+*/
 function transitionToArtwork(artist){
 
 		$("#movementColumn").animate({

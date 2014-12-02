@@ -32,7 +32,6 @@ class Artist(Base):
     artworks = relationship("Artwork", backref=backref("artist"))
 
     #backref to artist_movements table
-    # !!!! ADD CONVERT TO JSON METHOD
 
 
 class Artwork(Base):
@@ -66,7 +65,6 @@ class Artwork(Base):
 
 
     def convert_to_JSON(self): 
-        # whenever you have an artwork object, you call example.covert_to_JSON
         d = {"id": self.id, 
             "thumbnailURL": self.thumbnail_format(),
             "artist": self.artist.name,
@@ -93,10 +91,8 @@ class Artist_movement(Base):
     movement = relationship("Movement", backref=backref("artist_movements"))
     
     def convert_to_JSON(self): 
-        # whenever you have an artwork object, you call example.covert_to_JSON
         d = {}
         d = {"id": self.id, "thumbnailURL": self.thumbnailURL}
-        # d["artist"]= self.artist.convert_to_JSON()
         return d 
     
 
@@ -115,7 +111,6 @@ class Movement(Base):
     #backref to artist_movements table
 
     def convert_to_JSON(self): 
-        # whenever you have an object, you call example.covert_to_JSON
         d = {
             "id": self.id, 
             "thumbnailURL": self.thumbnailURL, 

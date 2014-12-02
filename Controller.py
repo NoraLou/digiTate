@@ -1,9 +1,8 @@
 
-from flask import Flask, render_template, redirect, request, flash, session, Response
+from flask import Flask, render_template, redirect, request, Response
 import model
 from sqlalchemy.orm import subqueryload
 import json
-import random
 import os
 
 import logging
@@ -13,15 +12,7 @@ logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 app = Flask(__name__)
 app.secret_key = os.environ.get('some_secret')
 
-    
-@app.context_processor
-def utility_processor():
-    def thumbnail_format(url, format= 8):
-        base_url = url.split("_8.jpg")[0]
-        return base_url+"_"+str(format)+".jpg"
-
-    return dict(thumbnail_format=thumbnail_format)
-
+ 
 @app.route("/")
 def index():
 
@@ -41,26 +32,8 @@ def load_movments():
     return Response(json.dumps(json_movement_objs), mimetype="text/json")
 
 
-# @app.route("/api/artwork",methods=['GET','POST'])
-# # get artwork for a given movement
-# def load_artwork():
-#     movement = request.args.get('data')
-#     print movement
-
-#     movements_artwork = model.session.query(model.Artist_movement).filter_by(movementId = movement).all()
-#     artwork_ls = []
-#     for am in movements_artwork:
-#         current_artist = am.artistId
-#         artwork = model.session.query(model.Artwork).filter(model.Artwork.artistId == current_artist)
-#         for piece in artwork:
-
-#             artwork_ls.append({"thumbnailURL":piece.thumbnailURL, "id":piece.id, "name":piece.title, "artistId":piece.artistId})
-
-#     return Response(json.dumps(artwork_ls), mimetype="text/json")
-
 
 @app.route("/api/artists", methods= ['GET','POST'])
-# get artists for a given movement
 def load_artists():
 
     movement = request.args.get('data')
@@ -89,7 +62,6 @@ def load_artists():
 
 
 @app.route("/api/artwork", methods = ['GET','POST'])
-# get artwork for a given artist
 def load_artwork():
 
     artist = request.args.get('data')
@@ -104,7 +76,7 @@ def load_artwork():
 
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run(debug = False)
 
 
 

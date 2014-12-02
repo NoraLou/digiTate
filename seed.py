@@ -13,11 +13,9 @@ def unicode_csv_reader(utf8_data, dialect=csv.excel, **kwargs):
 
 def load_artists(session):
     f1 = unicode_csv_reader(open("artist_data.csv"), delimiter=",")
-    # print dir(f1)
     f1.next()
 
     for row in f1:
-        # print dir(row)
         artist = model.Artist() 
         artist.id = int(row[0])
         artist.name = row[1]
@@ -70,24 +68,14 @@ def load_json(file_name):
     file.close()
 
     data = json.loads(json_text)
-    # pprint(data)
 
     artist_id = data.get("id")
     artist = model.session.query(model.Artist).filter_by(id = artist_id).first()
 
-    # print "found artist", artist.name
 
     if data.get("movements",[]):
-        # print "found movements"
-        print data["movements"]
         for movement in data["movements"]:
-            print "found movement"
-            print movement
-
-
-
             if movement.get("era"):
-                print movement["era"]
               
                 era_id = movement["era"].get("id")
                 era_name = movement["era"].get("name")
@@ -105,10 +93,7 @@ def load_json(file_name):
             movement_id = movement.get("id")
             movement_name = movement.get("name") 
 
-            if movement_id:
-                print movement_id 
-                print movement_name
-            
+            if movement_id:          
                 m = session.query(model.Movement).get(movement_id)
                 if not m:
                     m = model.Movement()
@@ -152,12 +137,8 @@ def add_details():
         artwork_list = [] 
         numArtwork = 0
 
-                # movement.artist_movements:# a list of all artist movement objects in a movement
         for am in movement.artist_movements:
-        # one artist
-
             numArtwork += len(am.artist.artworks)
-            # combining all the artists for total
             artwork_list.extend(am.artist.artworks)
 
     
@@ -175,47 +156,16 @@ def add_details():
 
         session.add(movement)
 
-
-
-    # for movement in movements:
-    #     artwork_list = [] 
-    #     artistThumbnail = None
-    #     numArtwork = 0
-    #     # movement.artist_movements:# a list of all artist movement objects in a movement
-    #     for am in movement.artist_movements:
-    #     # one artist
-    #         numArtwork += len(am.artist.artworks)
-    #         # combining all the artists for total
-    #         artwork_list.append(am.artist.artworks)
-    #     # make a list of artwork per movement.
-    #     # make a dictionary of lists, one list per movement with the artwork i
-    #     # sql alchemly  
-    #         if len(am.artist.artworks)>0:
-    #              # if this movement has an artist with an artwork
-
-    #             for artwork in range(len(am.artist.artworks)):
-
-    #                 # for all the artworks assoc w/ movement
-    #                 if am.artist.artworks[artwork].thumbnailURL: 
-    #                     artistThumbnail = am.artist.artworks[artwork].thumbnailURL
-                        
-    #                    # potential optimization: only load one artwork per movement
-
     eras = model.session.query(model.Era).all()
 
     for era in eras:
         numArtwork=0
         numArtist=0 
-        print "*****************"
-        print era.id
-        print era.name
+        
         movements_in_era = model.session.query(model.Movement).filter(model.Movement.era_id == era.id).all()
         for movement in movements_in_era:
             numArtist += movement.numArtist
             numArtwork += movement.numArtwork
-
-        print "numArtwork", numArtwork
-        print "numArtist", numArtist
 
         era.numArtist = numArtist
         era.numArtwork = numArtwork
@@ -246,7 +196,6 @@ def add_details():
 
 
 def main():
-    """In case we need this for something"""
     model.create_tables()
     load_artists(session)
     load_artwork(session)
