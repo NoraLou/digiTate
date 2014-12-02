@@ -9,7 +9,9 @@ digiTate
 Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, SQLite, CSS3, HTML5
 
 
+![](https://raw.githubusercontent.com/NoraLou/digiTate/master/Github.jpg)
 
+![](https://raw.githubusercontent.com/NoraLou/digiTate/master/Github3.jpg)
 
 
 
