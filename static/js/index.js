@@ -218,7 +218,7 @@ function resizeColumns() {
  	});
 }
 
-
+// for ajax image load
 function setequalHeight(){
 
 	$('.fan').each(function(){
@@ -261,6 +261,7 @@ function init(){
 			addArtwork("/api/movements", {"data":era}, "movementContainer");
 
 			var display_era = $(this).attr("data-name");
+			$('#breadcrumbs').empty()
 			$('#breadcrumbs').append("<span>"+ display_era+ "</span>"); 
 		
 		});
@@ -271,13 +272,18 @@ function init(){
 		});
 
 ///////		
- 		$("#movementColumn").on("click", ".fan .overlay", function()
- 		{
+ 		$("#movementColumn").on("click", ".fan .overlay", function() {
+ 		
  			var movement = $(this).prev().attr("data-id")
  			transitionToArtists(movement);
  			addArtwork("/api/artists",{"data":movement}, "artistContainer");
 
  			var display_movement = $(this).prev().attr("data-name");
+
+ 			if ( $('#breadcrumbs').children().length > 1 ) {
+ 				$('#breadcrumbs span:last-child')[0].remove();
+    			}
+
  			$('#breadcrumbs').append("<span>"+ display_movement +"</span>");
  		});
 
@@ -290,6 +296,11 @@ function init(){
  		 	addArtwork("/api/artwork",{data:$(this).prev().attr("data-id")}, "artworkContainer");
 
  		 	var display_artist = $(this).prev().attr("data-name");
+
+ 		 	if ( $('#breadcrumbs').children().length > 2 ) {
+ 				$('#breadcrumbs span:last-child')[0].remove();
+    			}
+
  			$('#breadcrumbs').append("<span>"+ display_artist+"</span>") ;
  		});
  

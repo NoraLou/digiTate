@@ -1,5 +1,4 @@
 import json
-# from pprint import pprint
 import model 
 import csv
 from model import session
@@ -104,23 +103,7 @@ def load_json(file_name):
 
 
             movement_id = movement.get("id")
-            movement_name = movement.get("name")
-
-            if movement_id == 22012:
-                    continue;
-            if movement_id == 22014:
-                    continue;
-            if movement_id == 425:
-                    continue;
-            if movement_id == 343:
-                    continue;
-            if movement_id == 22043:
-                    continue;
-            if movement_id == 367:
-                    continue;
-            if movement_id == 293:
-                    continue;
-            
+            movement_name = movement.get("name") 
 
             if movement_id:
                 print movement_id 
