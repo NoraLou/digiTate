@@ -316,10 +316,6 @@ function closePane(pane){
 		}
 }
 
-// function updateNav(container, data){
-
-
-// }
 
 
 function transitionToEras(pane){
