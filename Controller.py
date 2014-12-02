@@ -38,11 +38,7 @@ def load_artists():
 
     movement = request.args.get('data')
 
-    print movement
-
     movement_artists = model.session.query(model.Artist_movement).filter_by(movementId = movement).all()
-
-    print movement_artists
 
     move_artists = []
     for artist in movement_artists: 
@@ -66,8 +62,6 @@ def load_artwork():
 
     artist = request.args.get('data')
 
-    print artist
-
     artworks = model.session.query(model.Artwork).filter_by(artistId = artist).all()
     json_artwork_objs = [art.convert_to_JSON()for art in artworks] 
 
@@ -77,8 +71,4 @@ def load_artwork():
 
 if __name__ == "__main__":
     app.run(debug = False)
-
-
-
-
-
+    

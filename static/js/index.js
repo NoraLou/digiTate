@@ -1,20 +1,12 @@
 
 movementsVisable = false;
-	$(document).ready(function()
-	{
+	$(document).ready(function(){
 		init();
 		resizeColumns();
 	});
 
-/**
- * Make ajax requests and return data to respective display container
- *
- * @param url String API URL
- * @param data Object Data ID object to pass to API
- * @param container String Where to place API response
- *
- * @return null
- */
+
+//Make ajax requests and return data to respective display container
 function addArtwork(url, data, container){	
 	$.get(url,data).done(function(rsp){	
 
@@ -28,14 +20,8 @@ function addArtwork(url, data, container){
 }
 
 
-/**
- * Parse ajax response and create correct display 
- *
- * @param data Json ajax response
- * @param container String to append display to
- *
- * @return null
- */
+
+//Parse ajax response and create correct display  
 function displayData(data, container){
 
 	if (container == null){
@@ -113,7 +99,7 @@ function displayData(data, container){
 			$(imgContainer).append(img).append(overlay);
 			
 			
-		} else {
+		}else{
 
 			var imgContainer = document.createElement('figure');
 			$(imgContainer).addClass('imgContainer');
@@ -146,14 +132,8 @@ function displayData(data, container){
 	
 }
 
-/**
- * Parse ajax response specific to individual artworks
- *
- * @param data Json ajax response
- * @param container String to append display to
- *
- * @return null
- */
+
+//Parse ajax response specific to individual artworks
 function displayArtwork(data, container){
 	if (container == null){
 		return;
@@ -225,9 +205,7 @@ function displayArtwork(data, container){
 	}
 }
 
-/*
-* Resize collumns browser re-size
-*/ 
+//Resize columns on browser re-size
 function resizeColumns(){
 
 	$( window ).resize(function(){
@@ -237,9 +215,8 @@ function resizeColumns(){
 }
 
 
-/*
-* Resize collumns on image load
-*/ 
+
+//Resize columns on image load
 function setequalHeight(){
 
 	$('.fan').each(function(){
@@ -248,11 +225,8 @@ function setequalHeight(){
     
 }
 
-/**
- * Set up inital event handlers for display collumns
- *
- * @return call to addArtwork() or closePane()
- */
+
+//Set up inital event handlers for display collumns
 function init(){
 
 		$('.overlay').click(function(evt){
@@ -261,16 +235,19 @@ function init(){
 					"position":"absolute",
 					"width":"100%"
 				});
+
 				$("#logo").css({
 					"width": "300px",
 					"padding-left": "5%",
 					"padding-top":"10px",
 				});
+
 				$("#intro").remove();
 
 				$('#era').css({
 					"display": "block"
 				});
+
 				$('#columnWrapper>li#eraColumn').css({
 					"padding":"0",
 					"height": "auto"
@@ -306,7 +283,7 @@ function init(){
 
  			var display_movement = $(this).prev().attr("data-name");
 
- 			if ( $('#breadcrumbs').children().length > 1 ) {
+ 			if ( $('#breadcrumbs').children().length > 1 ){
  				$('#breadcrumbs span:last-child')[0].remove();
     			}
 
@@ -316,13 +293,12 @@ function init(){
 
  		$("#artistColumn").on("click", ".fan .stats_overlay", function(){ 
  			var artist = $(this).prev().attr("data-id");
- 			console.log(artist);
  		 	transitionToArtwork(artist);
  		 	addArtwork("/api/artwork",{data:$(this).prev().attr("data-id")}, "artworkContainer");
 
  		 	var display_artist = $(this).prev().attr("data-name");
 
- 		 	if ( $('#breadcrumbs').children().length > 2 ) {
+ 		 	if ( $('#breadcrumbs').children().length > 2 ){
  				$('#breadcrumbs span:last-child')[0].remove();
     			}
 
@@ -331,18 +307,12 @@ function init(){
  
  	}
 
- /**
- * Close current display windows, empty contents, move to prior display 
- *
- * @param pane String Container function called from
- * @return null
- */
+
+//Close current display windows, empty content
 function closePane(pane){
 
 		var paneToExpand = pane.prev();
 		var paneToExpand2 = pane;
-
-		console.log(paneToExpand.attr("data-name"));
 
 		$('#breadcrumbs span:last-child')[0].remove();
 
@@ -358,44 +328,30 @@ function closePane(pane){
 		}
 }
 
-/**
- * Close current display windows move to inital display 
- *
- * @param pane String Container function called from
- * @return null
- */
+
+//Close current display windows move to inital display 
 function transitionToEras(pane){
 
 		$("#eraColumn").animate({
 			"width": "100%"
-		},250,function()
-		{
-
-		$('#breadcrumbs span').remove();
-
-		movementsVisable = false;
-
+		},250,function(){
+			$('#breadcrumbs span').remove();
+			movementsVisable = false;
 		});
 		pane.children("div").animate({
 			"marginLeft": "20%"
 		});
 		pane.animate({
 			"width": "100%"
-		},250,function()
-		{
-			
+		},250,function(){
+
 		});
 }
 
-/**
-* Expand previous display window reset CSS attributes 
-*
-* @param paneToExpand String representing the previous pane function called from
-* @return null
-*/
+
+//Expand previous display window reset CSS attributes 
 function transitionToPrev(paneToExpand){
 
-		console.log(paneToExpand.attr("id"));
 		paneToExpand.prev().animate({
 			"width": "20%"
 		},250,function()
@@ -435,13 +391,8 @@ function transitionToPrev(paneToExpand){
 }
 
 
-/**
-* Minimize era display set attributes for movement display
-*
-* @param era Object data-id for image set
-* 
-* @return null
-*/
+
+//Minimize era display set attributes for movement display
 function transitionToMovements(era){
 
 		$("#eraColumn").animate({
@@ -467,13 +418,8 @@ function transitionToMovements(era){
 		})
 }
 
-/**
-* Minimize movement display set attributes for artists display
-*
-* @param era Object data-id for image set
-* 
-* @return null
-*/
+
+//Minimize movement display set attributes for artists display
 function transitionToArtists(movement){
 
 		$("#eraColumn").animate({
@@ -507,13 +453,8 @@ function transitionToArtists(movement){
 		});
 }
 
-/**
-* Minimize artist display set attributes for artwork display
-*
-* @param artist Object data-id for image set
-* 
-* @return null
-*/
+
+//Minimize artist display set attributes for artwork display
 function transitionToArtwork(artist){
 
 		$("#movementColumn").animate({
