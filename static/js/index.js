@@ -3,6 +3,7 @@ movementsVisable = false;
 	$(document).ready(function()
 	{
 		init();
+		resizeColumns();
 	});
 
 /**
@@ -90,9 +91,19 @@ function displayData(data, container){
 				if(numImgs == 1){
 					$(overlay).append("<p>" 
 						+ img.attr("data-name")
-						+ "</p>"+"<div>" + img.attr("dates") + "<br>" + img.attr("numImgs") + " " + "image" + "</div>");
+						+ "</p>"+"<div>" 
+						+ img.attr("dates") 
+						+ "<br>" 
+						+ img.attr("numImgs") +
+					    " " + "image" + "</div>");
 				}else{
-					$(overlay).append("<p>"+img.attr("data-name")+"</p>"+"<div>" + img.attr("dates") + "<br>" + img.attr("numImgs") + " " + "images" + "</div>");
+					$(overlay).append("<p>"
+						+img.attr("data-name")
+						+"</p>"+"<div>" 
+						+ img.attr("dates") 
+						+ "<br>" 
+						+ img.attr("numImgs") 
+						+ " " + "images" + "</div>");
 				}
 
 			$(imgContainer).append(img).append(overlay);
@@ -197,27 +208,28 @@ function displayArtwork(data, container){
 }
 
 
-// function resizeColumns(){
-// 	$( window ).resize(function() {
-// 		$('.fan').each(function(){
-// 		$(this).height(window.innerHeight-25);
-// 	    })
-//  	});
-// }
+function resizeColumns() {
 
-
-function setequalHeight(){
-	$('.fan').each(function(){
-		$(this).height(window.innerHeight-25);
-	})
-    // getting the height of browser window, 
-    // styling scroll bar
-    // $(this).height(window.innerHeight-25);
+	$( window ).resize(function(){
+		setequalHeight();
+		// $('.fan').each(function(){
+		// 	$(this).height(window.innerHeight-25);
+	 //    })
+ 	});
 }
 
 
-function init()
-	{
+function setequalHeight(){
+
+	$('.fan').each(function(){
+		$(this).height(window.innerHeight-25);
+	})
+    
+}
+
+
+function init(){
+
 		$('li#eraColumn>div>ul>li>img').click(function(evt)
 		{	
 				$("#columnWrapper>li").css({
@@ -225,8 +237,8 @@ function init()
 					"width":"100%"
 				});
 				$("#logo").css({
-					"width": "200px",
-					"padding-left": "5px",
+					"width": "300px",
+					"padding-left": "5%",
 					"padding-top":"10px",
 				});
 				$("#intro").remove();
@@ -241,29 +253,44 @@ function init()
 				$("#columnWrapper,#columnWrapper>li>ul,#columnWrapper>li>div>ul").css({
 					"height": "auto"
 				});
+
 			setequalHeight();
+
 			var era = $(this).attr("data-era");
 			transitionToMovements(era);
-			
 			addArtwork("/api/movements", {"data":era}, "movementContainer");
+
+			var display_era = $(this).attr("data-name");
+			$('#breadcrumbs').append("<span>"+ display_era+ "</span>"); 
 		
 		});
+
 		$('#closeMovements,#closeArtists,#closeArtwork').click(function(evt)
 		{
 			closePane($(this).parent());
 		});
+
+///////		
  		$("#movementColumn").on("click", ".fan .overlay", function()
  		{
  			var movement = $(this).prev().attr("data-id")
  			transitionToArtists(movement);
  			addArtwork("/api/artists",{"data":movement}, "artistContainer");
+
+ 			var display_movement = $(this).prev().attr("data-name");
+ 			$('#breadcrumbs').append("<span>"+ display_movement +"</span>");
  		});
+
+
  		$("#artistColumn").on("click", ".fan .overlay", function()	 			
  		{ 
  			var artist = $(this).prev().attr("data-id");
  			console.log(artist);
  		 	transitionToArtwork(artist);
  		 	addArtwork("/api/artwork",{data:$(this).prev().attr("data-id")}, "artworkContainer");
+
+ 		 	var display_artist = $(this).prev().attr("data-name");
+ 			$('#breadcrumbs').append("<span>"+ display_artist+"</span>") ;
  		});
  
  	}
@@ -272,7 +299,11 @@ function closePane(pane){
 
 		var paneToExpand = pane.prev();
 		var paneToExpand2 = pane;
-		// console.log(paneToExpand.attr("id"));
+
+		console.log(paneToExpand.attr("data-name"));
+
+		$('#breadcrumbs span:last-child')[0].remove();
+
 		pane.find(".fan").empty();
 		switch (paneToExpand.attr("id"))
 		{
@@ -297,7 +328,11 @@ function transitionToEras(pane){
 			"width": "100%"
 		},250,function()
 		{
-			movementsVisable = false;
+
+		$('#breadcrumbs span').remove();
+
+		movementsVisable = false;
+
 		});
 		pane.children("div").animate({
 			"marginLeft": "20%"

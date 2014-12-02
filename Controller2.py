@@ -4,13 +4,14 @@ import model
 from sqlalchemy.orm import subqueryload
 import json
 import random
+import os
 
 import logging
 logging.basicConfig()
 logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 
 app = Flask(__name__)
-app.secret_key = 'some_secret'
+app.secret_key = os.environ.get('some_secret')
 
     
 @app.context_processor
