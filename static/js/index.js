@@ -86,7 +86,7 @@ function displayData(data, container){
 			});
 
 			var overlay = document.createElement('div');
-			$(overlay).addClass('overlay');
+			$(overlay).addClass('stats_overlay');
 
 				if(numImgs == 1){
 					$(overlay).append("<p>" 
@@ -110,7 +110,7 @@ function displayData(data, container){
 			
 			
 		} else {
-//MOVEMENTS 
+
 			var imgContainer = document.createElement('figure');
 			$(imgContainer).addClass('imgContainer');
 
@@ -124,11 +124,8 @@ function displayData(data, container){
 			});
 
 			var overlay = document.createElement('div');
-			$(overlay).addClass('overlay');
+			$(overlay).addClass('stats_overlay');
 
-			// var icon = $(new Image()).attr({
-			// 	"src" : "../static/img/expand_icon.png"
-			// });
 				if(numArtist == 1){
 					$(overlay).append("<p>"+img.attr("data-name")+"</p>" + "<div>" + img.attr("numArtist") + " " + "artist" + "</div>");
 				}else{
@@ -230,7 +227,8 @@ function setequalHeight(){
 
 function init(){
 
-		$('li#eraColumn>div>ul>li>img').click(function(evt)
+		// $('li#eraColumn>div>ul>li>img').click(function(evt)
+		$('.overlay').click(function(evt)
 		{	
 				$("#columnWrapper>li").css({
 					"position":"absolute",
@@ -250,17 +248,20 @@ function init(){
 					"padding":"0",
 					"height": "auto"
 				});
+
+				$('#columnWrapper>li#eraColumn>div').addClass('fan');
+
 				$("#columnWrapper,#columnWrapper>li>ul,#columnWrapper>li>div>ul").css({
 					"height": "auto"
 				});
 
 			setequalHeight();
 
-			var era = $(this).attr("data-era");
+			var era = $(this).prev().attr("data-era");
 			transitionToMovements(era);
 			addArtwork("/api/movements", {"data":era}, "movementContainer");
 
-			var display_era = $(this).attr("data-name");
+			var display_era = $(this).prev().attr("data-name");
 			$('#breadcrumbs').empty()
 			$('#breadcrumbs').append("<span>"+ display_era+ "</span>"); 
 		
@@ -272,7 +273,7 @@ function init(){
 		});
 
 ///////		
- 		$("#movementColumn").on("click", ".fan .overlay", function() {
+ 		$("#movementColumn").on("click", ".fan .stats_overlay", function() {
  		
  			var movement = $(this).prev().attr("data-id")
  			transitionToArtists(movement);
@@ -288,7 +289,7 @@ function init(){
  		});
 
 
- 		$("#artistColumn").on("click", ".fan .overlay", function()	 			
+ 		$("#artistColumn").on("click", ".fan .stats_overlay", function()	 			
  		{ 
  			var artist = $(this).prev().attr("data-id");
  			console.log(artist);
@@ -381,14 +382,14 @@ function transitionToPrev(paneToExpand){
 		paneToExpand.find(".imgContainer>img").css({
 			"width": "150%"
 		});
-		paneToExpand.find(".overlay").css({
+		paneToExpand.find(".stats_overlay").css({
 			"width": "156%",
 			"left": "0%"
 		});
-		paneToExpand.find(".overlay>p").css({
+		paneToExpand.find(".stats_overlay>p").css({
 			"font-size":"2.5em",
 		});
-		paneToExpand.find(".overlay>div").css({
+		paneToExpand.find(".stats_overlay>div").css({
 			"font-size":"1.5em",
 		});
 }
@@ -442,11 +443,11 @@ function transitionToArtists(movement){
 			"width": "70%",
 			
 		});
-		$("#movementColumn .overlay").css({
+		$("#movementColumn .stats_overlay").css({
 			"width": "80%",
 			"left":"10%",
 		});
-		$("#movementColumn .overlay>*").css({
+		$("#movementColumn .stats_overlay>*").css({
 			"font-size":"18px"
 		});
 }
@@ -476,11 +477,11 @@ function transitionToArtwork(artist){
 			"width": "70%",
 			
 		});
-		$("#artistColumn .overlay").css({
+		$("#artistColumn .stats_overlay").css({
 			"width": "80%",
 			"left":"10%"
 		});
-		$("#artistColumn .overlay>*").css({
+		$("#artistColumn .stats_overlay>*").css({
 			"font-size":"18px"
 		});
 			
