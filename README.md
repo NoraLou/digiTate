@@ -2,11 +2,11 @@ digiTate
 ========
 ###Project Overview
 
- digiTate is  Art History exploration app based on open source data from London’s Tate museum.  As an avid museum goer and technologist, I was excited to discover that the Tate had publicly released meta-data for 70,000 artworks and wanted to make a contribution.  This responsive one-page app, offers users from around the globe a playful, visually intuitive way to explore London’s cultural treasures from the 16th to 20th centuries.
+digiTate is  Art History exploration app based on open source data from London’s Tate museum.  As an avid museum goer and technologist, I was excited to discover that the Tate had publicly released meta-data for 70,000 artworks and wanted to make a contribution.  This responsive one-page app, offers users from around the globe a playful, visually intuitive way to explore London’s cultural treasures from the 16th to 20th centuries.
  
 digiTate features a custom-built “fan” navigation system that allows users to visually browse the massive image set quickly.  Layers of information are initially nested on top of each other like closed fan.  As a user drills-down into a selected time period, layers of the fan animate open and dynamically display data based on the user’s selections.  The responsive front-end structure is based on CSS3’s z-index and flexbox properties.  Ajax allows users to seamlessly switch image sets or rapidly drill-back across fan layers.  Javascript DOM manipulation is thoughtfully employed to optimize browser memory and performance.
 
-I choose a relational database for the backend and carefully crafted the data model to reflect the complex relationships between historical periods, cultural movements, individual artists, and artworks.  Using Python’s OS module I created a program to loop through files of meta-data and extract the specific information I needed to build out these relationships and give the app its specific drill-down structure.  Custom class attributes and methods were created to optimize the quick availability of data on the front-end.
+I choose a relational database for the backend and crafted the data model to reflect the complex relationships between historical periods, cultural movements, individual artists, and artworks.  Using Python’s OS module I created a program to loop through files of meta-data and extract the specific information I needed to build out these relationships and give the app its specific drill-down structure.  Custom class attributes and methods were created to optimize the quick availability of data on the front-end.
 
 ###Stack:
     
