@@ -1,14 +1,20 @@
 digiTate
 ========
-###Overview
+###Project Overview
 
-  digiTate is an Art History exploration app based on open source data from London’s Tate museum.  This responsive one-page app, offers users a playful, intuitive way to visually explore artworks from the 16th to 20th century. The custom navigation system was created in an inventive "fan" layout structure that allows users to visually browse a massive image set quickly.  The data model was carefully crafted to reflect the complex relationships between historical periods, cultural movements, individual artists, and artworks, and to optimize the quick availability of data on the front-end. Ajax allows users to seamlessly browse images and quickly drill-down into related topics to rapidly grasp the historical and cultural context of an artwork and discover new connections.
+ digiTate is  Art History exploration app based on open source data from London’s Tate museum.  As an avid museum goer and technologist, I was excited to discover that the Tate had publicly released meta-data for 70,000 artworks and wanted to make a contribution.  This responsive one-page app, offers users from around the globe a playful, visually intuitive way to explore London’s cultural treasures from the 16th to 20th centuries.
+ 
+digiTate features a custom-built “fan” navigation system that allows users to visually browse the massive image set quickly.  Layers of information are initially nested on top of each other like closed fan.  As a user drills-down into a selected time period, layers of the fan animate open and dynamically display data based on the user’s selections.  The responsive front-end structure is based on CSS3’s z-index and flexbox properties.  Ajax allows users to seamlessly switch image sets or rapidly drill-back across fan layers.  Javascript DOM manipulation is thoughtfully employed to optimize browser memory and performance.
 
-###Technologies Used:
+I choose a relational database for the backend and carefully crafted the data model to reflect the complex relationships between historical periods, cultural movements, individual artists, and artworks.  Using Python’s OS module I created a program to loop through files of meta-data and extract the specific information I needed to build out these relationships and give the app its specific drill-down structure.  Custom class attributes and methods were created to optimize the quick availability of data on the front-end.
 
-Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, SQLite, CSS3, HTML5
+###Stack:
+    
+Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, SQLite3, CSS3, HTML5
 
+###
 
+###Screenshots: 
 ![](https://raw.githubusercontent.com/NoraLou/digiTate/master/Github.jpg)
 
 ![](https://raw.githubusercontent.com/NoraLou/digiTate/master/Github3.jpg)
