@@ -2,6 +2,5 @@ env/
 .DS_Store
 *.pyc
 collection-master/
-img/
 artist_data.csv
 artwork_data.csv
