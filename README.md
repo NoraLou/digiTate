@@ -19,7 +19,7 @@ Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, SQLite3, CSS3, HTML5
 
 ![](https://github.com/NoraLou/digiTate/blob/master/screenshots/Github3.jpg)
 
-<img src = "/screenshots/gif/750px/18sec 720.gif">
+<!--<img src = "/screenshots/gif/750px/18sec_1080.gif">-->
 
 ###Installation 
 
