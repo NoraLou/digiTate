@@ -1,4 +1,5 @@
 
+
 movementsVisable = false;
 	$(document).ready(function(){
 		init();
