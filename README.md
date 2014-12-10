@@ -17,7 +17,8 @@ Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, SQLite3, CSS3, HTML5
 ###Screenshots: 
 <p align="center">
   <img align="center" src="/screenshots/Github.jpg" alt="Overview layer">
-  <img align="center" src="/screenshots/Github3.jpg" alt="Artist's page">
+  <br/>
+  <img align="center" src="/screenshots/gif/Best_Screencast.gif" alt="Artist's page">
 </p>
   
 
