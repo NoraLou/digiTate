@@ -15,9 +15,11 @@ Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, SQLite3, CSS3, HTML5
 ###
 
 ###Screenshots: 
-![](https://github.com/NoraLou/digiTate/blob/master/screenshots/Github.jpg)
-
-![](https://github.com/NoraLou/digiTate/blob/master/screenshots/Github3.jpg)
+<p align="center">
+  <img align="center" src="/screenshots/Github.jpg" alt="Overview layer">
+  <img align="center" src="/screenshots/Github3.jpg" alt="Artist's page">
+</p>
+  
 
 <!--<img src = "/screenshots/gif/750px/18sec_1080.gif">-->
 
