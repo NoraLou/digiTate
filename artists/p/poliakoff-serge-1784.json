@@ -1,0 +1,49 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "France", 
+      "placeName": "France", 
+      "placeType": "nation"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Moskva, Rossiya", 
+      "placeName": "Moskva", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1900
+    }
+  }, 
+  "birthYear": 1900, 
+  "date": "1900\u20131969", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1969
+    }
+  }, 
+  "fc": "Serge Poliakoff", 
+  "gender": "Male", 
+  "id": 1784, 
+  "mda": "Poliakoff, Serge", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 8454, 
+      "name": "Art Informel"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/serge-poliakoff-1784"
+}

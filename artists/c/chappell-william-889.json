@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wolverhampton, United Kingdom", 
+      "placeName": "Wolverhampton", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1907
+    }
+  }, 
+  "birthYear": 1907, 
+  "date": "1907\u20131994", 
+  "death": {
+    "place": {
+      "name": "Rye, United Kingdom", 
+      "placeName": "Rye", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1994
+    }
+  }, 
+  "fc": "William Chappell", 
+  "gender": "Male", 
+  "id": 889, 
+  "mda": "Chappell, William", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-chappell-889"
+}

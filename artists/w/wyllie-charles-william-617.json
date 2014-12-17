@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1853
+    }
+  }, 
+  "birthYear": 1853, 
+  "date": "1853\u20131923", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1923
+    }
+  }, 
+  "fc": "Charles William Wyllie", 
+  "gender": "Male", 
+  "id": 617, 
+  "mda": "Wyllie, Charles William", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/charles-william-wyllie-617"
+}

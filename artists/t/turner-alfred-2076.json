@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1874
+    }
+  }, 
+  "birthYear": 1874, 
+  "date": "1874\u20131940", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1940
+    }
+  }, 
+  "fc": "Alfred Turner", 
+  "gender": "Male", 
+  "id": 2076, 
+  "mda": "Turner, Alfred", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/alfred-turner-2076"
+}

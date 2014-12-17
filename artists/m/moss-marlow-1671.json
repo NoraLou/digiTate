@@ -1,0 +1,58 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Surrey, United Kingdom", 
+      "placeName": "Surrey", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1889
+    }
+  }, 
+  "birthYear": 1889, 
+  "date": "1889\u20131958", 
+  "death": {
+    "place": {
+      "name": "Penzance, United Kingdom", 
+      "placeName": "Penzance", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1958
+    }
+  }, 
+  "fc": "Marlow Moss", 
+  "gender": "Female", 
+  "id": 1671, 
+  "mda": "Moss, Marlow", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 298, 
+      "name": "Constructivism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 6277, 
+      "name": "Neo-Plasticism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 441, 
+      "name": "St Ives School"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/marlow-moss-1671"
+}

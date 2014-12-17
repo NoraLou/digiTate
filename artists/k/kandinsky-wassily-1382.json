@@ -1,0 +1,75 @@
+{
+  "activePlaceCount": 3, 
+  "activePlaces": [
+    {
+      "name": "France", 
+      "placeName": "France", 
+      "placeType": "nation"
+    }, 
+    {
+      "name": "Deutschland", 
+      "placeName": "Deutschland", 
+      "placeType": "nation"
+    }, 
+    {
+      "name": "Moskva, Rossiya", 
+      "placeName": "Moskva", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Moskva, Rossiya", 
+      "placeName": "Moskva", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1866
+    }
+  }, 
+  "birthYear": 1866, 
+  "date": "1866\u20131944", 
+  "death": {
+    "place": {
+      "name": "Neuilly-sur-Seine, France", 
+      "placeName": "Neuilly-sur-Seine", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1944
+    }
+  }, 
+  "fc": "Wassily Kandinsky", 
+  "gender": "Male", 
+  "id": 1382, 
+  "mda": "Kandinsky, Wassily", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 294, 
+      "name": "Bauhaus"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 301, 
+      "name": "Blaue Reiter, Der"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 298, 
+      "name": "Constructivism"
+    }
+  ], 
+  "startLetter": "K", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/wassily-kandinsky-1382"
+}

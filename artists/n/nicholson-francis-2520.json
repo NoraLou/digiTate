@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1753
+    }
+  }, 
+  "birthYear": 1753, 
+  "date": "1753\u20131844", 
+  "death": {
+    "place": {
+      "name": "London", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1844
+    }
+  }, 
+  "fc": "Francis Nicholson", 
+  "gender": "Male", 
+  "id": 2520, 
+  "mda": "Nicholson, Francis", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/francis-nicholson-2520"
+}

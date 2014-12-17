@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Great Britain, United Kingdom", 
+      "placeName": "Great Britain", 
+      "placeType": "island"
+    }
+  ], 
+  "birth": {
+    "time": {
+      "startYear": 1708
+    }
+  }, 
+  "birthYear": 1708, 
+  "date": "active 1708\u2013?1752", 
+  "death": {
+    "time": {
+      "startYear": 1752
+    }
+  }, 
+  "fc": "John Devoto", 
+  "gender": "Male", 
+  "id": 2542, 
+  "mda": "Devoto, John", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-devoto-2542"
+}

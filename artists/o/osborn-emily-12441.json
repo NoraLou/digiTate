@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1828
+    }
+  }, 
+  "birthYear": 1828, 
+  "date": "1828\u20131925", 
+  "death": {
+    "time": {
+      "startYear": 1925
+    }
+  }, 
+  "fc": "Emily Mary Osborn", 
+  "gender": "Female", 
+  "id": 12441, 
+  "mda": "Osborn, Emily", 
+  "movements": [], 
+  "startLetter": "O", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/emily-mary-osborn-12441"
+}

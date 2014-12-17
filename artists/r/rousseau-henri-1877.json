@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Laval, France", 
+      "placeName": "Laval", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1844
+    }
+  }, 
+  "birthYear": 1844, 
+  "date": "1844\u20131910", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "fc": "Henri Rousseau (`Le Douanier')", 
+  "gender": "Male", 
+  "id": 1877, 
+  "mda": "Rousseau, Henri", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1690, 
+      "name": "Naive"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/henri-rousseau-le-douanier-1877"
+}

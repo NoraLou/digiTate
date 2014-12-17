@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1862
+    }
+  }, 
+  "birthYear": 1862, 
+  "date": "1862\u20131931", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1931
+    }
+  }, 
+  "fc": "Maurice Greiffenhagen", 
+  "gender": "Male", 
+  "id": 1218, 
+  "mda": "Greiffenhagen, Maurice", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/maurice-greiffenhagen-1218"
+}

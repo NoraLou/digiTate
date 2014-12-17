@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "United Kingdom", 
+      "placeName": "United Kingdom", 
+      "placeType": "nation"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Tel Aviv, Mehoz, Yisra'el", 
+      "placeName": "Tel Aviv, Mehoz", 
+      "placeType": "national_district"
+    }, 
+    "time": {
+      "startYear": 1967
+    }
+  }, 
+  "birthYear": 1967, 
+  "date": "born 1967", 
+  "fc": "Ori Gersht", 
+  "gender": "Male", 
+  "id": 4643, 
+  "mda": "Gersht, Ori", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/ori-gersht-4643"
+}

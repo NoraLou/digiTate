@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1742
+    }
+  }, 
+  "birthYear": 1742, 
+  "date": "1742\u2013after 1828", 
+  "death": {
+    "time": {
+      "startYear": 1829
+    }
+  }, 
+  "fc": "Charles Gill", 
+  "gender": "Male", 
+  "id": 210, 
+  "mda": "Gill, Charles", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/charles-gill-210"
+}

@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Exeter, United Kingdom", 
+      "placeName": "Exeter", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1547
+    }
+  }, 
+  "birthYear": 1547, 
+  "date": "c.1547\u20131619", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1619
+    }
+  }, 
+  "fc": "Nicholas Hilliard", 
+  "gender": "Male", 
+  "id": 259, 
+  "mda": "Hilliard, Nicholas", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 400, 
+      "name": "Court"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 414, 
+      "name": "Tudor"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/nicholas-hilliard-259"
+}

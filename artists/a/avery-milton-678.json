@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Altmar, United States", 
+      "placeName": "Altmar", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1893
+    }
+  }, 
+  "birthYear": 1893, 
+  "date": "1893\u20131965", 
+  "death": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1965
+    }
+  }, 
+  "fc": "Milton Avery", 
+  "gender": "Male", 
+  "id": 678, 
+  "mda": "Avery, Milton", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/milton-avery-678"
+}

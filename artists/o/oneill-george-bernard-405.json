@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1828
+    }
+  }, 
+  "birthYear": 1828, 
+  "date": "1828\u20131917", 
+  "death": {
+    "time": {
+      "startYear": 1917
+    }
+  }, 
+  "fc": "George Bernard O'Neill", 
+  "gender": "Male", 
+  "id": 405, 
+  "mda": "O'Neill, George Bernard", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "O", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/george-bernard-oneill-405"
+}

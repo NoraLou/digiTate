@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Gross Enzersdorf, \u00d6sterreich", 
+      "placeName": "Gross Enzersdorf", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "birthYear": 1934, 
+  "date": "1934\u20132007", 
+  "death": {
+    "place": {
+      "name": "Wien, \u00d6sterreich", 
+      "placeName": "Wien", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2007
+    }
+  }, 
+  "fc": "Adolf Frohner", 
+  "gender": "Male", 
+  "id": 1125, 
+  "mda": "Frohner, Adolf", 
+  "movements": [], 
+  "startLetter": "F", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/adolf-frohner-1125"
+}

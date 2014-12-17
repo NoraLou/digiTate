@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1500
+    }
+  }, 
+  "birthYear": 1500, 
+  "date": "1500\u20131599", 
+  "death": {
+    "time": {
+      "startYear": 1599
+    }
+  }, 
+  "fc": "British School 16th century", 
+  "gender": null, 
+  "id": 56, 
+  "mda": "British School 16th century", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 408, 
+      "name": "Post-Reformation"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 414, 
+      "name": "Tudor"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/british-school-16th-century-56"
+}

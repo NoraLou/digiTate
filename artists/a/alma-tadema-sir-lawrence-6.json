@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dronrijp, Nederland", 
+      "placeName": "Dronrijp", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1836
+    }
+  }, 
+  "birthYear": 1836, 
+  "date": "1836\u20131912", 
+  "death": {
+    "place": {
+      "name": "Wiesbaden, Deutschland", 
+      "placeName": "Wiesbaden", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1912
+    }
+  }, 
+  "fc": "Sir Lawrence Alma-Tadema", 
+  "gender": "Male", 
+  "id": 6, 
+  "mda": "Alma-Tadema, Sir Lawrence", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/sir-lawrence-alma-tadema-6"
+}

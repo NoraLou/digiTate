@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1790
+    }
+  }, 
+  "birthYear": 1790, 
+  "date": "c.1790\u20131850", 
+  "death": {
+    "time": {
+      "startYear": 1850
+    }
+  }, 
+  "fc": "Samuel Joseph", 
+  "gender": "Male", 
+  "id": 302, 
+  "mda": "Joseph, Samuel", 
+  "movements": [], 
+  "startLetter": "J", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/samuel-joseph-302"
+}

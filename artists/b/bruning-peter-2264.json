@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "D\u00fcsseldorf, Deutschland", 
+      "placeName": "D\u00fcsseldorf", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1929
+    }
+  }, 
+  "birthYear": 1929, 
+  "date": "1929\u20131970", 
+  "death": {
+    "place": {
+      "name": "Ratingen, Deutschland", 
+      "placeName": "Ratingen", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1970
+    }
+  }, 
+  "fc": "Peter Br\u00fcning", 
+  "gender": "Male", 
+  "id": 2264, 
+  "mda": "Br\u00fcning, Peter", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/peter-bruning-2264"
+}

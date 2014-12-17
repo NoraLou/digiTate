@@ -1,0 +1,62 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Moskva, Rossiya", 
+      "placeName": "Moskva", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Tula, Rossiya", 
+      "placeName": "Tula", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1881
+    }
+  }, 
+  "birthYear": 1881, 
+  "date": "1881\u20131962", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1962
+    }
+  }, 
+  "fc": "Natalya Goncharova", 
+  "gender": "Female", 
+  "id": 1186, 
+  "mda": "Goncharova, Natalya", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 4229, 
+      "name": "Post-Impressionism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 316, 
+      "name": "Rayonism"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/natalya-goncharova-1186"
+}

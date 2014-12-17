@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "K\u00f6ln, Deutschland", 
+      "placeName": "K\u00f6ln", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1951
+    }
+  }, 
+  "birthYear": 1951, 
+  "date": "born 1951", 
+  "fc": "Astrid Klein", 
+  "gender": "Female", 
+  "id": 2210, 
+  "mda": "Klein, Astrid", 
+  "movements": [], 
+  "startLetter": "K", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/astrid-klein-2210"
+}

@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Pennsylvania, United States", 
+      "placeName": "Pennsylvania", 
+      "placeType": "state"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Hahira, United States", 
+      "placeName": "Hahira", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1957
+    }
+  }, 
+  "birthYear": 1957, 
+  "date": "born 1957", 
+  "fc": "J. Morgan Puett", 
+  "gender": "Female", 
+  "id": 8470, 
+  "mda": "Puett, J. Morgan", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 8, 
+  "url": "http://www.tate.org.uk/art/artists/j-morgan-puett-8470"
+}

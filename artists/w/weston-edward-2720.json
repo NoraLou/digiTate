@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "California, United States", 
+      "placeName": "California", 
+      "placeType": "state"
+    }, 
+    {
+      "name": "M\u00e9xico", 
+      "placeName": "M\u00e9xico", 
+      "placeType": "nation"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Highland Park, United States", 
+      "placeName": "Highland Park", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1886
+    }
+  }, 
+  "birthYear": 1886, 
+  "date": "1886\u20131958", 
+  "death": {
+    "place": {
+      "name": "Carmel, United States", 
+      "placeName": "Carmel", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1958
+    }
+  }, 
+  "fc": "Edward Weston", 
+  "gender": "Male", 
+  "id": 2720, 
+  "mda": "Weston, Edward", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/edward-weston-2720"
+}

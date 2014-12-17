@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1749
+    }
+  }, 
+  "birthYear": 1749, 
+  "date": "1749\u20131833", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1833
+    }
+  }, 
+  "fc": "Philip Reinagle", 
+  "gender": "Male", 
+  "id": 2604, 
+  "mda": "Reinagle, Philip", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 340, 
+      "name": "Conversation Piece"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/philip-reinagle-2604"
+}

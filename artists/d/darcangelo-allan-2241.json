@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Buffalo, United States", 
+      "placeName": "Buffalo", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1930
+    }
+  }, 
+  "birthYear": 1930, 
+  "date": "born 1930", 
+  "death": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }
+  }, 
+  "fc": "Allan D'Arcangelo", 
+  "gender": "Male", 
+  "id": 2241, 
+  "mda": "D'Arcangelo, Allan", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/allan-darcangelo-2241"
+}

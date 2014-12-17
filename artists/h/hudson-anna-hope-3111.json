@@ -1,0 +1,52 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Great Britain, United Kingdom", 
+      "placeName": "Great Britain", 
+      "placeType": "island"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1869
+    }
+  }, 
+  "birthYear": 1869, 
+  "date": "1869\u20131957", 
+  "death": {
+    "time": {
+      "startYear": 1957
+    }
+  }, 
+  "fc": "Anna Hope Hudson", 
+  "gender": "Female", 
+  "id": 3111, 
+  "mda": "Hudson, Anna Hope", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 297, 
+      "name": "Camden Town Group"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 9312, 
+      "name": "London Group"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/anna-hope-hudson-3111"
+}

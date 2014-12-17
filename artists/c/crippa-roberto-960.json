@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Monza, Italia", 
+      "placeName": "Monza", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1921
+    }
+  }, 
+  "birthYear": 1921, 
+  "date": "1921\u20131972", 
+  "death": {
+    "place": {
+      "name": "Bresso, Italia", 
+      "placeName": "Bresso", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1972
+    }
+  }, 
+  "fc": "Roberto Crippa", 
+  "gender": "Male", 
+  "id": 960, 
+  "mda": "Crippa, Roberto", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 4246, 
+      "name": "Spazialismo"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/roberto-crippa-960"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1921
+    }
+  }, 
+  "birthYear": 1921, 
+  "date": "1921\u20131993", 
+  "death": {
+    "time": {
+      "startYear": 1993
+    }
+  }, 
+  "fc": "Ghisha Koenig", 
+  "gender": "Female", 
+  "id": 1428, 
+  "mda": "Koenig, Ghisha", 
+  "movements": [], 
+  "startLetter": "K", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/ghisha-koenig-1428"
+}

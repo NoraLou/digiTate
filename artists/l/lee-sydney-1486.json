@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Manchester, United Kingdom", 
+      "placeName": "Manchester", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1866
+    }
+  }, 
+  "birthYear": 1866, 
+  "date": "1866\u20131949", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1949
+    }
+  }, 
+  "fc": "Sydney Lee", 
+  "gender": "Male", 
+  "id": 1486, 
+  "mda": "Lee, Sydney", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/sydney-lee-1486"
+}

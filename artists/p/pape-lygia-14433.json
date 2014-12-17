@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Nova Friburgo, Brasil", 
+      "placeName": "Nova Friburgo", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1927
+    }
+  }, 
+  "birthYear": 1927, 
+  "date": "1927\u20132004", 
+  "death": {
+    "place": {
+      "name": "Rio de Janeiro, Brasil", 
+      "placeName": "Rio de Janeiro", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2004
+    }
+  }, 
+  "fc": "Lygia Pape", 
+  "gender": "Female", 
+  "id": 14433, 
+  "mda": "Pape, Lygia", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 17894, 
+      "name": "Neo-Concretism"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/lygia-pape-14433"
+}

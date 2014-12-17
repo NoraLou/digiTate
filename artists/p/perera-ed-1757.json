@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Sri Lanka", 
+      "placeName": "Sri Lanka", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1936
+    }
+  }, 
+  "birthYear": 1936, 
+  "date": "born 1936", 
+  "fc": "Ed Perera", 
+  "gender": "Male", 
+  "id": 1757, 
+  "mda": "Perera, Ed", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/ed-perera-1757"
+}

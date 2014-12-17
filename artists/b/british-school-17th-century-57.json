@@ -1,0 +1,64 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1600
+    }
+  }, 
+  "birthYear": 1600, 
+  "date": "1600\u20131699", 
+  "death": {
+    "time": {
+      "startYear": 1699
+    }
+  }, 
+  "fc": "British School 17th century", 
+  "gender": null, 
+  "id": 57, 
+  "mda": "British School 17th century", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 412, 
+      "name": "Early Stuart"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 413, 
+      "name": "Later Stuart"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 409, 
+      "name": "Regional"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 411, 
+      "name": "Restoration"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 414, 
+      "name": "Tudor"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 24, 
+  "url": "http://www.tate.org.uk/art/artists/british-school-17th-century-57"
+}

@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Reading, United Kingdom", 
+      "placeName": "Reading", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1909
+    }
+  }, 
+  "birthYear": 1909, 
+  "date": "1909\u20131952", 
+  "death": {
+    "time": {
+      "startYear": 1952
+    }
+  }, 
+  "fc": "Geoffrey Tibble", 
+  "gender": "Male", 
+  "id": 2041, 
+  "mda": "Tibble, Geoffrey", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 304, 
+      "name": "Euston Road School"
+    }
+  ], 
+  "startLetter": "T", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/geoffrey-tibble-2041"
+}

@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Jylland, Danmark", 
+      "placeName": "Jylland", 
+      "placeType": "peninsula"
+    }, 
+    "time": {
+      "startYear": 1914
+    }
+  }, 
+  "birthYear": 1914, 
+  "date": "1914\u20131973", 
+  "death": {
+    "place": {
+      "name": "\u00c5rhus, Danmark", 
+      "placeName": "\u00c5rhus", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1973
+    }
+  }, 
+  "fc": "Asger Jorn", 
+  "gender": "Male", 
+  "id": 1375, 
+  "mda": "Jorn, Asger", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 420, 
+      "name": "Cobra"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 16648, 
+      "name": "Situationist International"
+    }
+  ], 
+  "startLetter": "J", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/asger-jorn-1375"
+}

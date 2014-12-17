@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Sydney, Australia", 
+      "placeName": "Sydney", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1939
+    }
+  }, 
+  "birthYear": 1939, 
+  "date": "1939\u20131992", 
+  "death": {
+    "place": {
+      "name": "Thirroul, Australia", 
+      "placeName": "Thirroul", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1992
+    }
+  }, 
+  "fc": "Brett Whiteley", 
+  "gender": "Male", 
+  "id": 2142, 
+  "mda": "Whiteley, Brett", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 18, 
+  "url": "http://www.tate.org.uk/art/artists/brett-whiteley-2142"
+}

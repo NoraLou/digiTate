@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1863
+    }
+  }, 
+  "birthYear": 1863, 
+  "date": "1863\u20131920", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1920
+    }
+  }, 
+  "fc": "Herbert Draper", 
+  "gender": "Male", 
+  "id": 1029, 
+  "mda": "Draper, Herbert", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/herbert-draper-1029"
+}

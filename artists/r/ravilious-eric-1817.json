@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Acton, United Kingdom", 
+      "placeName": "Acton", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1903
+    }
+  }, 
+  "birthYear": 1903, 
+  "date": "1903\u20131942", 
+  "death": {
+    "time": {
+      "startYear": 1942
+    }
+  }, 
+  "fc": "Eric Ravilious", 
+  "gender": "Male", 
+  "id": 1817, 
+  "mda": "Ravilious, Eric", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/eric-ravilious-1817"
+}

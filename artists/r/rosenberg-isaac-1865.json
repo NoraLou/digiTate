@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bristol, United Kingdom", 
+      "placeName": "Bristol", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1890
+    }
+  }, 
+  "birthYear": 1890, 
+  "date": "1890\u20131918", 
+  "death": {
+    "time": {
+      "startYear": 1918
+    }
+  }, 
+  "fc": "Isaac Rosenberg", 
+  "gender": "Male", 
+  "id": 1865, 
+  "mda": "Rosenberg, Isaac", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/isaac-rosenberg-1865"
+}

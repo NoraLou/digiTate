@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Breda, Nederland", 
+      "placeName": "Breda", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1662
+    }
+  }, 
+  "birthYear": 1662, 
+  "date": "active 1662\u20131708", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1708
+    }
+  }, 
+  "fc": "Edward Collier", 
+  "gender": "Male", 
+  "id": 100, 
+  "mda": "Collier, Edward", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 413, 
+      "name": "Later Stuart"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 406, 
+      "name": "Netherlands-trained, working in Britain"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/edward-collier-100"
+}

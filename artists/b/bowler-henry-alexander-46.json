@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kensington", 
+      "placeName": "Kensington", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1824
+    }
+  }, 
+  "birthYear": 1824, 
+  "date": "1824\u20131903", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1903
+    }
+  }, 
+  "fc": "Henry Alexander Bowler", 
+  "gender": "Male", 
+  "id": 46, 
+  "mda": "Bowler, Henry Alexander", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 363, 
+      "name": "Pre-Raphaelite Brotherhood"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/henry-alexander-bowler-46"
+}

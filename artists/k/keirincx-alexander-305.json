@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Antwerpen, Belgi\u00eb", 
+      "placeName": "Antwerpen", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1600
+    }
+  }, 
+  "birthYear": 1600, 
+  "date": "1600\u20131652", 
+  "death": {
+    "place": {
+      "name": "Amsterdam, Nederland", 
+      "placeName": "Amsterdam", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1652
+    }
+  }, 
+  "fc": "Alexander Keirincx", 
+  "gender": "Male", 
+  "id": 305, 
+  "mda": "Keirincx, Alexander", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 412, 
+      "name": "Early Stuart"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 406, 
+      "name": "Netherlands-trained, working in Britain"
+    }
+  ], 
+  "startLetter": "K", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/alexander-keirincx-305"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kensington, United Kingdom", 
+      "placeName": "Kensington", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1886
+    }
+  }, 
+  "birthYear": 1886, 
+  "date": "1886\u20131917", 
+  "death": {
+    "time": {
+      "startYear": 1917
+    }
+  }, 
+  "fc": "Donald Maclaren", 
+  "gender": "Male", 
+  "id": 1549, 
+  "mda": "Maclaren, Donald", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/donald-maclaren-1549"
+}

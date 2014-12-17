@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "El Manteco, Venezuela", 
+      "placeName": "El Manteco", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1921
+    }
+  }, 
+  "birthYear": 1921, 
+  "date": "1921\u20131990", 
+  "death": {
+    "place": {
+      "name": "Caracas, Venezuela", 
+      "placeName": "Caracas", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1990
+    }
+  }, 
+  "fc": "Alejandro Otero", 
+  "gender": "Male", 
+  "id": 10612, 
+  "mda": "Otero, Alejandro", 
+  "movements": [], 
+  "startLetter": "O", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/alejandro-otero-10612"
+}

@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Helsinki, Suomi", 
+      "placeName": "Helsinki", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "H\u00e4meenlinna, Suomi", 
+      "placeName": "H\u00e4meenlinna", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1959
+    }
+  }, 
+  "birthYear": 1959, 
+  "date": "born 1959", 
+  "fc": "Eija-Liisa Ahtila", 
+  "gender": "Female", 
+  "id": 3098, 
+  "mda": "Ahtila, Eija-Liisa", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/eija-liisa-ahtila-3098"
+}

@@ -1,0 +1,57 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Lietuva", 
+      "placeName": "Lietuva", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1891
+    }
+  }, 
+  "birthYear": 1891, 
+  "date": "1891\u20131973", 
+  "death": {
+    "place": {
+      "name": "Capri, Isola di, Italia", 
+      "placeName": "Capri, Isola di", 
+      "placeType": "island"
+    }, 
+    "time": {
+      "startYear": 1973
+    }
+  }, 
+  "fc": "Jacques Lipchitz", 
+  "gender": "Male", 
+  "id": 1518, 
+  "mda": "Lipchitz, Jacques", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 299, 
+      "name": "Cubism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1664, 
+      "name": "Purism"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 62, 
+  "url": "http://www.tate.org.uk/art/artists/jacques-lipchitz-1518"
+}

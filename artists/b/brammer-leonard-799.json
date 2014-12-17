@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Delft, Nederland", 
+      "placeName": "Delft", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1906
+    }
+  }, 
+  "birthYear": 1906, 
+  "date": "1906\u20131994", 
+  "death": {
+    "place": {
+      "name": "Delft, Nederland", 
+      "placeName": "Delft", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1994
+    }
+  }, 
+  "fc": "Leonard Brammer", 
+  "gender": "Male", 
+  "id": 799, 
+  "mda": "Brammer, Leonard", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/leonard-brammer-799"
+}

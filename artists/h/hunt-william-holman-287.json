@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1827
+    }
+  }, 
+  "birthYear": 1827, 
+  "date": "1827\u20131910", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "fc": "William Holman Hunt", 
+  "gender": "Male", 
+  "id": 287, 
+  "mda": "Hunt, William Holman", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 363, 
+      "name": "Pre-Raphaelite Brotherhood"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 19, 
+  "url": "http://www.tate.org.uk/art/artists/william-holman-hunt-287"
+}

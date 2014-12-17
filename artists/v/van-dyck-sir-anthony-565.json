@@ -1,0 +1,66 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Antwerpen, Belgi\u00eb", 
+      "placeName": "Antwerpen", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1599
+    }
+  }, 
+  "birthYear": 1599, 
+  "date": "1599\u20131641", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1641
+    }
+  }, 
+  "fc": "Sir Anthony Van Dyck", 
+  "gender": "Male", 
+  "id": 565, 
+  "mda": "Van Dyck, Sir Anthony", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 398, 
+      "name": "Baroque"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 400, 
+      "name": "Court"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 412, 
+      "name": "Early Stuart"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 406, 
+      "name": "Netherlands-trained, working in Britain"
+    }
+  ], 
+  "startLetter": "V", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/sir-anthony-van-dyck-565"
+}

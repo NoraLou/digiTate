@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Fulham, United Kingdom", 
+      "placeName": "Fulham", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1921
+    }
+  }, 
+  "birthYear": 1921, 
+  "date": "1921\u20131976", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1976
+    }
+  }, 
+  "fc": "Peter Startup", 
+  "gender": "Male", 
+  "id": 1986, 
+  "mda": "Startup, Peter", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/peter-startup-1986"
+}

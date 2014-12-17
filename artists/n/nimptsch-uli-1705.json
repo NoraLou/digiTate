@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Charlottenburg, Deutschland", 
+      "placeName": "Charlottenburg", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1897
+    }
+  }, 
+  "birthYear": 1897, 
+  "date": "1897\u20131977", 
+  "death": {
+    "time": {
+      "startYear": 1977
+    }
+  }, 
+  "fc": "Uli Nimptsch", 
+  "gender": "Male", 
+  "id": 1705, 
+  "mda": "Nimptsch, Uli", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/uli-nimptsch-1705"
+}

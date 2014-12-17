@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hampstead, United Kingdom", 
+      "placeName": "Hampstead", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1828
+    }
+  }, 
+  "birthYear": 1828, 
+  "date": "1828\u20131887", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1887
+    }
+  }, 
+  "fc": "Lionel Bicknell Constable", 
+  "gender": "Male", 
+  "id": 109, 
+  "mda": "Constable, Lionel Bicknell", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/lionel-bicknell-constable-109"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1886
+    }
+  }, 
+  "birthYear": 1886, 
+  "date": "1886\u20131952", 
+  "death": {
+    "place": {
+      "name": "Buckinghamshire, United Kingdom", 
+      "placeName": "Buckinghamshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1952
+    }
+  }, 
+  "fc": "Ian Strang", 
+  "gender": "Male", 
+  "id": 2003, 
+  "mda": "Strang, Ian", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/ian-strang-2003"
+}

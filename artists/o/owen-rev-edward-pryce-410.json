@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1788
+    }
+  }, 
+  "birthYear": 1788, 
+  "date": "1788\u20131863", 
+  "death": {
+    "place": {
+      "name": "Cheltenham, United Kingdom", 
+      "placeName": "Cheltenham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1863
+    }
+  }, 
+  "fc": "Rev. Edward Pryce Owen", 
+  "gender": "Male", 
+  "id": 410, 
+  "mda": "Owen, Rev. Edward Pryce", 
+  "movements": [], 
+  "startLetter": "O", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/rev-edward-pryce-owen-410"
+}

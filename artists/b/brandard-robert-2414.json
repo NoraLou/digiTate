@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Birmingham, United Kingdom", 
+      "placeName": "Birmingham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1805
+    }
+  }, 
+  "birthYear": 1805, 
+  "date": "1805\u20131862", 
+  "death": {
+    "place": {
+      "name": "Kensington, United Kingdom", 
+      "placeName": "Kensington", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1862
+    }
+  }, 
+  "fc": "Robert Brandard", 
+  "gender": "Male", 
+  "id": 2414, 
+  "mda": "Brandard, Robert", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/robert-brandard-2414"
+}

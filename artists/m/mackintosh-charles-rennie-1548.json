@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Glasgow, United Kingdom", 
+      "placeName": "Glasgow", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1868
+    }
+  }, 
+  "birthYear": 1868, 
+  "date": "1868\u20131928", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1928
+    }
+  }, 
+  "fc": "Charles Rennie Mackintosh", 
+  "gender": "Male", 
+  "id": 1548, 
+  "mda": "Mackintosh, Charles Rennie", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 356, 
+      "name": "Glasgow School"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/charles-rennie-mackintosh-1548"
+}

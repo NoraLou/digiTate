@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Banstead, United Kingdom", 
+      "placeName": "Banstead", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1878
+    }
+  }, 
+  "birthYear": 1878, 
+  "date": "1878\u20131917", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1917
+    }
+  }, 
+  "fc": "Hilda Fearon", 
+  "gender": "Female", 
+  "id": 1083, 
+  "mda": "Fearon, Hilda", 
+  "movements": [], 
+  "startLetter": "F", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/hilda-fearon-1083"
+}

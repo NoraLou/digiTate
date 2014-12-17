@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Magyarorsz\u00e1g", 
+      "placeName": "Magyarorsz\u00e1g", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "birthYear": 1910, 
+  "date": "1910\u20132007", 
+  "death": {
+    "time": {
+      "startYear": 2007
+    }
+  }, 
+  "fc": "Lucien Herv\u00e9", 
+  "gender": "Male", 
+  "id": 12045, 
+  "mda": "Herv\u00e9, Lucien", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/lucien-herve-12045"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1741
+    }
+  }, 
+  "birthYear": 1741, 
+  "date": "1741\u20131825", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1825
+    }
+  }, 
+  "fc": "George Dance", 
+  "gender": "Male", 
+  "id": 2423, 
+  "mda": "Dance, George", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 26, 
+  "url": "http://www.tate.org.uk/art/artists/george-dance-2423"
+}

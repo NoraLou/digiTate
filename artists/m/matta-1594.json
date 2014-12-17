@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Santiago, Chile", 
+      "placeName": "Santiago", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1911
+    }
+  }, 
+  "birthYear": 1911, 
+  "date": "1911\u20132002", 
+  "death": {
+    "time": {
+      "startYear": 2002
+    }
+  }, 
+  "fc": "Matta (Roberto Matta Echaurren)", 
+  "gender": "Male", 
+  "id": 1594, 
+  "mda": "Matta", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 320, 
+      "name": "Surrealism"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/matta-roberto-matta-echaurren-1594"
+}

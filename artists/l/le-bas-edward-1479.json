@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1904
+    }
+  }, 
+  "birthYear": 1904, 
+  "date": "1904\u20131966", 
+  "death": {
+    "time": {
+      "startYear": 1966
+    }
+  }, 
+  "fc": "Edward Le Bas", 
+  "gender": "Male", 
+  "id": 1479, 
+  "mda": "Le Bas, Edward", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/edward-le-bas-1479"
+}

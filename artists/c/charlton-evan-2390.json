@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1904
+    }
+  }, 
+  "birthYear": 1904, 
+  "date": "1904\u20131984", 
+  "death": {
+    "place": {
+      "name": "Wales, United Kingdom", 
+      "placeName": "Wales", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1984
+    }
+  }, 
+  "fc": "Evan Charlton", 
+  "gender": "Male", 
+  "id": 2390, 
+  "mda": "Charlton, Evan", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/evan-charlton-2390"
+}

@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1912
+    }
+  }, 
+  "birthYear": 1912, 
+  "date": "1912\u20131948", 
+  "death": {
+    "place": {
+      "name": "France", 
+      "placeName": "France", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1948
+    }
+  }, 
+  "fc": "Francis Gruber", 
+  "gender": "Male", 
+  "id": 1225, 
+  "mda": "Gruber, Francis", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 12699, 
+      "name": "Socialist Realism"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/francis-gruber-1225"
+}

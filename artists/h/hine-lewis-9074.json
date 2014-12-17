@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Oshkosh, United States", 
+      "placeName": "Oshkosh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1874
+    }
+  }, 
+  "birthYear": 1874, 
+  "date": "1874\u20131940", 
+  "death": {
+    "place": {
+      "name": "Hastings-on-Hudson, United States", 
+      "placeName": "Hastings-on-Hudson", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1940
+    }
+  }, 
+  "fc": "Lewis W. Hine", 
+  "gender": "Male", 
+  "id": 9074, 
+  "mda": "Hine, Lewis", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 22, 
+  "url": "http://www.tate.org.uk/art/artists/lewis-w-hine-9074"
+}

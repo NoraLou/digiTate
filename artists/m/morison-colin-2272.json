@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Scotland, United Kingdom", 
+      "placeName": "Scotland", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1732
+    }
+  }, 
+  "birthYear": 1732, 
+  "date": "1732\u20131810", 
+  "death": {
+    "place": {
+      "name": "Roma, Italia", 
+      "placeName": "Roma", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1810
+    }
+  }, 
+  "fc": "Colin Morison", 
+  "gender": "Male", 
+  "id": 2272, 
+  "mda": "Morison, Colin", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 344, 
+      "name": "Neo-Classicism"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/colin-morison-2272"
+}

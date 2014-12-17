@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Chelmsford, United Kingdom", 
+      "placeName": "Chelmsford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1819
+    }
+  }, 
+  "birthYear": 1819, 
+  "date": "1819\u20131888", 
+  "death": {
+    "place": {
+      "name": "Roma, Italia", 
+      "placeName": "Roma", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1888
+    }
+  }, 
+  "fc": "Arthur John Strutt", 
+  "gender": "Male", 
+  "id": 2627, 
+  "mda": "Strutt, Arthur John", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/arthur-john-strutt-2627"
+}

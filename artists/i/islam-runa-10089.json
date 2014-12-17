@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Bangladesh", 
+      "placeName": "Bangladesh", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1970
+    }
+  }, 
+  "birthYear": 1970, 
+  "date": "born 1970", 
+  "fc": "Runa Islam", 
+  "gender": "Female", 
+  "id": 10089, 
+  "mda": "Islam, Runa", 
+  "movements": [], 
+  "startLetter": "I", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/runa-islam-10089"
+}

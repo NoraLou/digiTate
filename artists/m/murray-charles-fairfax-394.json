@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1849
+    }
+  }, 
+  "birthYear": 1849, 
+  "date": "1849\u20131919", 
+  "death": {
+    "time": {
+      "startYear": 1919
+    }
+  }, 
+  "fc": "Charles Fairfax Murray", 
+  "gender": "Male", 
+  "id": 394, 
+  "mda": "Murray, Charles Fairfax", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/charles-fairfax-murray-394"
+}

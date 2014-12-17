@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Beijing, Zhonghua", 
+      "placeName": "Beijing", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1905
+    }
+  }, 
+  "birthYear": 1905, 
+  "date": "1905\u20131983", 
+  "death": {
+    "place": {
+      "name": "Somerset, United Kingdom", 
+      "placeName": "Somerset", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1983
+    }
+  }, 
+  "fc": "Tristram Hillier", 
+  "gender": "Male", 
+  "id": 1288, 
+  "mda": "Hillier, Tristram", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 321, 
+      "name": "Unit One"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/tristram-hillier-1288"
+}

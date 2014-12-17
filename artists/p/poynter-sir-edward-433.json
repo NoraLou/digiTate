@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1836
+    }
+  }, 
+  "birthYear": 1836, 
+  "date": "1836\u20131919", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1919
+    }
+  }, 
+  "fc": "Sir Edward Poynter", 
+  "gender": "Male", 
+  "id": 433, 
+  "mda": "Poynter, Sir Edward", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 16, 
+  "url": "http://www.tate.org.uk/art/artists/sir-edward-poynter-433"
+}

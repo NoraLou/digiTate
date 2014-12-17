@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Chelsea, United Kingdom", 
+      "placeName": "Chelsea", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1751
+    }
+  }, 
+  "birthYear": 1751, 
+  "date": "1751\u20131801", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1801
+    }
+  }, 
+  "fc": "William Hamilton", 
+  "gender": "Male", 
+  "id": 2580, 
+  "mda": "Hamilton, William", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 340, 
+      "name": "Conversation Piece"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 344, 
+      "name": "Neo-Classicism"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 9, 
+  "url": "http://www.tate.org.uk/art/artists/william-hamilton-2580"
+}

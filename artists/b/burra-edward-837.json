@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1905
+    }
+  }, 
+  "birthYear": 1905, 
+  "date": "1905\u20131976", 
+  "death": {
+    "time": {
+      "startYear": 1976
+    }
+  }, 
+  "fc": "Edward Burra", 
+  "gender": "Male", 
+  "id": 837, 
+  "mda": "Burra, Edward", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 321, 
+      "name": "Unit One"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 18, 
+  "url": "http://www.tate.org.uk/art/artists/edward-burra-837"
+}

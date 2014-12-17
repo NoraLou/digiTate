@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1901
+    }
+  }, 
+  "birthYear": 1901, 
+  "date": "1901\u20131937", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "fc": "Stephen Tomlin", 
+  "gender": "Male", 
+  "id": 2054, 
+  "mda": "Tomlin, Stephen", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/stephen-tomlin-2054"
+}

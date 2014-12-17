@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Christchurch, United Kingdom", 
+      "placeName": "Christchurch", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1838
+    }
+  }, 
+  "birthYear": 1838, 
+  "date": "1838\u20131897", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1897
+    }
+  }, 
+  "fc": "Charles Edward Holloway", 
+  "gender": "Male", 
+  "id": 269, 
+  "mda": "Holloway, Charles Edward", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/charles-edward-holloway-269"
+}

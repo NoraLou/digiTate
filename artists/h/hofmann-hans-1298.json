@@ -1,0 +1,49 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Weissenberg, Deutschland", 
+      "placeName": "Weissenberg", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1880
+    }
+  }, 
+  "birthYear": 1880, 
+  "date": "1880\u20131966", 
+  "death": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1966
+    }
+  }, 
+  "fc": "Hans Hofmann", 
+  "gender": "Male", 
+  "id": 1298, 
+  "mda": "Hofmann, Hans", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 416, 
+      "name": "Abstract Expressionism"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/hans-hofmann-1298"
+}

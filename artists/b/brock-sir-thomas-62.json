@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Worcester, United Kingdom", 
+      "placeName": "Worcester", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1847
+    }
+  }, 
+  "birthYear": 1847, 
+  "date": "1847\u20131922", 
+  "death": {
+    "time": {
+      "startYear": 1922
+    }
+  }, 
+  "fc": "Sir Thomas Brock", 
+  "gender": "Male", 
+  "id": 62, 
+  "mda": "Brock, Sir Thomas", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/sir-thomas-brock-62"
+}

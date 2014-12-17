@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Smolensk, Rossiya", 
+      "placeName": "Smolensk", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1890
+    }
+  }, 
+  "birthYear": 1890, 
+  "date": "1890\u20131967", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1967
+    }
+  }, 
+  "fc": "Ossip Zadkine", 
+  "gender": "Male", 
+  "id": 2184, 
+  "mda": "Zadkine, Ossip", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 299, 
+      "name": "Cubism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 303, 
+      "name": "Direct Carving"
+    }
+  ], 
+  "startLetter": "Z", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/ossip-zadkine-2184"
+}

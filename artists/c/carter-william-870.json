@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Swaffham, United Kingdom", 
+      "placeName": "Swaffham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1863
+    }
+  }, 
+  "birthYear": 1863, 
+  "date": "1863\u20131939", 
+  "death": {
+    "place": {
+      "name": "Swaffham, United Kingdom", 
+      "placeName": "Swaffham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1939
+    }
+  }, 
+  "fc": "William Carter", 
+  "gender": "Male", 
+  "id": 870, 
+  "mda": "Carter, William", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-carter-870"
+}

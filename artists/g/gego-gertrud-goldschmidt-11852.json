@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hamburg, Deutschland", 
+      "placeName": "Hamburg", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1912
+    }
+  }, 
+  "birthYear": 1912, 
+  "date": "1912\u20131994", 
+  "death": {
+    "place": {
+      "name": "Caracas, Venezuela", 
+      "placeName": "Caracas", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1994
+    }
+  }, 
+  "fc": "Gego (Gertrud Goldschmidt)", 
+  "gender": "Female", 
+  "id": 11852, 
+  "mda": "Gego (Gertrud Goldschmidt)", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/gego-gertrud-goldschmidt-11852"
+}

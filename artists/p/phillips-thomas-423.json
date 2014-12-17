@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dudley, United Kingdom", 
+      "placeName": "Dudley", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1770
+    }
+  }, 
+  "birthYear": 1770, 
+  "date": "1770\u20131845", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1845
+    }
+  }, 
+  "fc": "Thomas Phillips", 
+  "gender": "Male", 
+  "id": 423, 
+  "mda": "Phillips, Thomas", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-phillips-423"
+}

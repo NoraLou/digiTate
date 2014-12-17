@@ -1,0 +1,58 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Royal Leamington Spa, United Kingdom", 
+      "placeName": "Royal Leamington Spa", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1915
+    }
+  }, 
+  "birthYear": 1915, 
+  "date": "1915\u20132003", 
+  "death": {
+    "place": {
+      "name": "Hayle, United Kingdom", 
+      "placeName": "Hayle", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2003
+    }
+  }, 
+  "fc": "Sir Terry Frost", 
+  "gender": "Male", 
+  "id": 1126, 
+  "mda": "Frost, Sir Terry", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 419, 
+      "name": "British Constructivism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 441, 
+      "name": "St Ives School"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 443, 
+      "name": "Tachism"
+    }
+  ], 
+  "startLetter": "F", 
+  "totalWorks": 62, 
+  "url": "http://www.tate.org.uk/art/artists/sir-terry-frost-1126"
+}

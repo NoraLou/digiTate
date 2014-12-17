@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1866
+    }
+  }, 
+  "birthYear": 1866, 
+  "date": "1866\u20131941", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1941
+    }
+  }, 
+  "fc": "James Pryde", 
+  "gender": "Male", 
+  "id": 1804, 
+  "mda": "Pryde, James", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/james-pryde-1804"
+}

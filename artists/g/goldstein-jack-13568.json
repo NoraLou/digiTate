@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1945
+    }
+  }, 
+  "birthYear": 1945, 
+  "date": "1945\u20132003", 
+  "death": {
+    "time": {
+      "startYear": 2003
+    }
+  }, 
+  "fc": "Jack Goldstein", 
+  "gender": null, 
+  "id": 13568, 
+  "mda": "Goldstein, Jack", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/jack-goldstein-13568"
+}

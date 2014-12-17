@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dorset, United Kingdom", 
+      "placeName": "Dorset", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1675
+    }
+  }, 
+  "birthYear": 1675, 
+  "date": "1675 or 76\u20131734", 
+  "death": {
+    "place": {
+      "name": "Stalbridge", 
+      "placeName": "Stalbridge", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1734
+    }
+  }, 
+  "fc": "Sir James Thornhill", 
+  "gender": "Male", 
+  "id": 550, 
+  "mda": "Thornhill, Sir James", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 398, 
+      "name": "Baroque"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 344, 
+      "name": "Neo-Classicism"
+    }
+  ], 
+  "startLetter": "T", 
+  "totalWorks": 24, 
+  "url": "http://www.tate.org.uk/art/artists/sir-james-thornhill-550"
+}

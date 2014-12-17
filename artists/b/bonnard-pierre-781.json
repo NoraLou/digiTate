@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Fontenay-aux-Roses, France", 
+      "placeName": "Fontenay-aux-Roses", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1867
+    }
+  }, 
+  "birthYear": 1867, 
+  "date": "1867\u20131947", 
+  "death": {
+    "place": {
+      "name": "Cannet, le, France", 
+      "placeName": "Cannet, le", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1947
+    }
+  }, 
+  "fc": "Pierre Bonnard", 
+  "gender": "Male", 
+  "id": 781, 
+  "mda": "Bonnard, Pierre", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 12691, 
+      "name": "Intimism"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 23, 
+  "url": "http://www.tate.org.uk/art/artists/pierre-bonnard-781"
+}

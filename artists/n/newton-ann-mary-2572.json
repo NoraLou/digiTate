@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Roma, Italia", 
+      "placeName": "Roma", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1832
+    }
+  }, 
+  "birthYear": 1832, 
+  "date": "1832\u20131866", 
+  "death": {
+    "time": {
+      "startYear": 1866
+    }
+  }, 
+  "fc": "Ann Mary Newton (n\u00e9e Severn)", 
+  "gender": "Female", 
+  "id": 2572, 
+  "mda": "Newton, Ann Mary", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/ann-mary-newton-nee-severn-2572"
+}

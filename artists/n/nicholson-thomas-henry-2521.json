@@ -1,0 +1,18 @@
+{
+  "activePlaceCount": 0, 
+  "birthYear": 1870, 
+  "date": "died 1870", 
+  "death": {
+    "time": {
+      "startYear": 1870
+    }
+  }, 
+  "fc": "Thomas Henry Nicholson", 
+  "gender": "Male", 
+  "id": 2521, 
+  "mda": "Nicholson, Thomas Henry", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-henry-nicholson-2521"
+}

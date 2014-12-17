@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Castle Cary, United Kingdom", 
+      "placeName": "Castle Cary", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1763
+    }
+  }, 
+  "birthYear": 1763, 
+  "date": "1763\u20131817", 
+  "death": {
+    "place": {
+      "name": "Bologna, Italia", 
+      "placeName": "Bologna", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1817
+    }
+  }, 
+  "fc": "Samuel Woodforde", 
+  "gender": "Male", 
+  "id": 609, 
+  "mda": "Woodforde, Samuel", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 340, 
+      "name": "Conversation Piece"
+    }
+  ], 
+  "startLetter": "W", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/samuel-woodforde-609"
+}

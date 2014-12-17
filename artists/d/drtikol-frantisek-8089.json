@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Pr\u00edbram, Cesk\u00e1 Republika", 
+      "placeName": "Pr\u00edbram", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1883
+    }
+  }, 
+  "birthYear": 1883, 
+  "date": "1883\u20131961", 
+  "death": {
+    "place": {
+      "name": "Praha, Cesk\u00e1 Republika", 
+      "placeName": "Praha", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1961
+    }
+  }, 
+  "fc": "Franti\u0161ek Drtikol", 
+  "gender": "Male", 
+  "id": 8089, 
+  "mda": "Drtikol, Franti\u0161ek", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/frantisek-drtikol-8089"
+}

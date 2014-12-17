@@ -1,0 +1,57 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Newlyn, United Kingdom", 
+      "placeName": "Newlyn", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "city"
+    }, 
+    "time": {
+      "startYear": 1857
+    }
+  }, 
+  "birthYear": 1857, 
+  "date": "1857\u20131947", 
+  "death": {
+    "place": {
+      "name": "Newlyn, United Kingdom", 
+      "placeName": "Newlyn", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1947
+    }
+  }, 
+  "fc": "Stanhope Alexander Forbes", 
+  "gender": "Male", 
+  "id": 190, 
+  "mda": "Forbes, Stanhope Alexander", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 360, 
+      "name": "Newlyn School"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "F", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/stanhope-alexander-forbes-190"
+}

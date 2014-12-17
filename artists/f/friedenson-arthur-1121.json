@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Leeds, United Kingdom", 
+      "placeName": "Leeds", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1872
+    }
+  }, 
+  "birthYear": 1872, 
+  "date": "1872\u20131955", 
+  "death": {
+    "place": {
+      "name": "Parkstone, United States", 
+      "placeName": "Parkstone", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1955
+    }
+  }, 
+  "fc": "Arthur Friedenson", 
+  "gender": "Male", 
+  "id": 1121, 
+  "mda": "Friedenson, Arthur", 
+  "movements": [], 
+  "startLetter": "F", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/arthur-friedenson-1121"
+}

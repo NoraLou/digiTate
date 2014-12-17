@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Derbyshire, United Kingdom", 
+      "placeName": "Derbyshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1924
+    }
+  }, 
+  "birthYear": 1924, 
+  "date": "born 1924", 
+  "fc": "Geoffrey Clarke", 
+  "gender": "Male", 
+  "id": 912, 
+  "mda": "Clarke, Geoffrey", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 424, 
+      "name": "Geometry of Fear"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 10, 
+  "url": "http://www.tate.org.uk/art/artists/geoffrey-clarke-912"
+}

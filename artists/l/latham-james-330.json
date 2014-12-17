@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Munster, \u00c9ire", 
+      "placeName": "Munster", 
+      "placeType": "province"
+    }, 
+    "time": {
+      "startYear": 1696
+    }
+  }, 
+  "birthYear": 1696, 
+  "date": "1696\u20131747", 
+  "death": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1747
+    }
+  }, 
+  "fc": "James Latham", 
+  "gender": "Male", 
+  "id": 330, 
+  "mda": "Latham, James", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/james-latham-330"
+}

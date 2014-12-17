@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1830
+    }
+  }, 
+  "birthYear": 1830, 
+  "date": "1830\u20131916", 
+  "death": {
+    "place": {
+      "name": "Croydon, United Kingdom", 
+      "placeName": "Croydon", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1916
+    }
+  }, 
+  "fc": "Henry Wallis", 
+  "gender": "Male", 
+  "id": 578, 
+  "mda": "Wallis, Henry", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 363, 
+      "name": "Pre-Raphaelite Brotherhood"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 364, 
+      "name": "Romanticism"
+    }
+  ], 
+  "startLetter": "W", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/henry-wallis-578"
+}

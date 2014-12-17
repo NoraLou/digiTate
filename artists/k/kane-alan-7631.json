@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Nottingham, United Kingdom", 
+      "placeName": "Nottingham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1961
+    }
+  }, 
+  "birthYear": 1961, 
+  "date": "born 1961", 
+  "fc": "Alan Kane", 
+  "gender": "Male", 
+  "id": 7631, 
+  "mda": "Kane, Alan", 
+  "movements": [], 
+  "startLetter": "K", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/alan-kane-7631"
+}

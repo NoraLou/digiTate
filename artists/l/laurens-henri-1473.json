@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1885
+    }
+  }, 
+  "birthYear": 1885, 
+  "date": "1885\u20131954", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1954
+    }
+  }, 
+  "fc": "Henri Laurens", 
+  "gender": "Male", 
+  "id": 1473, 
+  "mda": "Laurens, Henri", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 299, 
+      "name": "Cubism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1685, 
+      "name": "Return to Order"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/henri-laurens-1473"
+}

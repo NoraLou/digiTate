@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Liverpool, United Kingdom", 
+      "placeName": "Liverpool", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1902
+    }
+  }, 
+  "birthYear": 1902, 
+  "date": "1902\u20131984", 
+  "death": {
+    "time": {
+      "startYear": 1984
+    }
+  }, 
+  "fc": "Edward Halliday", 
+  "gender": "Male", 
+  "id": 2342, 
+  "mda": "Halliday, Edward", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/edward-halliday-2342"
+}

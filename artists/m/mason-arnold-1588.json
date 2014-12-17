@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Birkenhead, United Kingdom", 
+      "placeName": "Birkenhead", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1885
+    }
+  }, 
+  "birthYear": 1885, 
+  "date": "1885\u20131963", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1963
+    }
+  }, 
+  "fc": "Arnold Mason", 
+  "gender": "Male", 
+  "id": 1588, 
+  "mda": "Mason, Arnold", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/arnold-mason-1588"
+}

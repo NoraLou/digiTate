@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Sankt-Peterburg, Rossiya", 
+      "placeName": "Sankt-Peterburg", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1849
+    }
+  }, 
+  "birthYear": 1849, 
+  "date": "1849\u20131935", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1935
+    }
+  }, 
+  "fc": "Jean B\u00e9raud", 
+  "gender": "Male", 
+  "id": 741, 
+  "mda": "B\u00e9raud, Jean", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/jean-beraud-741"
+}

@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Leighton Buzzard, United Kingdom", 
+      "placeName": "Leighton Buzzard", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1971
+    }
+  }, 
+  "birthYear": 1971, 
+  "date": "born 1971", 
+  "fc": "Hayley Tompkins", 
+  "gender": "Female", 
+  "id": 14997, 
+  "mda": "Tompkins, Hayley", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/hayley-tompkins-14997"
+}

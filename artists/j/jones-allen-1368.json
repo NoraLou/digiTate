@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Southampton, United Kingdom", 
+      "placeName": "Southampton", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "birthYear": 1937, 
+  "date": "born 1937", 
+  "fc": "Allen Jones", 
+  "gender": "Male", 
+  "id": 1368, 
+  "mda": "Jones, Allen", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1683, 
+      "name": "British Pop"
+    }
+  ], 
+  "startLetter": "J", 
+  "totalWorks": 59, 
+  "url": "http://www.tate.org.uk/art/artists/allen-jones-1368"
+}

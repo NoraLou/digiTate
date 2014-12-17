@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1832
+    }
+  }, 
+  "birthYear": 1832, 
+  "date": "1832\u20131915", 
+  "death": {
+    "place": {
+      "name": "Kew, United Kingdom", 
+      "placeName": "Kew", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1915
+    }
+  }, 
+  "fc": "Arthur Hughes", 
+  "gender": "Male", 
+  "id": 283, 
+  "mda": "Hughes, Arthur", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 363, 
+      "name": "Pre-Raphaelite Brotherhood"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 14, 
+  "url": "http://www.tate.org.uk/art/artists/arthur-hughes-283"
+}

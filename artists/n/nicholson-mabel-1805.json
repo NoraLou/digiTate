@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1871
+    }
+  }, 
+  "birthYear": 1871, 
+  "date": "1871\u20131918", 
+  "death": {
+    "time": {
+      "startYear": 1918
+    }
+  }, 
+  "fc": "Mabel Nicholson", 
+  "gender": "Female", 
+  "id": 1805, 
+  "mda": "Nicholson, Mabel", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/mabel-nicholson-1805"
+}

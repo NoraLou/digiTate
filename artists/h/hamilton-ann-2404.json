@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Coshocton, United States", 
+      "placeName": "Coshocton", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1956
+    }
+  }, 
+  "birthYear": 1956, 
+  "date": "born 1956", 
+  "fc": "Ann Hamilton", 
+  "gender": "Female", 
+  "id": 2404, 
+  "mda": "Hamilton, Ann", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 436, 
+      "name": "Performance Art"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/ann-hamilton-2404"
+}

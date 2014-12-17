@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1686
+    }
+  }, 
+  "birthYear": 1686, 
+  "date": "active 1686\u20131740", 
+  "death": {
+    "time": {
+      "startYear": 1740
+    }
+  }, 
+  "fc": "John Harris", 
+  "gender": "Male", 
+  "id": 2501, 
+  "mda": "Harris, John", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-harris-2501"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Arnold, United Kingdom", 
+      "placeName": "Arnold", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1802
+    }
+  }, 
+  "birthYear": 1802, 
+  "date": "1802\u20131828", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1828
+    }
+  }, 
+  "fc": "Richard Parkes Bonington", 
+  "gender": "Male", 
+  "id": 41, 
+  "mda": "Bonington, Richard Parkes", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 14, 
+  "url": "http://www.tate.org.uk/art/artists/richard-parkes-bonington-41"
+}

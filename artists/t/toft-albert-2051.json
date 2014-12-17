@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Birmingham, United Kingdom", 
+      "placeName": "Birmingham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1862
+    }
+  }, 
+  "birthYear": 1862, 
+  "date": "1862\u20131949", 
+  "death": {
+    "place": {
+      "name": "Worthing, United Kingdom", 
+      "placeName": "Worthing", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1949
+    }
+  }, 
+  "fc": "Albert Toft", 
+  "gender": "Male", 
+  "id": 2051, 
+  "mda": "Toft, Albert", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 361, 
+      "name": "New Sculpture"
+    }
+  ], 
+  "startLetter": "T", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/albert-toft-2051"
+}

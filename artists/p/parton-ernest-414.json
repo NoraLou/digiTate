@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }
+  ], 
+  "birth": {
+    "time": {
+      "startYear": 1845
+    }
+  }, 
+  "birthYear": 1845, 
+  "date": "1845\u20131938", 
+  "death": {
+    "time": {
+      "startYear": 1938
+    }
+  }, 
+  "fc": "Ernest Parton", 
+  "gender": "Male", 
+  "id": 414, 
+  "mda": "Parton, Ernest", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/ernest-parton-414"
+}

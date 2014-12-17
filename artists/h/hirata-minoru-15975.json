@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Nihon", 
+      "placeName": "Nihon", 
+      "placeType": "nation"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Tokyo, Nihon", 
+      "placeName": "Tokyo", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1930
+    }
+  }, 
+  "birthYear": 1930, 
+  "date": "born 1930", 
+  "fc": "Minoru Hirata", 
+  "gender": "Male", 
+  "id": 15975, 
+  "mda": "Hirata, Minoru", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 30, 
+  "url": "http://www.tate.org.uk/art/artists/minoru-hirata-15975"
+}

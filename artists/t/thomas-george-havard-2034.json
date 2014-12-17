@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Sorrento, Italia", 
+      "placeName": "Sorrento", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1893
+    }
+  }, 
+  "birthYear": 1893, 
+  "date": "1893\u20131933", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1933
+    }
+  }, 
+  "fc": "George Havard Thomas", 
+  "gender": "Male", 
+  "id": 2034, 
+  "mda": "Thomas, George Havard", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/george-havard-thomas-2034"
+}

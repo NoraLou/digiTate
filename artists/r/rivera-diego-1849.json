@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Guanajuato, M\u00e9xico", 
+      "placeName": "Guanajuato", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1886
+    }
+  }, 
+  "birthYear": 1886, 
+  "date": "1886\u20131957", 
+  "death": {
+    "place": {
+      "name": "Ciudad de M\u00e9xico, M\u00e9xico", 
+      "placeName": "Ciudad de M\u00e9xico", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1957
+    }
+  }, 
+  "fc": "Diego Rivera", 
+  "gender": "Male", 
+  "id": 1849, 
+  "mda": "Rivera, Diego", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 299, 
+      "name": "Cubism"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/diego-rivera-1849"
+}

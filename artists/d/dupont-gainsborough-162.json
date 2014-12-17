@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1754
+    }
+  }, 
+  "birthYear": 1754, 
+  "date": "1754\u20131797", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1797
+    }
+  }, 
+  "fc": "Gainsborough Dupont", 
+  "gender": "Male", 
+  "id": 162, 
+  "mda": "Dupont, Gainsborough", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/gainsborough-dupont-162"
+}

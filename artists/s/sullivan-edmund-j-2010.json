@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1869
+    }
+  }, 
+  "birthYear": 1869, 
+  "date": "1869\u20131933", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1933
+    }
+  }, 
+  "fc": "Edmund J. Sullivan", 
+  "gender": "Male", 
+  "id": 2010, 
+  "mda": "Sullivan, Edmund J.", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/edmund-j-sullivan-2010"
+}

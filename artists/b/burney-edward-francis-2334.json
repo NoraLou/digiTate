@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hereford and Worcester, United Kingdom", 
+      "placeName": "Hereford and Worcester", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1760
+    }
+  }, 
+  "birthYear": 1760, 
+  "date": "1760\u20131848", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1848
+    }
+  }, 
+  "fc": "Edward Francis Burney", 
+  "gender": "Male", 
+  "id": 2334, 
+  "mda": "Burney, Edward Francis", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/edward-francis-burney-2334"
+}

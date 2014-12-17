@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Shanghai, Zhonghua", 
+      "placeName": "Shanghai", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1955
+    }
+  }, 
+  "birthYear": 1955, 
+  "date": "1955\u20132000", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2000
+    }
+  }, 
+  "fc": "Chen Zhen", 
+  "gender": "Male", 
+  "id": 7298, 
+  "mda": "Chen, Zhen", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/chen-zhen-7298"
+}

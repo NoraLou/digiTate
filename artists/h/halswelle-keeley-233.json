@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Surrey, United Kingdom", 
+      "placeName": "Surrey", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1832
+    }
+  }, 
+  "birthYear": 1832, 
+  "date": "1832\u20131891", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1891
+    }
+  }, 
+  "fc": "Keeley Halswelle", 
+  "gender": "Male", 
+  "id": 233, 
+  "mda": "Halswelle, Keeley", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/keeley-halswelle-233"
+}

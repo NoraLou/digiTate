@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Saint Andrews, United Kingdom", 
+      "placeName": "Saint Andrews", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1912
+    }
+  }, 
+  "birthYear": 1912, 
+  "date": "1912\u20132004", 
+  "death": {
+    "time": {
+      "startYear": 2004
+    }
+  }, 
+  "fc": "Wilhelmina Barns-Graham", 
+  "gender": "Female", 
+  "id": 697, 
+  "mda": "Barns-Graham, Wilhelmina", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 441, 
+      "name": "St Ives School"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 30, 
+  "url": "http://www.tate.org.uk/art/artists/wilhelmina-barns-graham-697"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Leicestershire, United Kingdom", 
+      "placeName": "Leicestershire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1863
+    }
+  }, 
+  "birthYear": 1863, 
+  "date": "1863\u20131919", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1919
+    }
+  }, 
+  "fc": "Arthur Studd", 
+  "gender": "Male", 
+  "id": 2008, 
+  "mda": "Studd, Arthur", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/arthur-studd-2008"
+}

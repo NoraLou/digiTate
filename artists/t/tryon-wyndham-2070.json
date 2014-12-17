@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1883
+    }
+  }, 
+  "birthYear": 1883, 
+  "date": "1883\u20131942", 
+  "death": {
+    "place": {
+      "name": "Southampton, United Kingdom", 
+      "placeName": "Southampton", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1942
+    }
+  }, 
+  "fc": "Wyndham Tryon", 
+  "gender": "Male", 
+  "id": 2070, 
+  "mda": "Tryon, Wyndham", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/wyndham-tryon-2070"
+}

@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Belford, United Kingdom", 
+      "placeName": "Belford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1908
+    }
+  }, 
+  "birthYear": 1908, 
+  "date": "1908\u20131987", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1987
+    }
+  }, 
+  "fc": "Sir William Coldstream", 
+  "gender": "Male", 
+  "id": 927, 
+  "mda": "Coldstream, Sir William", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 304, 
+      "name": "Euston Road School"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 14, 
+  "url": "http://www.tate.org.uk/art/artists/sir-william-coldstream-927"
+}

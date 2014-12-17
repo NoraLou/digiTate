@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kent, United Kingdom", 
+      "placeName": "Kent", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1874
+    }
+  }, 
+  "birthYear": 1874, 
+  "date": "1874\u20131918", 
+  "death": {
+    "time": {
+      "startYear": 1918
+    }
+  }, 
+  "fc": "Frank Craig", 
+  "gender": "Male", 
+  "id": 954, 
+  "mda": "Craig, Frank", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/frank-craig-954"
+}

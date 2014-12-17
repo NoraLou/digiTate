@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bucaramanga, Colombia", 
+      "placeName": "Bucaramanga", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1938
+    }
+  }, 
+  "birthYear": 1938, 
+  "date": "born 1938", 
+  "fc": "Beatriz Gonzalez", 
+  "gender": "Female", 
+  "id": 11980, 
+  "mda": "Gonzalez, Beatriz", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/beatriz-gonzalez-11980"
+}

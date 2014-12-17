@@ -1,0 +1,27 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1945
+    }
+  }, 
+  "birthYear": 1945, 
+  "date": "born 1945", 
+  "fc": "John Christie", 
+  "gender": "Male", 
+  "id": 904, 
+  "mda": "Christie, John", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 9, 
+  "url": "http://www.tate.org.uk/art/artists/john-christie-904"
+}

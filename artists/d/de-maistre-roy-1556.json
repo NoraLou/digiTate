@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bowral, Australia", 
+      "placeName": "Bowral", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1894
+    }
+  }, 
+  "birthYear": 1894, 
+  "date": "1894\u20131968", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1968
+    }
+  }, 
+  "fc": "Roy De Maistre", 
+  "gender": "Male", 
+  "id": 1556, 
+  "mda": "De Maistre, Roy", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/roy-de-maistre-1556"
+}

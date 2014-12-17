@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Victoria, Zhonghua", 
+      "placeName": "Victoria", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1963
+    }
+  }, 
+  "birthYear": 1963, 
+  "date": "born 1963", 
+  "fc": "Fiona Rae", 
+  "gender": "Female", 
+  "id": 2287, 
+  "mda": "Rae, Fiona", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 11857, 
+      "name": "Young British Artists (YBA)"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/fiona-rae-2287"
+}

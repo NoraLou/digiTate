@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1913
+    }
+  }, 
+  "birthYear": 1913, 
+  "date": "1913\u20131967", 
+  "death": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1967
+    }
+  }, 
+  "fc": "Ad Reinhardt", 
+  "gender": "Male", 
+  "id": 1826, 
+  "mda": "Reinhardt, Ad", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 430, 
+      "name": "Minimalism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 439, 
+      "name": "Post Painterly Abstraction"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/ad-reinhardt-1826"
+}

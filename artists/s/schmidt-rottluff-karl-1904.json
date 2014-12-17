@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Chemnitz, Deutschland", 
+      "placeName": "Chemnitz", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1884
+    }
+  }, 
+  "birthYear": 1884, 
+  "date": "1884\u20131976", 
+  "death": {
+    "place": {
+      "name": "Berlin, Deutschland", 
+      "placeName": "Berlin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1976
+    }
+  }, 
+  "fc": "Karl Schmidt-Rottluff", 
+  "gender": "Male", 
+  "id": 1904, 
+  "mda": "Schmidt-Rottluff, Karl", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 296, 
+      "name": "Br\u00fccke"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 305, 
+      "name": "Expressionism"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/karl-schmidt-rottluff-1904"
+}

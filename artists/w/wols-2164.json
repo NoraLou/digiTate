@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Berlin, Deutschland", 
+      "placeName": "Berlin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1913
+    }
+  }, 
+  "birthYear": 1913, 
+  "date": "1913\u20131951", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1951
+    }
+  }, 
+  "fc": "Wols (Alfred Otto Wolfgang Schulze)", 
+  "gender": "Male", 
+  "id": 2164, 
+  "mda": "Wols", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 8454, 
+      "name": "Art Informel"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 443, 
+      "name": "Tachism"
+    }
+  ], 
+  "startLetter": "W", 
+  "totalWorks": 34, 
+  "url": "http://www.tate.org.uk/art/artists/wols-alfred-otto-wolfgang-schulze-2164"
+}

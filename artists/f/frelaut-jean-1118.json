@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Grenoble, France", 
+      "placeName": "Grenoble", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1879
+    }
+  }, 
+  "birthYear": 1879, 
+  "date": "1879\u20131954", 
+  "death": {
+    "place": {
+      "name": "Vannes, France", 
+      "placeName": "Vannes", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1954
+    }
+  }, 
+  "fc": "Jean Fr\u00e9laut", 
+  "gender": "Male", 
+  "id": 1118, 
+  "mda": "Fr\u00e9laut, Jean", 
+  "movements": [], 
+  "startLetter": "F", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/jean-frelaut-1118"
+}

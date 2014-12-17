@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Qu\u00e9bec, Canada", 
+      "placeName": "Qu\u00e9bec", 
+      "placeType": "province"
+    }, 
+    "time": {
+      "startYear": 1913
+    }
+  }, 
+  "birthYear": 1913, 
+  "date": "1913\u20131980", 
+  "death": {
+    "place": {
+      "name": "Woodstock, United States", 
+      "placeName": "Woodstock", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1980
+    }
+  }, 
+  "fc": "Philip Guston", 
+  "gender": "Male", 
+  "id": 1231, 
+  "mda": "Guston, Philip", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 16666, 
+      "name": "Abject art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 416, 
+      "name": "Abstract Expressionism"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 46, 
+  "url": "http://www.tate.org.uk/art/artists/philip-guston-1231"
+}

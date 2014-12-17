@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Tokyo, Nihon", 
+      "placeName": "Tokyo", 
+      "placeType": "city"
+    }, 
+    "time": {
+      "startYear": 1923
+    }
+  }, 
+  "birthYear": 1923, 
+  "date": "1923\u20132001", 
+  "death": {
+    "place": {
+      "name": "Tokyo, Nihon", 
+      "placeName": "Tokyo", 
+      "placeType": "city"
+    }, 
+    "time": {
+      "startYear": 2001
+    }
+  }, 
+  "fc": "Kiyoji Otsuji", 
+  "gender": "Male", 
+  "id": 16031, 
+  "mda": "Otsuji, Kiyoji", 
+  "movements": [], 
+  "startLetter": "O", 
+  "totalWorks": 20, 
+  "url": "http://www.tate.org.uk/art/artists/kiyoji-otsuji-16031"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1810
+    }
+  }, 
+  "birthYear": 1810, 
+  "date": "1810\u20131858", 
+  "death": {
+    "place": {
+      "name": "Norwich, United Kingdom", 
+      "placeName": "Norwich", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1858
+    }
+  }, 
+  "fc": "Miles Edmund Cotman", 
+  "gender": "Male", 
+  "id": 2489, 
+  "mda": "Cotman, Miles Edmund", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/miles-edmund-cotman-2489"
+}

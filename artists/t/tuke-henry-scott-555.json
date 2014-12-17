@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "York, United Kingdom", 
+      "placeName": "York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1858
+    }
+  }, 
+  "birthYear": 1858, 
+  "date": "1858\u20131929", 
+  "death": {
+    "place": {
+      "name": "Falmouth, United Kingdom", 
+      "placeName": "Falmouth", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1929
+    }
+  }, 
+  "fc": "Henry Scott Tuke", 
+  "gender": "Male", 
+  "id": 555, 
+  "mda": "Tuke, Henry Scott", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 360, 
+      "name": "Newlyn School"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "T", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/henry-scott-tuke-555"
+}

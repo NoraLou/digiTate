@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Gillingham, United Kingdom", 
+      "placeName": "Gillingham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1930
+    }
+  }, 
+  "birthYear": 1930, 
+  "date": "born 1930", 
+  "fc": "Peter Daglish", 
+  "gender": "Male", 
+  "id": 970, 
+  "mda": "Daglish, Peter", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/peter-daglish-970"
+}

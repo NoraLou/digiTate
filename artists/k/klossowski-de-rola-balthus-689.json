@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1908
+    }
+  }, 
+  "birthYear": 1908, 
+  "date": "1908\u20132001", 
+  "death": {
+    "time": {
+      "startYear": 2001
+    }
+  }, 
+  "fc": "Balthus (Balthasar Klossowski de Rola)", 
+  "gender": "Male", 
+  "id": 689, 
+  "mda": "Klossowski de Rola, Balthus", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 311, 
+      "name": "Modern Realism"
+    }
+  ], 
+  "startLetter": "K", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/balthus-balthasar-klossowski-de-rola-689"
+}

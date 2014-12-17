@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "K\u00f8benhavn, Danmark", 
+      "placeName": "K\u00f8benhavn", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1864
+    }
+  }, 
+  "birthYear": 1864, 
+  "date": "1864\u20131916", 
+  "death": {
+    "place": {
+      "name": "K\u00f8benhavn, Danmark", 
+      "placeName": "K\u00f8benhavn", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1916
+    }
+  }, 
+  "fc": "Vilhelm Hammershoi", 
+  "gender": "Male", 
+  "id": 1245, 
+  "mda": "Hammershoi, Vilhelm", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/vilhelm-hammershoi-1245"
+}

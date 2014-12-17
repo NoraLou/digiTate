@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1747
+    }
+  }, 
+  "birthYear": 1747, 
+  "date": "1747\u20131791", 
+  "death": {
+    "time": {
+      "startYear": 1791
+    }
+  }, 
+  "fc": "Hugh Barron", 
+  "gender": "Male", 
+  "id": 23, 
+  "mda": "Barron, Hugh", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 340, 
+      "name": "Conversation Piece"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/hugh-barron-23"
+}

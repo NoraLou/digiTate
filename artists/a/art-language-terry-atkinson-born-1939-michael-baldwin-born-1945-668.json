@@ -1,0 +1,26 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1939
+    }
+  }, 
+  "date": null, 
+  "fc": "Art & Language (Terry Atkinson, born 1939; Michael Baldwin, born 1945)", 
+  "gender": null, 
+  "id": 668, 
+  "mda": "Art & Language (Terry Atkinson, born 1939; Michael Baldwin, born 1945)", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }
+  ], 
+  "startLetter": "A", 
+  "totalWorks": 12, 
+  "url": "http://www.tate.org.uk/art/artists/art-language-terry-atkinson-born-1939-michael-baldwin-born-1945-668"
+}

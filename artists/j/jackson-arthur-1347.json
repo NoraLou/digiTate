@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Rotherham, United Kingdom", 
+      "placeName": "Rotherham", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1911
+    }
+  }, 
+  "birthYear": 1911, 
+  "date": "1911\u20132003", 
+  "death": {
+    "time": {
+      "startYear": 2003
+    }
+  }, 
+  "fc": "Arthur Jackson", 
+  "gender": "Male", 
+  "id": 1347, 
+  "mda": "Jackson, Arthur", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 298, 
+      "name": "Constructivism"
+    }
+  ], 
+  "startLetter": "J", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/arthur-jackson-1347"
+}

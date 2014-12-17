@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1941
+    }
+  }, 
+  "birthYear": 1941, 
+  "date": "born 1941", 
+  "fc": "Michael Craig-Martin", 
+  "gender": "Male", 
+  "id": 955, 
+  "mda": "Craig-Martin, Michael", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }, 
+    {
+      "era": {
+        "id": 19376, 
+        "name": "21st century"
+      }, 
+      "id": 21018, 
+      "name": "Digital art"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 23, 
+  "url": "http://www.tate.org.uk/art/artists/michael-craig-martin-955"
+}

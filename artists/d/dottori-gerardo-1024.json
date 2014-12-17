@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Perugia, Italia", 
+      "placeName": "Perugia", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1884
+    }
+  }, 
+  "birthYear": 1884, 
+  "date": "1884\u20131977", 
+  "death": {
+    "place": {
+      "name": "Perugia, Italia", 
+      "placeName": "Perugia", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1977
+    }
+  }, 
+  "fc": "Gerardo Dottori", 
+  "gender": "Male", 
+  "id": 1024, 
+  "mda": "Dottori, Gerardo", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 307, 
+      "name": "Futurism"
+    }
+  ], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/gerardo-dottori-1024"
+}

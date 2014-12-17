@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1940
+    }
+  }, 
+  "birthYear": 1940, 
+  "date": "1940\u20131993", 
+  "death": {
+    "place": {
+      "name": "Houston, United States", 
+      "placeName": "Houston", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1993
+    }
+  }, 
+  "fc": "Hannah Wilke", 
+  "gender": "Female", 
+  "id": 11355, 
+  "mda": "Wilke, Hannah", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 12081, 
+      "name": "Feminist Art"
+    }
+  ], 
+  "startLetter": "W", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/hannah-wilke-11355"
+}

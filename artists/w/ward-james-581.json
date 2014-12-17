@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1769
+    }
+  }, 
+  "birthYear": 1769, 
+  "date": "1769\u20131859", 
+  "death": {
+    "place": {
+      "name": "Cheshunt, United Kingdom", 
+      "placeName": "Cheshunt", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1859
+    }
+  }, 
+  "fc": "James Ward", 
+  "gender": "Male", 
+  "id": 581, 
+  "mda": "Ward, James", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 26, 
+  "url": "http://www.tate.org.uk/art/artists/james-ward-581"
+}

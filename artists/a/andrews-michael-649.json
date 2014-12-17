@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Norwich, United Kingdom", 
+      "placeName": "Norwich", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1928
+    }
+  }, 
+  "birthYear": 1928, 
+  "date": "1928\u20131995", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1995
+    }
+  }, 
+  "fc": "Michael Andrews", 
+  "gender": "Male", 
+  "id": 649, 
+  "mda": "Andrews, Michael", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1666, 
+      "name": "School of London"
+    }
+  ], 
+  "startLetter": "A", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/michael-andrews-649"
+}

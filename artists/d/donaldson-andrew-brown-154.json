@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1840
+    }
+  }, 
+  "birthYear": 1840, 
+  "date": "1840\u20131919", 
+  "death": {
+    "time": {
+      "startYear": 1919
+    }
+  }, 
+  "fc": "Andrew Brown Donaldson", 
+  "gender": "Male", 
+  "id": 154, 
+  "mda": "Donaldson, Andrew Brown", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/andrew-brown-donaldson-154"
+}

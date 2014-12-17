@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Iowa, United States", 
+      "placeName": "Iowa", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1969
+    }
+  }, 
+  "birthYear": 1969, 
+  "date": "born 1969", 
+  "fc": "Anna Gaskell", 
+  "gender": "Female", 
+  "id": 2696, 
+  "mda": "Gaskell, Anna", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/anna-gaskell-2696"
+}

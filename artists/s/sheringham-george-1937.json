@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1884
+    }
+  }, 
+  "birthYear": 1884, 
+  "date": "1884\u20131937", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "fc": "George Sheringham", 
+  "gender": "Male", 
+  "id": 1937, 
+  "mda": "Sheringham, George", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/george-sheringham-1937"
+}

@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1840
+    }
+  }, 
+  "birthYear": 1840, 
+  "date": "1840\u20131926", 
+  "death": {
+    "place": {
+      "name": "Giverny, France", 
+      "placeName": "Giverny", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1926
+    }
+  }, 
+  "fc": "Claude Monet", 
+  "gender": "Male", 
+  "id": 1652, 
+  "mda": "Monet, Claude", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 357, 
+      "name": "Impressionism"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/claude-monet-1652"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1792
+    }
+  }, 
+  "birthYear": 1792, 
+  "date": "1792\u20131871", 
+  "death": {
+    "place": {
+      "name": "Saint Marylebone, United Kingdom", 
+      "placeName": "Saint Marylebone", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1871
+    }
+  }, 
+  "fc": "Sir George Hayter", 
+  "gender": "Male", 
+  "id": 2504, 
+  "mda": "Hayter, Sir George", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/sir-george-hayter-2504"
+}

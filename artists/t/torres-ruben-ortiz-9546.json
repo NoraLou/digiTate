@@ -1,0 +1,27 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1964
+    }
+  }, 
+  "birthYear": 1964, 
+  "date": "born 1964", 
+  "fc": "Rub\u00e9n Ortiz Torres", 
+  "gender": "Male", 
+  "id": 9546, 
+  "mda": "Torres, Rub\u00e9n Ortiz", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 12072, 
+      "name": "Kinetic Art"
+    }
+  ], 
+  "startLetter": "T", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/ruben-ortiz-torres-9546"
+}

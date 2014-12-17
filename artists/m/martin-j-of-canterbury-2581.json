@@ -1,0 +1,22 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1800
+    }
+  }, 
+  "date": "19th century", 
+  "death": {
+    "time": {
+      "startYear": 1899
+    }
+  }, 
+  "fc": "J. Martin of Canterbury", 
+  "gender": null, 
+  "id": 2581, 
+  "mda": "Martin, J., of Canterbury", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/j-martin-of-canterbury-2581"
+}

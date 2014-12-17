@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wedel, Deutschland", 
+      "placeName": "Wedel", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1870
+    }
+  }, 
+  "birthYear": 1870, 
+  "date": "1870\u20131938", 
+  "death": {
+    "place": {
+      "name": "Rostock, Deutschland", 
+      "placeName": "Rostock", 
+      "placeType": "national_district"
+    }, 
+    "time": {
+      "startYear": 1938
+    }
+  }, 
+  "fc": "Ernst Barlach", 
+  "gender": "Male", 
+  "id": 695, 
+  "mda": "Barlach, Ernst", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/ernst-barlach-695"
+}

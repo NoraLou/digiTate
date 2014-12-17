@@ -1,0 +1,22 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1800
+    }
+  }, 
+  "date": "19th century", 
+  "death": {
+    "time": {
+      "startYear": 1899
+    }
+  }, 
+  "fc": "A. Marsingall", 
+  "gender": null, 
+  "id": 2515, 
+  "mda": "Marsingall, A", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/a-marsingall-2515"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Georgetown, Guyana", 
+      "placeName": "Georgetown", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1926
+    }
+  }, 
+  "birthYear": 1926, 
+  "date": "1926\u20131990", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1990
+    }
+  }, 
+  "fc": "Aubrey Williams", 
+  "gender": "Male", 
+  "id": 2314, 
+  "mda": "Williams, Aubrey", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/aubrey-williams-2314"
+}

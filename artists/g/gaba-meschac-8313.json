@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Rotterdam, Nederland", 
+      "placeName": "Rotterdam", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Cotonou, B\u00e9nin", 
+      "placeName": "Cotonou", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1961
+    }
+  }, 
+  "birthYear": 1961, 
+  "date": "born 1961", 
+  "fc": "Meschac Gaba", 
+  "gender": "Male", 
+  "id": 8313, 
+  "mda": "Gaba, Meschac", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 15, 
+  "url": "http://www.tate.org.uk/art/artists/meschac-gaba-8313"
+}

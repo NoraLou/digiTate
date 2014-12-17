@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dalton-in-Furness, United Kingdom", 
+      "placeName": "Dalton-in-Furness", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1734
+    }
+  }, 
+  "birthYear": 1734, 
+  "date": "1734\u20131802", 
+  "death": {
+    "place": {
+      "name": "Kendal, United Kingdom", 
+      "placeName": "Kendal", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1802
+    }
+  }, 
+  "fc": "George Romney", 
+  "gender": "Male", 
+  "id": 457, 
+  "mda": "Romney, George", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 341, 
+      "name": "Fancy Picture"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 26, 
+  "url": "http://www.tate.org.uk/art/artists/george-romney-457"
+}

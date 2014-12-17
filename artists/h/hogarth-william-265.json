@@ -1,0 +1,58 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1697
+    }
+  }, 
+  "birthYear": 1697, 
+  "date": "1697\u20131764", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1764
+    }
+  }, 
+  "fc": "William Hogarth", 
+  "gender": "Male", 
+  "id": 265, 
+  "mda": "Hogarth, William", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 340, 
+      "name": "Conversation Piece"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 343, 
+      "name": "Modern Moral Subject"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 346, 
+      "name": "Rococo"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 46, 
+  "url": "http://www.tate.org.uk/art/artists/william-hogarth-265"
+}

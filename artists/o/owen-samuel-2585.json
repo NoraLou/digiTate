@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1768
+    }
+  }, 
+  "birthYear": 1768, 
+  "date": "1768 or 9\u20131857", 
+  "death": {
+    "place": {
+      "name": "Sunbury, United Kingdom", 
+      "placeName": "Sunbury", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1857
+    }
+  }, 
+  "fc": "Samuel Owen", 
+  "gender": "Male", 
+  "id": 2585, 
+  "mda": "Owen, Samuel", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 349, 
+      "name": "Sublime"
+    }
+  ], 
+  "startLetter": "O", 
+  "totalWorks": 12, 
+  "url": "http://www.tate.org.uk/art/artists/samuel-owen-2585"
+}

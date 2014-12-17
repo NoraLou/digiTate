@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Worthing, United Kingdom", 
+      "placeName": "Worthing", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1918
+    }
+  }, 
+  "birthYear": 1918, 
+  "date": "1918\u20131984", 
+  "death": {
+    "time": {
+      "startYear": 1984
+    }
+  }, 
+  "fc": "Christopher Chamberlain", 
+  "gender": "Male", 
+  "id": 884, 
+  "mda": "Chamberlain, Christopher", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/christopher-chamberlain-884"
+}

@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1828
+    }
+  }, 
+  "birthYear": 1828, 
+  "date": "1828\u20131907", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1907
+    }
+  }, 
+  "fc": "Frederic George Stephens", 
+  "gender": "Male", 
+  "id": 524, 
+  "mda": "Stephens, Frederic George", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 363, 
+      "name": "Pre-Raphaelite Brotherhood"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/frederic-george-stephens-524"
+}

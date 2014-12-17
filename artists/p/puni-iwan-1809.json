@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Repino, Rossiya", 
+      "placeName": "Repino", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1892
+    }
+  }, 
+  "birthYear": 1892, 
+  "date": "1892\u20131956", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1956
+    }
+  }, 
+  "fc": "Iwan Puni (Jean Pougny)", 
+  "gender": "Male", 
+  "id": 1809, 
+  "mda": "Puni, Iwan", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 318, 
+      "name": "Supremetism"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/iwan-puni-jean-pougny-1809"
+}

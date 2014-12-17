@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1823
+    }
+  }, 
+  "birthYear": 1823, 
+  "date": "1823\u20131891", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1891
+    }
+  }, 
+  "fc": "Charles Samuel Keene", 
+  "gender": "Male", 
+  "id": 304, 
+  "mda": "Keene, Charles Samuel", 
+  "movements": [], 
+  "startLetter": "K", 
+  "totalWorks": 54, 
+  "url": "http://www.tate.org.uk/art/artists/charles-samuel-keene-304"
+}

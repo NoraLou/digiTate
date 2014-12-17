@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kingston-upon-Thames, United Kingdom", 
+      "placeName": "Kingston-upon-Thames", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1966
+    }
+  }, 
+  "birthYear": 1966, 
+  "date": "born 1966", 
+  "fc": "Dan Hays", 
+  "gender": "Male", 
+  "id": 5466, 
+  "mda": "Hays, Dan", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/dan-hays-5466"
+}

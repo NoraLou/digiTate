@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1841
+    }
+  }, 
+  "birthYear": 1841, 
+  "date": "1841\u20131924", 
+  "death": {
+    "time": {
+      "startYear": 1924
+    }
+  }, 
+  "fc": "John William North", 
+  "gender": "Male", 
+  "id": 403, 
+  "mda": "North, John William", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/john-william-north-403"
+}

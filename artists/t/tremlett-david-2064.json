@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Cornwall, United Kingdom", 
+      "placeName": "Cornwall", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1945
+    }
+  }, 
+  "birthYear": 1945, 
+  "date": "born 1945", 
+  "fc": "David Tremlett", 
+  "gender": "Male", 
+  "id": 2064, 
+  "mda": "Tremlett, David", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 422, 
+      "name": "Environmental Art"
+    }
+  ], 
+  "startLetter": "T", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/david-tremlett-2064"
+}

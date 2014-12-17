@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dumfries, United Kingdom", 
+      "placeName": "Dumfries", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1865
+    }
+  }, 
+  "birthYear": 1865, 
+  "date": "1865\u20131935", 
+  "death": {
+    "time": {
+      "startYear": 1935
+    }
+  }, 
+  "fc": "Eric Forbes-Robertson", 
+  "gender": "Male", 
+  "id": 1105, 
+  "mda": "Forbes-Robertson, Eric", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 4229, 
+      "name": "Post-Impressionism"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 16649, 
+      "name": "Symbolism"
+    }
+  ], 
+  "startLetter": "F", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/eric-forbes-robertson-1105"
+}

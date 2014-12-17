@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Rosario, Argentina", 
+      "placeName": "Rosario", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1899
+    }
+  }, 
+  "birthYear": 1899, 
+  "date": "1899\u20131968", 
+  "death": {
+    "time": {
+      "startYear": 1968
+    }
+  }, 
+  "fc": "Lucio Fontana", 
+  "gender": "Male", 
+  "id": 1102, 
+  "mda": "Fontana, Lucio", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 4246, 
+      "name": "Spazialismo"
+    }
+  ], 
+  "startLetter": "F", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/lucio-fontana-1102"
+}

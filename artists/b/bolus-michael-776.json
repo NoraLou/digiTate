@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "South Africa", 
+      "placeName": "South Africa", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "birthYear": 1934, 
+  "date": "1934\u20132013", 
+  "death": {
+    "time": {
+      "startYear": 2013
+    }
+  }, 
+  "fc": "Michael Bolus", 
+  "gender": "Male", 
+  "id": 776, 
+  "mda": "Bolus, Michael", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 433, 
+      "name": "New Generation Sculpture"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 13, 
+  "url": "http://www.tate.org.uk/art/artists/michael-bolus-776"
+}

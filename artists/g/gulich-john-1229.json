@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wimbledon", 
+      "placeName": "Wimbledon", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1864
+    }
+  }, 
+  "birthYear": 1864, 
+  "date": "1864\u20131898", 
+  "death": {
+    "place": {
+      "name": "Greater London, United Kingdom", 
+      "placeName": "Greater London", 
+      "placeType": "city"
+    }, 
+    "time": {
+      "startYear": 1898
+    }
+  }, 
+  "fc": "John Gulich", 
+  "gender": "Male", 
+  "id": 1229, 
+  "mda": "Gulich, John", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-gulich-1229"
+}

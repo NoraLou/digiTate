@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Le Cateau-Cambr\u00e9sis, France", 
+      "placeName": "Le Cateau-Cambr\u00e9sis", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1869
+    }
+  }, 
+  "birthYear": 1869, 
+  "date": "1869\u20131954", 
+  "death": {
+    "place": {
+      "name": "Nice, France", 
+      "placeName": "Nice", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1954
+    }
+  }, 
+  "fc": "Henri Matisse", 
+  "gender": "Male", 
+  "id": 1593, 
+  "mda": "Matisse, Henri", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 306, 
+      "name": "Fauvism"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 20, 
+  "url": "http://www.tate.org.uk/art/artists/henri-matisse-1593"
+}

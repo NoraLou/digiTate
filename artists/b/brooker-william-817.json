@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Croydon, United Kingdom", 
+      "placeName": "Croydon", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1918
+    }
+  }, 
+  "birthYear": 1918, 
+  "date": "1918\u20131983", 
+  "death": {
+    "time": {
+      "startYear": 1983
+    }
+  }, 
+  "fc": "William Brooker", 
+  "gender": "Male", 
+  "id": 817, 
+  "mda": "Brooker, William", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-brooker-817"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bucuresti, Rom\u00e2nia", 
+      "placeName": "Bucuresti", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "birthYear": 1910, 
+  "date": "1910\u20132011", 
+  "death": {
+    "place": {
+      "name": "Manhattan Island, United States", 
+      "placeName": "Manhattan Island", 
+      "placeType": "city"
+    }, 
+    "time": {
+      "startYear": 2011
+    }
+  }, 
+  "fc": "Hedda Sterne", 
+  "gender": "Female", 
+  "id": 16798, 
+  "mda": "Sterne, Hedda", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/hedda-sterne-16798"
+}

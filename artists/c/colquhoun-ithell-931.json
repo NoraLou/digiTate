@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Shillong, Bharat", 
+      "placeName": "Shillong", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1906
+    }
+  }, 
+  "birthYear": 1906, 
+  "date": "1906\u20131988", 
+  "death": {
+    "time": {
+      "startYear": 1988
+    }
+  }, 
+  "fc": "Ithell Colquhoun", 
+  "gender": "Female", 
+  "id": 931, 
+  "mda": "Colquhoun, Ithell", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/ithell-colquhoun-931"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1928
+    }
+  }, 
+  "birthYear": 1928, 
+  "date": "1928 \u2013 2011", 
+  "death": {
+    "place": {
+      "name": "Cornwall, United Kingdom", 
+      "placeName": "Cornwall", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 2011
+    }
+  }, 
+  "fc": "Breon O'Casey", 
+  "gender": "Male", 
+  "id": 2698, 
+  "mda": "O'Casey, Breon", 
+  "movements": [], 
+  "startLetter": "O", 
+  "totalWorks": 8, 
+  "url": "http://www.tate.org.uk/art/artists/breon-ocasey-2698"
+}

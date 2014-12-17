@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Haute-Garonne, France", 
+      "placeName": "Haute-Garonne", 
+      "placeType": "department"
+    }, 
+    "time": {
+      "startYear": 1851
+    }
+  }, 
+  "birthYear": 1851, 
+  "date": "1851\u20131934", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "fc": "Emile Schuffenecker", 
+  "gender": "Male", 
+  "id": 1909, 
+  "mda": "Schuffenecker, Emile", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 4229, 
+      "name": "Post-Impressionism"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/emile-schuffenecker-1909"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1857
+    }
+  }, 
+  "birthYear": 1857, 
+  "date": "1857\u20131917", 
+  "death": {
+    "place": {
+      "name": "East Linton, United Kingdom", 
+      "placeName": "East Linton", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1917
+    }
+  }, 
+  "fc": "Robert Noble", 
+  "gender": "Male", 
+  "id": 402, 
+  "mda": "Noble, Robert", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/robert-noble-402"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Pistoia, Italia", 
+      "placeName": "Pistoia", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1901
+    }
+  }, 
+  "birthYear": 1901, 
+  "date": "1901\u20131980", 
+  "death": {
+    "place": {
+      "name": "Viareggio, Italia", 
+      "placeName": "Viareggio", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1980
+    }
+  }, 
+  "fc": "Marino Marini", 
+  "gender": "Male", 
+  "id": 1581, 
+  "mda": "Marini, Marino", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/marino-marini-1581"
+}

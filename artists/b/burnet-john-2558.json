@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1784
+    }
+  }, 
+  "birthYear": 1784, 
+  "date": "1784\u20131868", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1868
+    }
+  }, 
+  "fc": "John Burnet", 
+  "gender": "Male", 
+  "id": 2558, 
+  "mda": "Burnet, John", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-burnet-2558"
+}

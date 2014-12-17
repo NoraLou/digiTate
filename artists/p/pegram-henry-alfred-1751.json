@@ -1,0 +1,66 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1862
+    }
+  }, 
+  "birthYear": 1862, 
+  "date": "1862\u20131937", 
+  "death": {
+    "place": {
+      "name": "Hampstead, United Kingdom", 
+      "placeName": "Hampstead", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "fc": "Henry Alfred Pegram", 
+  "gender": "Male", 
+  "id": 1751, 
+  "mda": "Pegram, Henry Alfred", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 16650, 
+      "name": "Decadence"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 16651, 
+      "name": "Fin de Si\u00e8cle"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 361, 
+      "name": "New Sculpture"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 16649, 
+      "name": "Symbolism"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/henry-alfred-pegram-1751"
+}

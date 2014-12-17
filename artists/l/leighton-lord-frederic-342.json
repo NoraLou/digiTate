@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Scarborough, United Kingdom", 
+      "placeName": "Scarborough", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1830
+    }
+  }, 
+  "birthYear": 1830, 
+  "date": "1830\u20131896", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1896
+    }
+  }, 
+  "fc": "Frederic, Lord Leighton", 
+  "gender": "Male", 
+  "id": 342, 
+  "mda": "Leighton, Lord Frederic", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 351, 
+      "name": "Aesthetic Movement"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 361, 
+      "name": "New Sculpture"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 27, 
+  "url": "http://www.tate.org.uk/art/artists/frederic-lord-leighton-342"
+}

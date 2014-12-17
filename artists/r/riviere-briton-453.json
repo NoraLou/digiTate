@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1840
+    }
+  }, 
+  "birthYear": 1840, 
+  "date": "1840\u20131920", 
+  "death": {
+    "time": {
+      "startYear": 1920
+    }
+  }, 
+  "fc": "Briton Riviere", 
+  "gender": "Male", 
+  "id": 453, 
+  "mda": "Riviere, Briton", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/briton-riviere-453"
+}

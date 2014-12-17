@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1820
+    }
+  }, 
+  "birthYear": 1820, 
+  "date": "1820\u20131914", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1914
+    }
+  }, 
+  "fc": "Sir John Tenniel", 
+  "gender": "Male", 
+  "id": 543, 
+  "mda": "Tenniel, Sir John", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/sir-john-tenniel-543"
+}

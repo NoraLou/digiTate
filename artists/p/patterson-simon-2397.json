@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Leatherhead, United Kingdom", 
+      "placeName": "Leatherhead", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1967
+    }
+  }, 
+  "birthYear": 1967, 
+  "date": "born 1967", 
+  "fc": "Simon Patterson", 
+  "gender": "Male", 
+  "id": 2397, 
+  "mda": "Patterson, Simon", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 11857, 
+      "name": "Young British Artists (YBA)"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/simon-patterson-2397"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hertfordshire", 
+      "placeName": "Hertfordshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1741
+    }
+  }, 
+  "birthYear": 1741, 
+  "date": "1741\u20131811 or 12", 
+  "death": {
+    "place": {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1811
+    }
+  }, 
+  "fc": "John Skippe", 
+  "gender": "Male", 
+  "id": 2458, 
+  "mda": "Skippe, John", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-skippe-2458"
+}

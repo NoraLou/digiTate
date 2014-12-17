@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1667
+    }
+  }, 
+  "birthYear": 1667, 
+  "date": "1667\u20131745", 
+  "death": {
+    "place": {
+      "name": "Camden, United Kingdom", 
+      "placeName": "Camden", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1745
+    }
+  }, 
+  "fc": "Jonathan Richardson", 
+  "gender": "Male", 
+  "id": 2584, 
+  "mda": "Richardson, Jonathan", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/jonathan-richardson-2584"
+}

@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1781
+    }
+  }, 
+  "birthYear": 1781, 
+  "date": "1781\u20131841", 
+  "death": {
+    "time": {
+      "startYear": 1841
+    }
+  }, 
+  "fc": "James Holworthy", 
+  "gender": "Male", 
+  "id": 272, 
+  "mda": "Holworthy, James", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/james-holworthy-272"
+}

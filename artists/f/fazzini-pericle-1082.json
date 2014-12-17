@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Grottammare, Italia", 
+      "placeName": "Grottammare", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1913
+    }
+  }, 
+  "birthYear": 1913, 
+  "date": "1913\u20131987", 
+  "death": {
+    "place": {
+      "name": "Roma, Italia", 
+      "placeName": "Roma", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1987
+    }
+  }, 
+  "fc": "Pericle Fazzini", 
+  "gender": "Male", 
+  "id": 1082, 
+  "mda": "Fazzini, Pericle", 
+  "movements": [], 
+  "startLetter": "F", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/pericle-fazzini-1082"
+}

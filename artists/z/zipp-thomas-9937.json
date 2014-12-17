@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Heppenheim an der Bergstrasse, Deutschland", 
+      "placeName": "Heppenheim an der Bergstrasse", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1966
+    }
+  }, 
+  "birthYear": 1966, 
+  "date": "born 1966", 
+  "fc": "Thomas Zipp", 
+  "gender": "Male", 
+  "id": 9937, 
+  "mda": "Zipp, Thomas", 
+  "movements": [], 
+  "startLetter": "Z", 
+  "totalWorks": 14, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-zipp-9937"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Zaandam, Nederland", 
+      "placeName": "Zaandam", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1838
+    }
+  }, 
+  "birthYear": 1838, 
+  "date": "1838\u20131888", 
+  "death": {
+    "place": {
+      "name": "Arnhem, Nederland", 
+      "placeName": "Arnhem", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1888
+    }
+  }, 
+  "fc": "Anton Mauve", 
+  "gender": "Male", 
+  "id": 1598, 
+  "mda": "Mauve, Anton", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/anton-mauve-1598"
+}

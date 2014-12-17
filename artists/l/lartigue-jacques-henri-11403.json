@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Courbevoie, France", 
+      "placeName": "Courbevoie", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1894
+    }
+  }, 
+  "birthYear": 1894, 
+  "date": "1894\u20131986", 
+  "death": {
+    "place": {
+      "name": "Nice, France", 
+      "placeName": "Nice", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1986
+    }
+  }, 
+  "fc": "Jacques-Henri Lartigue", 
+  "gender": "Male", 
+  "id": 11403, 
+  "mda": "Lartigue, Jacques-Henri", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/jacques-henri-lartigue-11403"
+}

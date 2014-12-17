@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Worcestershire, United Kingdom", 
+      "placeName": "Worcestershire", 
+      "placeType": "region"
+    }, 
+    "time": {
+      "startYear": 1933
+    }
+  }, 
+  "birthYear": 1933, 
+  "date": "1933\u20131999", 
+  "death": {
+    "time": {
+      "startYear": 1999
+    }
+  }, 
+  "fc": "Richard Allen", 
+  "gender": "Male", 
+  "id": 12520, 
+  "mda": "Allen, Richard", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/richard-allen-12520"
+}

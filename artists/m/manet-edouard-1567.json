@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1832
+    }
+  }, 
+  "birthYear": 1832, 
+  "date": "1832\u20131883", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1883
+    }
+  }, 
+  "fc": "Edouard Manet", 
+  "gender": "Male", 
+  "id": 1567, 
+  "mda": "Manet, Edouard", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/edouard-manet-1567"
+}

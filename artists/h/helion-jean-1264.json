@@ -1,0 +1,58 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "France", 
+      "placeName": "France", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1904
+    }
+  }, 
+  "birthYear": 1904, 
+  "date": "1904\u20131987", 
+  "death": {
+    "place": {
+      "name": "Paris", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1987
+    }
+  }, 
+  "fc": "Jean H\u00e9lion", 
+  "gender": "Male", 
+  "id": 1264, 
+  "mda": "H\u00e9lion, Jean", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 16667, 
+      "name": "Abstraction-Cr\u00e9ation"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 298, 
+      "name": "Constructivism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 311, 
+      "name": "Modern Realism"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/jean-helion-1264"
+}

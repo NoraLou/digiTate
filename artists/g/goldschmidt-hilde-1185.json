@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Leipzig, Deutschland", 
+      "placeName": "Leipzig", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1897
+    }
+  }, 
+  "birthYear": 1897, 
+  "date": "1897\u20131980", 
+  "death": {
+    "place": {
+      "name": "Kitzb\u00fchel, \u00d6sterreich", 
+      "placeName": "Kitzb\u00fchel", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1980
+    }
+  }, 
+  "fc": "Hilde Goldschmidt", 
+  "gender": "Female", 
+  "id": 1185, 
+  "mda": "Goldschmidt, Hilde", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/hilde-goldschmidt-1185"
+}

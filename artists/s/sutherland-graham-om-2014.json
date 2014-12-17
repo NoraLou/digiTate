@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1903
+    }
+  }, 
+  "birthYear": 1903, 
+  "date": "1903\u20131980", 
+  "death": {
+    "time": {
+      "startYear": 1980
+    }
+  }, 
+  "fc": "Graham Sutherland OM", 
+  "gender": "Male", 
+  "id": 2014, 
+  "mda": "Sutherland, Graham, OM", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 312, 
+      "name": "Neo-Romanticism"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 56, 
+  "url": "http://www.tate.org.uk/art/artists/graham-sutherland-om-2014"
+}

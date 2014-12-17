@@ -1,0 +1,57 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Great Britain, United Kingdom", 
+      "placeName": "Great Britain", 
+      "placeType": "island"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Lorient, France", 
+      "placeName": "Lorient", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1847
+    }
+  }, 
+  "birthYear": 1847, 
+  "date": "1847\u20131926", 
+  "death": {
+    "place": {
+      "name": "Hastings, United Kingdom", 
+      "placeName": "Hastings", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1926
+    }
+  }, 
+  "fc": "Th\u00e9odore Roussel", 
+  "gender": "Male", 
+  "id": 462, 
+  "mda": "Roussel, Th\u00e9odore", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 351, 
+      "name": "Aesthetic Movement"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 359, 
+      "name": "New English Art Club"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/theodore-roussel-462"
+}

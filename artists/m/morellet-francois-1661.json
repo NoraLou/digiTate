@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Cholet, France", 
+      "placeName": "Cholet", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1926
+    }
+  }, 
+  "birthYear": 1926, 
+  "date": "born 1926", 
+  "death": {
+    "place": {
+      "name": "Cholet, France", 
+      "placeName": "Cholet", 
+      "placeType": "inhabited_place"
+    }
+  }, 
+  "fc": "Fran\u00e7ois Morellet", 
+  "gender": "Male", 
+  "id": 1661, 
+  "mda": "Morellet, Fran\u00e7ois", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/francois-morellet-1661"
+}

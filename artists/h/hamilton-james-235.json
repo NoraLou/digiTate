@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Scotland, United Kingdom", 
+      "placeName": "Scotland", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1640
+    }
+  }, 
+  "birthYear": 1640, 
+  "date": "1640\u20131720", 
+  "death": {
+    "place": {
+      "name": "Bruxelles, Belgi\u00eb", 
+      "placeName": "Bruxelles", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1720
+    }
+  }, 
+  "fc": "James Hamilton", 
+  "gender": "Male", 
+  "id": 235, 
+  "mda": "Hamilton, James", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/james-hamilton-235"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Weymouth, United Kingdom", 
+      "placeName": "Weymouth", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1775
+    }
+  }, 
+  "birthYear": 1775, 
+  "date": "1775\u20131863", 
+  "death": {
+    "place": {
+      "name": "Oxford, United Kingdom", 
+      "placeName": "Oxford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1863
+    }
+  }, 
+  "fc": "William Alfred Delamotte", 
+  "gender": "Male", 
+  "id": 144, 
+  "mda": "Delamotte, William Alfred", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/william-alfred-delamotte-144"
+}

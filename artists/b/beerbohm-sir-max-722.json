@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1872
+    }
+  }, 
+  "birthYear": 1872, 
+  "date": "1872\u20131956", 
+  "death": {
+    "place": {
+      "name": "Rapallo, Italia", 
+      "placeName": "Rapallo", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1956
+    }
+  }, 
+  "fc": "Sir Max Beerbohm", 
+  "gender": "Male", 
+  "id": 722, 
+  "mda": "Beerbohm, Sir Max", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 28, 
+  "url": "http://www.tate.org.uk/art/artists/sir-max-beerbohm-722"
+}

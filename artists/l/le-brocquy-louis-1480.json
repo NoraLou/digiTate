@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1916
+    }
+  }, 
+  "birthYear": 1916, 
+  "date": "1916\u20132012", 
+  "death": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2012
+    }
+  }, 
+  "fc": "Louis Le Brocquy", 
+  "gender": "Male", 
+  "id": 1480, 
+  "mda": "Le Brocquy, Louis", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 11, 
+  "url": "http://www.tate.org.uk/art/artists/louis-le-brocquy-1480"
+}

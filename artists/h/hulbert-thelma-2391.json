@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bath, United Kingdom", 
+      "placeName": "Bath", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1913
+    }
+  }, 
+  "birthYear": 1913, 
+  "date": "1913\u20131995", 
+  "death": {
+    "time": {
+      "startYear": 1995
+    }
+  }, 
+  "fc": "Thelma Hulbert", 
+  "gender": "Female", 
+  "id": 2391, 
+  "mda": "Hulbert, Thelma", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/thelma-hulbert-2391"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "California, United States", 
+      "placeName": "California", 
+      "placeType": "state"
+    }, 
+    "time": {
+      "startYear": 1965
+    }
+  }, 
+  "birthYear": 1965, 
+  "date": "1965\u20132006", 
+  "death": {
+    "place": {
+      "name": "Los Angeles", 
+      "placeName": "Los Angeles", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 2006
+    }
+  }, 
+  "fc": "Jason Rhoades", 
+  "gender": "Male", 
+  "id": 7682, 
+  "mda": "Rhoades, Jason", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/jason-rhoades-7682"
+}

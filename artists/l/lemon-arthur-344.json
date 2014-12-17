@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Isle of Man", 
+      "placeName": "Isle of Man", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1850
+    }
+  }, 
+  "birthYear": 1850, 
+  "date": "1850\u20131912", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1912
+    }
+  }, 
+  "fc": "Arthur Lemon", 
+  "gender": "Male", 
+  "id": 344, 
+  "mda": "Lemon, Arthur", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/arthur-lemon-344"
+}

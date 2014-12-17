@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bergamo, Italia", 
+      "placeName": "Bergamo", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1908
+    }
+  }, 
+  "birthYear": 1908, 
+  "date": "1908\u20131991", 
+  "death": {
+    "time": {
+      "startYear": 1991
+    }
+  }, 
+  "fc": "Giacomo Manzu", 
+  "gender": "Male", 
+  "id": 1572, 
+  "mda": "Manzu, Giacomo", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/giacomo-manzu-1572"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Rutherford, United States", 
+      "placeName": "Rutherford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1870
+    }
+  }, 
+  "birthYear": 1870, 
+  "date": "1870\u20131953", 
+  "death": {
+    "place": {
+      "name": "Addison, United States", 
+      "placeName": "Addison", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1953
+    }
+  }, 
+  "fc": "John Marin", 
+  "gender": "Male", 
+  "id": 1580, 
+  "mda": "Marin, John", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-marin-1580"
+}

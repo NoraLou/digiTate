@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1848
+    }
+  }, 
+  "birthYear": 1848, 
+  "date": "1848\u20131907", 
+  "death": {
+    "place": {
+      "name": "Cornwall, United Kingdom", 
+      "placeName": "Cornwall", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1907
+    }
+  }, 
+  "fc": "Augustus Saint-Gaudens", 
+  "gender": "Male", 
+  "id": 1891, 
+  "mda": "Saint-Gaudens, Augustus", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/augustus-saint-gaudens-1891"
+}

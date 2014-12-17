@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1866
+    }
+  }, 
+  "birthYear": 1866, 
+  "date": "1866\u20131934", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "fc": "Roger Fry", 
+  "gender": "Male", 
+  "id": 1129, 
+  "mda": "Fry, Roger", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 295, 
+      "name": "Bloomsbury Group"
+    }
+  ], 
+  "startLetter": "F", 
+  "totalWorks": 18, 
+  "url": "http://www.tate.org.uk/art/artists/roger-fry-1129"
+}

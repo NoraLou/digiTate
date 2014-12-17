@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1726
+    }
+  }, 
+  "birthYear": 1726, 
+  "date": "1726\u20131765", 
+  "death": {
+    "place": {
+      "name": "London", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1765
+    }
+  }, 
+  "fc": "Anthony Walker", 
+  "gender": "Male", 
+  "id": 2583, 
+  "mda": "Walker, Anthony", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/anthony-walker-2583"
+}

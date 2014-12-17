@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Jun\u00edn, Argentina", 
+      "placeName": "Jun\u00edn", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1936
+    }
+  }, 
+  "birthYear": 1936, 
+  "date": "1936\u20132002", 
+  "death": {
+    "place": {
+      "name": "La Plata, Argentina", 
+      "placeName": "La Plata", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2002
+    }
+  }, 
+  "fc": "Victor Grippo", 
+  "gender": "Male", 
+  "id": 8373, 
+  "mda": "Grippo, Victor", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/victor-grippo-8373"
+}

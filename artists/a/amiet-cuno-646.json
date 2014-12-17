@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Solothurn", 
+      "placeName": "Solothurn", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1868
+    }
+  }, 
+  "birthYear": 1868, 
+  "date": "1868\u20131961", 
+  "death": {
+    "place": {
+      "name": "Schweiz", 
+      "placeName": "Schweiz", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1961
+    }
+  }, 
+  "fc": "Cuno Amiet", 
+  "gender": "Male", 
+  "id": 646, 
+  "mda": "Amiet, Cuno", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/cuno-amiet-646"
+}

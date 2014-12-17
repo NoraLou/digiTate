@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Birmingham, United Kingdom", 
+      "placeName": "Birmingham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1890
+    }
+  }, 
+  "birthYear": 1890, 
+  "date": "1890\u20131978", 
+  "death": {
+    "place": {
+      "name": "Franklin Lakes, United States", 
+      "placeName": "Franklin Lakes", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1978
+    }
+  }, 
+  "fc": "Gerald Leslie Brockhurst", 
+  "gender": "Male", 
+  "id": 11347, 
+  "mda": "Brockhurst, Gerald", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/gerald-leslie-brockhurst-11347"
+}

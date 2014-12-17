@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Belgi\u00eb", 
+      "placeName": "Belgi\u00eb", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1922
+    }
+  }, 
+  "birthYear": 1922, 
+  "date": "1922\u20132005", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2005
+    }
+  }, 
+  "fc": "Pol Bury", 
+  "gender": "Male", 
+  "id": 841, 
+  "mda": "Bury, Pol", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 12072, 
+      "name": "Kinetic Art"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/pol-bury-841"
+}

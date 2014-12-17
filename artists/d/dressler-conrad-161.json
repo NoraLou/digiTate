@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1856
+    }
+  }, 
+  "birthYear": 1856, 
+  "date": "1856\u20131940", 
+  "death": {
+    "place": {
+      "name": "Loire, France", 
+      "placeName": "Loire", 
+      "placeType": "department"
+    }, 
+    "time": {
+      "startYear": 1940
+    }
+  }, 
+  "fc": "Conrad Dressler", 
+  "gender": "Male", 
+  "id": 161, 
+  "mda": "Dressler, Conrad", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/conrad-dressler-161"
+}

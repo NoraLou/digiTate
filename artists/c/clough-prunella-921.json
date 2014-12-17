@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1919
+    }
+  }, 
+  "birthYear": 1919, 
+  "date": "1919\u20131999", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1999
+    }
+  }, 
+  "fc": "Prunella Clough", 
+  "gender": "Female", 
+  "id": 921, 
+  "mda": "Clough, Prunella", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 312, 
+      "name": "Neo-Romanticism"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 29, 
+  "url": "http://www.tate.org.uk/art/artists/prunella-clough-921"
+}

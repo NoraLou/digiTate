@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Huddersfield, United Kingdom", 
+      "placeName": "Huddersfield", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1894
+    }
+  }, 
+  "birthYear": 1894, 
+  "date": "1894\u20131983", 
+  "death": {
+    "time": {
+      "startYear": 1983
+    }
+  }, 
+  "fc": "Ernest M. Dinkel", 
+  "gender": "Male", 
+  "id": 1010, 
+  "mda": "Dinkel, Ernest M.", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/ernest-m-dinkel-1010"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Birkenhead, United Kingdom", 
+      "placeName": "Birkenhead", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1861
+    }
+  }, 
+  "birthYear": 1861, 
+  "date": "1861\u20131950", 
+  "death": {
+    "place": {
+      "name": "Anglesey, United Kingdom", 
+      "placeName": "Anglesey", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1950
+    }
+  }, 
+  "fc": "George Cockram", 
+  "gender": "Male", 
+  "id": 923, 
+  "mda": "Cockram, George", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/george-cockram-923"
+}

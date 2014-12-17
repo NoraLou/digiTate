@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1891
+    }
+  }, 
+  "birthYear": 1891, 
+  "date": "1891\u20131937", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "fc": "Vivian Forbes", 
+  "gender": "Female", 
+  "id": 1104, 
+  "mda": "Forbes, Vivian", 
+  "movements": [], 
+  "startLetter": "F", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/vivian-forbes-1104"
+}

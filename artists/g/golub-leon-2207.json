@@ -1,0 +1,35 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Chicago, United States", 
+      "placeName": "Chicago", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1922
+    }
+  }, 
+  "birthYear": 1922, 
+  "date": "1922\u20132004", 
+  "death": {
+    "time": {
+      "startYear": 2004
+    }
+  }, 
+  "fc": "Leon Golub", 
+  "gender": "Male", 
+  "id": 2207, 
+  "mda": "Golub, Leon", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/leon-golub-2207"
+}

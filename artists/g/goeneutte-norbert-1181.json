@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1854
+    }
+  }, 
+  "birthYear": 1854, 
+  "date": "1854\u20131894", 
+  "death": {
+    "place": {
+      "name": "Auvers-sur-Oise, France", 
+      "placeName": "Auvers-sur-Oise", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1894
+    }
+  }, 
+  "fc": "Norbert Goeneutte", 
+  "gender": "Male", 
+  "id": 1181, 
+  "mda": "Goeneutte, Norbert", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/norbert-goeneutte-1181"
+}

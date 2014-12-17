@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "New Haven, United States", 
+      "placeName": "New Haven", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Berlin, Deutschland", 
+      "placeName": "Berlin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1899
+    }
+  }, 
+  "birthYear": 1899, 
+  "date": "1899\u20131994", 
+  "death": {
+    "place": {
+      "name": "Orange, United States", 
+      "placeName": "Orange", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1994
+    }
+  }, 
+  "fc": "Anni Albers", 
+  "gender": "Female", 
+  "id": 3067, 
+  "mda": "Albers, Anni", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/anni-albers-3067"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1763
+    }
+  }, 
+  "birthYear": 1763, 
+  "date": "1763\u20131823", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1823
+    }
+  }, 
+  "fc": "William Artaud", 
+  "gender": "Male", 
+  "id": 2474, 
+  "mda": "Artaud, William", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-artaud-2474"
+}

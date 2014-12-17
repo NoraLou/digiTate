@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Walberswick, United Kingdom", 
+      "placeName": "Walberswick", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1907
+    }
+  }, 
+  "birthYear": 1907, 
+  "date": "1907\u20131950", 
+  "death": {
+    "place": {
+      "name": "Ell\u00e1s", 
+      "placeName": "Ell\u00e1s", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1950
+    }
+  }, 
+  "fc": "Humphrey Jennings", 
+  "gender": "Male", 
+  "id": 1360, 
+  "mda": "Jennings, Humphrey", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }
+  ], 
+  "startLetter": "J", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/humphrey-jennings-1360"
+}

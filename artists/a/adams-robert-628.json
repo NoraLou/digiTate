@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Northampton, United Kingdom", 
+      "placeName": "Northampton", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1917
+    }
+  }, 
+  "birthYear": 1917, 
+  "date": "1917\u20131984", 
+  "death": {
+    "time": {
+      "startYear": 1984
+    }
+  }, 
+  "fc": "Robert Adams", 
+  "gender": "Male", 
+  "id": 628, 
+  "mda": "Adams, Robert", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 419, 
+      "name": "British Constructivism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 424, 
+      "name": "Geometry of Fear"
+    }
+  ], 
+  "startLetter": "A", 
+  "totalWorks": 17, 
+  "url": "http://www.tate.org.uk/art/artists/robert-adams-628"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Frankfurt an der Oder, Deutschland", 
+      "placeName": "Frankfurt an der Oder", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1898
+    }
+  }, 
+  "birthYear": 1898, 
+  "date": "1898\u20131998", 
+  "death": {
+    "time": {
+      "startYear": 1998
+    }
+  }, 
+  "fc": "Hans Feibusch", 
+  "gender": "Male", 
+  "id": 1086, 
+  "mda": "Feibusch, Hans", 
+  "movements": [], 
+  "startLetter": "F", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/hans-feibusch-1086"
+}

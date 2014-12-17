@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1698
+    }
+  }, 
+  "birthYear": 1698, 
+  "date": "c.1698\u20131737", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1737
+    }
+  }, 
+  "fc": "Gawen Hamilton", 
+  "gender": "Male", 
+  "id": 2686, 
+  "mda": "Hamilton, Gawen", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 340, 
+      "name": "Conversation Piece"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/gawen-hamilton-2686"
+}

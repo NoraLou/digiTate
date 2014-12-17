@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Carlisle, United Kingdom", 
+      "placeName": "Carlisle", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "birthYear": 1910, 
+  "date": "1910\u20131963", 
+  "death": {
+    "time": {
+      "startYear": 1963
+    }
+  }, 
+  "fc": "Alastair Morton", 
+  "gender": "Male", 
+  "id": 1670, 
+  "mda": "Morton, Alastair", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/alastair-morton-1670"
+}

@@ -1,0 +1,58 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1775
+    }
+  }, 
+  "birthYear": 1775, 
+  "date": "1775\u20131851", 
+  "death": {
+    "place": {
+      "name": "Chelsea, United Kingdom", 
+      "placeName": "Chelsea", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1851
+    }
+  }, 
+  "fc": "Joseph Mallord William Turner", 
+  "gender": "Male", 
+  "id": 558, 
+  "mda": "Turner, Joseph Mallord William", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 345, 
+      "name": "Picturesque"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 364, 
+      "name": "Romanticism"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 349, 
+      "name": "Sublime"
+    }
+  ], 
+  "startLetter": "T", 
+  "totalWorks": 41861, 
+  "url": "http://www.tate.org.uk/art/artists/joseph-mallord-william-turner-558"
+}

@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Freshford, \u00c9ire", 
+      "placeName": "Freshford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1870
+    }
+  }, 
+  "birthYear": 1870, 
+  "date": "1870\u20131941", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1941
+    }
+  }, 
+  "fc": "Mary McEvoy", 
+  "gender": "Female", 
+  "id": 1606, 
+  "mda": "McEvoy, Mary", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 359, 
+      "name": "New English Art Club"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/mary-mcevoy-1606"
+}

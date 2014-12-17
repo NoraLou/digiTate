@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Argyll, United Kingdom", 
+      "placeName": "Argyll", 
+      "placeType": "region"
+    }, 
+    "time": {
+      "startYear": 1841
+    }
+  }, 
+  "birthYear": 1841, 
+  "date": "1841\u20131896", 
+  "death": {
+    "place": {
+      "name": "Beer, United Kingdom", 
+      "placeName": "Beer", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1896
+    }
+  }, 
+  "fc": "Hamilton Macallum", 
+  "gender": "Male", 
+  "id": 357, 
+  "mda": "Macallum, Hamilton", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/hamilton-macallum-357"
+}

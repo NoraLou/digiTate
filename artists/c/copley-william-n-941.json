@@ -1,0 +1,35 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1919
+    }
+  }, 
+  "birthYear": 1919, 
+  "date": "1919\u20131996", 
+  "death": {
+    "time": {
+      "startYear": 1996
+    }
+  }, 
+  "fc": "William N. Copley", 
+  "gender": "Male", 
+  "id": 941, 
+  "mda": "Copley, William N.", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-n-copley-941"
+}

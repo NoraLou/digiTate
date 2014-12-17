@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Piemonte, Italia", 
+      "placeName": "Piemonte", 
+      "placeType": "region"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "birthYear": 1934, 
+  "date": "born 1934", 
+  "fc": "Giovanni Anselmo", 
+  "gender": "Male", 
+  "id": 12475, 
+  "mda": "Anselmo, Giovanni", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/giovanni-anselmo-12475"
+}

@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Sheffield, United Kingdom", 
+      "placeName": "Sheffield", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1905
+    }
+  }, 
+  "birthYear": 1905, 
+  "date": "1905\u20131984", 
+  "death": {
+    "time": {
+      "startYear": 1984
+    }
+  }, 
+  "fc": "Kenneth Martin", 
+  "gender": "Male", 
+  "id": 1585, 
+  "mda": "Martin, Kenneth", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 419, 
+      "name": "British Constructivism"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 45, 
+  "url": "http://www.tate.org.uk/art/artists/kenneth-martin-1585"
+}

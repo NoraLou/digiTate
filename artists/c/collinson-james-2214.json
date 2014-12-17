@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Nottinghamshire, United Kingdom", 
+      "placeName": "Nottinghamshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1825
+    }
+  }, 
+  "birthYear": 1825, 
+  "date": "1825\u20131881", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1881
+    }
+  }, 
+  "fc": "James Collinson", 
+  "gender": "Male", 
+  "id": 2214, 
+  "mda": "Collinson, James", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 363, 
+      "name": "Pre-Raphaelite Brotherhood"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/james-collinson-2214"
+}

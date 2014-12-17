@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Philadelphia, United States", 
+      "placeName": "Philadelphia", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1894
+    }
+  }, 
+  "birthYear": 1894, 
+  "date": "1894\u20131964", 
+  "death": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1964
+    }
+  }, 
+  "fc": "Stuart Davis", 
+  "gender": "Male", 
+  "id": 2381, 
+  "mda": "Davis, Stuart", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/stuart-davis-2381"
+}

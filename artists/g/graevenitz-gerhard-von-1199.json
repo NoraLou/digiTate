@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Deutschland", 
+      "placeName": "Deutschland", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "birthYear": 1934, 
+  "date": "1934\u20131983", 
+  "death": {
+    "place": {
+      "name": "Schweiz", 
+      "placeName": "Schweiz", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1983
+    }
+  }, 
+  "fc": "Gerhard von Graevenitz", 
+  "gender": "Male", 
+  "id": 1199, 
+  "mda": "Graevenitz, Gerhard von", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 12072, 
+      "name": "Kinetic Art"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/gerhard-von-graevenitz-1199"
+}

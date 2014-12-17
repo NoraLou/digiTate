@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1745
+    }
+  }, 
+  "birthYear": 1745, 
+  "date": "active 1745\u20131777", 
+  "death": {
+    "place": {
+      "name": "Hampstead, United Kingdom", 
+      "placeName": "Hampstead", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1777
+    }
+  }, 
+  "fc": "W. Oram", 
+  "gender": "Male", 
+  "id": 2522, 
+  "mda": "Oram, W.", 
+  "movements": [], 
+  "startLetter": "O", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/w-oram-2522"
+}

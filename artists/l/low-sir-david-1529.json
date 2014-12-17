@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Australia", 
+      "placeName": "Australia", 
+      "placeType": "nation"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Dunedin, New Zealand", 
+      "placeName": "Dunedin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1891
+    }
+  }, 
+  "birthYear": 1891, 
+  "date": "1891\u20131963", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1963
+    }
+  }, 
+  "fc": "Sir David Low", 
+  "gender": "Male", 
+  "id": 1529, 
+  "mda": "Low, Sir David", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/sir-david-low-1529"
+}

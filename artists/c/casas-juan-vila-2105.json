@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Sabadell, Espa\u00f1a", 
+      "placeName": "Sabadell", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1920
+    }
+  }, 
+  "birthYear": 1920, 
+  "date": "1920 \u2013 2007", 
+  "death": {
+    "place": {
+      "name": "Barcelona, Espa\u00f1a", 
+      "placeName": "Barcelona", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2007
+    }
+  }, 
+  "fc": "Juan Vila Casas", 
+  "gender": "Male", 
+  "id": 2105, 
+  "mda": "Casas, Juan Vila", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/juan-vila-casas-2105"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Farnley, United Kingdom", 
+      "placeName": "Farnley", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1759
+    }
+  }, 
+  "birthYear": 1759, 
+  "date": "1759\u20131817", 
+  "death": {
+    "time": {
+      "startYear": 1817
+    }
+  }, 
+  "fc": "Julius Caesar Ibbetson", 
+  "gender": "Male", 
+  "id": 292, 
+  "mda": "Ibbetson, Julius Caesar", 
+  "movements": [], 
+  "startLetter": "I", 
+  "totalWorks": 8, 
+  "url": "http://www.tate.org.uk/art/artists/julius-caesar-ibbetson-292"
+}

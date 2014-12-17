@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wigan, United Kingdom", 
+      "placeName": "Wigan", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1856
+    }
+  }, 
+  "birthYear": 1856, 
+  "date": "1856\u20131937", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "fc": "Violet, Duchess of Rutland", 
+  "gender": "Female", 
+  "id": 467, 
+  "mda": "Rutland, Violet, Duchess of", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/violet-duchess-of-rutland-467"
+}

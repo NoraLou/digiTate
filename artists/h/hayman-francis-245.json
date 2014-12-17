@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1708
+    }
+  }, 
+  "birthYear": 1708, 
+  "date": "1708\u20131776", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1776
+    }
+  }, 
+  "fc": "Francis Hayman", 
+  "gender": "Male", 
+  "id": 245, 
+  "mda": "Hayman, Francis", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 340, 
+      "name": "Conversation Piece"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 346, 
+      "name": "Rococo"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/francis-hayman-245"
+}

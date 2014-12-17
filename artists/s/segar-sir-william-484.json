@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1580
+    }
+  }, 
+  "birthYear": 1580, 
+  "date": "active 1580 or 5\u20131633", 
+  "death": {
+    "place": {
+      "name": "Surrey, United Kingdom", 
+      "placeName": "Surrey", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1633
+    }
+  }, 
+  "fc": "Sir William Segar", 
+  "gender": "Male", 
+  "id": 484, 
+  "mda": "Segar, Sir William", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 412, 
+      "name": "Early Stuart"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 414, 
+      "name": "Tudor"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/sir-william-segar-484"
+}

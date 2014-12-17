@@ -1,0 +1,57 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Norwich, United Kingdom", 
+      "placeName": "Norwich", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Norwich, United Kingdom", 
+      "placeName": "Norwich", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1768
+    }
+  }, 
+  "birthYear": 1768, 
+  "date": "1768\u20131821", 
+  "death": {
+    "place": {
+      "name": "Norwich, United Kingdom", 
+      "placeName": "Norwich", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1821
+    }
+  }, 
+  "fc": "John Crome", 
+  "gender": "Male", 
+  "id": 126, 
+  "mda": "Crome, John", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 362, 
+      "name": "Norwich School"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 349, 
+      "name": "Sublime"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 13, 
+  "url": "http://www.tate.org.uk/art/artists/john-crome-126"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bordeaux, France", 
+      "placeName": "Bordeaux", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1875
+    }
+  }, 
+  "birthYear": 1875, 
+  "date": "1875\u20131947", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1947
+    }
+  }, 
+  "fc": "Albert Marquet", 
+  "gender": "Male", 
+  "id": 2332, 
+  "mda": "Marquet, Albert", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/albert-marquet-2332"
+}

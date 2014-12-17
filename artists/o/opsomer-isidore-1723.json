@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Lier, Belgi\u00eb", 
+      "placeName": "Lier", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1878
+    }
+  }, 
+  "birthYear": 1878, 
+  "date": "1878\u20131967", 
+  "death": {
+    "place": {
+      "name": "Antwerpen, Belgi\u00eb", 
+      "placeName": "Antwerpen", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1967
+    }
+  }, 
+  "fc": "Isidore Opsomer", 
+  "gender": "Male", 
+  "id": 1723, 
+  "mda": "Opsomer, Isidore", 
+  "movements": [], 
+  "startLetter": "O", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/isidore-opsomer-1723"
+}

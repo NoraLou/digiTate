@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Orel, Rossiya", 
+      "placeName": "Orel", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1884
+    }
+  }, 
+  "birthYear": 1884, 
+  "date": "1884\u20131962", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1962
+    }
+  }, 
+  "fc": "Antoine Pevsner", 
+  "gender": "Male", 
+  "id": 1761, 
+  "mda": "Pevsner, Antoine", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 298, 
+      "name": "Constructivism"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/antoine-pevsner-1761"
+}

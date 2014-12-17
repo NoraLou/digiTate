@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Croydon, United Kingdom", 
+      "placeName": "Croydon", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1912
+    }
+  }, 
+  "birthYear": 1912, 
+  "date": "1912\u20131978", 
+  "death": {
+    "time": {
+      "startYear": 1978
+    }
+  }, 
+  "fc": "Barbara Jones", 
+  "gender": "Female", 
+  "id": 1369, 
+  "mda": "Jones, Barbara", 
+  "movements": [], 
+  "startLetter": "J", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/barbara-jones-1369"
+}

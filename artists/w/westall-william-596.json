@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hertford, United Kingdom", 
+      "placeName": "Hertford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1781
+    }
+  }, 
+  "birthYear": 1781, 
+  "date": "1781\u20131850", 
+  "death": {
+    "time": {
+      "startYear": 1850
+    }
+  }, 
+  "fc": "William Westall", 
+  "gender": "Male", 
+  "id": 596, 
+  "mda": "Westall, William", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/william-westall-596"
+}

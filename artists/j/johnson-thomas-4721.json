@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1628
+    }
+  }, 
+  "birthYear": 1628, 
+  "date": "c.1628\u20131685", 
+  "death": {
+    "time": {
+      "startYear": 1685
+    }
+  }, 
+  "fc": "Thomas Johnson", 
+  "gender": "Male", 
+  "id": 4721, 
+  "mda": "Johnson, Thomas", 
+  "movements": [], 
+  "startLetter": "J", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-johnson-4721"
+}

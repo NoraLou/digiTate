@@ -1,0 +1,39 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wattenscheid, Deutschland", 
+      "placeName": "Wattenscheid", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1939
+    }
+  }, 
+  "birthYear": 1939, 
+  "date": "born 1939", 
+  "death": {
+    "place": {
+      "name": "D\u00fcsseldorf, Deutschland", 
+      "placeName": "D\u00fcsseldorf", 
+      "placeType": "inhabited_place"
+    }
+  }, 
+  "fc": "Klaus Rinke", 
+  "gender": "Male", 
+  "id": 1846, 
+  "mda": "Rinke, Klaus", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1680, 
+      "name": "Body Art"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/klaus-rinke-1846"
+}

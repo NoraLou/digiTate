@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Leeds, United Kingdom", 
+      "placeName": "Leeds", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1894
+    }
+  }, 
+  "birthYear": 1894, 
+  "date": "1894\u20131963", 
+  "death": {
+    "time": {
+      "startYear": 1963
+    }
+  }, 
+  "fc": "Bruce Turner", 
+  "gender": "Male", 
+  "id": 13824, 
+  "mda": "Turner, Bruce", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 22043, 
+      "name": "Leeds Arts Club"
+    }
+  ], 
+  "startLetter": "T", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/bruce-turner-13824"
+}

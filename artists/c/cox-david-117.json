@@ -1,0 +1,59 @@
+{
+  "activePlaceCount": 3, 
+  "activePlaces": [
+    {
+      "name": "Birmingham, United Kingdom", 
+      "placeName": "Birmingham", 
+      "placeType": "unitary_authority"
+    }, 
+    {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Hereford, United Kingdom", 
+      "placeName": "Hereford", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Birmingham, United Kingdom", 
+      "placeName": "Birmingham", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1783
+    }
+  }, 
+  "birthYear": 1783, 
+  "date": "1783\u20131859", 
+  "death": {
+    "place": {
+      "name": "Birmingham", 
+      "placeName": "Birmingham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1859
+    }
+  }, 
+  "fc": "David Cox", 
+  "gender": "Male", 
+  "id": 117, 
+  "mda": "Cox, David", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 345, 
+      "name": "Picturesque"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 60, 
+  "url": "http://www.tate.org.uk/art/artists/david-cox-117"
+}

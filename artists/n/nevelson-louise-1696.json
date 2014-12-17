@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kiyev, Ukrayina", 
+      "placeName": "Kiyev", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1899
+    }
+  }, 
+  "birthYear": 1899, 
+  "date": "1899\u20131988", 
+  "death": {
+    "time": {
+      "startYear": 1988
+    }
+  }, 
+  "fc": "Louise Nevelson", 
+  "gender": "Female", 
+  "id": 1696, 
+  "mda": "Nevelson, Louise", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/louise-nevelson-1696"
+}

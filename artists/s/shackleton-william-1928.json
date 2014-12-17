@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bradford, United Kingdom", 
+      "placeName": "Bradford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1872
+    }
+  }, 
+  "birthYear": 1872, 
+  "date": "1872\u20131933", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1933
+    }
+  }, 
+  "fc": "William Shackleton", 
+  "gender": "Male", 
+  "id": 1928, 
+  "mda": "Shackleton, William", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/william-shackleton-1928"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hereford, United Kingdom", 
+      "placeName": "Hereford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1917
+    }
+  }, 
+  "birthYear": 1917, 
+  "date": "1917\u20132007", 
+  "death": {
+    "place": {
+      "name": "Ashford, United Kingdom", 
+      "placeName": "Ashford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2007
+    }
+  }, 
+  "fc": "John Ward", 
+  "gender": "Male", 
+  "id": 2655, 
+  "mda": "Ward, John", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-ward-2655"
+}

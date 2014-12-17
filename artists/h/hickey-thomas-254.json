@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1741
+    }
+  }, 
+  "birthYear": 1741, 
+  "date": "1741\u20131824", 
+  "death": {
+    "time": {
+      "startYear": 1824
+    }
+  }, 
+  "fc": "Thomas Hickey", 
+  "gender": "Male", 
+  "id": 254, 
+  "mda": "Hickey, Thomas", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-hickey-254"
+}

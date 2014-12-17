@@ -1,0 +1,66 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1852
+    }
+  }, 
+  "birthYear": 1852, 
+  "date": "1852\u20131944", 
+  "death": {
+    "place": {
+      "name": "Newbury, United Kingdom", 
+      "placeName": "Newbury", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1944
+    }
+  }, 
+  "fc": "Sir George Clausen", 
+  "gender": "Male", 
+  "id": 96, 
+  "mda": "Clausen, Sir George", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 6196, 
+      "name": "British Impressionism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 359, 
+      "name": "New English Art Club"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 365, 
+      "name": "Rural Naturalism"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 17, 
+  "url": "http://www.tate.org.uk/art/artists/sir-george-clausen-96"
+}

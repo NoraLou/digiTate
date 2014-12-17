@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Lietuva", 
+      "placeName": "Lietuva", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1922
+    }
+  }, 
+  "birthYear": 1922, 
+  "date": "born 1922", 
+  "fc": "Jonas Mekas", 
+  "gender": "Male", 
+  "id": 9674, 
+  "mda": "Mekas, Jonas", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/jonas-mekas-9674"
+}

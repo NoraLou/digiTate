@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Ath\u00ednai, Ell\u00e1s", 
+      "placeName": "Ath\u00ednai", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1933
+    }
+  }, 
+  "birthYear": 1933, 
+  "date": "1933\u20132013", 
+  "death": {
+    "time": {
+      "startYear": 2013
+    }
+  }, 
+  "fc": "Chryssa Vardea", 
+  "gender": "Female", 
+  "id": 906, 
+  "mda": "Vardea, Chryssa", 
+  "movements": [], 
+  "startLetter": "V", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/chryssa-vardea-906"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Alnwick, United Kingdom", 
+      "placeName": "Alnwick", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1870
+    }
+  }, 
+  "birthYear": 1870, 
+  "date": "1870\u20131948", 
+  "death": {
+    "place": {
+      "name": "Buckinghamshire, United Kingdom", 
+      "placeName": "Buckinghamshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1948
+    }
+  }, 
+  "fc": "Phelan Gibb", 
+  "gender": "Male", 
+  "id": 1161, 
+  "mda": "Gibb, Phelan", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/phelan-gibb-1161"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Arad, Rom\u00e2nia", 
+      "placeName": "Arad", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1854
+    }
+  }, 
+  "birthYear": 1854, 
+  "date": "1854\u20131921", 
+  "death": {
+    "place": {
+      "name": "Wien, \u00d6sterreich", 
+      "placeName": "Wien", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1921
+    }
+  }, 
+  "fc": "Isidor Kaufmann", 
+  "gender": "Male", 
+  "id": 1388, 
+  "mda": "Kaufmann, Isidor", 
+  "movements": [], 
+  "startLetter": "K", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/isidor-kaufmann-1388"
+}

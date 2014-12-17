@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kalisz, Polska", 
+      "placeName": "Kalisz", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1926
+    }
+  }, 
+  "birthYear": 1926, 
+  "date": "1926\u20131973", 
+  "death": {
+    "place": {
+      "name": "Haute-Savoie, France", 
+      "placeName": "Haute-Savoie", 
+      "placeType": "department"
+    }, 
+    "time": {
+      "startYear": 1973
+    }
+  }, 
+  "fc": "Alina Szapocznikow", 
+  "gender": "Female", 
+  "id": 12979, 
+  "mda": "Szapocznikow, Alina", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/alina-szapocznikow-12979"
+}

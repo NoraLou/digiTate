@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hastings, United Kingdom", 
+      "placeName": "Hastings", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1893
+    }
+  }, 
+  "birthYear": 1893, 
+  "date": "1893\u20131973", 
+  "death": {
+    "time": {
+      "startYear": 1973
+    }
+  }, 
+  "fc": "John Armstrong", 
+  "gender": "Male", 
+  "id": 665, 
+  "mda": "Armstrong, John", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }
+  ], 
+  "startLetter": "A", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/john-armstrong-665"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1921
+    }
+  }, 
+  "birthYear": 1921, 
+  "date": "1921\u20131993", 
+  "death": {
+    "time": {
+      "startYear": 1993
+    }
+  }, 
+  "fc": "Judith Rothschild", 
+  "gender": "Female", 
+  "id": 6432, 
+  "mda": "Rothschild, Judith", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/judith-rothschild-6432"
+}

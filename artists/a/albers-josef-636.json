@@ -1,0 +1,62 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "United States", 
+      "placeName": "United States", 
+      "placeType": "nation"
+    }, 
+    {
+      "name": "M\u00fcnchen, Deutschland", 
+      "placeName": "M\u00fcnchen", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Bottrop, Deutschland", 
+      "placeName": "Bottrop", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1888
+    }
+  }, 
+  "birthYear": 1888, 
+  "date": "1888\u20131976", 
+  "death": {
+    "place": {
+      "name": "New Haven, United States", 
+      "placeName": "New Haven", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1976
+    }
+  }, 
+  "fc": "Josef Albers", 
+  "gender": "Male", 
+  "id": 636, 
+  "mda": "Albers, Josef", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 294, 
+      "name": "Bauhaus"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 439, 
+      "name": "Post Painterly Abstraction"
+    }
+  ], 
+  "startLetter": "A", 
+  "totalWorks": 22, 
+  "url": "http://www.tate.org.uk/art/artists/josef-albers-636"
+}

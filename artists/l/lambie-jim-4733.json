@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Glasgow, United Kingdom", 
+      "placeName": "Glasgow", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1964
+    }
+  }, 
+  "birthYear": 1964, 
+  "date": "born 1964", 
+  "fc": "Jim Lambie", 
+  "gender": "Male", 
+  "id": 4733, 
+  "mda": "Lambie, Jim", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/jim-lambie-4733"
+}

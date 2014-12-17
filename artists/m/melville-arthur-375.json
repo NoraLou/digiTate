@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Angus, United Kingdom", 
+      "placeName": "Angus", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1855
+    }
+  }, 
+  "birthYear": 1855, 
+  "date": "1855\u20131904", 
+  "death": {
+    "place": {
+      "name": "Whiteley Village, United Kingdom", 
+      "placeName": "Whiteley Village", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1904
+    }
+  }, 
+  "fc": "Arthur Melville", 
+  "gender": "Male", 
+  "id": 375, 
+  "mda": "Melville, Arthur", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/arthur-melville-375"
+}

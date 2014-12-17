@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "East Sussex, United Kingdom", 
+      "placeName": "East Sussex", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1912
+    }
+  }, 
+  "birthYear": 1912, 
+  "date": "1912\u20131977", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1977
+    }
+  }, 
+  "fc": "Keith Vaughan", 
+  "gender": "Male", 
+  "id": 2096, 
+  "mda": "Vaughan, Keith", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 9312, 
+      "name": "London Group"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 312, 
+      "name": "Neo-Romanticism"
+    }
+  ], 
+  "startLetter": "V", 
+  "totalWorks": 13, 
+  "url": "http://www.tate.org.uk/art/artists/keith-vaughan-2096"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1824
+    }
+  }, 
+  "birthYear": 1824, 
+  "date": "1824\u20131910", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "fc": "Eyre Crowe", 
+  "gender": "Male", 
+  "id": 2420, 
+  "mda": "Crowe, Eyre", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/eyre-crowe-2420"
+}

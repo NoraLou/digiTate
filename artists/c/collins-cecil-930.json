@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Plymouth, United Kingdom", 
+      "placeName": "Plymouth", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1908
+    }
+  }, 
+  "birthYear": 1908, 
+  "date": "1908\u20131989", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1989
+    }
+  }, 
+  "fc": "Cecil Collins", 
+  "gender": "Male", 
+  "id": 930, 
+  "mda": "Collins, Cecil", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 312, 
+      "name": "Neo-Romanticism"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 75, 
+  "url": "http://www.tate.org.uk/art/artists/cecil-collins-930"
+}

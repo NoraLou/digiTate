@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1932
+    }
+  }, 
+  "birthYear": 1932, 
+  "date": "1932\u20132003", 
+  "death": {
+    "place": {
+      "name": "Monmouth, United Kingdom", 
+      "placeName": "Monmouth", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2003
+    }
+  }, 
+  "fc": "Alan Green", 
+  "gender": "Male", 
+  "id": 1212, 
+  "mda": "Green, Alan", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 27, 
+  "url": "http://www.tate.org.uk/art/artists/alan-green-1212"
+}

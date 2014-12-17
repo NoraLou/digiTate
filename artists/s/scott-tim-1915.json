@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Surrey, United Kingdom", 
+      "placeName": "Surrey", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "birthYear": 1937, 
+  "date": "born 1937", 
+  "fc": "Tim Scott", 
+  "gender": "Male", 
+  "id": 1915, 
+  "mda": "Scott, Tim", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 433, 
+      "name": "New Generation Sculpture"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 12, 
+  "url": "http://www.tate.org.uk/art/artists/tim-scott-1915"
+}

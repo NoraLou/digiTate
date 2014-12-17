@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Lancashire, United States", 
+      "placeName": "Lancashire", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Preston, United Kingdom", 
+      "placeName": "Preston", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1729
+    }
+  }, 
+  "birthYear": 1729, 
+  "date": "1729\u20131816", 
+  "death": {
+    "place": {
+      "name": "Surrey, United Kingdom", 
+      "placeName": "Surrey", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1816
+    }
+  }, 
+  "fc": "Anthony Devis", 
+  "gender": "Male", 
+  "id": 2223, 
+  "mda": "Devis, Anthony", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/anthony-devis-2223"
+}

@@ -1,0 +1,39 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }
+  ], 
+  "birth": {
+    "time": {
+      "startYear": 1644
+    }
+  }, 
+  "birthYear": 1644, 
+  "date": "active 1644\u20131687", 
+  "death": {
+    "time": {
+      "startYear": 1687
+    }
+  }, 
+  "fc": "Peter Borseller", 
+  "gender": "Male", 
+  "id": 42, 
+  "mda": "Borseller, Peter", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 411, 
+      "name": "Restoration"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/peter-borseller-42"
+}

@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1645
+    }
+  }, 
+  "birthYear": 1645, 
+  "date": "active c.1645\u2013died 1679", 
+  "death": {
+    "time": {
+      "startYear": 1679
+    }
+  }, 
+  "fc": "John Hayls", 
+  "gender": "Male", 
+  "id": 2369, 
+  "mda": "Hayls, John", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 398, 
+      "name": "Baroque"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-hayls-2369"
+}

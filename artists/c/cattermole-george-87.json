@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Norfolk, United Kingdom", 
+      "placeName": "Norfolk", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1800
+    }
+  }, 
+  "birthYear": 1800, 
+  "date": "1800\u20131868", 
+  "death": {
+    "place": {
+      "name": "Clapham, United Kingdom", 
+      "placeName": "Clapham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1868
+    }
+  }, 
+  "fc": "George Cattermole", 
+  "gender": "Male", 
+  "id": 87, 
+  "mda": "Cattermole, George", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 11, 
+  "url": "http://www.tate.org.uk/art/artists/george-cattermole-87"
+}

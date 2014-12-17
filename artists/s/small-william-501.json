@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1843
+    }
+  }, 
+  "birthYear": 1843, 
+  "date": "1843\u20131931", 
+  "death": {
+    "place": {
+      "name": "Worcester, United Kingdom", 
+      "placeName": "Worcester", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1931
+    }
+  }, 
+  "fc": "William Small", 
+  "gender": "Male", 
+  "id": 501, 
+  "mda": "Small, William", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-small-501"
+}

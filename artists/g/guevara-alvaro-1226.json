@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Valpara\u00edso, Chile", 
+      "placeName": "Valpara\u00edso", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1894
+    }
+  }, 
+  "birthYear": 1894, 
+  "date": "1894\u20131951", 
+  "death": {
+    "place": {
+      "name": "Aix-en-Provence, France", 
+      "placeName": "Aix-en-Provence", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1951
+    }
+  }, 
+  "fc": "Alvaro Guevara", 
+  "gender": "Male", 
+  "id": 1226, 
+  "mda": "Guevara, Alvaro", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/alvaro-guevara-1226"
+}

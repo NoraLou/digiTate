@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hanley, United Kingdom", 
+      "placeName": "Hanley", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1896
+    }
+  }, 
+  "birthYear": 1896, 
+  "date": "1896\u20131997", 
+  "death": {
+    "time": {
+      "startYear": 1997
+    }
+  }, 
+  "fc": "Raymond Coxon", 
+  "gender": "Male", 
+  "id": 952, 
+  "mda": "Coxon, Raymond", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/raymond-coxon-952"
+}

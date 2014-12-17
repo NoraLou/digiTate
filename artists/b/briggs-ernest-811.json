@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Broughty Ferry, United Kingdom", 
+      "placeName": "Broughty Ferry", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1866
+    }
+  }, 
+  "birthYear": 1866, 
+  "date": "1866\u20131913", 
+  "death": {
+    "place": {
+      "name": "Dunkeld, United Kingdom", 
+      "placeName": "Dunkeld", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1913
+    }
+  }, 
+  "fc": "Ernest Briggs", 
+  "gender": "Male", 
+  "id": 811, 
+  "mda": "Briggs, Ernest", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/ernest-briggs-811"
+}

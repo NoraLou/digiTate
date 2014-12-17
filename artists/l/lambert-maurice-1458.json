@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1901
+    }
+  }, 
+  "birthYear": 1901, 
+  "date": "1901\u20131964", 
+  "death": {
+    "time": {
+      "startYear": 1964
+    }
+  }, 
+  "fc": "Maurice Lambert", 
+  "gender": "Male", 
+  "id": 1458, 
+  "mda": "Lambert, Maurice", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 303, 
+      "name": "Direct Carving"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/maurice-lambert-1458"
+}

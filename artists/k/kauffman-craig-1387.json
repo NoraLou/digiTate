@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Los Angeles, United States", 
+      "placeName": "Los Angeles", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Los Angeles, United States", 
+      "placeName": "Los Angeles", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1932
+    }
+  }, 
+  "birthYear": 1932, 
+  "date": "1932\u20132010", 
+  "death": {
+    "place": {
+      "name": "Angeles, Pilipinas", 
+      "placeName": "Angeles", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2010
+    }
+  }, 
+  "fc": "Craig Kauffman", 
+  "gender": "Male", 
+  "id": 1387, 
+  "mda": "Kauffman, Craig", 
+  "movements": [], 
+  "startLetter": "K", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/craig-kauffman-1387"
+}

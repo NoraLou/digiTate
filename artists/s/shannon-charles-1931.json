@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Lincolnshire, United Kingdom", 
+      "placeName": "Lincolnshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1863
+    }
+  }, 
+  "birthYear": 1863, 
+  "date": "1863\u20131937", 
+  "death": {
+    "place": {
+      "name": "Kew, United Kingdom", 
+      "placeName": "Kew", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "fc": "Charles Shannon", 
+  "gender": "Male", 
+  "id": 1931, 
+  "mda": "Shannon, Charles", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 8, 
+  "url": "http://www.tate.org.uk/art/artists/charles-shannon-1931"
+}

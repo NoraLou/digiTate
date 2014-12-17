@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Surrey, United Kingdom", 
+      "placeName": "Surrey", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1908
+    }
+  }, 
+  "birthYear": 1908, 
+  "date": "1908\u20131998", 
+  "death": {
+    "place": {
+      "name": "Malta", 
+      "placeName": "Malta", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1998
+    }
+  }, 
+  "fc": "Victor Pasmore", 
+  "gender": "Male", 
+  "id": 1744, 
+  "mda": "Pasmore, Victor", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 419, 
+      "name": "British Constructivism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 304, 
+      "name": "Euston Road School"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 135, 
+  "url": "http://www.tate.org.uk/art/artists/victor-pasmore-1744"
+}

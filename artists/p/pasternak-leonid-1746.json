@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Odessa, Ukrayina", 
+      "placeName": "Odessa", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1862
+    }
+  }, 
+  "birthYear": 1862, 
+  "date": "1862\u20131945", 
+  "death": {
+    "place": {
+      "name": "Oxford, United Kingdom", 
+      "placeName": "Oxford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1945
+    }
+  }, 
+  "fc": "Leonid Pasternak", 
+  "gender": "Male", 
+  "id": 1746, 
+  "mda": "Pasternak, Leonid", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/leonid-pasternak-1746"
+}

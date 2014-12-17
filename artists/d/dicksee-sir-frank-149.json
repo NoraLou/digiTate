@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1853
+    }
+  }, 
+  "birthYear": 1853, 
+  "date": "1853\u20131928", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1928
+    }
+  }, 
+  "fc": "Sir Frank Dicksee", 
+  "gender": "Male", 
+  "id": 149, 
+  "mda": "Dicksee, Sir Frank", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 363, 
+      "name": "Pre-Raphaelite Brotherhood"
+    }
+  ], 
+  "startLetter": "D", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/sir-frank-dicksee-149"
+}

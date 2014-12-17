@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Qu\u00e9bec, Canada", 
+      "placeName": "Qu\u00e9bec", 
+      "placeType": "province"
+    }, 
+    "time": {
+      "startYear": 1942
+    }
+  }, 
+  "birthYear": 1942, 
+  "date": "born 1942", 
+  "fc": "Serge Tousignant", 
+  "gender": "Male", 
+  "id": 2059, 
+  "mda": "Tousignant, Serge", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/serge-tousignant-2059"
+}

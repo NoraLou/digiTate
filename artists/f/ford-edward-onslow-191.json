@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1852
+    }
+  }, 
+  "birthYear": 1852, 
+  "date": "1852\u20131901", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1901
+    }
+  }, 
+  "fc": "Edward Onslow Ford", 
+  "gender": "Male", 
+  "id": 191, 
+  "mda": "Ford, Edward Onslow", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 361, 
+      "name": "New Sculpture"
+    }
+  ], 
+  "startLetter": "F", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/edward-onslow-ford-191"
+}

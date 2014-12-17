@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Clare, \u00c9ire", 
+      "placeName": "Clare", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1847
+    }
+  }, 
+  "birthYear": 1847, 
+  "date": "1847\u20131926", 
+  "death": {
+    "place": {
+      "name": "Penzance, United Kingdom", 
+      "placeName": "Penzance", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1926
+    }
+  }, 
+  "fc": "Norman Garstin", 
+  "gender": "Male", 
+  "id": 203, 
+  "mda": "Garstin, Norman", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 360, 
+      "name": "Newlyn School"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/norman-garstin-203"
+}

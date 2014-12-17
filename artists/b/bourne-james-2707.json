@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Lincolnshire, United Kingdom", 
+      "placeName": "Lincolnshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1773
+    }
+  }, 
+  "birthYear": 1773, 
+  "date": "1773\u20131854", 
+  "death": {
+    "place": {
+      "name": "Sutton Coldfield, United Kingdom", 
+      "placeName": "Sutton Coldfield", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1854
+    }
+  }, 
+  "fc": "James Bourne", 
+  "gender": "Male", 
+  "id": 2707, 
+  "mda": "Bourne, James", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/james-bourne-2707"
+}

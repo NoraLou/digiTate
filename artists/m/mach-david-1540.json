@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Methil, United Kingdom", 
+      "placeName": "Methil", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1956
+    }
+  }, 
+  "birthYear": 1956, 
+  "date": "born 1956", 
+  "fc": "David Mach", 
+  "gender": "Male", 
+  "id": 1540, 
+  "mda": "Mach, David", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1682, 
+      "name": "New British Sculpture"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/david-mach-1540"
+}

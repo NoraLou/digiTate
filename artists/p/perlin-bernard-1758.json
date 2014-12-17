@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Richmond, United States", 
+      "placeName": "Richmond", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1918
+    }
+  }, 
+  "birthYear": 1918, 
+  "date": "1918\u20132014", 
+  "death": {
+    "time": {
+      "startYear": 2014
+    }
+  }, 
+  "fc": "Bernard Perlin", 
+  "gender": "Male", 
+  "id": 1758, 
+  "mda": "Perlin, Bernard", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/bernard-perlin-1758"
+}

@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Leatherhead, United Kingdom", 
+      "placeName": "Leatherhead", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1963
+    }
+  }, 
+  "birthYear": 1963, 
+  "date": "born 1963", 
+  "fc": "Richard Patterson", 
+  "gender": "Male", 
+  "id": 2652, 
+  "mda": "Patterson, Richard", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 11857, 
+      "name": "Young British Artists (YBA)"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/richard-patterson-2652"
+}

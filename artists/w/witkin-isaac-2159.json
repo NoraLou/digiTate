@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Johannesburg, South Africa", 
+      "placeName": "Johannesburg", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1936
+    }
+  }, 
+  "birthYear": 1936, 
+  "date": "1936\u20132006", 
+  "death": {
+    "place": {
+      "name": "Pemberton, United States", 
+      "placeName": "Pemberton", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2006
+    }
+  }, 
+  "fc": "Isaac Witkin", 
+  "gender": "Male", 
+  "id": 2159, 
+  "mda": "Witkin, Isaac", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 433, 
+      "name": "New Generation Sculpture"
+    }
+  ], 
+  "startLetter": "W", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/isaac-witkin-2159"
+}

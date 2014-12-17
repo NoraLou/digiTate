@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Liverpool, United Kingdom", 
+      "placeName": "Liverpool", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1923
+    }
+  }, 
+  "birthYear": 1923, 
+  "date": "1923\u20132002", 
+  "death": {
+    "place": {
+      "name": "Penzance, United Kingdom", 
+      "placeName": "Penzance", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2002
+    }
+  }, 
+  "fc": "Alexander Mackenzie", 
+  "gender": "Male", 
+  "id": 1544, 
+  "mda": "Mackenzie, Alexander", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/alexander-mackenzie-1544"
+}

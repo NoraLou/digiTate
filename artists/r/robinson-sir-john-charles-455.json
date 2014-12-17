@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Nottingham, United Kingdom", 
+      "placeName": "Nottingham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1824
+    }
+  }, 
+  "birthYear": 1824, 
+  "date": "1824\u20131913", 
+  "death": {
+    "place": {
+      "name": "Swanage, United Kingdom", 
+      "placeName": "Swanage", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1913
+    }
+  }, 
+  "fc": "Sir John Charles Robinson", 
+  "gender": "Male", 
+  "id": 455, 
+  "mda": "Robinson, Sir John Charles", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/sir-john-charles-robinson-455"
+}

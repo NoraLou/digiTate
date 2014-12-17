@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Mecklenburg, Deutschland", 
+      "placeName": "Mecklenburg", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1930
+    }
+  }, 
+  "birthYear": 1930, 
+  "date": "born 1930", 
+  "fc": "Gunther Uecker", 
+  "gender": "Male", 
+  "id": 2083, 
+  "mda": "Uecker, Gunther", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 435, 
+      "name": "Optical Art"
+    }
+  ], 
+  "startLetter": "U", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/gunther-uecker-2083"
+}

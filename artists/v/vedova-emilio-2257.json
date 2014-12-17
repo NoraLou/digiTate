@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Venezia, Italia", 
+      "placeName": "Venezia", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1919
+    }
+  }, 
+  "birthYear": 1919, 
+  "date": "1919\u20132006", 
+  "death": {
+    "place": {
+      "name": "Venezia, Italia", 
+      "placeName": "Venezia", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2006
+    }
+  }, 
+  "fc": "Emilio Vedova", 
+  "gender": "Male", 
+  "id": 2257, 
+  "mda": "Vedova, Emilio", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 4246, 
+      "name": "Spazialismo"
+    }
+  ], 
+  "startLetter": "V", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/emilio-vedova-2257"
+}

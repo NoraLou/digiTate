@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Spokane, United States", 
+      "placeName": "Spokane", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1957
+    }
+  }, 
+  "birthYear": 1957, 
+  "date": "born 1957", 
+  "fc": "Jim Hodges", 
+  "gender": "Male", 
+  "id": 7335, 
+  "mda": "Hodges, Jim", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/jim-hodges-7335"
+}

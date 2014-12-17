@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "France", 
+      "placeName": "France", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1867
+    }
+  }, 
+  "birthYear": 1867, 
+  "date": "1867\u20131934", 
+  "death": {
+    "place": {
+      "name": "Paris", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "fc": "Antoine Villard", 
+  "gender": "Male", 
+  "id": 2106, 
+  "mda": "Villard, Antoine", 
+  "movements": [], 
+  "startLetter": "V", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/antoine-villard-2106"
+}

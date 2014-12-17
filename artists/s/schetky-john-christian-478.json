@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburg, United States", 
+      "placeName": "Edinburg", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1778
+    }
+  }, 
+  "birthYear": 1778, 
+  "date": "1778\u20131874", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1874
+    }
+  }, 
+  "fc": "John Christian Schetky", 
+  "gender": "Male", 
+  "id": 478, 
+  "mda": "Schetky, John Christian", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-christian-schetky-478"
+}

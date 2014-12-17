@@ -1,0 +1,26 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }
+  }, 
+  "date": null, 
+  "fc": "Suzanne Treister", 
+  "gender": "Female", 
+  "id": 9778, 
+  "mda": "Treister, Suzanne", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/suzanne-treister-9778"
+}

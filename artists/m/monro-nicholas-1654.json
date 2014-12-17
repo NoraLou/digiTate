@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1936
+    }
+  }, 
+  "birthYear": 1936, 
+  "date": "born 1936", 
+  "fc": "Nicholas Monro", 
+  "gender": "Male", 
+  "id": 1654, 
+  "mda": "Monro, Nicholas", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 22, 
+  "url": "http://www.tate.org.uk/art/artists/nicholas-monro-1654"
+}

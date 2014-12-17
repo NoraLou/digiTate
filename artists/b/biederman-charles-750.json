@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Cleveland, United States", 
+      "placeName": "Cleveland", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1906
+    }
+  }, 
+  "birthYear": 1906, 
+  "date": "1906\u2013 2004", 
+  "death": {
+    "time": {
+      "startYear": 2004
+    }
+  }, 
+  "fc": "Charles Biederman", 
+  "gender": "Male", 
+  "id": 750, 
+  "mda": "Biederman, Charles", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 298, 
+      "name": "Constructivism"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/charles-biederman-750"
+}

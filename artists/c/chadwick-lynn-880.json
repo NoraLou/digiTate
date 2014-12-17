@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Barnes, United Kingdom", 
+      "placeName": "Barnes", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1914
+    }
+  }, 
+  "birthYear": 1914, 
+  "date": "1914\u20132003", 
+  "death": {
+    "time": {
+      "startYear": 2003
+    }
+  }, 
+  "fc": "Lynn Chadwick", 
+  "gender": "Male", 
+  "id": 880, 
+  "mda": "Chadwick, Lynn", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 424, 
+      "name": "Geometry of Fear"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 12072, 
+      "name": "Kinetic Art"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 27, 
+  "url": "http://www.tate.org.uk/art/artists/lynn-chadwick-880"
+}

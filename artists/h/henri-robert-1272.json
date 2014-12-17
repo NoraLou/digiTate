@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Cincinnati, United States", 
+      "placeName": "Cincinnati", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1865
+    }
+  }, 
+  "birthYear": 1865, 
+  "date": "1865\u20131929", 
+  "death": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1929
+    }
+  }, 
+  "fc": "Robert Henri", 
+  "gender": "Male", 
+  "id": 1272, 
+  "mda": "Henri, Robert", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/robert-henri-1272"
+}

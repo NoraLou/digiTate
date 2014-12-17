@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Los Angeles, United States", 
+      "placeName": "Los Angeles", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Los Angeles, United States", 
+      "placeName": "Los Angeles", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1968
+    }
+  }, 
+  "birthYear": 1968, 
+  "date": "born 1968", 
+  "fc": "Paul Sietsema", 
+  "gender": "Male", 
+  "id": 6005, 
+  "mda": "Sietsema, Paul", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/paul-sietsema-6005"
+}

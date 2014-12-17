@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1907
+    }
+  }, 
+  "birthYear": 1907, 
+  "date": "1907\u20131995", 
+  "death": {
+    "time": {
+      "startYear": 1995
+    }
+  }, 
+  "fc": "Victor Reinganum", 
+  "gender": "Male", 
+  "id": 1825, 
+  "mda": "Reinganum, Victor", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/victor-reinganum-1825"
+}

@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1744
+    }
+  }, 
+  "birthYear": 1744, 
+  "date": "1744\u20131823", 
+  "death": {
+    "place": {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1823
+    }
+  }, 
+  "fc": "Thomas Sunderland", 
+  "gender": "Male", 
+  "id": 2534, 
+  "mda": "Sunderland, Thomas", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 344, 
+      "name": "Neo-Classicism"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 345, 
+      "name": "Picturesque"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 15, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-sunderland-2534"
+}

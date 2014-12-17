@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Montauban, France", 
+      "placeName": "Montauban", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1894
+    }
+  }, 
+  "birthYear": 1894, 
+  "date": "1894\u20131972", 
+  "death": {
+    "place": {
+      "name": "Perpignan, France", 
+      "placeName": "Perpignan", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1972
+    }
+  }, 
+  "fc": "Fran\u00e7ois Desnoyer", 
+  "gender": "Male", 
+  "id": 999, 
+  "mda": "Desnoyer, Fran\u00e7ois", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/francois-desnoyer-999"
+}

@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Stratford-upon-Avon, United Kingdom", 
+      "placeName": "Stratford-upon-Avon", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1968
+    }
+  }, 
+  "birthYear": 1968, 
+  "date": "born 1968", 
+  "fc": "Brian Griffiths", 
+  "gender": "Male", 
+  "id": 13287, 
+  "mda": "Griffiths, Brian", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/brian-griffiths-13287"
+}

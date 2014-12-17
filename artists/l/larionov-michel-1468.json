@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Tiraspol, Moldova", 
+      "placeName": "Tiraspol", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1881
+    }
+  }, 
+  "birthYear": 1881, 
+  "date": "1881\u20131964", 
+  "death": {
+    "place": {
+      "name": "Fontenay-aux-Roses, France", 
+      "placeName": "Fontenay-aux-Roses", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1964
+    }
+  }, 
+  "fc": "Michel Larionov", 
+  "gender": "Male", 
+  "id": 1468, 
+  "mda": "Larionov, Michel", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 316, 
+      "name": "Rayonism"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/michel-larionov-1468"
+}

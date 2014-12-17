@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Braunschweig, Deutschland", 
+      "placeName": "Braunschweig", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1936
+    }
+  }, 
+  "birthYear": 1936, 
+  "date": "born 1936", 
+  "fc": "Gerd Winner", 
+  "gender": "Male", 
+  "id": 2154, 
+  "mda": "Winner, Gerd", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 122, 
+  "url": "http://www.tate.org.uk/art/artists/gerd-winner-2154"
+}

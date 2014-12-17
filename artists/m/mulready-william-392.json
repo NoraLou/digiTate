@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Ennis, \u00c9ire", 
+      "placeName": "Ennis", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1786
+    }
+  }, 
+  "birthYear": 1786, 
+  "date": "1786\u20131863", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1863
+    }
+  }, 
+  "fc": "William Mulready", 
+  "gender": "Male", 
+  "id": 392, 
+  "mda": "Mulready, William", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 27, 
+  "url": "http://www.tate.org.uk/art/artists/william-mulready-392"
+}

@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Malden, United States", 
+      "placeName": "Malden", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1936
+    }
+  }, 
+  "birthYear": 1936, 
+  "date": "born 1936", 
+  "fc": "Frank Stella", 
+  "gender": "Male", 
+  "id": 1994, 
+  "mda": "Stella, Frank", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 430, 
+      "name": "Minimalism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 439, 
+      "name": "Post Painterly Abstraction"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 66, 
+  "url": "http://www.tate.org.uk/art/artists/frank-stella-1994"
+}

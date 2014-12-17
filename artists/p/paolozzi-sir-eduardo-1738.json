@@ -1,0 +1,53 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1924
+    }
+  }, 
+  "birthYear": 1924, 
+  "date": "1924\u20132005", 
+  "death": {
+    "time": {
+      "startYear": 2005
+    }
+  }, 
+  "fc": "Sir Eduardo Paolozzi", 
+  "gender": "Male", 
+  "id": 1738, 
+  "mda": "Paolozzi, Sir Eduardo", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1683, 
+      "name": "British Pop"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 424, 
+      "name": "Geometry of Fear"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 425, 
+      "name": "Independent Group"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 386, 
+  "url": "http://www.tate.org.uk/art/artists/sir-eduardo-paolozzi-1738"
+}

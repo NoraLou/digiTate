@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "s Gravenhage, Nederland", 
+      "placeName": "s Gravenhage", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1851
+    }
+  }, 
+  "birthYear": 1851, 
+  "date": "1851\u20131904", 
+  "death": {
+    "place": {
+      "name": "Haarlem, Nederland", 
+      "placeName": "Haarlem", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1904
+    }
+  }, 
+  "fc": "Th\u00e9ophile de Bock", 
+  "gender": "Male", 
+  "id": 773, 
+  "mda": "Bock, Th\u00e9ophile de", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/theophile-de-bock-773"
+}

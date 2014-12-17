@@ -1,0 +1,90 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Denham, United Kingdom", 
+      "placeName": "Denham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1894
+    }
+  }, 
+  "birthYear": 1894, 
+  "date": "1894\u20131982", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1982
+    }
+  }, 
+  "fc": "Ben Nicholson OM", 
+  "gender": "Male", 
+  "id": 1702, 
+  "mda": "Nicholson, Ben, OM", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 16667, 
+      "name": "Abstraction-Cr\u00e9ation"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 298, 
+      "name": "Constructivism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 299, 
+      "name": "Cubism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 319, 
+      "name": "Seven and Five"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 441, 
+      "name": "St Ives School"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 320, 
+      "name": "Surrealism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 321, 
+      "name": "Unit One"
+    }
+  ], 
+  "startLetter": "N", 
+  "totalWorks": 80, 
+  "url": "http://www.tate.org.uk/art/artists/ben-nicholson-om-1702"
+}

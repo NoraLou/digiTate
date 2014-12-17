@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Exeter, United Kingdom", 
+      "placeName": "Exeter", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1811
+    }
+  }, 
+  "birthYear": 1811, 
+  "date": "1811\u20131852", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1852
+    }
+  }, 
+  "fc": "George Burrell Willcock", 
+  "gender": "Male", 
+  "id": 601, 
+  "mda": "Willcock, George Burrell", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/george-burrell-willcock-601"
+}

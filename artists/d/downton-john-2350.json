@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kent, United Kingdom", 
+      "placeName": "Kent", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1906
+    }
+  }, 
+  "birthYear": 1906, 
+  "date": "1906\u20131991", 
+  "death": {
+    "time": {
+      "startYear": 1991
+    }
+  }, 
+  "fc": "John Downton", 
+  "gender": "Male", 
+  "id": 2350, 
+  "mda": "Downton, John", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/john-downton-2350"
+}

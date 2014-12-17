@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "city"
+    }, 
+    "time": {
+      "startYear": 1831
+    }
+  }, 
+  "birthYear": 1831, 
+  "date": "1831\u20131917", 
+  "death": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "city"
+    }, 
+    "time": {
+      "startYear": 1917
+    }
+  }, 
+  "fc": "Nathaniel Hone", 
+  "gender": "Male", 
+  "id": 274, 
+  "mda": "Hone, Nathaniel", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/nathaniel-hone-274"
+}

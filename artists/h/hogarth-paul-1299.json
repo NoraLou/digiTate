@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kendal, United Kingdom", 
+      "placeName": "Kendal", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1917
+    }
+  }, 
+  "birthYear": 1917, 
+  "date": "1917\u20132001", 
+  "death": {
+    "place": {
+      "name": "Cirencester, United Kingdom", 
+      "placeName": "Cirencester", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2001
+    }
+  }, 
+  "fc": "Paul Hogarth", 
+  "gender": "Male", 
+  "id": 1299, 
+  "mda": "Hogarth, Paul", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/paul-hogarth-1299"
+}

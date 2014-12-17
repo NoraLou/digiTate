@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wien, \u00d6sterreich", 
+      "placeName": "Wien", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1906
+    }
+  }, 
+  "birthYear": 1906, 
+  "date": "1906\u20131996", 
+  "death": {
+    "time": {
+      "startYear": 1996
+    }
+  }, 
+  "fc": "Marie-Louise Von Motesiczky", 
+  "gender": "Female", 
+  "id": 1672, 
+  "mda": "Von Motesiczky, Marie-Louise", 
+  "movements": [], 
+  "startLetter": "V", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/marie-louise-von-motesiczky-1672"
+}

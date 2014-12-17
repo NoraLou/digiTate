@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Sydney, Australia", 
+      "placeName": "Sydney", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Singapore", 
+      "placeName": "Singapore", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1959
+    }
+  }, 
+  "birthYear": 1959, 
+  "date": "born 1959", 
+  "fc": "Simryn Gill", 
+  "gender": "Female", 
+  "id": 9404, 
+  "mda": "Gill, Simryn", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/simryn-gill-9404"
+}

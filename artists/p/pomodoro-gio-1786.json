@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Morciano di Romagna, Italia", 
+      "placeName": "Morciano di Romagna", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1930
+    }
+  }, 
+  "birthYear": 1930, 
+  "date": "born 1930", 
+  "fc": "Gio Pomodoro", 
+  "gender": "Male", 
+  "id": 1786, 
+  "mda": "Pomodoro, Gio", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/gio-pomodoro-1786"
+}

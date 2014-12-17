@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1899
+    }
+  }, 
+  "birthYear": 1899, 
+  "date": "1899\u20131984", 
+  "death": {
+    "time": {
+      "startYear": 1984
+    }
+  }, 
+  "fc": "Rodney J. Burn", 
+  "gender": "Male", 
+  "id": 836, 
+  "mda": "Burn, Rodney J.", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/rodney-j-burn-836"
+}

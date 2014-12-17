@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Antwerpen, Belgi\u00eb", 
+      "placeName": "Antwerpen", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1886
+    }
+  }, 
+  "birthYear": 1886, 
+  "date": "1886\u20131952", 
+  "death": {
+    "place": {
+      "name": "Oostende, Belgi\u00eb", 
+      "placeName": "Oostende", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1952
+    }
+  }, 
+  "fc": "Constant Permeke", 
+  "gender": "Male", 
+  "id": 1759, 
+  "mda": "Permeke, Constant", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/constant-permeke-1759"
+}

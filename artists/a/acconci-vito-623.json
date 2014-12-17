@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1940
+    }
+  }, 
+  "birthYear": 1940, 
+  "date": "born 1940", 
+  "fc": "Vito Acconci", 
+  "gender": "Male", 
+  "id": 623, 
+  "mda": "Acconci, Vito", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 436, 
+      "name": "Performance Art"
+    }
+  ], 
+  "startLetter": "A", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/vito-acconci-623"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1856
+    }
+  }, 
+  "birthYear": 1856, 
+  "date": "1856\u20131936", 
+  "death": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1936
+    }
+  }, 
+  "fc": "John Henry Lorimer", 
+  "gender": "Male", 
+  "id": 355, 
+  "mda": "Lorimer, John Henry", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-henry-lorimer-355"
+}

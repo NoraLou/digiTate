@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Harrow, United Kingdom", 
+      "placeName": "Harrow", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1916
+    }
+  }, 
+  "birthYear": 1916, 
+  "date": "1916\u20132001", 
+  "death": {
+    "place": {
+      "name": "Newport, United Kingdom", 
+      "placeName": "Newport", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2001
+    }
+  }, 
+  "fc": "David Gascoyne", 
+  "gender": "Male", 
+  "id": 1142, 
+  "mda": "Gascoyne, David", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/david-gascoyne-1142"
+}

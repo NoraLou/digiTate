@@ -1,0 +1,49 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "York, United Kingdom", 
+      "placeName": "York", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "York, United Kingdom", 
+      "placeName": "York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1787
+    }
+  }, 
+  "birthYear": 1787, 
+  "date": "1787\u20131849", 
+  "death": {
+    "place": {
+      "name": "York, United Kingdom", 
+      "placeName": "York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1849
+    }
+  }, 
+  "fc": "William Etty", 
+  "gender": "Male", 
+  "id": 172, 
+  "mda": "Etty, William", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 364, 
+      "name": "Romanticism"
+    }
+  ], 
+  "startLetter": "E", 
+  "totalWorks": 22, 
+  "url": "http://www.tate.org.uk/art/artists/william-etty-172"
+}

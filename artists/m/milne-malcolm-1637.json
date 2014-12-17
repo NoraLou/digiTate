@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1887
+    }
+  }, 
+  "birthYear": 1887, 
+  "date": "1887\u20131954", 
+  "death": {
+    "place": {
+      "name": "Oxford", 
+      "placeName": "Oxford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1954
+    }
+  }, 
+  "fc": "Malcolm Milne", 
+  "gender": "Male", 
+  "id": 1637, 
+  "mda": "Milne, Malcolm", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/malcolm-milne-1637"
+}

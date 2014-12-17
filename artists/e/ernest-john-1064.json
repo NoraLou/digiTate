@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Philadelphia, United States", 
+      "placeName": "Philadelphia", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1922
+    }
+  }, 
+  "birthYear": 1922, 
+  "date": "1922\u20131994", 
+  "death": {
+    "place": {
+      "name": "Exeter, United Kingdom", 
+      "placeName": "Exeter", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1994
+    }
+  }, 
+  "fc": "John Ernest", 
+  "gender": "Male", 
+  "id": 1064, 
+  "mda": "Ernest, John", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 419, 
+      "name": "British Constructivism"
+    }
+  ], 
+  "startLetter": "E", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/john-ernest-1064"
+}

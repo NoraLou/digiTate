@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Oldham, United Kingdom", 
+      "placeName": "Oldham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1857
+    }
+  }, 
+  "birthYear": 1857, 
+  "date": "1857\u20131900", 
+  "death": {
+    "time": {
+      "startYear": 1900
+    }
+  }, 
+  "fc": "William Stott of Oldham", 
+  "gender": "Male", 
+  "id": 533, 
+  "mda": "Stott of Oldham, William", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 365, 
+      "name": "Rural Naturalism"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-stott-of-oldham-533"
+}

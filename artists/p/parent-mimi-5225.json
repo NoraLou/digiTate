@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Qu\u00e9bec, Canada", 
+      "placeName": "Qu\u00e9bec", 
+      "placeType": "province"
+    }, 
+    "time": {
+      "startYear": 1924
+    }
+  }, 
+  "birthYear": 1924, 
+  "date": "1924\u20132005", 
+  "death": {
+    "time": {
+      "startYear": 2005
+    }
+  }, 
+  "fc": "Mimi Parent", 
+  "gender": "Female", 
+  "id": 5225, 
+  "mda": "Parent, Mimi", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/mimi-parent-5225"
+}

@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1859
+    }
+  }, 
+  "birthYear": 1859, 
+  "date": "1859\u20131891", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1891
+    }
+  }, 
+  "fc": "Georges Seurat", 
+  "gender": "Male", 
+  "id": 1926, 
+  "mda": "Seurat, Georges", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 358, 
+      "name": "Neo-Impressionism"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 4229, 
+      "name": "Post-Impressionism"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/georges-seurat-1926"
+}

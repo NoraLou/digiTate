@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1847
+    }
+  }, 
+  "birthYear": 1847, 
+  "date": "active 1847", 
+  "death": {
+    "time": {
+      "startYear": 1847
+    }
+  }, 
+  "fc": "J.S. Laing", 
+  "gender": "Male", 
+  "id": 2511, 
+  "mda": "Laing, J.S.", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/js-laing-2511"
+}

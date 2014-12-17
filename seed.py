@@ -39,20 +39,30 @@ def load_artwork(session):
     for row in f2:
         artwork = model.Artwork()
         artwork.artworkId = int(row[0])
-        artwork.accession_number = row[1]
+        # artwork.accession_number = row[1]
         artwork.artistRole = row[3]
-        artwork.artistId = int(row[4])
+        if int(row[4])!= 19232:
+            if int(row[4])!= 5265:
+                if int(row[4])!= 3462:
+                    if int(row[4])!= 12951:
+                        artwork.artistId = int(row[4])
         artwork.title = row[5]
         artwork.dateText = row[6]
         artwork.medium = row[7]
-        artwork.creditLine = row[8]
-        artwork.year = row[9]
-        artwork.acquisitionYear = row[10]
-        artwork.dimensions = row[11]
-        artwork.width = row[12]
-        artwork.height = row[13]
-        artwork.depth = row[14]
-        artwork.units = row[15]
+        # artwork.creditLine = row[8]
+        if row[9].isdigit():
+            artwork.year = row[9]
+        # artwork.acquisitionYear = row[10]
+        if row[11].isdigit():
+                artwork.dimensions = row[11] 
+        if row[12].isdigit():
+            artwork.width = row[12]
+        if row[13].isdigit():
+            artwork.height = row[13]
+        # artwork.depth = row[14]
+        # if row[15] !="":
+        if row[15].isdigit():
+            artwork.units = row[15]    
         artwork.inscription = row[16]
         artwork.thumbnailCopyright = row[17]
         artwork.thumbnailURL = row[18]
@@ -120,6 +130,7 @@ def load_json(file_name):
 
 def loop_directories (file_path):
     for directr in os.listdir(file_path):
+
         print directr
         new_dir = file_path + "/" + directr
         print new_dir
@@ -200,7 +211,7 @@ def main():
     load_artists(session)
     load_artwork(session)
 
-    loop_directories("./collection-master/artists")
+    loop_directories("./artists")
 
     add_details()
 

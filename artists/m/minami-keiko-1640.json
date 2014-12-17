@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Nihon", 
+      "placeName": "Nihon", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1911
+    }
+  }, 
+  "birthYear": 1911, 
+  "date": "1911\u20132004", 
+  "death": {
+    "place": {
+      "name": "Nihon", 
+      "placeName": "Nihon", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 2004
+    }
+  }, 
+  "fc": "Keiko Minami", 
+  "gender": "Female", 
+  "id": 1640, 
+  "mda": "Minami, Keiko", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/keiko-minami-1640"
+}

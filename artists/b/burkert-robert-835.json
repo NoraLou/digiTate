@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wisconsin, United States", 
+      "placeName": "Wisconsin", 
+      "placeType": "state"
+    }, 
+    "time": {
+      "startYear": 1930
+    }
+  }, 
+  "birthYear": 1930, 
+  "date": "born 1930", 
+  "fc": "Robert Burkert", 
+  "gender": "Male", 
+  "id": 835, 
+  "mda": "Burkert, Robert", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/robert-burkert-835"
+}

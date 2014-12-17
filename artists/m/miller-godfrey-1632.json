@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wellington, New Zealand", 
+      "placeName": "Wellington", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1893
+    }
+  }, 
+  "birthYear": 1893, 
+  "date": "1893\u20131964", 
+  "death": {
+    "place": {
+      "name": "Sydney, Australia", 
+      "placeName": "Sydney", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1964
+    }
+  }, 
+  "fc": "Godfrey Miller", 
+  "gender": "Male", 
+  "id": 1632, 
+  "mda": "Miller, Godfrey", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/godfrey-miller-1632"
+}

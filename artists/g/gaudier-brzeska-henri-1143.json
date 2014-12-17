@@ -1,0 +1,70 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Saint-Jean-de-Braye, France", 
+      "placeName": "Saint-Jean-de-Braye", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1891
+    }
+  }, 
+  "birthYear": 1891, 
+  "date": "1891\u20131915", 
+  "death": {
+    "place": {
+      "name": "Pas-de-Calais, France", 
+      "placeName": "Pas-de-Calais", 
+      "placeType": "department"
+    }, 
+    "time": {
+      "startYear": 1915
+    }
+  }, 
+  "fc": "Henri Gaudier-Brzeska", 
+  "gender": "Male", 
+  "id": 1143, 
+  "mda": "Gaudier-Brzeska, Henri", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 303, 
+      "name": "Direct Carving"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 9312, 
+      "name": "London Group"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 322, 
+      "name": "Vorticism"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 60, 
+  "url": "http://www.tate.org.uk/art/artists/henri-gaudier-brzeska-1143"
+}

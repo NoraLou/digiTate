@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1877
+    }
+  }, 
+  "birthYear": 1877, 
+  "date": "exhibited 1877\u20131879", 
+  "death": {
+    "time": {
+      "startYear": 1879
+    }
+  }, 
+  "fc": "William Cook of Plymouth", 
+  "gender": "Male", 
+  "id": 2487, 
+  "mda": "Cook, William, of Plymouth", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-cook-of-plymouth-2487"
+}

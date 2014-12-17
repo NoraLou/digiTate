@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Rotherham, United Kingdom", 
+      "placeName": "Rotherham", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1909
+    }
+  }, 
+  "birthYear": 1909, 
+  "date": "1909\u20131974", 
+  "death": {
+    "place": {
+      "name": "Hertfordshire, United Kingdom", 
+      "placeName": "Hertfordshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1974
+    }
+  }, 
+  "fc": "Victor Askew", 
+  "gender": "Male", 
+  "id": 670, 
+  "mda": "Askew, Victor", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/victor-askew-670"
+}

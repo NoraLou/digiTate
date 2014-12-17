@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Taganrog, Rossiya", 
+      "placeName": "Taganrog", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1835
+    }
+  }, 
+  "birthYear": 1835, 
+  "date": "1835\u20131918", 
+  "death": {
+    "place": {
+      "name": "Teignmouth, United Kingdom", 
+      "placeName": "Teignmouth", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1918
+    }
+  }, 
+  "fc": "William Frederick Yeames", 
+  "gender": "Male", 
+  "id": 619, 
+  "mda": "Yeames, William Frederick", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 366, 
+      "name": "St John's Wood Clique"
+    }
+  ], 
+  "startLetter": "Y", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-frederick-yeames-619"
+}

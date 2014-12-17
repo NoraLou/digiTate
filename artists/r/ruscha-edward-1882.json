@@ -1,0 +1,47 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Los Angeles, United States", 
+      "placeName": "Los Angeles", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Omaha, United States", 
+      "placeName": "Omaha", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "birthYear": 1937, 
+  "date": "born 1937", 
+  "fc": "Edward Ruscha", 
+  "gender": "Male", 
+  "id": 1882, 
+  "mda": "Ruscha, Edward", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 437, 
+      "name": "Pop Art"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 138, 
+  "url": "http://www.tate.org.uk/art/artists/edward-ruscha-1882"
+}

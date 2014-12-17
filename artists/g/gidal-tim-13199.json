@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "M\u00fcnchen, Deutschland", 
+      "placeName": "M\u00fcnchen", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1909
+    }
+  }, 
+  "birthYear": 1909, 
+  "date": "1909\u20131996", 
+  "death": {
+    "place": {
+      "name": "Yerushalayim, Yisra'el", 
+      "placeName": "Yerushalayim", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1996
+    }
+  }, 
+  "fc": "Tim Gidal", 
+  "gender": "Male", 
+  "id": 13199, 
+  "mda": "Gidal, Tim", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/tim-gidal-13199"
+}

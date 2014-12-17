@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Renfrew, United Kingdom", 
+      "placeName": "Renfrew", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1860
+    }
+  }, 
+  "birthYear": 1860, 
+  "date": "1860\u20131922", 
+  "death": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1922
+    }
+  }, 
+  "fc": "Edward Arthur Walton", 
+  "gender": "Male", 
+  "id": 2119, 
+  "mda": "Walton, Edward Arthur", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 356, 
+      "name": "Glasgow School"
+    }
+  ], 
+  "startLetter": "W", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/edward-arthur-walton-2119"
+}

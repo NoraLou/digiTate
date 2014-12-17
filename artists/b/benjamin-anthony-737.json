@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hampshire, United Kingdom", 
+      "placeName": "Hampshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1931
+    }
+  }, 
+  "birthYear": 1931, 
+  "date": "1931\u20132002", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2002
+    }
+  }, 
+  "fc": "Anthony Benjamin", 
+  "gender": "Male", 
+  "id": 737, 
+  "mda": "Benjamin, Anthony", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 441, 
+      "name": "St Ives School"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 15, 
+  "url": "http://www.tate.org.uk/art/artists/anthony-benjamin-737"
+}

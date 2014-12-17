@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1787
+    }
+  }, 
+  "birthYear": 1787, 
+  "date": "1787\u20131831", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1831
+    }
+  }, 
+  "fc": "Patrick Nasmyth", 
+  "gender": "Male", 
+  "id": 397, 
+  "mda": "Nasmyth, Patrick", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 345, 
+      "name": "Picturesque"
+    }
+  ], 
+  "startLetter": "N", 
+  "totalWorks": 17, 
+  "url": "http://www.tate.org.uk/art/artists/patrick-nasmyth-397"
+}

@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Los Angeles, United States", 
+      "placeName": "Los Angeles", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Pasedena, United States", 
+      "placeName": "Pasedena", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1965
+    }
+  }, 
+  "birthYear": 1965, 
+  "date": "born 1965", 
+  "fc": "Mark Grotjahn", 
+  "gender": "Male", 
+  "id": 16674, 
+  "mda": "Grotjahn, Mark", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/mark-grotjahn-16674"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Stuttgart, Deutschland", 
+      "placeName": "Stuttgart", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1889
+    }
+  }, 
+  "birthYear": 1889, 
+  "date": "1889\u20131955", 
+  "death": {
+    "place": {
+      "name": "Stuttgart, Deutschland", 
+      "placeName": "Stuttgart", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1955
+    }
+  }, 
+  "fc": "Willi Baumeister", 
+  "gender": "Male", 
+  "id": 705, 
+  "mda": "Baumeister, Willi", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/willi-baumeister-705"
+}

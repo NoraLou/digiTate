@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1892
+    }
+  }, 
+  "birthYear": 1892, 
+  "date": "1892\u20131947", 
+  "death": {
+    "place": {
+      "name": "Aldbourne, United Kingdom", 
+      "placeName": "Aldbourne", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1947
+    }
+  }, 
+  "fc": "Thomas Lowinsky", 
+  "gender": "Male", 
+  "id": 1531, 
+  "mda": "Lowinsky, Thomas", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-lowinsky-1531"
+}

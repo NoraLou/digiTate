@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bristol", 
+      "placeName": "Bristol", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1741
+    }
+  }, 
+  "birthYear": 1741, 
+  "date": "1741\u20131821", 
+  "death": {
+    "place": {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1821
+    }
+  }, 
+  "fc": "Nicholas Pocock", 
+  "gender": "Male", 
+  "id": 427, 
+  "mda": "Pocock, Nicholas", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 21, 
+  "url": "http://www.tate.org.uk/art/artists/nicholas-pocock-427"
+}

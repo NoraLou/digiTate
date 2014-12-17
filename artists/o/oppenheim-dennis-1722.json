@@ -1,0 +1,56 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Electric City, United States", 
+      "placeName": "Electric City", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1938
+    }
+  }, 
+  "birthYear": 1938, 
+  "date": "born 1938", 
+  "fc": "Dennis Oppenheim", 
+  "gender": "Male", 
+  "id": 1722, 
+  "mda": "Oppenheim, Dennis", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1680, 
+      "name": "Body Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 422, 
+      "name": "Environmental Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 429, 
+      "name": "Land Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 436, 
+      "name": "Performance Art"
+    }
+  ], 
+  "startLetter": "O", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/dennis-oppenheim-1722"
+}

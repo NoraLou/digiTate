@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Rochdale", 
+      "placeName": "Rochdale", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1859
+    }
+  }, 
+  "birthYear": 1859, 
+  "date": "1859\u20131918", 
+  "death": {
+    "place": {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1918
+    }
+  }, 
+  "fc": "Edward Stott", 
+  "gender": "Male", 
+  "id": 532, 
+  "mda": "Stott, Edward", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 365, 
+      "name": "Rural Naturalism"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/edward-stott-532"
+}

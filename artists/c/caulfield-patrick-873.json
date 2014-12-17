@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1936
+    }
+  }, 
+  "birthYear": 1936, 
+  "date": "1936\u20132005", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2005
+    }
+  }, 
+  "fc": "Patrick Caulfield", 
+  "gender": "Male", 
+  "id": 873, 
+  "mda": "Caulfield, Patrick", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1683, 
+      "name": "British Pop"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 124, 
+  "url": "http://www.tate.org.uk/art/artists/patrick-caulfield-873"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "birthYear": 1934, 
+  "date": "1934\u20132002", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2002
+    }
+  }, 
+  "fc": "Jean-Pierre Yvaral", 
+  "gender": "Male", 
+  "id": 2182, 
+  "mda": "Yvaral, Jean-Pierre", 
+  "movements": [], 
+  "startLetter": "Y", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/jean-pierre-yvaral-2182"
+}

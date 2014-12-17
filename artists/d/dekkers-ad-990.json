@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Zuid-Holland, Nederland", 
+      "placeName": "Zuid-Holland", 
+      "placeType": "province"
+    }, 
+    "time": {
+      "startYear": 1938
+    }
+  }, 
+  "birthYear": 1938, 
+  "date": "1938\u20131974", 
+  "death": {
+    "place": {
+      "name": "Gorinchem, Nederland", 
+      "placeName": "Gorinchem", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1974
+    }
+  }, 
+  "fc": "Ad Dekkers", 
+  "gender": "Male", 
+  "id": 990, 
+  "mda": "Dekkers, Ad", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/ad-dekkers-990"
+}

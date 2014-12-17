@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1921
+    }
+  }, 
+  "birthYear": 1921, 
+  "date": "1921\u20131983", 
+  "death": {
+    "time": {
+      "startYear": 1983
+    }
+  }, 
+  "fc": "N.H. Stubbing (Tony Stubbing)", 
+  "gender": "Male", 
+  "id": 2007, 
+  "mda": "Stubbing, N.H.", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 443, 
+      "name": "Tachism"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/nh-stubbing-tony-stubbing-2007"
+}

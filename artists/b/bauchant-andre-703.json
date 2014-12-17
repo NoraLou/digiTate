@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Ch\u00e2teau-Renault, France", 
+      "placeName": "Ch\u00e2teau-Renault", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1873
+    }
+  }, 
+  "birthYear": 1873, 
+  "date": "1873\u20131958", 
+  "death": {
+    "place": {
+      "name": "Montoire-sur-le-Loir, France", 
+      "placeName": "Montoire-sur-le-Loir", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1958
+    }
+  }, 
+  "fc": "Andr\u00e9 Bauchant", 
+  "gender": "Male", 
+  "id": 703, 
+  "mda": "Bauchant, Andr\u00e9", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1690, 
+      "name": "Naive"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/andre-bauchant-703"
+}

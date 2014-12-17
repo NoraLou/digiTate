@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Sankt-Peterburg, Rossiya", 
+      "placeName": "Sankt-Peterburg", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1914
+    }
+  }, 
+  "birthYear": 1914, 
+  "date": "1914\u20131955", 
+  "death": {
+    "place": {
+      "name": "Antibes, France", 
+      "placeName": "Antibes", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1955
+    }
+  }, 
+  "fc": "Nicolas de Stael", 
+  "gender": "Male", 
+  "id": 1982, 
+  "mda": "Stael, Nicolas de", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/nicolas-de-stael-1982"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Beresford, United States", 
+      "placeName": "Beresford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1922
+    }
+  }, 
+  "birthYear": 1922, 
+  "date": "1922\u20131990", 
+  "death": {
+    "time": {
+      "startYear": 1990
+    }
+  }, 
+  "fc": "Ray Parker", 
+  "gender": "Male", 
+  "id": 1742, 
+  "mda": "Parker, Ray", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/ray-parker-1742"
+}

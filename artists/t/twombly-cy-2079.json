@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Lexington, United States", 
+      "placeName": "Lexington", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1928
+    }
+  }, 
+  "birthYear": 1928, 
+  "date": "1928\u20132011", 
+  "death": {
+    "place": {
+      "name": "Roma, Italia", 
+      "placeName": "Roma", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2011
+    }
+  }, 
+  "fc": "Cy Twombly", 
+  "gender": "Male", 
+  "id": 2079, 
+  "mda": "Twombly, Cy", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 26, 
+  "url": "http://www.tate.org.uk/art/artists/cy-twombly-2079"
+}

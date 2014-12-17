@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Liverpool, United Kingdom", 
+      "placeName": "Liverpool", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1791
+    }
+  }, 
+  "birthYear": 1791, 
+  "date": "1791\u20131876", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1876
+    }
+  }, 
+  "fc": "William Linton", 
+  "gender": "Male", 
+  "id": 352, 
+  "mda": "Linton, William", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-linton-352"
+}

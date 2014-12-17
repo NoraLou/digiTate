@@ -1,0 +1,35 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "United States", 
+      "placeName": "United States", 
+      "placeType": "nation"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Sheffield, United Kingdom", 
+      "placeName": "Sheffield", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1933
+    }
+  }, 
+  "birthYear": 1933, 
+  "date": "1933\u20132007", 
+  "death": {
+    "time": {
+      "startYear": 2007
+    }
+  }, 
+  "fc": "Michael Tyzack", 
+  "gender": "Male", 
+  "id": 2082, 
+  "mda": "Tyzack, Michael", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/michael-tyzack-2082"
+}

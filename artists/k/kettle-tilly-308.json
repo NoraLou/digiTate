@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Exeter, United States", 
+      "placeName": "Exeter", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1734
+    }
+  }, 
+  "birthYear": 1734, 
+  "date": "1734 or 5\u20131786", 
+  "death": {
+    "place": {
+      "name": "Suriyah", 
+      "placeName": "Suriyah", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1786
+    }
+  }, 
+  "fc": "Tilly Kettle", 
+  "gender": "Male", 
+  "id": 308, 
+  "mda": "Kettle, Tilly", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 6210, 
+      "name": "Grand Manner"
+    }
+  ], 
+  "startLetter": "K", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/tilly-kettle-308"
+}

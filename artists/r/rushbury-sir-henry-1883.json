@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Birmingham, United Kingdom", 
+      "placeName": "Birmingham", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1889
+    }
+  }, 
+  "birthYear": 1889, 
+  "date": "1889\u20131968", 
+  "death": {
+    "time": {
+      "startYear": 1968
+    }
+  }, 
+  "fc": "Sir Henry Rushbury", 
+  "gender": "Male", 
+  "id": 1883, 
+  "mda": "Rushbury, Sir Henry", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/sir-henry-rushbury-1883"
+}

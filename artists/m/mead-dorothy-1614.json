@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1928
+    }
+  }, 
+  "birthYear": 1928, 
+  "date": "1928\u20131975", 
+  "death": {
+    "time": {
+      "startYear": 1975
+    }
+  }, 
+  "fc": "Dorothy Mead", 
+  "gender": "Female", 
+  "id": 1614, 
+  "mda": "Mead, Dorothy", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/dorothy-mead-1614"
+}

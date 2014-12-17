@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1878
+    }
+  }, 
+  "birthYear": 1878, 
+  "date": "1878\u20131944", 
+  "death": {
+    "time": {
+      "startYear": 1944
+    }
+  }, 
+  "fc": "William Chase", 
+  "gender": "Male", 
+  "id": 2346, 
+  "mda": "Chase, William", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-chase-2346"
+}

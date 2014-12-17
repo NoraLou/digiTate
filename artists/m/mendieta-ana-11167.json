@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "La Habana, Cuba", 
+      "placeName": "La Habana", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1948
+    }
+  }, 
+  "birthYear": 1948, 
+  "date": "1948\u20131985", 
+  "death": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1985
+    }
+  }, 
+  "fc": "Ana Mendieta", 
+  "gender": "Female", 
+  "id": 11167, 
+  "mda": "Mendieta, Ana", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1680, 
+      "name": "Body Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 436, 
+      "name": "Performance Art"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/ana-mendieta-11167"
+}

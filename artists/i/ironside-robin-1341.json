@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1912
+    }
+  }, 
+  "birthYear": 1912, 
+  "date": "1912\u20131965", 
+  "death": {
+    "time": {
+      "startYear": 1965
+    }
+  }, 
+  "fc": "Robin Ironside", 
+  "gender": "Male", 
+  "id": 1341, 
+  "mda": "Ironside, Robin", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 312, 
+      "name": "Neo-Romanticism"
+    }
+  ], 
+  "startLetter": "I", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/robin-ironside-1341"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Lyon, France", 
+      "placeName": "Lyon", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1833
+    }
+  }, 
+  "birthYear": 1833, 
+  "date": "1833\u20131900", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1900
+    }
+  }, 
+  "fc": "Antoine Vollon", 
+  "gender": "Male", 
+  "id": 2110, 
+  "mda": "Vollon, Antoine", 
+  "movements": [], 
+  "startLetter": "V", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/antoine-vollon-2110"
+}

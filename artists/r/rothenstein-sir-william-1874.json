@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bradford, United Kingdom", 
+      "placeName": "Bradford", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1872
+    }
+  }, 
+  "birthYear": 1872, 
+  "date": "1872\u20131945", 
+  "death": {
+    "place": {
+      "name": "Gloucestershire, United Kingdom", 
+      "placeName": "Gloucestershire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1945
+    }
+  }, 
+  "fc": "Sir William Rothenstein", 
+  "gender": "Male", 
+  "id": 1874, 
+  "mda": "Rothenstein, Sir William", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 43, 
+  "url": "http://www.tate.org.uk/art/artists/sir-william-rothenstein-1874"
+}

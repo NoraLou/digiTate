@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Stockholm", 
+      "placeName": "Stockholm", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1739
+    }
+  }, 
+  "birthYear": 1739, 
+  "date": "1739\u20131818", 
+  "death": {
+    "place": {
+      "name": "Sverige", 
+      "placeName": "Sverige", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1818
+    }
+  }, 
+  "fc": "Elias Martin", 
+  "gender": "Male", 
+  "id": 2442, 
+  "mda": "Martin, Elias", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/elias-martin-2442"
+}

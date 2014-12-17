@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1884
+    }
+  }, 
+  "birthYear": 1884, 
+  "date": "1884\u20131937", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "fc": "Glyn Warren Philpot", 
+  "gender": "Male", 
+  "id": 1765, 
+  "mda": "Philpot, Glyn Warren", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/glyn-warren-philpot-1765"
+}

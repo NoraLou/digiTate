@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Pila, Polska", 
+      "placeName": "Pila", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1915
+    }
+  }, 
+  "birthYear": 1915, 
+  "date": "1915\u20132005", 
+  "death": {
+    "place": {
+      "name": "K\u00f6ln, Deutschland", 
+      "placeName": "K\u00f6ln", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2005
+    }
+  }, 
+  "fc": "Bernard Schultze", 
+  "gender": "Male", 
+  "id": 2277, 
+  "mda": "Schultze, Bernard", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/bernard-schultze-2277"
+}

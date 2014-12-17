@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1611
+    }
+  }, 
+  "birthYear": 1611, 
+  "date": "1611\u20131646", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1646
+    }
+  }, 
+  "fc": "William Dobson", 
+  "gender": "Male", 
+  "id": 153, 
+  "mda": "Dobson, William", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 399, 
+      "name": "Civil War and Commonwealth"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 412, 
+      "name": "Early Stuart"
+    }
+  ], 
+  "startLetter": "D", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/william-dobson-153"
+}

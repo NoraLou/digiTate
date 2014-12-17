@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bristol, United Kingdom", 
+      "placeName": "Bristol", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1812
+    }
+  }, 
+  "birthYear": 1812, 
+  "date": "1812\u20131845", 
+  "death": {
+    "place": {
+      "name": "Bristol, United Kingdom", 
+      "placeName": "Bristol", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1845
+    }
+  }, 
+  "fc": "William James M\u00fcller", 
+  "gender": "Male", 
+  "id": 391, 
+  "mda": "M\u00fcller, William James", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 5866, 
+      "name": "Orientalist"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 82, 
+  "url": "http://www.tate.org.uk/art/artists/william-james-muller-391"
+}

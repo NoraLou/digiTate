@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1694
+    }
+  }, 
+  "birthYear": 1694, 
+  "date": "1694\u20131739", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1739
+    }
+  }, 
+  "fc": "John Vanderbank", 
+  "gender": "Male", 
+  "id": 563, 
+  "mda": "Vanderbank, John", 
+  "movements": [], 
+  "startLetter": "V", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/john-vanderbank-563"
+}

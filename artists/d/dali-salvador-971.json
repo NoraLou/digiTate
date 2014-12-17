@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Figueras, Espa\u00f1a", 
+      "placeName": "Figueras", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1904
+    }
+  }, 
+  "birthYear": 1904, 
+  "date": "1904\u20131989", 
+  "death": {
+    "place": {
+      "name": "Figueras, Espa\u00f1a", 
+      "placeName": "Figueras", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1989
+    }
+  }, 
+  "fc": "Salvador Dal\u00ed", 
+  "gender": "Male", 
+  "id": 971, 
+  "mda": "Dal\u00ed, Salvador", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 320, 
+      "name": "Surrealism"
+    }
+  ], 
+  "startLetter": "D", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/salvador-dali-971"
+}

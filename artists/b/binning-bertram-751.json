@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Alberta, Canada", 
+      "placeName": "Alberta", 
+      "placeType": "province"
+    }, 
+    "time": {
+      "startYear": 1909
+    }
+  }, 
+  "birthYear": 1909, 
+  "date": "1909\u20131976", 
+  "death": {
+    "place": {
+      "name": "West Vancouver, Canada", 
+      "placeName": "West Vancouver", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1976
+    }
+  }, 
+  "fc": "Bertram Binning", 
+  "gender": "Male", 
+  "id": 751, 
+  "mda": "Binning, Bertram", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/bertram-binning-751"
+}

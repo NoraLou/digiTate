@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1828
+    }
+  }, 
+  "birthYear": 1828, 
+  "date": "1828\u20131903", 
+  "death": {
+    "place": {
+      "name": "Kensington", 
+      "placeName": "Kensington", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1903
+    }
+  }, 
+  "fc": "Henry Tanworth Wells", 
+  "gender": "Male", 
+  "id": 592, 
+  "mda": "Wells, Henry Tanworth", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "W", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/henry-tanworth-wells-592"
+}

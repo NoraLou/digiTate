@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Udine, Italia", 
+      "placeName": "Udine", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1912
+    }
+  }, 
+  "birthYear": 1912, 
+  "date": "1912\u20131976", 
+  "death": {
+    "place": {
+      "name": "Z\u00fcrich, Schweiz", 
+      "placeName": "Z\u00fcrich", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1976
+    }
+  }, 
+  "fc": "Afro (Afro Basaldella)", 
+  "gender": "Male", 
+  "id": 632, 
+  "mda": "Afro", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/afro-afro-basaldella-632"
+}

@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1828
+    }
+  }, 
+  "birthYear": 1828, 
+  "date": "1828\u20131873", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1873
+    }
+  }, 
+  "fc": "Charles Allston Collins", 
+  "gender": "Male", 
+  "id": 104, 
+  "mda": "Collins, Charles Allston", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 363, 
+      "name": "Pre-Raphaelite Brotherhood"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/charles-allston-collins-104"
+}

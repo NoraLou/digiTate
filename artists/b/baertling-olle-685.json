@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Halmstad, Sverige", 
+      "placeName": "Halmstad", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1911
+    }
+  }, 
+  "birthYear": 1911, 
+  "date": "1911\u20131981", 
+  "death": {
+    "place": {
+      "name": "Stockholm, Sverige", 
+      "placeName": "Stockholm", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1981
+    }
+  }, 
+  "fc": "Olle Baertling", 
+  "gender": "Male", 
+  "id": 685, 
+  "mda": "Baertling, Olle", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/olle-baertling-685"
+}

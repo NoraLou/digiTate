@@ -1,0 +1,19 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Amsterdam, Nederland", 
+      "placeName": "Amsterdam", 
+      "placeType": "inhabited_place"
+    }
+  }, 
+  "date": null, 
+  "fc": "Albertus Seba", 
+  "gender": "Male", 
+  "id": 2626, 
+  "mda": "Seba, Albertus", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/albertus-seba-2626"
+}

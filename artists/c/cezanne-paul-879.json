@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Aix-en-Provence, France", 
+      "placeName": "Aix-en-Provence", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1839
+    }
+  }, 
+  "birthYear": 1839, 
+  "date": "1839\u20131906", 
+  "death": {
+    "place": {
+      "name": "Aix-en-Provence, France", 
+      "placeName": "Aix-en-Provence", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1906
+    }
+  }, 
+  "fc": "Paul C\u00e9zanne", 
+  "gender": "Male", 
+  "id": 879, 
+  "mda": "C\u00e9zanne, Paul", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 4229, 
+      "name": "Post-Impressionism"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/paul-cezanne-879"
+}

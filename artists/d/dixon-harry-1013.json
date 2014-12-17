@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Watford, United Kingdom", 
+      "placeName": "Watford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1861
+    }
+  }, 
+  "birthYear": 1861, 
+  "date": "1861\u20131942", 
+  "death": {
+    "place": {
+      "name": "Finchley, United Kingdom", 
+      "placeName": "Finchley", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1942
+    }
+  }, 
+  "fc": "Harry Dixon", 
+  "gender": "Male", 
+  "id": 1013, 
+  "mda": "Dixon, Harry", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/harry-dixon-1013"
+}

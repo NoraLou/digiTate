@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Italia", 
+      "placeName": "Italia", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1702
+    }
+  }, 
+  "birthYear": 1702, 
+  "date": "1702\u20131788", 
+  "death": {
+    "place": {
+      "name": "Firenze", 
+      "placeName": "Firenze", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1788
+    }
+  }, 
+  "fc": "Francesco Zuccarelli", 
+  "gender": "Male", 
+  "id": 621, 
+  "mda": "Zuccarelli, Francesco", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 346, 
+      "name": "Rococo"
+    }
+  ], 
+  "startLetter": "Z", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/francesco-zuccarelli-621"
+}

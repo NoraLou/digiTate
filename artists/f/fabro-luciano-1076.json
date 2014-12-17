@@ -1,0 +1,57 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Milano, Italia", 
+      "placeName": "Milano", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Torino, Italia", 
+      "placeName": "Torino", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1936
+    }
+  }, 
+  "birthYear": 1936, 
+  "date": "1936\u20132007", 
+  "death": {
+    "place": {
+      "name": "Milano, Italia", 
+      "placeName": "Milano", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2007
+    }
+  }, 
+  "fc": "Luciano Fabro", 
+  "gender": "Male", 
+  "id": 1076, 
+  "mda": "Fabro, Luciano", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 418, 
+      "name": "Arte Povera"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }
+  ], 
+  "startLetter": "F", 
+  "totalWorks": 8, 
+  "url": "http://www.tate.org.uk/art/artists/luciano-fabro-1076"
+}

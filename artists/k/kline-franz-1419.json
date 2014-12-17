@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wilkes-Barre, United States", 
+      "placeName": "Wilkes-Barre", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "birthYear": 1910, 
+  "date": "1910\u20131962", 
+  "death": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1962
+    }
+  }, 
+  "fc": "Franz Kline", 
+  "gender": "Male", 
+  "id": 1419, 
+  "mda": "Kline, Franz", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 416, 
+      "name": "Abstract Expressionism"
+    }
+  ], 
+  "startLetter": "K", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/franz-kline-1419"
+}

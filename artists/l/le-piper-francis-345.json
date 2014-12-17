@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1640
+    }
+  }, 
+  "birthYear": 1640, 
+  "date": "?1640\u20131695", 
+  "death": {
+    "time": {
+      "startYear": 1695
+    }
+  }, 
+  "fc": "Francis Le Piper", 
+  "gender": "Male", 
+  "id": 345, 
+  "mda": "Le Piper, Francis", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/francis-le-piper-345"
+}

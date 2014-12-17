@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1869
+    }
+  }, 
+  "birthYear": 1869, 
+  "date": "1869\u20131934", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "fc": "George Spencer Watson", 
+  "gender": "Male", 
+  "id": 2124, 
+  "mda": "Spencer Watson, George", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/george-spencer-watson-2124"
+}

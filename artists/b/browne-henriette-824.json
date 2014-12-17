@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1829
+    }
+  }, 
+  "birthYear": 1829, 
+  "date": "1829\u20131901", 
+  "death": {
+    "time": {
+      "startYear": 1901
+    }
+  }, 
+  "fc": "Henriette Browne", 
+  "gender": "Female", 
+  "id": 824, 
+  "mda": "Browne, Henriette", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/henriette-browne-824"
+}

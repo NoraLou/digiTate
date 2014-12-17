@@ -1,0 +1,49 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Roma, Italia", 
+      "placeName": "Roma", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Scotland, United Kingdom", 
+      "placeName": "Scotland", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1723
+    }
+  }, 
+  "birthYear": 1723, 
+  "date": "1723\u20131798", 
+  "death": {
+    "place": {
+      "name": "Roma, Italia", 
+      "placeName": "Roma", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1798
+    }
+  }, 
+  "fc": "Gavin Hamilton", 
+  "gender": "Male", 
+  "id": 234, 
+  "mda": "Hamilton, Gavin", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 344, 
+      "name": "Neo-Classicism"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/gavin-hamilton-234"
+}

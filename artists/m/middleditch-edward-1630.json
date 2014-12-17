@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Chelmsford, United Kingdom", 
+      "placeName": "Chelmsford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1923
+    }
+  }, 
+  "birthYear": 1923, 
+  "date": "1923\u20131987", 
+  "death": {
+    "time": {
+      "startYear": 1987
+    }
+  }, 
+  "fc": "Edward Middleditch", 
+  "gender": "Male", 
+  "id": 1630, 
+  "mda": "Middleditch, Edward", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 427, 
+      "name": "Kitchen Sink Art"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/edward-middleditch-1630"
+}

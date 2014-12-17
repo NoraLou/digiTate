@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "birthYear": 1934, 
+  "date": "1934\u20132001", 
+  "death": {
+    "place": {
+      "name": "Sidcup, United Kingdom", 
+      "placeName": "Sidcup", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 2001
+    }
+  }, 
+  "fc": "William Green", 
+  "gender": "Male", 
+  "id": 4531, 
+  "mda": "Green, William", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-green-4531"
+}

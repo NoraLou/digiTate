@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Warszawa, Polska", 
+      "placeName": "Warszawa", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1945
+    }
+  }, 
+  "birthYear": 1945, 
+  "date": "born 1945", 
+  "fc": "Ewa Partum", 
+  "gender": "Female", 
+  "id": 11244, 
+  "mda": "Partum, Ewa", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 12081, 
+      "name": "Feminist Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 436, 
+      "name": "Performance Art"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/ewa-partum-11244"
+}

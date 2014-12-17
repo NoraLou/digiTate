@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dresden, Deutschland", 
+      "placeName": "Dresden", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1939
+    }
+  }, 
+  "birthYear": 1939, 
+  "date": "born 1939", 
+  "fc": "A.R. Penck (Ralf Winkler)", 
+  "gender": "Male", 
+  "id": 1753, 
+  "mda": "Penck, A.R.", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 431, 
+      "name": "Neo-Expressionism"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/ar-penck-ralf-winkler-1753"
+}

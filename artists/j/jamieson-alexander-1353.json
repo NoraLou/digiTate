@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Glasgow, United Kingdom", 
+      "placeName": "Glasgow", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1873
+    }
+  }, 
+  "birthYear": 1873, 
+  "date": "1873\u20131937", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "fc": "Alexander Jamieson", 
+  "gender": "Male", 
+  "id": 1353, 
+  "mda": "Jamieson, Alexander", 
+  "movements": [], 
+  "startLetter": "J", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/alexander-jamieson-1353"
+}

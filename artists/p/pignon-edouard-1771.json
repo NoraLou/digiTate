@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bully-les-Mines, France", 
+      "placeName": "Bully-les-Mines", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1905
+    }
+  }, 
+  "birthYear": 1905, 
+  "date": "1905\u20131993", 
+  "death": {
+    "time": {
+      "startYear": 1993
+    }
+  }, 
+  "fc": "Edouard Pignon", 
+  "gender": "Male", 
+  "id": 1771, 
+  "mda": "Pignon, Edouard", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 12699, 
+      "name": "Socialist Realism"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/edouard-pignon-1771"
+}

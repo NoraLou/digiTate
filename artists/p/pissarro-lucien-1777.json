@@ -1,0 +1,57 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1863
+    }
+  }, 
+  "birthYear": 1863, 
+  "date": "1863\u20131944", 
+  "death": {
+    "place": {
+      "name": "Dorset, United Kingdom", 
+      "placeName": "Dorset", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1944
+    }
+  }, 
+  "fc": "Lucien Pissarro", 
+  "gender": "Male", 
+  "id": 1777, 
+  "mda": "Pissarro, Lucien", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 297, 
+      "name": "Camden Town Group"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 358, 
+      "name": "Neo-Impressionism"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 38, 
+  "url": "http://www.tate.org.uk/art/artists/lucien-pissarro-1777"
+}

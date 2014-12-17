@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Rossiya", 
+      "placeName": "Rossiya", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1890
+    }
+  }, 
+  "birthYear": 1890, 
+  "date": "1890\u20131967", 
+  "death": {
+    "place": {
+      "name": "Moskva", 
+      "placeName": "Moskva", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1967
+    }
+  }, 
+  "fc": "Dmitri Tsapline", 
+  "gender": "Male", 
+  "id": 2072, 
+  "mda": "Tsapline, Dmitri", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/dmitri-tsapline-2072"
+}

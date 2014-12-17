@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Scarborough, United Kingdom", 
+      "placeName": "Scarborough", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1913
+    }
+  }, 
+  "birthYear": 1913, 
+  "date": "1913\u20131979", 
+  "death": {
+    "time": {
+      "startYear": 1979
+    }
+  }, 
+  "fc": "Brian Robb", 
+  "gender": "Male", 
+  "id": 1853, 
+  "mda": "Robb, Brian", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/brian-robb-1853"
+}

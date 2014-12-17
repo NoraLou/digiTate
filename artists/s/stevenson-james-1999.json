@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Chester, United Kingdom", 
+      "placeName": "Chester", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1881
+    }
+  }, 
+  "birthYear": 1881, 
+  "date": "1881\u20131937", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "fc": "James Stevenson", 
+  "gender": "Male", 
+  "id": 1999, 
+  "mda": "Stevenson, James", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/james-stevenson-1999"
+}

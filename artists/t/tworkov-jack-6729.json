@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Lublin, Polska", 
+      "placeName": "Lublin", 
+      "placeType": "province"
+    }, 
+    "time": {
+      "startYear": 1900
+    }
+  }, 
+  "birthYear": 1900, 
+  "date": "1900\u20131982", 
+  "death": {
+    "place": {
+      "name": "Provincetown, United States", 
+      "placeName": "Provincetown", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1982
+    }
+  }, 
+  "fc": "Jack Tworkov", 
+  "gender": "Male", 
+  "id": 6729, 
+  "mda": "Tworkov, Jack", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/jack-tworkov-6729"
+}

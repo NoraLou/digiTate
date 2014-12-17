@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1867
+    }
+  }, 
+  "birthYear": 1867, 
+  "date": "1867\u20131921", 
+  "death": {
+    "place": {
+      "name": "Kensington, United Kingdom", 
+      "placeName": "Kensington", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1921
+    }
+  }, 
+  "fc": "William Robert Colton", 
+  "gender": "Male", 
+  "id": 933, 
+  "mda": "Colton, William Robert", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/william-robert-colton-933"
+}

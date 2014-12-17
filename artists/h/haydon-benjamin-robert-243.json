@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Plymouth, United Kingdom", 
+      "placeName": "Plymouth", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1786
+    }
+  }, 
+  "birthYear": 1786, 
+  "date": "1786\u20131846", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1846
+    }
+  }, 
+  "fc": "Benjamin Robert Haydon", 
+  "gender": "Male", 
+  "id": 243, 
+  "mda": "Haydon, Benjamin Robert", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/benjamin-robert-haydon-243"
+}

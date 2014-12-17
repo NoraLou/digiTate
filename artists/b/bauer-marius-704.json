@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "s Gravenhage, Nederland", 
+      "placeName": "s Gravenhage", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1867
+    }
+  }, 
+  "birthYear": 1867, 
+  "date": "1867\u20131932", 
+  "death": {
+    "place": {
+      "name": "Amsterdam, Nederland", 
+      "placeName": "Amsterdam", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1932
+    }
+  }, 
+  "fc": "Marius Bauer", 
+  "gender": "Male", 
+  "id": 704, 
+  "mda": "Bauer, Marius", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/marius-bauer-704"
+}

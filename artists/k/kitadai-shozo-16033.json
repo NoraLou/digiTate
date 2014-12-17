@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1921
+    }
+  }, 
+  "birthYear": 1921, 
+  "date": "1921\u20132001", 
+  "death": {
+    "time": {
+      "startYear": 2001
+    }
+  }, 
+  "fc": "Shozo Kitadai", 
+  "gender": "Male", 
+  "id": 16033, 
+  "mda": "Kitadai, Shozo", 
+  "movements": [], 
+  "startLetter": "K", 
+  "totalWorks": 10, 
+  "url": "http://www.tate.org.uk/art/artists/shozo-kitadai-16033"
+}

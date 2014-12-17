@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1702
+    }
+  }, 
+  "birthYear": 1702, 
+  "date": "?1702\u20131752", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1752
+    }
+  }, 
+  "fc": "James Seymour", 
+  "gender": "Male", 
+  "id": 488, 
+  "mda": "Seymour, James", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 12, 
+  "url": "http://www.tate.org.uk/art/artists/james-seymour-488"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1775
+    }
+  }, 
+  "birthYear": 1775, 
+  "date": "1775\u20131830", 
+  "death": {
+    "time": {
+      "startYear": 1830
+    }
+  }, 
+  "fc": "John Augustus Atkinson", 
+  "gender": "Male", 
+  "id": 2412, 
+  "mda": "Atkinson, John Augustus", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-augustus-atkinson-2412"
+}

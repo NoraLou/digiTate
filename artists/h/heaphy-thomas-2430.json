@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1775
+    }
+  }, 
+  "birthYear": 1775, 
+  "date": "1775\u20131835", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1835
+    }
+  }, 
+  "fc": "Thomas Heaphy", 
+  "gender": "Male", 
+  "id": 2430, 
+  "mda": "Heaphy, Thomas", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-heaphy-2430"
+}

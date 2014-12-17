@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1633
+    }
+  }, 
+  "birthYear": 1633, 
+  "date": "1633 or 4\u20131721", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1721
+    }
+  }, 
+  "fc": "Isaac Sailmaker", 
+  "gender": "Male", 
+  "id": 2453, 
+  "mda": "Sailmaker, Isaac", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/isaac-sailmaker-2453"
+}

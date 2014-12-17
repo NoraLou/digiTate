@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "San Francisco, United States", 
+      "placeName": "San Francisco", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Koszeg, Magyarorsz\u00e1g", 
+      "placeName": "Koszeg", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1900
+    }
+  }, 
+  "birthYear": 1889, 
+  "date": "1889 \u2013 1966", 
+  "death": {
+    "place": {
+      "name": "San Francisco, United States", 
+      "placeName": "San Francisco", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1966
+    }
+  }, 
+  "fc": "Edward Buk Ulreich", 
+  "gender": "Male", 
+  "id": 2086, 
+  "mda": "Ulreich, Edward Buk", 
+  "movements": [], 
+  "startLetter": "U", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/edward-buk-ulreich-2086"
+}

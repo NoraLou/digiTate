@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1845
+    }
+  }, 
+  "birthYear": 1845, 
+  "date": "1845\u20131932", 
+  "death": {
+    "time": {
+      "startYear": 1932
+    }
+  }, 
+  "fc": "Albert Goodwin", 
+  "gender": "Male", 
+  "id": 215, 
+  "mda": "Goodwin, Albert", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/albert-goodwin-215"
+}

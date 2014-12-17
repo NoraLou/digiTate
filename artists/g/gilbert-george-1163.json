@@ -1,0 +1,35 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1942
+    }
+  }, 
+  "birthYear": 1943, 
+  "date": "born 1943, born 1942", 
+  "fc": "Gilbert & George", 
+  "gender": "Male", 
+  "id": 1163, 
+  "mda": "Gilbert & George", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 16666, 
+      "name": "Abject art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 436, 
+      "name": "Performance Art"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 27, 
+  "url": "http://www.tate.org.uk/art/artists/gilbert-george-1163"
+}

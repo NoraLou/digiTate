@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Auxerre, France", 
+      "placeName": "Auxerre", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1848
+    }
+  }, 
+  "birthYear": 1848, 
+  "date": "1848\u20131917", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1917
+    }
+  }, 
+  "fc": "Edouard Lanteri", 
+  "gender": "Male", 
+  "id": 326, 
+  "mda": "Lanteri, Edouard", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 361, 
+      "name": "New Sculpture"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/edouard-lanteri-326"
+}

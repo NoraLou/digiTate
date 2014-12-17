@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1600
+    }
+  }, 
+  "birthYear": 1600, 
+  "date": "1600\u20131799", 
+  "death": {
+    "time": {
+      "startYear": 1799
+    }
+  }, 
+  "fc": "British School 17th or 18th century", 
+  "gender": null, 
+  "id": 58, 
+  "mda": "British School 17th or 18th century", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/british-school-17th-or-18th-century-58"
+}

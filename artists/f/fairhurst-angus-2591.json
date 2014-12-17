@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kent, United Kingdom", 
+      "placeName": "Kent", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1966
+    }
+  }, 
+  "birthYear": 1966, 
+  "date": "1966\u20132008", 
+  "death": {
+    "place": {
+      "name": "Scotland, United Kingdom", 
+      "placeName": "Scotland", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 2008
+    }
+  }, 
+  "fc": "Angus Fairhurst", 
+  "gender": "Male", 
+  "id": 2591, 
+  "mda": "Fairhurst, Angus", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 11857, 
+      "name": "Young British Artists (YBA)"
+    }
+  ], 
+  "startLetter": "F", 
+  "totalWorks": 45, 
+  "url": "http://www.tate.org.uk/art/artists/angus-fairhurst-2591"
+}

@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Patna, Bharat", 
+      "placeName": "Patna", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1964
+    }
+  }, 
+  "birthYear": 1964, 
+  "date": "born 1964", 
+  "fc": "Subodh Gupta", 
+  "gender": "Male", 
+  "id": 12171, 
+  "mda": "Gupta, Subodh", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/subodh-gupta-12171"
+}

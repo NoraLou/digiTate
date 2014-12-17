@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Cork, \u00c9ire", 
+      "placeName": "Cork", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1806
+    }
+  }, 
+  "birthYear": 1806, 
+  "date": "1806\u20131870", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1870
+    }
+  }, 
+  "fc": "Daniel Maclise", 
+  "gender": "Male", 
+  "id": 365, 
+  "mda": "Maclise, Daniel", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/daniel-maclise-365"
+}

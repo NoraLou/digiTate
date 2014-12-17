@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Croydon, United Kingdom", 
+      "placeName": "Croydon", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1973
+    }
+  }, 
+  "birthYear": 1973, 
+  "date": "born 1973", 
+  "fc": "Rosalind Nashashibi", 
+  "gender": "Female", 
+  "id": 7347, 
+  "mda": "Nashashibi, Rosalind", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/rosalind-nashashibi-7347"
+}

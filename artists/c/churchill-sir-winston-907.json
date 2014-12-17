@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Blenheim Palace, United Kingdom", 
+      "placeName": "Blenheim Palace", 
+      "placeType": "palace"
+    }, 
+    "time": {
+      "startYear": 1874
+    }
+  }, 
+  "birthYear": 1874, 
+  "date": "1874\u20131965", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1965
+    }
+  }, 
+  "fc": "Sir Winston Churchill", 
+  "gender": "Male", 
+  "id": 907, 
+  "mda": "Churchill, Sir Winston", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/sir-winston-churchill-907"
+}

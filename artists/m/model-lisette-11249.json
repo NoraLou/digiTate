@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wien, \u00d6sterreich", 
+      "placeName": "Wien", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1906
+    }
+  }, 
+  "birthYear": 1906, 
+  "date": "1906\u20131983", 
+  "death": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1983
+    }
+  }, 
+  "fc": "Lisette Model", 
+  "gender": "Female", 
+  "id": 11249, 
+  "mda": "Model, Lisette", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 12, 
+  "url": "http://www.tate.org.uk/art/artists/lisette-model-11249"
+}

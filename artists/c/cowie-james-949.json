@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Cuminestown, United Kingdom", 
+      "placeName": "Cuminestown", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1886
+    }
+  }, 
+  "birthYear": 1886, 
+  "date": "1886\u20131956", 
+  "death": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1956
+    }
+  }, 
+  "fc": "James Cowie", 
+  "gender": "Male", 
+  "id": 949, 
+  "mda": "Cowie, James", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/james-cowie-949"
+}

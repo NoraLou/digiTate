@@ -1,0 +1,48 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Baden, \u00d6sterreich", 
+      "placeName": "Baden", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1929
+    }
+  }, 
+  "birthYear": 1929, 
+  "date": "born 1929", 
+  "fc": "Arnulf Rainer", 
+  "gender": "Male", 
+  "id": 1813, 
+  "mda": "Rainer, Arnulf", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1684, 
+      "name": "Actionism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1680, 
+      "name": "Body Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 436, 
+      "name": "Performance Art"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 29, 
+  "url": "http://www.tate.org.uk/art/artists/arnulf-rainer-1813"
+}

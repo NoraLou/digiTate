@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bishop Auckland, United Kingdom", 
+      "placeName": "Bishop Auckland", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1889
+    }
+  }, 
+  "birthYear": 1889, 
+  "date": "1889\u20131965", 
+  "death": {
+    "time": {
+      "startYear": 1965
+    }
+  }, 
+  "fc": "John Cecil Stephenson", 
+  "gender": "Male", 
+  "id": 1996, 
+  "mda": "Stephenson, John Cecil", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 298, 
+      "name": "Constructivism"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-cecil-stephenson-1996"
+}

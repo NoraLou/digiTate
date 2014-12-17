@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "S\u00e3o Paulo, Brasil", 
+      "placeName": "S\u00e3o Paulo", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Buenos Aires, Argentina", 
+      "placeName": "Buenos Aires", 
+      "placeType": "province"
+    }, 
+    "time": {
+      "startYear": 1973
+    }
+  }, 
+  "birthYear": 1973, 
+  "date": "born 1973", 
+  "fc": "Carla Zaccagnini", 
+  "gender": "Female", 
+  "id": 14306, 
+  "mda": "Zaccagnini, Carla", 
+  "movements": [], 
+  "startLetter": "Z", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/carla-zaccagnini-14306"
+}

@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Penzance, United Kingdom", 
+      "placeName": "Penzance", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1967
+    }
+  }, 
+  "birthYear": 1967, 
+  "date": "born 1967", 
+  "fc": "Abigail Lane", 
+  "gender": "Female", 
+  "id": 2660, 
+  "mda": "Lane, Abigail", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 11857, 
+      "name": "Young British Artists (YBA)"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/abigail-lane-2660"
+}

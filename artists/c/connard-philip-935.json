@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Southport, United Kingdom", 
+      "placeName": "Southport", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1875
+    }
+  }, 
+  "birthYear": 1875, 
+  "date": "1875\u20131958", 
+  "death": {
+    "place": {
+      "name": "Twickenham, United Kingdom", 
+      "placeName": "Twickenham", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1958
+    }
+  }, 
+  "fc": "Philip Connard", 
+  "gender": "Male", 
+  "id": 935, 
+  "mda": "Connard, Philip", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/philip-connard-935"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Sankt-Peterburg, Rossiya", 
+      "placeName": "Sankt-Peterburg", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1892
+    }
+  }, 
+  "birthYear": 1892, 
+  "date": "1892\u20131990", 
+  "death": {
+    "time": {
+      "startYear": 1990
+    }
+  }, 
+  "fc": "Ert\u00e9 (Romain de Tirtoff)", 
+  "gender": "Male", 
+  "id": 1066, 
+  "mda": "Ert\u00e9", 
+  "movements": [], 
+  "startLetter": "E", 
+  "totalWorks": 15, 
+  "url": "http://www.tate.org.uk/art/artists/erte-romain-de-tirtoff-1066"
+}

@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Rio de Janeiro, Brasil", 
+      "placeName": "Rio de Janeiro", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1948
+    }
+  }, 
+  "birthYear": 1948, 
+  "date": "born 1948", 
+  "fc": "Cildo Meireles", 
+  "gender": "Male", 
+  "id": 6633, 
+  "mda": "Meireles, Cildo", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 17894, 
+      "name": "Neo-Concretism"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 30, 
+  "url": "http://www.tate.org.uk/art/artists/cildo-meireles-6633"
+}

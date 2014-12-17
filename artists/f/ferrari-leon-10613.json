@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Buenos Aires, Argentina", 
+      "placeName": "Buenos Aires", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1920
+    }
+  }, 
+  "birthYear": 1920, 
+  "date": "1920\u20132013", 
+  "death": {
+    "time": {
+      "startYear": 2013
+    }
+  }, 
+  "fc": "Le\u00f3n Ferrari", 
+  "gender": "Male", 
+  "id": 10613, 
+  "mda": "Ferrari, Le\u00f3n", 
+  "movements": [], 
+  "startLetter": "F", 
+  "totalWorks": 199, 
+  "url": "http://www.tate.org.uk/art/artists/leon-ferrari-10613"
+}

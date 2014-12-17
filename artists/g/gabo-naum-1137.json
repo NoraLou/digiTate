@@ -1,0 +1,111 @@
+{
+  "activePlaceCount": 7, 
+  "activePlaces": [
+    {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Cornwall, United Kingdom", 
+      "placeName": "Cornwall", 
+      "placeType": "county"
+    }, 
+    {
+      "name": "Rossiya", 
+      "placeName": "Rossiya", 
+      "placeType": "nation"
+    }, 
+    {
+      "name": "M\u00fcnchen, Deutschland", 
+      "placeName": "M\u00fcnchen", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Berlin, Deutschland", 
+      "placeName": "Berlin", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Oslo, Norge", 
+      "placeName": "Oslo", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Middlebury, United States", 
+      "placeName": "Middlebury", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Klimovichi, Belarus", 
+      "placeName": "Klimovichi", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1890
+    }
+  }, 
+  "birthYear": 1890, 
+  "date": "1890\u20131977", 
+  "death": {
+    "place": {
+      "name": "Waterbury, United States", 
+      "placeName": "Waterbury", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1977
+    }
+  }, 
+  "fc": "Naum Gabo", 
+  "gender": "Male", 
+  "id": 1137, 
+  "mda": "Gabo, Naum", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 16667, 
+      "name": "Abstraction-Cr\u00e9ation"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 419, 
+      "name": "British Constructivism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 298, 
+      "name": "Constructivism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 12072, 
+      "name": "Kinetic Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 441, 
+      "name": "St Ives School"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 132, 
+  "url": "http://www.tate.org.uk/art/artists/naum-gabo-1137"
+}

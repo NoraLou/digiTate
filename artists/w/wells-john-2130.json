@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1907
+    }
+  }, 
+  "birthYear": 1907, 
+  "date": "1907\u20132000", 
+  "death": {
+    "time": {
+      "startYear": 2000
+    }
+  }, 
+  "fc": "John Wells", 
+  "gender": "Male", 
+  "id": 2130, 
+  "mda": "Wells, John", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 298, 
+      "name": "Constructivism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 441, 
+      "name": "St Ives School"
+    }
+  ], 
+  "startLetter": "W", 
+  "totalWorks": 22, 
+  "url": "http://www.tate.org.uk/art/artists/john-wells-2130"
+}

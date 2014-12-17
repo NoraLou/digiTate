@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Guangzhou, Zhonghua", 
+      "placeName": "Guangzhou", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1978
+    }
+  }, 
+  "birthYear": 1978, 
+  "date": "born 1978", 
+  "fc": "Cao Fei", 
+  "gender": "Female", 
+  "id": 10272, 
+  "mda": "Cao, Fei", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/cao-fei-10272"
+}

@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Nashville-Davidson, United States", 
+      "placeName": "Nashville-Davidson", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1930
+    }
+  }, 
+  "birthYear": 1930, 
+  "date": "born 1930", 
+  "fc": "Robert Ryman", 
+  "gender": "Male", 
+  "id": 1888, 
+  "mda": "Ryman, Robert", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 430, 
+      "name": "Minimalism"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 10, 
+  "url": "http://www.tate.org.uk/art/artists/robert-ryman-1888"
+}

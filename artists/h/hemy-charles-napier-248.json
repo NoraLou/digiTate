@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Newcastle upon Tyne, United Kingdom", 
+      "placeName": "Newcastle upon Tyne", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1841
+    }
+  }, 
+  "birthYear": 1841, 
+  "date": "1841\u20131917", 
+  "death": {
+    "time": {
+      "startYear": 1917
+    }
+  }, 
+  "fc": "Charles Napier Hemy", 
+  "gender": "Male", 
+  "id": 248, 
+  "mda": "Hemy, Charles Napier", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/charles-napier-hemy-248"
+}

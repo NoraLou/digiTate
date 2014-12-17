@@ -1,0 +1,55 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Los Angeles, United States", 
+      "placeName": "Los Angeles", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Salt Lake City, United States", 
+      "placeName": "Salt Lake City", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1945
+    }
+  }, 
+  "birthYear": 1945, 
+  "date": "born 1945", 
+  "fc": "Paul McCarthy", 
+  "gender": "Male", 
+  "id": 2766, 
+  "mda": "McCarthy, Paul", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 16666, 
+      "name": "Abject art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1680, 
+      "name": "Body Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 436, 
+      "name": "Performance Art"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/paul-mccarthy-2766"
+}

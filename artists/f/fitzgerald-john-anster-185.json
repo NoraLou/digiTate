@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1819
+    }
+  }, 
+  "birthYear": 1819, 
+  "date": "1819\u20131906", 
+  "death": {
+    "time": {
+      "startYear": 1906
+    }
+  }, 
+  "fc": "John Anster Fitzgerald", 
+  "gender": "Male", 
+  "id": 185, 
+  "mda": "Fitzgerald, John Anster", 
+  "movements": [], 
+  "startLetter": "F", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-anster-fitzgerald-185"
+}

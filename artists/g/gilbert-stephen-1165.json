@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Fife, United Kingdom", 
+      "placeName": "Fife", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "birthYear": 1910, 
+  "date": "1910\u20132007", 
+  "death": {
+    "time": {
+      "startYear": 2007
+    }
+  }, 
+  "fc": "Stephen Gilbert", 
+  "gender": "Male", 
+  "id": 1165, 
+  "mda": "Gilbert, Stephen", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 420, 
+      "name": "Cobra"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/stephen-gilbert-1165"
+}

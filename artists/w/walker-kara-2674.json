@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Providence, United States", 
+      "placeName": "Providence", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Stockton, United States", 
+      "placeName": "Stockton", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1969
+    }
+  }, 
+  "birthYear": 1969, 
+  "date": "born 1969", 
+  "fc": "Kara Walker", 
+  "gender": "Female", 
+  "id": 2674, 
+  "mda": "Walker, Kara", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/kara-walker-2674"
+}

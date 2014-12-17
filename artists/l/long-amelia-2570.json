@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1772
+    }
+  }, 
+  "birthYear": 1772, 
+  "date": "1772\u20131837", 
+  "death": {
+    "place": {
+      "name": "Kent, United Kingdom", 
+      "placeName": "Kent", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1837
+    }
+  }, 
+  "fc": "Amelia Long (Lady Farnborough)", 
+  "gender": "Female", 
+  "id": 2570, 
+  "mda": "Long, Amelia", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/amelia-long-lady-farnborough-2570"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Cardiff, United Kingdom", 
+      "placeName": "Cardiff", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1860
+    }
+  }, 
+  "birthYear": 1860, 
+  "date": "1860\u20131952", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1952
+    }
+  }, 
+  "fc": "Sir William Goscombe John", 
+  "gender": "Male", 
+  "id": 1364, 
+  "mda": "John, Sir William Goscombe", 
+  "movements": [], 
+  "startLetter": "J", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/sir-william-goscombe-john-1364"
+}

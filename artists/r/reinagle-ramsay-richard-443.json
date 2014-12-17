@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1775
+    }
+  }, 
+  "birthYear": 1775, 
+  "date": "1775\u20131862", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1862
+    }
+  }, 
+  "fc": "Ramsay Richard Reinagle", 
+  "gender": "Male", 
+  "id": 443, 
+  "mda": "Reinagle, Ramsay Richard", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 345, 
+      "name": "Picturesque"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/ramsay-richard-reinagle-443"
+}

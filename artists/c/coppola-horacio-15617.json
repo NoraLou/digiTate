@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "La Plata, Argentina", 
+      "placeName": "La Plata", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1906
+    }
+  }, 
+  "birthYear": 1906, 
+  "date": "1906\u20132012", 
+  "death": {
+    "place": {
+      "name": "Buenos Aires, Argentina", 
+      "placeName": "Buenos Aires", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2012
+    }
+  }, 
+  "fc": "Horacio Coppola", 
+  "gender": "Male", 
+  "id": 15617, 
+  "mda": "Coppola, Horacio", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 8, 
+  "url": "http://www.tate.org.uk/art/artists/horacio-coppola-15617"
+}

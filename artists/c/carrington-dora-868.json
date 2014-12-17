@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hereford, United Kingdom", 
+      "placeName": "Hereford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1893
+    }
+  }, 
+  "birthYear": 1893, 
+  "date": "1893\u20131932", 
+  "death": {
+    "place": {
+      "name": "Berkshire, United Kingdom", 
+      "placeName": "Berkshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1932
+    }
+  }, 
+  "fc": "Dora Carrington", 
+  "gender": "Female", 
+  "id": 868, 
+  "mda": "Carrington, Dora", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/dora-carrington-868"
+}

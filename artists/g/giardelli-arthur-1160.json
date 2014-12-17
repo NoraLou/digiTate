@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1911
+    }
+  }, 
+  "birthYear": 1911, 
+  "date": "1911\u20132009", 
+  "death": {
+    "place": {
+      "name": "Haverfordwest, United Kingdom", 
+      "placeName": "Haverfordwest", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2009
+    }
+  }, 
+  "fc": "Arthur Giardelli", 
+  "gender": "Male", 
+  "id": 1160, 
+  "mda": "Giardelli, Arthur", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/arthur-giardelli-1160"
+}

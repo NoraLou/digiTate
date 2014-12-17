@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Great Dunmow, United Kingdom", 
+      "placeName": "Great Dunmow", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1753
+    }
+  }, 
+  "birthYear": 1753, 
+  "date": "1753\u20131827", 
+  "death": {
+    "place": {
+      "name": "Leicestershire, United Kingdom", 
+      "placeName": "Leicestershire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1827
+    }
+  }, 
+  "fc": "Sir George Howland Beaumont, Bt", 
+  "gender": "Male", 
+  "id": 29, 
+  "mda": "Beaumont, Sir George Howland, Bt", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 62, 
+  "url": "http://www.tate.org.uk/art/artists/sir-george-howland-beaumont-bt-29"
+}

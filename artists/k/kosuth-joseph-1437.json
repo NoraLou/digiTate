@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Toledo, United States", 
+      "placeName": "Toledo", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1945
+    }
+  }, 
+  "birthYear": 1945, 
+  "date": "born 1945", 
+  "fc": "Joseph Kosuth", 
+  "gender": "Male", 
+  "id": 1437, 
+  "mda": "Kosuth, Joseph", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }
+  ], 
+  "startLetter": "K", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/joseph-kosuth-1437"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Firenze, Italia", 
+      "placeName": "Firenze", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1727
+    }
+  }, 
+  "birthYear": 1727, 
+  "date": "1727\u20131815", 
+  "death": {
+    "place": {
+      "name": "Lisboa, Portugal", 
+      "placeName": "Lisboa", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1815
+    }
+  }, 
+  "fc": "Francesco Bartolozzi", 
+  "gender": "Male", 
+  "id": 2478, 
+  "mda": "Bartolozzi, Francesco", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/francesco-bartolozzi-2478"
+}

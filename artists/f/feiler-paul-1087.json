@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Frankfurt an der Oder, Deutschland", 
+      "placeName": "Frankfurt an der Oder", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1918
+    }
+  }, 
+  "birthYear": 1918, 
+  "date": "1918\u20132013", 
+  "death": {
+    "time": {
+      "startYear": 2013
+    }
+  }, 
+  "fc": "Paul Feiler", 
+  "gender": "Male", 
+  "id": 1087, 
+  "mda": "Feiler, Paul", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 441, 
+      "name": "St Ives School"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 443, 
+      "name": "Tachism"
+    }
+  ], 
+  "startLetter": "F", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/paul-feiler-1087"
+}

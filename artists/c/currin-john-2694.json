@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Boulder, United States", 
+      "placeName": "Boulder", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1962
+    }
+  }, 
+  "birthYear": 1962, 
+  "date": "born 1962", 
+  "fc": "John Currin", 
+  "gender": "Male", 
+  "id": 2694, 
+  "mda": "Currin, John", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 10, 
+  "url": "http://www.tate.org.uk/art/artists/john-currin-2694"
+}

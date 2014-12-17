@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1815
+    }
+  }, 
+  "birthYear": 1815, 
+  "date": "1815\u20131849", 
+  "death": {
+    "time": {
+      "startYear": 1849
+    }
+  }, 
+  "fc": "James Bateman", 
+  "gender": "Male", 
+  "id": 25, 
+  "mda": "Bateman, James", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/james-bateman-25"
+}

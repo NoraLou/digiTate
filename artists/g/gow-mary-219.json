@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1851
+    }
+  }, 
+  "birthYear": 1851, 
+  "date": "1851\u20131929", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1929
+    }
+  }, 
+  "fc": "Mary Gow", 
+  "gender": "Female", 
+  "id": 219, 
+  "mda": "Gow, Mary", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/mary-gow-219"
+}

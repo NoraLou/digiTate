@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Cardiff, United Kingdom", 
+      "placeName": "Cardiff", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "birthYear": 1910, 
+  "date": "1910\u20131973", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1973
+    }
+  }, 
+  "fc": "Merlyn Oliver Evans", 
+  "gender": "Male", 
+  "id": 1073, 
+  "mda": "Evans, Merlyn Oliver", 
+  "movements": [], 
+  "startLetter": "E", 
+  "totalWorks": 10, 
+  "url": "http://www.tate.org.uk/art/artists/merlyn-oliver-evans-1073"
+}

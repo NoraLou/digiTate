@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Solihull, United Kingdom", 
+      "placeName": "Solihull", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1862
+    }
+  }, 
+  "birthYear": 1862, 
+  "date": "1862\u20131937", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "fc": "Henry Tonks", 
+  "gender": "Male", 
+  "id": 2055, 
+  "mda": "Tonks, Henry", 
+  "movements": [], 
+  "startLetter": "T", 
+  "totalWorks": 12, 
+  "url": "http://www.tate.org.uk/art/artists/henry-tonks-2055"
+}

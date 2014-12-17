@@ -1,0 +1,53 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1907
+    }
+  }, 
+  "birthYear": 1907, 
+  "date": "1907\u20131944", 
+  "death": {
+    "place": {
+      "name": "Myanmar", 
+      "placeName": "Myanmar", 
+      "placeType": "nation"
+    }, 
+    "time": {
+      "startYear": 1944
+    }
+  }, 
+  "fc": "Clive Branson", 
+  "gender": "Male", 
+  "id": 3094, 
+  "mda": "Branson, Clive", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 293, 
+      "name": "Artists International Association"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/clive-branson-3094"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Glossop, United Kingdom", 
+      "placeName": "Glossop", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1840
+    }
+  }, 
+  "birthYear": 1840, 
+  "date": "1840\u20131891", 
+  "death": {
+    "place": {
+      "name": "Hampstead, United Kingdom", 
+      "placeName": "Hampstead", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1891
+    }
+  }, 
+  "fc": "Thomas Collier", 
+  "gender": "Male", 
+  "id": 102, 
+  "mda": "Collier, Thomas", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-collier-102"
+}

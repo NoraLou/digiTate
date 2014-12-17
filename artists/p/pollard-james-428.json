@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Islington, United Kingdom", 
+      "placeName": "Islington", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1792
+    }
+  }, 
+  "birthYear": 1792, 
+  "date": "1792\u20131867", 
+  "death": {
+    "place": {
+      "name": "Chelsea, United Kingdom", 
+      "placeName": "Chelsea", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1867
+    }
+  }, 
+  "fc": "James Pollard", 
+  "gender": "Male", 
+  "id": 428, 
+  "mda": "Pollard, James", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/james-pollard-428"
+}

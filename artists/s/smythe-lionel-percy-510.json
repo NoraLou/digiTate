@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1840
+    }
+  }, 
+  "birthYear": 1840, 
+  "date": "1840\u20131918", 
+  "death": {
+    "place": {
+      "name": "Wimereux, France", 
+      "placeName": "Wimereux", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1918
+    }
+  }, 
+  "fc": "Lionel Percy Smythe", 
+  "gender": "Male", 
+  "id": 510, 
+  "mda": "Smythe, Lionel Percy", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/lionel-percy-smythe-510"
+}

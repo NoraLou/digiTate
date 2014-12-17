@@ -1,0 +1,44 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Amsterdam, Nederland", 
+      "placeName": "Amsterdam", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Amsterdam, Nederland", 
+      "placeName": "Amsterdam", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1920
+    }
+  }, 
+  "birthYear": 1920, 
+  "date": "1920\u20132005", 
+  "death": {
+    "time": {
+      "startYear": 2005
+    }
+  }, 
+  "fc": "Constant (Constant A. Nieuwenhuys)", 
+  "gender": "Male", 
+  "id": 937, 
+  "mda": "Constant", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 420, 
+      "name": "Cobra"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/constant-constant-a-nieuwenhuys-937"
+}

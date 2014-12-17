@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Yorkshire, United Kingdom", 
+      "placeName": "Yorkshire", 
+      "placeType": "region"
+    }, 
+    "time": {
+      "startYear": 1875
+    }
+  }, 
+  "birthYear": 1875, 
+  "date": "1875\u20131929", 
+  "death": {
+    "place": {
+      "name": "Devon, United Kingdom", 
+      "placeName": "Devon", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1929
+    }
+  }, 
+  "fc": "Evelyn Cheston", 
+  "gender": "Female", 
+  "id": 898, 
+  "mda": "Cheston, Evelyn", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/evelyn-cheston-898"
+}

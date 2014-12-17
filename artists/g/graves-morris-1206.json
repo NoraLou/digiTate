@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Fox, United States", 
+      "placeName": "Fox", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "birthYear": 1910, 
+  "date": "1910\u20132001", 
+  "death": {
+    "place": {
+      "name": "Loleta, United States", 
+      "placeName": "Loleta", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2001
+    }
+  }, 
+  "fc": "Morris Graves", 
+  "gender": "Male", 
+  "id": 1206, 
+  "mda": "Graves, Morris", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/morris-graves-1206"
+}

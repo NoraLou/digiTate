@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1787
+    }
+  }, 
+  "birthYear": 1787, 
+  "date": "active 1787\u20131808", 
+  "death": {
+    "time": {
+      "startYear": 1808
+    }
+  }, 
+  "fc": "Samuel Atkins", 
+  "gender": "Male", 
+  "id": 14, 
+  "mda": "Atkins, Samuel", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/samuel-atkins-14"
+}

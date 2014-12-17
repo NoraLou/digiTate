@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Argentan, France", 
+      "placeName": "Argentan", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1881
+    }
+  }, 
+  "birthYear": 1881, 
+  "date": "1881\u20131955", 
+  "death": {
+    "place": {
+      "name": "Gif-sur-Yvette, France", 
+      "placeName": "Gif-sur-Yvette", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1955
+    }
+  }, 
+  "fc": "Fernand L\u00e9ger", 
+  "gender": "Male", 
+  "id": 1488, 
+  "mda": "L\u00e9ger, Fernand", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1664, 
+      "name": "Purism"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 12, 
+  "url": "http://www.tate.org.uk/art/artists/fernand-leger-1488"
+}

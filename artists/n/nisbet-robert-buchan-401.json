@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1857
+    }
+  }, 
+  "birthYear": 1857, 
+  "date": "1857\u20131942", 
+  "death": {
+    "place": {
+      "name": "Crieff, United Kingdom", 
+      "placeName": "Crieff", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1942
+    }
+  }, 
+  "fc": "Robert Buchan Nisbet", 
+  "gender": "Male", 
+  "id": 401, 
+  "mda": "Nisbet, Robert Buchan", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/robert-buchan-nisbet-401"
+}

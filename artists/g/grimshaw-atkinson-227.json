@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Leeds, United Kingdom", 
+      "placeName": "Leeds", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1836
+    }
+  }, 
+  "birthYear": 1836, 
+  "date": "1836\u20131893", 
+  "death": {
+    "place": {
+      "name": "Leeds, United Kingdom", 
+      "placeName": "Leeds", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1893
+    }
+  }, 
+  "fc": "Atkinson Grimshaw", 
+  "gender": "Male", 
+  "id": 227, 
+  "mda": "Grimshaw, Atkinson", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/atkinson-grimshaw-227"
+}

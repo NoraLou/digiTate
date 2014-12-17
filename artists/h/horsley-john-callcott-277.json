@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1817
+    }
+  }, 
+  "birthYear": 1817, 
+  "date": "1817\u20131903", 
+  "death": {
+    "place": {
+      "name": "Cranbrook, United Kingdom", 
+      "placeName": "Cranbrook", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1903
+    }
+  }, 
+  "fc": "John Callcott Horsley", 
+  "gender": "Male", 
+  "id": 277, 
+  "mda": "Horsley, John Callcott", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-callcott-horsley-277"
+}

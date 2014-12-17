@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Stafford, United Kingdom", 
+      "placeName": "Stafford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1803
+    }
+  }, 
+  "birthYear": 1803, 
+  "date": "1803\u20131881", 
+  "death": {
+    "time": {
+      "startYear": 1881
+    }
+  }, 
+  "fc": "John Prescott Knight", 
+  "gender": "Male", 
+  "id": 314, 
+  "mda": "Knight, John Prescott", 
+  "movements": [], 
+  "startLetter": "K", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-prescott-knight-314"
+}

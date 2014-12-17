@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Washington, United States", 
+      "placeName": "Washington", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1920
+    }
+  }, 
+  "birthYear": 1920, 
+  "date": "1920\u20131985", 
+  "death": {
+    "place": {
+      "name": "Washington, United States", 
+      "placeName": "Washington", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1985
+    }
+  }, 
+  "fc": "Gene Davis", 
+  "gender": "Male", 
+  "id": 981, 
+  "mda": "Davis, Gene", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 439, 
+      "name": "Post Painterly Abstraction"
+    }
+  ], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/gene-davis-981"
+}

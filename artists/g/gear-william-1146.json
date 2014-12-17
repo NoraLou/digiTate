@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Methil, United Kingdom", 
+      "placeName": "Methil", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1915
+    }
+  }, 
+  "birthYear": 1915, 
+  "date": "1915\u20131997", 
+  "death": {
+    "time": {
+      "startYear": 1997
+    }
+  }, 
+  "fc": "William Gear", 
+  "gender": "Male", 
+  "id": 1146, 
+  "mda": "Gear, William", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 420, 
+      "name": "Cobra"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 424, 
+      "name": "Geometry of Fear"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 8, 
+  "url": "http://www.tate.org.uk/art/artists/william-gear-1146"
+}

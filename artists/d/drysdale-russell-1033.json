@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bognor Regis, United Kingdom", 
+      "placeName": "Bognor Regis", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1912
+    }
+  }, 
+  "birthYear": 1912, 
+  "date": "1912\u20131981", 
+  "death": {
+    "place": {
+      "name": "Sydney, Australia", 
+      "placeName": "Sydney", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1981
+    }
+  }, 
+  "fc": "Russell Drysdale", 
+  "gender": "Male", 
+  "id": 1033, 
+  "mda": "Drysdale, Russell", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/russell-drysdale-1033"
+}

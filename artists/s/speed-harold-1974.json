@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1872
+    }
+  }, 
+  "birthYear": 1872, 
+  "date": "1872\u20131957", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1957
+    }
+  }, 
+  "fc": "Harold Speed", 
+  "gender": "Male", 
+  "id": 1974, 
+  "mda": "Speed, Harold", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/harold-speed-1974"
+}

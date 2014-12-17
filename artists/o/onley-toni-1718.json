@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Isle of Man", 
+      "placeName": "Isle of Man", 
+      "placeType": "island"
+    }, 
+    "time": {
+      "startYear": 1928
+    }
+  }, 
+  "birthYear": 1928, 
+  "date": "born 1928", 
+  "fc": "Toni Onley", 
+  "gender": "Male", 
+  "id": 1718, 
+  "mda": "Onley, Toni", 
+  "movements": [], 
+  "startLetter": "O", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/toni-onley-1718"
+}

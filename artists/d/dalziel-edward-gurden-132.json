@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1849
+    }
+  }, 
+  "birthYear": 1849, 
+  "date": "1849\u20131888", 
+  "death": {
+    "time": {
+      "startYear": 1888
+    }
+  }, 
+  "fc": "Edward Gurden Dalziel", 
+  "gender": "Male", 
+  "id": 132, 
+  "mda": "Dalziel, Edward Gurden", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/edward-gurden-dalziel-132"
+}

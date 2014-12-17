@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1724
+    }
+  }, 
+  "birthYear": 1724, 
+  "date": "1724\u20131804", 
+  "death": {
+    "place": {
+      "name": "Hampshire, United Kingdom", 
+      "placeName": "Hampshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1804
+    }
+  }, 
+  "fc": "Rev. William Gilpin", 
+  "gender": "Male", 
+  "id": 2496, 
+  "mda": "Gilpin, Rev. William", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 10, 
+  "url": "http://www.tate.org.uk/art/artists/rev-william-gilpin-2496"
+}

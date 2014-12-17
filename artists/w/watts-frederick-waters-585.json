@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1800
+    }
+  }, 
+  "birthYear": 1800, 
+  "date": "1800\u20131870", 
+  "death": {
+    "time": {
+      "startYear": 1870
+    }
+  }, 
+  "fc": "Frederick Waters Watts", 
+  "gender": "Male", 
+  "id": 585, 
+  "mda": "Watts, Frederick Waters", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/frederick-waters-watts-585"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1902
+    }
+  }, 
+  "birthYear": 1902, 
+  "date": "1902\u20131972", 
+  "death": {
+    "time": {
+      "startYear": 1972
+    }
+  }, 
+  "fc": "Adrian Stokes", 
+  "gender": "Male", 
+  "id": 2002, 
+  "mda": "Stokes, Adrian", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 23, 
+  "url": "http://www.tate.org.uk/art/artists/adrian-stokes-2002"
+}

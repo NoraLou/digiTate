@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Gloucester, United Kingdom", 
+      "placeName": "Gloucester", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1869
+    }
+  }, 
+  "birthYear": 1869, 
+  "date": "1869\u20131957", 
+  "death": {
+    "place": {
+      "name": "Gloucester, United Kingdom", 
+      "placeName": "Gloucester", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1957
+    }
+  }, 
+  "fc": "Charles M. Gere", 
+  "gender": "Male", 
+  "id": 1153, 
+  "mda": "Gere, Charles M.", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/charles-m-gere-1153"
+}

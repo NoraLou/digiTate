@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Colombo, Sri Lanka", 
+      "placeName": "Colombo", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1900
+    }
+  }, 
+  "birthYear": 1900, 
+  "date": "1900\u20131944", 
+  "death": {
+    "place": {
+      "name": "Colombo, Sri Lanka", 
+      "placeName": "Colombo", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1944
+    }
+  }, 
+  "fc": "Lionel Wendt", 
+  "gender": "Male", 
+  "id": 17198, 
+  "mda": "Wendt, Lionel", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 15, 
+  "url": "http://www.tate.org.uk/art/artists/lionel-wendt-17198"
+}

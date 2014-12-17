@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1760
+    }
+  }, 
+  "birthYear": 1760, 
+  "date": "c.1760\u20131809", 
+  "death": {
+    "time": {
+      "startYear": 1809
+    }
+  }, 
+  "fc": "George Montard Woodward", 
+  "gender": "Male", 
+  "id": 2546, 
+  "mda": "Woodward, George Montard", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/george-montard-woodward-2546"
+}

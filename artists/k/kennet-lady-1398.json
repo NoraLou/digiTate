@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Nottinghamshire, United Kingdom", 
+      "placeName": "Nottinghamshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1878
+    }
+  }, 
+  "birthYear": 1878, 
+  "date": "1878\u20131947", 
+  "death": {
+    "time": {
+      "startYear": 1947
+    }
+  }, 
+  "fc": "Lady Kennet (Kathleen, Lady Scott, Kathleen Hilton Young)", 
+  "gender": "Female", 
+  "id": 1398, 
+  "mda": "Kennet, Lady", 
+  "movements": [], 
+  "startLetter": "K", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/lady-kennet-kathleen-lady-scott-kathleen-hilton-young-1398"
+}

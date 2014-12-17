@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Guildford, United Kingdom", 
+      "placeName": "Guildford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1744
+    }
+  }, 
+  "birthYear": 1744, 
+  "date": "1744\u20131807", 
+  "death": {
+    "place": {
+      "name": "Kingston-Upon-Hull, United Kingdom", 
+      "placeName": "Kingston-Upon-Hull", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1807
+    }
+  }, 
+  "fc": "John Russell", 
+  "gender": "Male", 
+  "id": 466, 
+  "mda": "Russell, John", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 341, 
+      "name": "Fancy Picture"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/john-russell-466"
+}

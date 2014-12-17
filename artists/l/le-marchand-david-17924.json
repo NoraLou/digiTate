@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1674
+    }
+  }, 
+  "birthYear": 1674, 
+  "date": "1674\u20131726", 
+  "death": {
+    "time": {
+      "startYear": 1726
+    }
+  }, 
+  "fc": "David Le Marchand", 
+  "gender": null, 
+  "id": 17924, 
+  "mda": "Le Marchand, David", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/david-le-marchand-17924"
+}

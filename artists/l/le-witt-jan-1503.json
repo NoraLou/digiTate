@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Czestochowa, Polska", 
+      "placeName": "Czestochowa", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1907
+    }
+  }, 
+  "birthYear": 1907, 
+  "date": "1907\u20131991", 
+  "death": {
+    "time": {
+      "startYear": 1991
+    }
+  }, 
+  "fc": "Jan Le Witt", 
+  "gender": "Male", 
+  "id": 1503, 
+  "mda": "Le Witt, Jan", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/jan-le-witt-1503"
+}

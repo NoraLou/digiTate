@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1646
+    }
+  }, 
+  "birthYear": 1646, 
+  "date": "1646\u20131691", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1691
+    }
+  }, 
+  "fc": "John Riley", 
+  "gender": "Male", 
+  "id": 450, 
+  "mda": "Riley, John", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 400, 
+      "name": "Court"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 413, 
+      "name": "Later Stuart"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/john-riley-450"
+}

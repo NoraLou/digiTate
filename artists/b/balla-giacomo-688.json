@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Torino, Italia", 
+      "placeName": "Torino", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1871
+    }
+  }, 
+  "birthYear": 1871, 
+  "date": "1871\u20131958", 
+  "death": {
+    "place": {
+      "name": "Roma, Italia", 
+      "placeName": "Roma", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1958
+    }
+  }, 
+  "fc": "Giacomo Balla", 
+  "gender": "Male", 
+  "id": 688, 
+  "mda": "Balla, Giacomo", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 307, 
+      "name": "Futurism"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/giacomo-balla-688"
+}

@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Newark, United States", 
+      "placeName": "Newark", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1945
+    }
+  }, 
+  "birthYear": 1945, 
+  "date": "born 1945", 
+  "fc": "Barbara Kruger", 
+  "gender": "Female", 
+  "id": 1443, 
+  "mda": "Kruger, Barbara", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 12081, 
+      "name": "Feminist Art"
+    }
+  ], 
+  "startLetter": "K", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/barbara-kruger-1443"
+}

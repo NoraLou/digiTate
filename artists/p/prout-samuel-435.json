@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Plymouth, United Kingdom", 
+      "placeName": "Plymouth", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1783
+    }
+  }, 
+  "birthYear": 1783, 
+  "date": "1783\u20131852", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1852
+    }
+  }, 
+  "fc": "Samuel Prout", 
+  "gender": "Male", 
+  "id": 435, 
+  "mda": "Prout, Samuel", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 13, 
+  "url": "http://www.tate.org.uk/art/artists/samuel-prout-435"
+}

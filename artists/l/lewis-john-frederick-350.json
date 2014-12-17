@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1805
+    }
+  }, 
+  "birthYear": 1805, 
+  "date": "1805\u20131876", 
+  "death": {
+    "time": {
+      "startYear": 1876
+    }
+  }, 
+  "fc": "John Frederick Lewis", 
+  "gender": "Male", 
+  "id": 350, 
+  "mda": "Lewis, John Frederick", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 5866, 
+      "name": "Orientalist"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 27, 
+  "url": "http://www.tate.org.uk/art/artists/john-frederick-lewis-350"
+}

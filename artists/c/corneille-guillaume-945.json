@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Li\u00e8ge, Belgi\u00eb", 
+      "placeName": "Li\u00e8ge", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1922
+    }
+  }, 
+  "birthYear": 1922, 
+  "date": "born 1922", 
+  "fc": "Guillaume Corneille", 
+  "gender": "Male", 
+  "id": 945, 
+  "mda": "Corneille, Guillaume", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 420, 
+      "name": "Cobra"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/guillaume-corneille-945"
+}

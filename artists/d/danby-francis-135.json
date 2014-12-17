@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wexford, \u00c9ire", 
+      "placeName": "Wexford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1793
+    }
+  }, 
+  "birthYear": 1793, 
+  "date": "1793\u20131861", 
+  "death": {
+    "place": {
+      "name": "Exmouth, United Kingdom", 
+      "placeName": "Exmouth", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1861
+    }
+  }, 
+  "fc": "Francis Danby", 
+  "gender": "Male", 
+  "id": 135, 
+  "mda": "Danby, Francis", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 353, 
+      "name": "Bristol School"
+    }
+  ], 
+  "startLetter": "D", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/francis-danby-135"
+}

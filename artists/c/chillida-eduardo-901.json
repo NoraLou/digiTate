@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "San Sebasti\u00e1n, Espa\u00f1a", 
+      "placeName": "San Sebasti\u00e1n", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1924
+    }
+  }, 
+  "birthYear": 1924, 
+  "date": "1924\u20132002", 
+  "death": {
+    "time": {
+      "startYear": 2002
+    }
+  }, 
+  "fc": "Eduardo Chillida", 
+  "gender": "Male", 
+  "id": 901, 
+  "mda": "Chillida, Eduardo", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/eduardo-chillida-901"
+}

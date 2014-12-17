@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Sligo, \u00c9ire", 
+      "placeName": "Sligo", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1874
+    }
+  }, 
+  "birthYear": 1874, 
+  "date": "1874\u20131916", 
+  "death": {
+    "time": {
+      "startYear": 1916
+    }
+  }, 
+  "fc": "Percy Francis Gethin", 
+  "gender": "Male", 
+  "id": 1157, 
+  "mda": "Gethin, Percy Francis", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/percy-francis-gethin-1157"
+}

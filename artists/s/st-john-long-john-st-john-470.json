@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Limerick, \u00c9ire", 
+      "placeName": "Limerick", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1798
+    }
+  }, 
+  "birthYear": 1798, 
+  "date": "1798\u20131834", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1834
+    }
+  }, 
+  "fc": "John St John Long", 
+  "gender": "Male", 
+  "id": 470, 
+  "mda": "St John Long, John St John", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-st-john-long-470"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1870
+    }
+  }, 
+  "birthYear": 1870, 
+  "date": "1870\u20131926", 
+  "death": {
+    "place": {
+      "name": "Musselburgh, United Kingdom", 
+      "placeName": "Musselburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1926
+    }
+  }, 
+  "fc": "Edwin Alexander", 
+  "gender": "Male", 
+  "id": 640, 
+  "mda": "Alexander, Edwin", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/edwin-alexander-640"
+}

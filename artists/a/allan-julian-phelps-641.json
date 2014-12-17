@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Southampton, United Kingdom", 
+      "placeName": "Southampton", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1892
+    }
+  }, 
+  "birthYear": 1892, 
+  "date": "1892\u20131996", 
+  "death": {
+    "time": {
+      "startYear": 1996
+    }
+  }, 
+  "fc": "Julian Phelps Allan", 
+  "gender": "Female", 
+  "id": 641, 
+  "mda": "Allan, Julian Phelps", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/julian-phelps-allan-641"
+}

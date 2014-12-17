@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "United States", 
+      "placeName": "United States", 
+      "placeType": "nation"
+    }, 
+    {
+      "name": "Britain, United States", 
+      "placeName": "Britain", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Goa, Bharat", 
+      "placeName": "Goa", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1924
+    }
+  }, 
+  "birthYear": 1924, 
+  "date": "1924\u20132002", 
+  "death": {
+    "time": {
+      "startYear": 2002
+    }
+  }, 
+  "fc": "F.N. Souza", 
+  "gender": "Male", 
+  "id": 1972, 
+  "mda": "Souza, F.N.", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/fn-souza-1972"
+}

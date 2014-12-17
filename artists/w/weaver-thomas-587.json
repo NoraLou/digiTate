@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1774
+    }
+  }, 
+  "birthYear": 1774, 
+  "date": "1774 or 5\u20131843", 
+  "death": {
+    "time": {
+      "startYear": 1843
+    }
+  }, 
+  "fc": "Thomas Weaver", 
+  "gender": "Male", 
+  "id": 587, 
+  "mda": "Weaver, Thomas", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-weaver-587"
+}

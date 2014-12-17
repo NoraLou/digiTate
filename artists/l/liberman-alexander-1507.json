@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kiyev, Ukrayina", 
+      "placeName": "Kiyev", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1912
+    }
+  }, 
+  "birthYear": 1912, 
+  "date": "1912\u20131999", 
+  "death": {
+    "time": {
+      "startYear": 1999
+    }
+  }, 
+  "fc": "Alexander Liberman", 
+  "gender": "Male", 
+  "id": 1507, 
+  "mda": "Liberman, Alexander", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 430, 
+      "name": "Minimalism"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/alexander-liberman-1507"
+}

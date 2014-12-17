@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bristol, United Kingdom", 
+      "placeName": "Bristol", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1800
+    }
+  }, 
+  "birthYear": 1800, 
+  "date": "1800\u20131870", 
+  "death": {
+    "time": {
+      "startYear": 1870
+    }
+  }, 
+  "fc": "James Baker Pyne", 
+  "gender": "Male", 
+  "id": 436, 
+  "mda": "Pyne, James Baker", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/james-baker-pyne-436"
+}

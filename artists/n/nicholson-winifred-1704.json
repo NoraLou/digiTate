@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Oxford, United Kingdom", 
+      "placeName": "Oxford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1893
+    }
+  }, 
+  "birthYear": 1893, 
+  "date": "1893\u20131981", 
+  "death": {
+    "place": {
+      "name": "Cumbria, United Kingdom", 
+      "placeName": "Cumbria", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1981
+    }
+  }, 
+  "fc": "Winifred Nicholson", 
+  "gender": "Female", 
+  "id": 1704, 
+  "mda": "Nicholson, Winifred", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 319, 
+      "name": "Seven and Five"
+    }
+  ], 
+  "startLetter": "N", 
+  "totalWorks": 8, 
+  "url": "http://www.tate.org.uk/art/artists/winifred-nicholson-1704"
+}

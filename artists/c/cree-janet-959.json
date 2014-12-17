@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "birthYear": 1910, 
+  "date": "1910\u20131992", 
+  "death": {
+    "time": {
+      "startYear": 1992
+    }
+  }, 
+  "fc": "Janet Cree", 
+  "gender": "Female", 
+  "id": 959, 
+  "mda": "Cree, Janet", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/janet-cree-959"
+}

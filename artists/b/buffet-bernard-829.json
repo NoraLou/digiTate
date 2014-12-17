@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1928
+    }
+  }, 
+  "birthYear": 1928, 
+  "date": "1928\u20131999", 
+  "death": {
+    "place": {
+      "name": "Var, France", 
+      "placeName": "Var", 
+      "placeType": "department"
+    }, 
+    "time": {
+      "startYear": 1999
+    }
+  }, 
+  "fc": "Bernard Buffet", 
+  "gender": "Male", 
+  "id": 829, 
+  "mda": "Buffet, Bernard", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/bernard-buffet-829"
+}

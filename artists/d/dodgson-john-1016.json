@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Murree, Pakistan", 
+      "placeName": "Murree", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1890
+    }
+  }, 
+  "birthYear": 1890, 
+  "date": "1890\u20131969", 
+  "death": {
+    "time": {
+      "startYear": 1969
+    }
+  }, 
+  "fc": "John Dodgson", 
+  "gender": "Male", 
+  "id": 1016, 
+  "mda": "Dodgson, John", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 304, 
+      "name": "Euston Road School"
+    }
+  ], 
+  "startLetter": "D", 
+  "totalWorks": 8, 
+  "url": "http://www.tate.org.uk/art/artists/john-dodgson-1016"
+}

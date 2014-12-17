@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1861
+    }
+  }, 
+  "birthYear": 1861, 
+  "date": "1861\u20131939", 
+  "death": {
+    "place": {
+      "name": "Bournemouth, United Kingdom", 
+      "placeName": "Bournemouth", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1939
+    }
+  }, 
+  "fc": "Arthur G Walker", 
+  "gender": "Male", 
+  "id": 2114, 
+  "mda": "Walker, Arthur G", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/arthur-g-walker-2114"
+}

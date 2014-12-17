@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Margate, United Kingdom", 
+      "placeName": "Margate", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1901
+    }
+  }, 
+  "birthYear": 1901, 
+  "date": "1901\u20132001", 
+  "death": {
+    "place": {
+      "name": "Chichester, United Kingdom", 
+      "placeName": "Chichester", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2001
+    }
+  }, 
+  "fc": "Norah Braden", 
+  "gender": "Female", 
+  "id": 8804, 
+  "mda": "Braden, Norah", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/norah-braden-8804"
+}

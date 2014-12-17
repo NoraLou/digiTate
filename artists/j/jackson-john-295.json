@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "North Yorkshire, United Kingdom", 
+      "placeName": "North Yorkshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1778
+    }
+  }, 
+  "birthYear": 1778, 
+  "date": "1778\u20131831", 
+  "death": {
+    "place": {
+      "name": "Saint John's Wood, United Kingdom", 
+      "placeName": "Saint John's Wood", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1831
+    }
+  }, 
+  "fc": "John Jackson", 
+  "gender": "Male", 
+  "id": 295, 
+  "mda": "Jackson, John", 
+  "movements": [], 
+  "startLetter": "J", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/john-jackson-295"
+}

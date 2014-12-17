@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Siena, Italia", 
+      "placeName": "Siena", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1898
+    }
+  }, 
+  "birthYear": 1898, 
+  "date": "1898\u20131989", 
+  "death": {
+    "place": {
+      "name": "Roma, Italia", 
+      "placeName": "Roma", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1989
+    }
+  }, 
+  "fc": "Mino Maccari", 
+  "gender": "Male", 
+  "id": 1538, 
+  "mda": "Maccari, Mino", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/mino-maccari-1538"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Staten Island", 
+      "placeName": "Staten Island", 
+      "placeType": "city"
+    }, 
+    "time": {
+      "startYear": 1906
+    }
+  }, 
+  "birthYear": 1906, 
+  "date": "1906\u20131975", 
+  "death": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1975
+    }
+  }, 
+  "fc": "Ludwig Sander", 
+  "gender": "Male", 
+  "id": 1894, 
+  "mda": "Sander, Ludwig", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/ludwig-sander-1894"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paimb\u0153euf, France", 
+      "placeName": "Paimb\u0153euf", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1844
+    }
+  }, 
+  "birthYear": 1844, 
+  "date": "1844\u20131924", 
+  "death": {
+    "place": {
+      "name": "Boulogne-sur-Mer, France", 
+      "placeName": "Boulogne-sur-Mer", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1924
+    }
+  }, 
+  "fc": "Marie Cazin", 
+  "gender": "Female", 
+  "id": 875, 
+  "mda": "Cazin, Marie", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/marie-cazin-875"
+}

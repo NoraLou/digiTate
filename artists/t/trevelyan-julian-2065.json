@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dorking, United Kingdom", 
+      "placeName": "Dorking", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "birthYear": 1910, 
+  "date": "1910\u20131988", 
+  "death": {
+    "time": {
+      "startYear": 1988
+    }
+  }, 
+  "fc": "Julian Trevelyan", 
+  "gender": "Male", 
+  "id": 2065, 
+  "mda": "Trevelyan, Julian", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }
+  ], 
+  "startLetter": "T", 
+  "totalWorks": 105, 
+  "url": "http://www.tate.org.uk/art/artists/julian-trevelyan-2065"
+}

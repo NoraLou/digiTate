@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1797
+    }
+  }, 
+  "birthYear": 1797, 
+  "date": "1797\u20131835", 
+  "death": {
+    "time": {
+      "startYear": 1835
+    }
+  }, 
+  "fc": "Frederick William Smith", 
+  "gender": "Male", 
+  "id": 504, 
+  "mda": "Smith, Frederick William", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/frederick-william-smith-504"
+}

@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Zanzibar, Tanzania", 
+      "placeName": "Zanzibar", 
+      "placeType": "region"
+    }, 
+    "time": {
+      "startYear": 1954
+    }
+  }, 
+  "birthYear": 1954, 
+  "date": "born 1954", 
+  "fc": "Lubaina Himid", 
+  "gender": "Female", 
+  "id": 2356, 
+  "mda": "Himid, Lubaina", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/lubaina-himid-2356"
+}

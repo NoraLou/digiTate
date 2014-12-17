@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1810
+    }
+  }, 
+  "birthYear": 1810, 
+  "date": "1810 or 14\u20131873", 
+  "death": {
+    "time": {
+      "startYear": 1873
+    }
+  }, 
+  "fc": "Henry Bright", 
+  "gender": "Male", 
+  "id": 2415, 
+  "mda": "Bright, Henry", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 362, 
+      "name": "Norwich School"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/henry-bright-2415"
+}

@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Rio de Janeiro, Brasil", 
+      "placeName": "Rio de Janeiro", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "birthYear": 1937, 
+  "date": "1937\u20131980", 
+  "death": {
+    "place": {
+      "name": "Rio de Janeiro, Brasil", 
+      "placeName": "Rio de Janeiro", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1980
+    }
+  }, 
+  "fc": "H\u00e9lio Oiticica", 
+  "gender": "Male", 
+  "id": 7730, 
+  "mda": "Oiticica, H\u00e9lio", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 17894, 
+      "name": "Neo-Concretism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 18626, 
+      "name": "Tropic\u00e1lia"
+    }
+  ], 
+  "startLetter": "O", 
+  "totalWorks": 8, 
+  "url": "http://www.tate.org.uk/art/artists/helio-oiticica-7730"
+}

@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hampshire, United Kingdom", 
+      "placeName": "Hampshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "birthYear": 1934, 
+  "date": "born 1934", 
+  "fc": "Edwina Leapman", 
+  "gender": "Female", 
+  "id": 10681, 
+  "mda": "Leapman, Edwina", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/edwina-leapman-10681"
+}

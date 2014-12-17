@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1902
+    }
+  }, 
+  "birthYear": 1902, 
+  "date": "1902\u20131981", 
+  "death": {
+    "time": {
+      "startYear": 1981
+    }
+  }, 
+  "fc": "Blair Hughes-Stanton", 
+  "gender": "Male", 
+  "id": 1323, 
+  "mda": "Hughes-Stanton, Blair", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/blair-hughes-stanton-1323"
+}

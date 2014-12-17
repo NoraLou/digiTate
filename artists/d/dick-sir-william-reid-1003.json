@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Glasgow, United Kingdom", 
+      "placeName": "Glasgow", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1878
+    }
+  }, 
+  "birthYear": 1878, 
+  "date": "1878\u20131961", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1961
+    }
+  }, 
+  "fc": "Sir William Reid Dick", 
+  "gender": "Male", 
+  "id": 1003, 
+  "mda": "Dick, Sir William Reid", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/sir-william-reid-dick-1003"
+}

@@ -1,0 +1,82 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wakefield, United Kingdom", 
+      "placeName": "Wakefield", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1903
+    }
+  }, 
+  "birthYear": 1903, 
+  "date": "1903\u20131975", 
+  "death": {
+    "place": {
+      "name": "Saint Ives, United Kingdom", 
+      "placeName": "Saint Ives", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1975
+    }
+  }, 
+  "fc": "Dame Barbara Hepworth", 
+  "gender": "Female", 
+  "id": 1274, 
+  "mda": "Hepworth, Dame Barbara", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 16667, 
+      "name": "Abstraction-Cr\u00e9ation"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 298, 
+      "name": "Constructivism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 303, 
+      "name": "Direct Carving"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 319, 
+      "name": "Seven and Five"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 441, 
+      "name": "St Ives School"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 321, 
+      "name": "Unit One"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 128, 
+  "url": "http://www.tate.org.uk/art/artists/dame-barbara-hepworth-1274"
+}

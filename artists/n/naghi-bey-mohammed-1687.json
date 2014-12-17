@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Al-Iskandariyah, Misr", 
+      "placeName": "Al-Iskandariyah", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1888
+    }
+  }, 
+  "birthYear": 1888, 
+  "date": "1888\u20131956", 
+  "death": {
+    "place": {
+      "name": "Al-Qahirah, Misr", 
+      "placeName": "Al-Qahirah", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1956
+    }
+  }, 
+  "fc": "Mohammed Naghi Bey", 
+  "gender": "Male", 
+  "id": 1687, 
+  "mda": "Naghi Bey, Mohammed", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/mohammed-naghi-bey-1687"
+}

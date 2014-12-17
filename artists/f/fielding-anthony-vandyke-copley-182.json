@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1787
+    }
+  }, 
+  "birthYear": 1787, 
+  "date": "1787\u20131855", 
+  "death": {
+    "place": {
+      "name": "Worthing", 
+      "placeName": "Worthing", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1855
+    }
+  }, 
+  "fc": "Anthony Vandyke Copley Fielding", 
+  "gender": "Male", 
+  "id": 182, 
+  "mda": "Fielding, Anthony Vandyke Copley", 
+  "movements": [], 
+  "startLetter": "F", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/anthony-vandyke-copley-fielding-182"
+}

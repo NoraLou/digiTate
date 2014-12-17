@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1840
+    }
+  }, 
+  "birthYear": 1840, 
+  "date": "1840\u20131875", 
+  "death": {
+    "place": {
+      "name": "Saint Fillans, United Kingdom", 
+      "placeName": "Saint Fillans", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1875
+    }
+  }, 
+  "fc": "Frederick Walker", 
+  "gender": "Male", 
+  "id": 575, 
+  "mda": "Walker, Frederick", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 366, 
+      "name": "St John's Wood Clique"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "W", 
+  "totalWorks": 16, 
+  "url": "http://www.tate.org.uk/art/artists/frederick-walker-575"
+}

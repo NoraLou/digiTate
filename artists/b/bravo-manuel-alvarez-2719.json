@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Ciudad de M\u00e9xico, M\u00e9xico", 
+      "placeName": "Ciudad de M\u00e9xico", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1904
+    }
+  }, 
+  "birthYear": 1902, 
+  "date": "1902\u20132002", 
+  "death": {
+    "place": {
+      "name": "Ciudad de M\u00e9xico, M\u00e9xico", 
+      "placeName": "Ciudad de M\u00e9xico", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2002
+    }
+  }, 
+  "fc": "Manuel \u00c1lvarez Bravo", 
+  "gender": "Male", 
+  "id": 2719, 
+  "mda": "Bravo, Manuel \u00c1lvarez", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 11, 
+  "url": "http://www.tate.org.uk/art/artists/manuel-alvarez-bravo-2719"
+}

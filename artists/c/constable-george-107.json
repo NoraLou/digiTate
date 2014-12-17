@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hampstead, United Kingdom", 
+      "placeName": "Hampstead", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1792
+    }
+  }, 
+  "birthYear": 1792, 
+  "date": "1792\u20131878", 
+  "death": {
+    "place": {
+      "name": "Saint John's Wood, United Kingdom", 
+      "placeName": "Saint John's Wood", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1878
+    }
+  }, 
+  "fc": "George Constable", 
+  "gender": "Male", 
+  "id": 107, 
+  "mda": "Constable, George", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/george-constable-107"
+}

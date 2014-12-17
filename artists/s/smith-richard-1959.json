@@ -1,0 +1,56 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Letchworth, United Kingdom", 
+      "placeName": "Letchworth", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1931
+    }
+  }, 
+  "birthYear": 1931, 
+  "date": "born 1931", 
+  "fc": "Richard Smith", 
+  "gender": "Male", 
+  "id": 1959, 
+  "mda": "Smith, Richard", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1683, 
+      "name": "British Pop"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 437, 
+      "name": "Pop Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 439, 
+      "name": "Post Painterly Abstraction"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 442, 
+      "name": "Situation"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 96, 
+  "url": "http://www.tate.org.uk/art/artists/richard-smith-1959"
+}

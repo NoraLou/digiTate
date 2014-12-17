@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1845
+    }
+  }, 
+  "birthYear": 1845, 
+  "date": "1845\u20131887", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1887
+    }
+  }, 
+  "fc": "Frank Huddlestone Potter", 
+  "gender": "Male", 
+  "id": 431, 
+  "mda": "Potter, Frank Huddlestone", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "P", 
+  "totalWorks": 8, 
+  "url": "http://www.tate.org.uk/art/artists/frank-huddlestone-potter-431"
+}

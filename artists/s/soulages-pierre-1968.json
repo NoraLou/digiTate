@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Rodez, France", 
+      "placeName": "Rodez", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1919
+    }
+  }, 
+  "birthYear": 1919, 
+  "date": "born 1919", 
+  "fc": "Pierre Soulages", 
+  "gender": "Male", 
+  "id": 1968, 
+  "mda": "Soulages, Pierre", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 8454, 
+      "name": "Art Informel"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 443, 
+      "name": "Tachism"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/pierre-soulages-1968"
+}

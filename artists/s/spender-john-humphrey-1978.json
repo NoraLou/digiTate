@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Bolton, United Kingdom", 
+      "placeName": "Bolton", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1910
+    }
+  }, 
+  "birthYear": 1910, 
+  "date": "1910\u20132005", 
+  "death": {
+    "time": {
+      "startYear": 2005
+    }
+  }, 
+  "fc": "John Humphrey Spender", 
+  "gender": "Male", 
+  "id": 1978, 
+  "mda": "Spender, John Humphrey", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/john-humphrey-spender-1978"
+}

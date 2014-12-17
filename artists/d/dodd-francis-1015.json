@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Holyhead, United Kingdom", 
+      "placeName": "Holyhead", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1874
+    }
+  }, 
+  "birthYear": 1874, 
+  "date": "1874\u20131949", 
+  "death": {
+    "place": {
+      "name": "Blackheath, United Kingdom", 
+      "placeName": "Blackheath", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1949
+    }
+  }, 
+  "fc": "Francis Dodd", 
+  "gender": "Male", 
+  "id": 1015, 
+  "mda": "Dodd, Francis", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 359, 
+      "name": "New English Art Club"
+    }
+  ], 
+  "startLetter": "D", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/francis-dodd-1015"
+}

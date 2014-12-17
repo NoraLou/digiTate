@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Epsom, United Kingdom", 
+      "placeName": "Epsom", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1967
+    }
+  }, 
+  "birthYear": 1967, 
+  "date": "born 1967", 
+  "fc": "Simon Starling", 
+  "gender": "Male", 
+  "id": 7052, 
+  "mda": "Starling, Simon", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/simon-starling-7052"
+}

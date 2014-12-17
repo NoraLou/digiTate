@@ -1,0 +1,47 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Roma, Italia", 
+      "placeName": "Roma", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Pirai\u00e9vs, Ell\u00e1s", 
+      "placeName": "Pirai\u00e9vs", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1936
+    }
+  }, 
+  "birthYear": 1936, 
+  "date": "born 1936", 
+  "fc": "Jannis Kounellis", 
+  "gender": "Male", 
+  "id": 1438, 
+  "mda": "Kounellis, Jannis", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 418, 
+      "name": "Arte Povera"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 436, 
+      "name": "Performance Art"
+    }
+  ], 
+  "startLetter": "K", 
+  "totalWorks": 33, 
+  "url": "http://www.tate.org.uk/art/artists/jannis-kounellis-1438"
+}

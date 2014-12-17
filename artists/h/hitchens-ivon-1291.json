@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1893
+    }
+  }, 
+  "birthYear": 1893, 
+  "date": "1893\u20131979", 
+  "death": {
+    "time": {
+      "startYear": 1979
+    }
+  }, 
+  "fc": "Ivon Hitchens", 
+  "gender": "Male", 
+  "id": 1291, 
+  "mda": "Hitchens, Ivon", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 313, 
+      "name": "Objective Abstraction"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 319, 
+      "name": "Seven and Five"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 21, 
+  "url": "http://www.tate.org.uk/art/artists/ivon-hitchens-1291"
+}

@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "city"
+    }, 
+    "time": {
+      "startYear": 1812
+    }
+  }, 
+  "birthYear": 1812, 
+  "date": "1812\u20131873", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1873
+    }
+  }, 
+  "fc": "William Davis", 
+  "gender": "Male", 
+  "id": 141, 
+  "mda": "Davis, William", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 363, 
+      "name": "Pre-Raphaelite Brotherhood"
+    }
+  ], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/william-davis-141"
+}

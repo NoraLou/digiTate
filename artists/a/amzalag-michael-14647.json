@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "France", 
+      "placeName": "France", 
+      "placeType": "nation"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1967
+    }
+  }, 
+  "birthYear": 1967, 
+  "date": "born 1967", 
+  "fc": "Michael Amzalag", 
+  "gender": "Male", 
+  "id": 14647, 
+  "mda": "Amzalag, Michael", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/michael-amzalag-14647"
+}

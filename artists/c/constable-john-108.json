@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Suffolk, United Kingdom", 
+      "placeName": "Suffolk", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1776
+    }
+  }, 
+  "birthYear": 1776, 
+  "date": "1776\u20131837", 
+  "death": {
+    "place": {
+      "name": "Hampstead, United Kingdom", 
+      "placeName": "Hampstead", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1837
+    }
+  }, 
+  "fc": "John Constable", 
+  "gender": "Male", 
+  "id": 108, 
+  "mda": "Constable, John", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 260, 
+  "url": "http://www.tate.org.uk/art/artists/john-constable-108"
+}

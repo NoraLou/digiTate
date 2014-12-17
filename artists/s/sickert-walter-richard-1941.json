@@ -1,0 +1,66 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "M\u00fcnchen, Deutschland", 
+      "placeName": "M\u00fcnchen", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1860
+    }
+  }, 
+  "birthYear": 1860, 
+  "date": "1860\u20131942", 
+  "death": {
+    "place": {
+      "name": "Bath and Northeast Somerset, United Kingdom", 
+      "placeName": "Bath and Northeast Somerset", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1942
+    }
+  }, 
+  "fc": "Walter Richard Sickert", 
+  "gender": "Male", 
+  "id": 1941, 
+  "mda": "Sickert, Walter Richard", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 6196, 
+      "name": "British Impressionism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 297, 
+      "name": "Camden Town Group"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 9312, 
+      "name": "London Group"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 359, 
+      "name": "New English Art Club"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 51, 
+  "url": "http://www.tate.org.uk/art/artists/walter-richard-sickert-1941"
+}

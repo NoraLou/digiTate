@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Liverpool, United Kingdom", 
+      "placeName": "Liverpool", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1822
+    }
+  }, 
+  "birthYear": 1822, 
+  "date": "1822\u20131907", 
+  "death": {
+    "time": {
+      "startYear": 1907
+    }
+  }, 
+  "fc": "William Lindsay Windus", 
+  "gender": "Male", 
+  "id": 607, 
+  "mda": "Windus, William Lindsay", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 363, 
+      "name": "Pre-Raphaelite Brotherhood"
+    }
+  ], 
+  "startLetter": "W", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/william-lindsay-windus-607"
+}

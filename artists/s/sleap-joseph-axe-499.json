@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1808
+    }
+  }, 
+  "birthYear": 1808, 
+  "date": "1808\u20131859", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1859
+    }
+  }, 
+  "fc": "Joseph Axe Sleap", 
+  "gender": "Male", 
+  "id": 499, 
+  "mda": "Sleap, Joseph Axe", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/joseph-axe-sleap-499"
+}

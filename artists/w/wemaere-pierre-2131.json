@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Comines, France", 
+      "placeName": "Comines", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1913
+    }
+  }, 
+  "birthYear": 1913, 
+  "date": "1913 \u2013 2010", 
+  "death": {
+    "place": {
+      "name": "Versailles, France", 
+      "placeName": "Versailles", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2010
+    }
+  }, 
+  "fc": "Pierre Wemaere", 
+  "gender": "Male", 
+  "id": 2131, 
+  "mda": "Wemaere, Pierre", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/pierre-wemaere-2131"
+}

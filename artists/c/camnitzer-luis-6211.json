@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Suffolk, United States", 
+      "placeName": "Suffolk", 
+      "placeType": "county"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "L\u00fcbeck, Deutschland", 
+      "placeName": "L\u00fcbeck", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "birthYear": 1937, 
+  "date": "born 1937", 
+  "fc": "Luis Camnitzer", 
+  "gender": "Male", 
+  "id": 6211, 
+  "mda": "Camnitzer, Luis", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/luis-camnitzer-6211"
+}

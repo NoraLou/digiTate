@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1700
+    }
+  }, 
+  "birthYear": 1700, 
+  "date": "1700\u20131799", 
+  "death": {
+    "time": {
+      "startYear": 1799
+    }
+  }, 
+  "fc": "British School 18th century", 
+  "gender": null, 
+  "id": 59, 
+  "mda": "British School 18th century", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 346, 
+      "name": "Rococo"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 83, 
+  "url": "http://www.tate.org.uk/art/artists/british-school-18th-century-59"
+}

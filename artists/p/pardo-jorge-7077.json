@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Los Angeles, United States", 
+      "placeName": "Los Angeles", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "La Habana, Cuba", 
+      "placeName": "La Habana", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1963
+    }
+  }, 
+  "birthYear": 1963, 
+  "date": "born 1963", 
+  "fc": "Jorge Pardo", 
+  "gender": "Male", 
+  "id": 7077, 
+  "mda": "Pardo, Jorge", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/jorge-pardo-7077"
+}

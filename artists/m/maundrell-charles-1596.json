@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Peckham, United Kingdom", 
+      "placeName": "Peckham", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1860
+    }
+  }, 
+  "birthYear": 1860, 
+  "date": "1860\u2013?c.1924", 
+  "death": {
+    "time": {
+      "startYear": 1924
+    }
+  }, 
+  "fc": "Charles Maundrell", 
+  "gender": "Male", 
+  "id": 1596, 
+  "mda": "Maundrell, Charles", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/charles-maundrell-1596"
+}

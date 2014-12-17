@@ -1,0 +1,58 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Soncino, Italia", 
+      "placeName": "Soncino", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1933
+    }
+  }, 
+  "birthYear": 1933, 
+  "date": "1933\u20131963", 
+  "death": {
+    "place": {
+      "name": "Milano, Italia", 
+      "placeName": "Milano", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1963
+    }
+  }, 
+  "fc": "Piero Manzoni", 
+  "gender": "Male", 
+  "id": 1571, 
+  "mda": "Manzoni, Piero", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 16666, 
+      "name": "Abject art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1680, 
+      "name": "Body Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/piero-manzoni-1571"
+}

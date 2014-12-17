@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1819
+    }
+  }, 
+  "birthYear": 1819, 
+  "date": "1819\u20131900", 
+  "death": {
+    "place": {
+      "name": "Cumbria, United Kingdom", 
+      "placeName": "Cumbria", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1900
+    }
+  }, 
+  "fc": "John Ruskin", 
+  "gender": "Male", 
+  "id": 465, 
+  "mda": "Ruskin, John", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/john-ruskin-465"
+}

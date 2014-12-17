@@ -1,0 +1,58 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1895
+    }
+  }, 
+  "birthYear": 1895, 
+  "date": "1895\u20131980", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1980
+    }
+  }, 
+  "fc": "William Roberts", 
+  "gender": "Male", 
+  "id": 1855, 
+  "mda": "Roberts, William", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 309, 
+      "name": "Group X"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 9312, 
+      "name": "London Group"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 322, 
+      "name": "Vorticism"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 142, 
+  "url": "http://www.tate.org.uk/art/artists/william-roberts-1855"
+}

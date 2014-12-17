@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Cortona, Italia", 
+      "placeName": "Cortona", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1883
+    }
+  }, 
+  "birthYear": 1883, 
+  "date": "1883\u20131966", 
+  "death": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1966
+    }
+  }, 
+  "fc": "Gino Severini", 
+  "gender": "Male", 
+  "id": 1927, 
+  "mda": "Severini, Gino", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 307, 
+      "name": "Futurism"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/gino-severini-1927"
+}

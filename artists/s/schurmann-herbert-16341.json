@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Velbert, Deutschland", 
+      "placeName": "Velbert", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1908
+    }
+  }, 
+  "birthYear": 1908, 
+  "date": "1908\u20131982", 
+  "death": {
+    "place": {
+      "name": "Velbert, Deutschland", 
+      "placeName": "Velbert", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1982
+    }
+  }, 
+  "fc": "Herbert Schurmann", 
+  "gender": "Male", 
+  "id": 16341, 
+  "mda": "Schurmann, Herbert", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/herbert-schurmann-16341"
+}

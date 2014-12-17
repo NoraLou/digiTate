@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "East Sussex, United Kingdom", 
+      "placeName": "East Sussex", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1942
+    }
+  }, 
+  "birthYear": 1942, 
+  "date": "born 1942", 
+  "fc": "Michael Morris", 
+  "gender": "Male", 
+  "id": 1668, 
+  "mda": "Morris, Michael", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/michael-morris-1668"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Amsterdam, Nederland", 
+      "placeName": "Amsterdam", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1872
+    }
+  }, 
+  "birthYear": 1872, 
+  "date": "1872\u20131935", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1935
+    }
+  }, 
+  "fc": "Nico Jungman", 
+  "gender": "Male", 
+  "id": 1379, 
+  "mda": "Jungman, Nico", 
+  "movements": [], 
+  "startLetter": "J", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/nico-jungman-1379"
+}

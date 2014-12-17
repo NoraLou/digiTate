@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wigton, United Kingdom", 
+      "placeName": "Wigton", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1752
+    }
+  }, 
+  "birthYear": 1752, 
+  "date": "1752\u20131845", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1845
+    }
+  }, 
+  "fc": "Robert Smirke", 
+  "gender": "Male", 
+  "id": 503, 
+  "mda": "Smirke, Robert", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 18, 
+  "url": "http://www.tate.org.uk/art/artists/robert-smirke-503"
+}

@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Croydon, United Kingdom", 
+      "placeName": "Croydon", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1947
+    }
+  }, 
+  "birthYear": 1947, 
+  "date": "born 1947", 
+  "fc": "Jamie Reid", 
+  "gender": "Male", 
+  "id": 12111, 
+  "mda": "Reid, Jamie", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/jamie-reid-12111"
+}

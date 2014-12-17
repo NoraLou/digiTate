@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bristol, United Kingdom", 
+      "placeName": "Bristol", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1822
+    }
+  }, 
+  "birthYear": 1822, 
+  "date": "1822\u20131895", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1895
+    }
+  }, 
+  "fc": "Alfred Downing Fripp", 
+  "gender": "Male", 
+  "id": 2426, 
+  "mda": "Fripp, Alfred Downing", 
+  "movements": [], 
+  "startLetter": "F", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/alfred-downing-fripp-2426"
+}

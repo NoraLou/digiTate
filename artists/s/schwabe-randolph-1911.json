@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Manchester, United Kingdom", 
+      "placeName": "Manchester", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1885
+    }
+  }, 
+  "birthYear": 1885, 
+  "date": "1885\u20131948", 
+  "death": {
+    "place": {
+      "name": "Helensburgh, United Kingdom", 
+      "placeName": "Helensburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1948
+    }
+  }, 
+  "fc": "Randolph Schwabe", 
+  "gender": "Male", 
+  "id": 1911, 
+  "mda": "Schwabe, Randolph", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/randolph-schwabe-1911"
+}

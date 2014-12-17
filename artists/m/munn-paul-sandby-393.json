@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Greenwich, United Kingdom", 
+      "placeName": "Greenwich", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1773
+    }
+  }, 
+  "birthYear": 1773, 
+  "date": "1773\u20131845", 
+  "death": {
+    "place": {
+      "name": "Margate, United Kingdom", 
+      "placeName": "Margate", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1845
+    }
+  }, 
+  "fc": "Paul Sandby Munn", 
+  "gender": "Male", 
+  "id": 393, 
+  "mda": "Munn, Paul Sandby", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/paul-sandby-munn-393"
+}

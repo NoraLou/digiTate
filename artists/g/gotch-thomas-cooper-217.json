@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kettering, United Kingdom", 
+      "placeName": "Kettering", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1854
+    }
+  }, 
+  "birthYear": 1854, 
+  "date": "1854\u20131931", 
+  "death": {
+    "place": {
+      "name": "Newlyn, United Kingdom", 
+      "placeName": "Newlyn", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1931
+    }
+  }, 
+  "fc": "Thomas Cooper Gotch", 
+  "gender": "Male", 
+  "id": 217, 
+  "mda": "Gotch, Thomas Cooper", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 360, 
+      "name": "Newlyn School"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-cooper-gotch-217"
+}

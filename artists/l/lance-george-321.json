@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1802
+    }
+  }, 
+  "birthYear": 1802, 
+  "date": "1802\u20131864", 
+  "death": {
+    "time": {
+      "startYear": 1864
+    }
+  }, 
+  "fc": "George Lance", 
+  "gender": "Male", 
+  "id": 321, 
+  "mda": "Lance, George", 
+  "movements": [], 
+  "startLetter": "L", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/george-lance-321"
+}

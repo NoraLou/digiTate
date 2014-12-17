@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1883
+    }
+  }, 
+  "birthYear": 1883, 
+  "date": "1883\u20131946", 
+  "death": {
+    "time": {
+      "startYear": 1946
+    }
+  }, 
+  "fc": "Dmitrii Moor", 
+  "gender": null, 
+  "id": 5648, 
+  "mda": "Moor, Dmitrii", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/dmitrii-moor-5648"
+}

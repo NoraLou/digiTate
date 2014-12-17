@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Poitiers, France", 
+      "placeName": "Poitiers", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1833
+    }
+  }, 
+  "birthYear": 1833, 
+  "date": "1833\u20131898", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1898
+    }
+  }, 
+  "fc": "Philip Hermogenes Calderon", 
+  "gender": "Male", 
+  "id": 77, 
+  "mda": "Calderon, Philip Hermogenes", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 366, 
+      "name": "St John's Wood Clique"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/philip-hermogenes-calderon-77"
+}

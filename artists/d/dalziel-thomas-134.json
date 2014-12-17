@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wooler, United Kingdom", 
+      "placeName": "Wooler", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1823
+    }
+  }, 
+  "birthYear": 1823, 
+  "date": "1823\u20131906", 
+  "death": {
+    "place": {
+      "name": "Herne Bay, United Kingdom", 
+      "placeName": "Herne Bay", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1906
+    }
+  }, 
+  "fc": "Thomas Dalziel", 
+  "gender": "Male", 
+  "id": 134, 
+  "mda": "Dalziel, Thomas", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-dalziel-134"
+}

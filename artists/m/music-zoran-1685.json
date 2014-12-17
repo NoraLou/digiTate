@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Gorizia, Italia", 
+      "placeName": "Gorizia", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1909
+    }
+  }, 
+  "birthYear": 1909, 
+  "date": "1909\u20132005", 
+  "death": {
+    "place": {
+      "name": "Venezia, Italia", 
+      "placeName": "Venezia", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2005
+    }
+  }, 
+  "fc": "Zoran Music", 
+  "gender": "Male", 
+  "id": 1685, 
+  "mda": "Music, Zoran", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 11, 
+  "url": "http://www.tate.org.uk/art/artists/zoran-music-1685"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1825
+    }
+  }, 
+  "birthYear": 1825, 
+  "date": "1825\u20131882", 
+  "death": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1882
+    }
+  }, 
+  "fc": "John Crawford Wintour", 
+  "gender": "Male", 
+  "id": 2468, 
+  "mda": "Wintour, John Crawford", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/john-crawford-wintour-2468"
+}

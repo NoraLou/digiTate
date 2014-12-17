@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Greater London, United Kingdom", 
+      "placeName": "Greater London", 
+      "placeType": "city"
+    }, 
+    "time": {
+      "startYear": 1809
+    }
+  }, 
+  "birthYear": 1809, 
+  "date": "1809\u20131896", 
+  "death": {
+    "place": {
+      "name": "London", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1896
+    }
+  }, 
+  "fc": "George Richmond", 
+  "gender": "Male", 
+  "id": 447, 
+  "mda": "Richmond, George", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 368, 
+      "name": "Shoreham / The Ancients"
+    }
+  ], 
+  "startLetter": "R", 
+  "totalWorks": 12, 
+  "url": "http://www.tate.org.uk/art/artists/george-richmond-447"
+}

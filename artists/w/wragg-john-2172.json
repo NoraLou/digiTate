@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "York, United Kingdom", 
+      "placeName": "York", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1937
+    }
+  }, 
+  "birthYear": 1937, 
+  "date": "born 1937", 
+  "fc": "John Wragg", 
+  "gender": "Male", 
+  "id": 2172, 
+  "mda": "Wragg, John", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/john-wragg-2172"
+}

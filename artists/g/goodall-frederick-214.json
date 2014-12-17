@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1822
+    }
+  }, 
+  "birthYear": 1822, 
+  "date": "1822\u20131904", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1904
+    }
+  }, 
+  "fc": "Frederick Goodall", 
+  "gender": "Male", 
+  "id": 214, 
+  "mda": "Goodall, Frederick", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 8064, 
+      "name": "Victorian/Genre"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/frederick-goodall-214"
+}

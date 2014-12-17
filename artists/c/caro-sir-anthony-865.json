@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Surrey, United Kingdom", 
+      "placeName": "Surrey", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1924
+    }
+  }, 
+  "birthYear": 1924, 
+  "date": "1924\u20132013", 
+  "death": {
+    "time": {
+      "startYear": 2013
+    }
+  }, 
+  "fc": "Sir Anthony Caro", 
+  "gender": "Male", 
+  "id": 865, 
+  "mda": "Caro, Sir Anthony", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 433, 
+      "name": "New Generation Sculpture"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 23, 
+  "url": "http://www.tate.org.uk/art/artists/sir-anthony-caro-865"
+}

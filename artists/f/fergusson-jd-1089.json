@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Scotland, United Kingdom", 
+      "placeName": "Scotland", 
+      "placeType": "country"
+    }, 
+    "time": {
+      "startYear": 1874
+    }
+  }, 
+  "birthYear": 1874, 
+  "date": "1874\u20131961", 
+  "death": {
+    "place": {
+      "name": "Glasgow", 
+      "placeName": "Glasgow", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1961
+    }
+  }, 
+  "fc": "J.D. Fergusson", 
+  "gender": "Male", 
+  "id": 1089, 
+  "mda": "Fergusson, J.D.", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 303, 
+      "name": "Direct Carving"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 367, 
+      "name": "Scottish Colourists"
+    }
+  ], 
+  "startLetter": "F", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/jd-fergusson-1089"
+}

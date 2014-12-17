@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1531
+    }
+  }, 
+  "birthYear": 1531, 
+  "date": "active 1531\u20131570", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1570
+    }
+  }, 
+  "fc": "John Bettes", 
+  "gender": "Male", 
+  "id": 34, 
+  "mda": "Bettes, John", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 414, 
+      "name": "Tudor"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-bettes-34"
+}

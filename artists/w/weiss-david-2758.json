@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Z\u00fcrich, Schweiz", 
+      "placeName": "Z\u00fcrich", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1946
+    }
+  }, 
+  "birthYear": 1946, 
+  "date": "1946\u20132012", 
+  "death": {
+    "time": {
+      "startYear": 2012
+    }
+  }, 
+  "fc": "David Weiss", 
+  "gender": "Male", 
+  "id": 2758, 
+  "mda": "Weiss, David", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/david-weiss-2758"
+}

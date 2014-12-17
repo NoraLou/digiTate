@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Charlottesville, United States", 
+      "placeName": "Charlottesville", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1827
+    }
+  }, 
+  "birthYear": 1827, 
+  "date": "1827\u20131854", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1854
+    }
+  }, 
+  "fc": "Walter Howell Deverell", 
+  "gender": "Male", 
+  "id": 147, 
+  "mda": "Deverell, Walter Howell", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 363, 
+      "name": "Pre-Raphaelite Brotherhood"
+    }
+  ], 
+  "startLetter": "D", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/walter-howell-deverell-147"
+}

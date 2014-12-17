@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Melbourne, Australia", 
+      "placeName": "Melbourne", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1917
+    }
+  }, 
+  "birthYear": 1917, 
+  "date": "1917\u20131992", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1992
+    }
+  }, 
+  "fc": "Sir Sidney Nolan", 
+  "gender": "Male", 
+  "id": 1708, 
+  "mda": "Nolan, Sir Sidney", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 16668, 
+      "name": "Angry Penguins"
+    }
+  ], 
+  "startLetter": "N", 
+  "totalWorks": 135, 
+  "url": "http://www.tate.org.uk/art/artists/sir-sidney-nolan-1708"
+}

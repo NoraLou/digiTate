@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Chicago, United States", 
+      "placeName": "Chicago", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1939
+    }
+  }, 
+  "birthYear": 1939, 
+  "date": "born 1939", 
+  "fc": "Larry Bell", 
+  "gender": "Male", 
+  "id": 727, 
+  "mda": "Bell, Larry", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 430, 
+      "name": "Minimalism"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/larry-bell-727"
+}

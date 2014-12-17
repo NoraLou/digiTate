@@ -1,0 +1,49 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Z\u00fcrich, Schweiz", 
+      "placeName": "Z\u00fcrich", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1741
+    }
+  }, 
+  "birthYear": 1741, 
+  "date": "1741\u20131825", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1825
+    }
+  }, 
+  "fc": "Henry Fuseli", 
+  "gender": "Male", 
+  "id": 198, 
+  "mda": "Fuseli, Henry", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 364, 
+      "name": "Romanticism"
+    }
+  ], 
+  "startLetter": "F", 
+  "totalWorks": 12, 
+  "url": "http://www.tate.org.uk/art/artists/henry-fuseli-198"
+}

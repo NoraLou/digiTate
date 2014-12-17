@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1806
+    }
+  }, 
+  "birthYear": 1806, 
+  "date": "1806\u20131834", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1834
+    }
+  }, 
+  "fc": "William Frome Smallwood", 
+  "gender": "Male", 
+  "id": 2531, 
+  "mda": "Smallwood, William Frome", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/william-frome-smallwood-2531"
+}

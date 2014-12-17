@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Swansea, United Kingdom", 
+      "placeName": "Swansea", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1864
+    }
+  }, 
+  "birthYear": 1864, 
+  "date": "1864\u20131944", 
+  "death": {
+    "place": {
+      "name": "Southwell, United Kingdom", 
+      "placeName": "Southwell", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1944
+    }
+  }, 
+  "fc": "Count Albert De Belleroche", 
+  "gender": "Male", 
+  "id": 734, 
+  "mda": "De Belleroche, Count Albert", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/count-albert-de-belleroche-734"
+}

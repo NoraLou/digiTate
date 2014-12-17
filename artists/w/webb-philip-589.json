@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Oxford, United Kingdom", 
+      "placeName": "Oxford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1831
+    }
+  }, 
+  "birthYear": 1831, 
+  "date": "1831\u20131915", 
+  "death": {
+    "place": {
+      "name": "Crawley, United Kingdom", 
+      "placeName": "Crawley", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1915
+    }
+  }, 
+  "fc": "Philip Webb", 
+  "gender": "Male", 
+  "id": 589, 
+  "mda": "Webb, Philip", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/philip-webb-589"
+}

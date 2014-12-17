@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Ashtabula, United States", 
+      "placeName": "Ashtabula", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1893
+    }
+  }, 
+  "birthYear": 1893, 
+  "date": "1893\u20131967", 
+  "death": {
+    "place": {
+      "name": "Buffalo, United States", 
+      "placeName": "Buffalo", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1967
+    }
+  }, 
+  "fc": "Charles Burchfield", 
+  "gender": "Male", 
+  "id": 832, 
+  "mda": "Burchfield, Charles", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/charles-burchfield-832"
+}

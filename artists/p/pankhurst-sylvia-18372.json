@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1882
+    }
+  }, 
+  "birthYear": 1882, 
+  "date": "1882 \u2013 1960", 
+  "death": {
+    "time": {
+      "startYear": 1960
+    }
+  }, 
+  "fc": "Sylvia Pankhurst", 
+  "gender": null, 
+  "id": 18372, 
+  "mda": "Pankhurst, Sylvia", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 18, 
+  "url": "http://www.tate.org.uk/art/artists/sylvia-pankhurst-18372"
+}

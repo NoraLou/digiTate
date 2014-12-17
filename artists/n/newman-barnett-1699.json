@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1905
+    }
+  }, 
+  "birthYear": 1905, 
+  "date": "1905\u20131970", 
+  "death": {
+    "place": {
+      "name": "New York, United States", 
+      "placeName": "New York", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1970
+    }
+  }, 
+  "fc": "Barnett Newman", 
+  "gender": "Male", 
+  "id": 1699, 
+  "mda": "Newman, Barnett", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 416, 
+      "name": "Abstract Expressionism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 439, 
+      "name": "Post Painterly Abstraction"
+    }
+  ], 
+  "startLetter": "N", 
+  "totalWorks": 23, 
+  "url": "http://www.tate.org.uk/art/artists/barnett-newman-1699"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1796
+    }
+  }, 
+  "birthYear": 1796, 
+  "date": "1796\u20131864", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1864
+    }
+  }, 
+  "fc": "David Roberts", 
+  "gender": "Male", 
+  "id": 454, 
+  "mda": "Roberts, David", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/david-roberts-454"
+}

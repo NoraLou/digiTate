@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Liverpool, United Kingdom", 
+      "placeName": "Liverpool", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1905
+    }
+  }, 
+  "birthYear": 1905, 
+  "date": "1905 \u2013 1991", 
+  "death": {
+    "time": {
+      "startYear": 1991
+    }
+  }, 
+  "fc": "Evelyn Gibbs", 
+  "gender": "Female", 
+  "id": 1162, 
+  "mda": "Gibbs, Evelyn", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/evelyn-gibbs-1162"
+}

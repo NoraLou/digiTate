@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Paris, France", 
+      "placeName": "Paris", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1848
+    }
+  }, 
+  "birthYear": 1848, 
+  "date": "1848\u20131903", 
+  "death": {
+    "place": {
+      "name": "Atuona", 
+      "placeName": "Atuona", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1903
+    }
+  }, 
+  "fc": "Paul Gauguin", 
+  "gender": "Male", 
+  "id": 1144, 
+  "mda": "Gauguin, Paul", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 4229, 
+      "name": "Post-Impressionism"
+    }, 
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 16649, 
+      "name": "Symbolism"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/paul-gauguin-1144"
+}

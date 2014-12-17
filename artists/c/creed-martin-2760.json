@@ -1,0 +1,40 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Wakefield, United Kingdom", 
+      "placeName": "Wakefield", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1968
+    }
+  }, 
+  "birthYear": 1968, 
+  "date": "born 1968", 
+  "fc": "Martin Creed", 
+  "gender": "Male", 
+  "id": 2760, 
+  "mda": "Creed, Martin", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 16666, 
+      "name": "Abject art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }
+  ], 
+  "startLetter": "C", 
+  "totalWorks": 13, 
+  "url": "http://www.tate.org.uk/art/artists/martin-creed-2760"
+}

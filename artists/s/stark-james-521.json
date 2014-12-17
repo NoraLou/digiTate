@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Norwich, United Kingdom", 
+      "placeName": "Norwich", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1794
+    }
+  }, 
+  "birthYear": 1794, 
+  "date": "1794\u20131859", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1859
+    }
+  }, 
+  "fc": "James Stark", 
+  "gender": "Male", 
+  "id": 521, 
+  "mda": "Stark, James", 
+  "movements": [
+    {
+      "era": {
+        "id": 350, 
+        "name": "19th century"
+      }, 
+      "id": 362, 
+      "name": "Norwich School"
+    }
+  ], 
+  "startLetter": "S", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/james-stark-521"
+}

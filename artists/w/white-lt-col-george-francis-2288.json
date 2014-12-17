@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Chatham, United Kingdom", 
+      "placeName": "Chatham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1808
+    }
+  }, 
+  "birthYear": 1808, 
+  "date": "1808\u20131898", 
+  "death": {
+    "place": {
+      "name": "Durham, United Kingdom", 
+      "placeName": "Durham", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1898
+    }
+  }, 
+  "fc": "Lt-Col George Francis White", 
+  "gender": "Male", 
+  "id": 2288, 
+  "mda": "White, Lt-Col George Francis", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/lt-col-george-francis-white-2288"
+}

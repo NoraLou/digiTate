@@ -1,0 +1,82 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Krefeld, Deutschland", 
+      "placeName": "Krefeld", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1921
+    }
+  }, 
+  "birthYear": 1921, 
+  "date": "1921\u20131986", 
+  "death": {
+    "place": {
+      "name": "D\u00fcsseldorf, Deutschland", 
+      "placeName": "D\u00fcsseldorf", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1986
+    }
+  }, 
+  "fc": "Joseph Beuys", 
+  "gender": "Male", 
+  "id": 747, 
+  "mda": "Beuys, Joseph", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 1684, 
+      "name": "Actionism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 422, 
+      "name": "Environmental Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 423, 
+      "name": "Fluxus"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 429, 
+      "name": "Land Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 436, 
+      "name": "Performance Art"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 588, 
+  "url": "http://www.tate.org.uk/art/artists/joseph-beuys-747"
+}

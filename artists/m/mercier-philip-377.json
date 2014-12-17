@@ -1,0 +1,58 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Berlin, Deutschland", 
+      "placeName": "Berlin", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1689
+    }
+  }, 
+  "birthYear": 1689, 
+  "date": "?1689\u20131760", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1760
+    }
+  }, 
+  "fc": "Philip Mercier", 
+  "gender": "Male", 
+  "id": 377, 
+  "mda": "Mercier, Philip", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 340, 
+      "name": "Conversation Piece"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 341, 
+      "name": "Fancy Picture"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 346, 
+      "name": "Rococo"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/philip-mercier-377"
+}

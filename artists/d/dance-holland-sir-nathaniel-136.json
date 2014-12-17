@@ -1,0 +1,54 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "England, United Kingdom", 
+      "placeName": "England", 
+      "placeType": "country"
+    }, 
+    {
+      "name": "Roma, Italia", 
+      "placeName": "Roma", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1735
+    }
+  }, 
+  "birthYear": 1735, 
+  "date": "1735\u20131811", 
+  "death": {
+    "place": {
+      "name": "Winchester, United Kingdom", 
+      "placeName": "Winchester", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1811
+    }
+  }, 
+  "fc": "Sir Nathaniel Dance-Holland", 
+  "gender": "Male", 
+  "id": 136, 
+  "mda": "Dance-Holland, Sir Nathaniel", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 344, 
+      "name": "Neo-Classicism"
+    }
+  ], 
+  "startLetter": "D", 
+  "totalWorks": 170, 
+  "url": "http://www.tate.org.uk/art/artists/sir-nathaniel-dance-holland-136"
+}

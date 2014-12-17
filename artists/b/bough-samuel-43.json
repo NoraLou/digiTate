@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Carlisle, United Kingdom", 
+      "placeName": "Carlisle", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1822
+    }
+  }, 
+  "birthYear": 1822, 
+  "date": "1822\u20131878", 
+  "death": {
+    "place": {
+      "name": "Edinburgh, United Kingdom", 
+      "placeName": "Edinburgh", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1878
+    }
+  }, 
+  "fc": "Samuel Bough", 
+  "gender": "Male", 
+  "id": 43, 
+  "mda": "Bough, Samuel", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/samuel-bough-43"
+}

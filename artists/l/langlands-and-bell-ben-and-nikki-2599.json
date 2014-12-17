@@ -1,0 +1,27 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1955
+    }
+  }, 
+  "birthYear": 1955, 
+  "date": "born 1955, born 1959", 
+  "fc": "Langlands & Bell (Ben Langlands and Nikki Bell)", 
+  "gender": null, 
+  "id": 2599, 
+  "mda": "Langlands and Bell, Ben and Nikki", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 13, 
+  "url": "http://www.tate.org.uk/art/artists/langlands-bell-ben-langlands-and-nikki-bell-2599"
+}

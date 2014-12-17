@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Kremenchug, Ukrayina", 
+      "placeName": "Kremenchug", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1894
+    }
+  }, 
+  "birthYear": 1894, 
+  "date": "1894\u20131962", 
+  "death": {
+    "place": {
+      "name": "Tel Aviv-Yafo, Yisra'el", 
+      "placeName": "Tel Aviv-Yafo", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1962
+    }
+  }, 
+  "fc": "Mane-Katz", 
+  "gender": "Male", 
+  "id": 1565, 
+  "mda": "Mane-Katz", 
+  "movements": [], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/mane-katz-1565"
+}

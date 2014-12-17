@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Los Angeles, United States", 
+      "placeName": "Los Angeles", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1961
+    }
+  }, 
+  "birthYear": 1961, 
+  "date": "born 1961", 
+  "fc": "Mark Bradford", 
+  "gender": "Male", 
+  "id": 9242, 
+  "mda": "Bradford, Mark", 
+  "movements": [], 
+  "startLetter": "B", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/mark-bradford-9242"
+}

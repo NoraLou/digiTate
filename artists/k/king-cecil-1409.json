@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Rathdrum, \u00c9ire", 
+      "placeName": "Rathdrum", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1921
+    }
+  }, 
+  "birthYear": 1921, 
+  "date": "1921\u20131986", 
+  "death": {
+    "place": {
+      "name": "Dublin, \u00c9ire", 
+      "placeName": "Dublin", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1986
+    }
+  }, 
+  "fc": "Cecil King", 
+  "gender": "Male", 
+  "id": 1409, 
+  "mda": "King, Cecil", 
+  "movements": [], 
+  "startLetter": "K", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/cecil-king-1409"
+}

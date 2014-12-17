@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1780
+    }
+  }, 
+  "birthYear": 1780, 
+  "date": "1780\u20131847", 
+  "death": {
+    "place": {
+      "name": "Suffolk, United Kingdom", 
+      "placeName": "Suffolk", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1847
+    }
+  }, 
+  "fc": "John Preston Neale", 
+  "gender": "Male", 
+  "id": 2519, 
+  "mda": "Neale, John Preston", 
+  "movements": [], 
+  "startLetter": "N", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/john-preston-neale-2519"
+}

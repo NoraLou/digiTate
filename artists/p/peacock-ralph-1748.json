@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1868
+    }
+  }, 
+  "birthYear": 1868, 
+  "date": "1868\u20131946", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1946
+    }
+  }, 
+  "fc": "Ralph Peacock", 
+  "gender": "Male", 
+  "id": 1748, 
+  "mda": "Peacock, Ralph", 
+  "movements": [], 
+  "startLetter": "P", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/ralph-peacock-1748"
+}

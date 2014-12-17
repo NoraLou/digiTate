@@ -1,0 +1,61 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Castleford, United Kingdom", 
+      "placeName": "Castleford", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1898
+    }
+  }, 
+  "birthYear": 1898, 
+  "date": "1898\u20131986", 
+  "death": {
+    "time": {
+      "startYear": 1986
+    }
+  }, 
+  "fc": "Henry Moore OM, CH", 
+  "gender": "Male", 
+  "id": 1659, 
+  "mda": "Moore, Henry, OM, CH", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1688, 
+      "name": "British Surrealism"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 303, 
+      "name": "Direct Carving"
+    }, 
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 321, 
+      "name": "Unit One"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 638, 
+  "url": "http://www.tate.org.uk/art/artists/henry-moore-om-ch-1659"
+}

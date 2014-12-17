@@ -1,0 +1,21 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1895
+    }
+  }, 
+  "date": "1895\u20131944", 
+  "death": {
+    "time": {
+      "startYear": 1944
+    }
+  }, 
+  "fc": "Gustav Klutsis", 
+  "gender": null, 
+  "id": 5677, 
+  "mda": "Klutsis, Gustav", 
+  "movements": [], 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/gustav-klutsis-5677"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Leominster, United Kingdom", 
+      "placeName": "Leominster", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1804
+    }
+  }, 
+  "birthYear": 1804, 
+  "date": "1804\u20131845", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1845
+    }
+  }, 
+  "fc": "John Scarlett Davis", 
+  "gender": "Male", 
+  "id": 140, 
+  "mda": "Davis, John Scarlett", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 104, 
+  "url": "http://www.tate.org.uk/art/artists/john-scarlett-davis-140"
+}

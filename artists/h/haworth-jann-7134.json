@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Los Angeles, United States", 
+      "placeName": "Los Angeles", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1942
+    }
+  }, 
+  "birthYear": 1942, 
+  "date": "born 1942", 
+  "fc": "Jann Haworth", 
+  "gender": "Female", 
+  "id": 7134, 
+  "mda": "Haworth, Jann", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/jann-haworth-7134"
+}

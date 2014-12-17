@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1909
+    }
+  }, 
+  "birthYear": 1909, 
+  "date": "1909\u20131978", 
+  "death": {
+    "time": {
+      "startYear": 1978
+    }
+  }, 
+  "fc": "Leslie Hurry", 
+  "gender": "Male", 
+  "id": 1328, 
+  "mda": "Hurry, Leslie", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 312, 
+      "name": "Neo-Romanticism"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 6, 
+  "url": "http://www.tate.org.uk/art/artists/leslie-hurry-1328"
+}

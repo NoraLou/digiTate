@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Birr, \u00c9ire", 
+      "placeName": "Birr", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1903
+    }
+  }, 
+  "birthYear": 1903, 
+  "date": "1903\u20131984", 
+  "death": {
+    "time": {
+      "startYear": 1984
+    }
+  }, 
+  "fc": "John F. Kavanagh", 
+  "gender": "Male", 
+  "id": 1389, 
+  "mda": "Kavanagh, John F.", 
+  "movements": [], 
+  "startLetter": "K", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-f-kavanagh-1389"
+}

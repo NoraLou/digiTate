@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bromsgrove, United Kingdom", 
+      "placeName": "Bromsgrove", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1861
+    }
+  }, 
+  "birthYear": 1861, 
+  "date": "1861\u20131959", 
+  "death": {
+    "place": {
+      "name": "Glastonbury, United Kingdom", 
+      "placeName": "Glastonbury", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1959
+    }
+  }, 
+  "fc": "Laurence Housman", 
+  "gender": "Male", 
+  "id": 1313, 
+  "mda": "Housman, Laurence", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/laurence-housman-1313"
+}

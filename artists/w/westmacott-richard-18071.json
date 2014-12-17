@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1775
+    }
+  }, 
+  "birthYear": 1775, 
+  "date": "1775\u20131856", 
+  "death": {
+    "time": {
+      "startYear": 1856
+    }
+  }, 
+  "fc": "Richard Westmacott", 
+  "gender": null, 
+  "id": 18071, 
+  "mda": "Westmacott, Richard", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/richard-westmacott-18071"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Stoke on Trent, United Kingdom", 
+      "placeName": "Stoke on Trent", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1903
+    }
+  }, 
+  "birthYear": 1903, 
+  "date": "1903\u20131985", 
+  "death": {
+    "time": {
+      "startYear": 1985
+    }
+  }, 
+  "fc": "Frances Richards", 
+  "gender": "Female", 
+  "id": 1837, 
+  "mda": "Richards, Frances", 
+  "movements": [], 
+  "startLetter": "R", 
+  "totalWorks": 20, 
+  "url": "http://www.tate.org.uk/art/artists/frances-richards-1837"
+}

@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Haddington, United Kingdom", 
+      "placeName": "Haddington", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1898
+    }
+  }, 
+  "birthYear": 1898, 
+  "date": "1898\u20131973", 
+  "death": {
+    "time": {
+      "startYear": 1973
+    }
+  }, 
+  "fc": "Sir William Gillies", 
+  "gender": "Male", 
+  "id": 1171, 
+  "mda": "Gillies, Sir William", 
+  "movements": [], 
+  "startLetter": "G", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/sir-william-gillies-1171"
+}

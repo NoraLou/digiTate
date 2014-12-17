@@ -1,0 +1,30 @@
+{
+  "activePlaceCount": 1, 
+  "activePlaces": [
+    {
+      "name": "Nederland", 
+      "placeName": "Nederland", 
+      "placeType": "nation"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Cape Town, South Africa", 
+      "placeName": "Cape Town", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1953
+    }
+  }, 
+  "birthYear": 1953, 
+  "date": "born 1953", 
+  "fc": "Marlene Dumas", 
+  "gender": "Female", 
+  "id": 2407, 
+  "mda": "Dumas, Marlene", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 10, 
+  "url": "http://www.tate.org.uk/art/artists/marlene-dumas-2407"
+}

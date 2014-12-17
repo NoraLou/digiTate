@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Hampshire, United Kingdom", 
+      "placeName": "Hampshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1942
+    }
+  }, 
+  "birthYear": 1942, 
+  "date": "born 1942", 
+  "fc": "Don Cordery", 
+  "gender": "Male", 
+  "id": 942, 
+  "mda": "Cordery, Don", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/don-cordery-942"
+}

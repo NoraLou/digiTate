@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "K\u00f8benhavn, Danmark", 
+      "placeName": "K\u00f8benhavn", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1974
+    }
+  }, 
+  "birthYear": 1974, 
+  "date": "born 1974", 
+  "fc": "Jesper Just", 
+  "gender": "Male", 
+  "id": 7637, 
+  "mda": "Just, Jesper", 
+  "movements": [], 
+  "startLetter": "J", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/jesper-just-7637"
+}

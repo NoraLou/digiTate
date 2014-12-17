@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1617
+    }
+  }, 
+  "birthYear": 1617, 
+  "date": "1617\u20131694", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1694
+    }
+  }, 
+  "fc": "John Michael Wright", 
+  "gender": "Male", 
+  "id": 614, 
+  "mda": "Wright, John Michael", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 413, 
+      "name": "Later Stuart"
+    }, 
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 411, 
+      "name": "Restoration"
+    }
+  ], 
+  "startLetter": "W", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/john-michael-wright-614"
+}

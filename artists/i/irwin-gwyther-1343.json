@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Cornwall, United Kingdom", 
+      "placeName": "Cornwall", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1931
+    }
+  }, 
+  "birthYear": 1931, 
+  "date": "1931\u20132008", 
+  "death": {
+    "time": {
+      "startYear": 2008
+    }
+  }, 
+  "fc": "Gwyther Irwin", 
+  "gender": "Male", 
+  "id": 1343, 
+  "mda": "Irwin, Gwyther", 
+  "movements": [], 
+  "startLetter": "I", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/gwyther-irwin-1343"
+}

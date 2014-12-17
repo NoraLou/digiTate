@@ -1,0 +1,32 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1744
+    }
+  }, 
+  "birthYear": 1744, 
+  "date": "1744\u2013c.1770", 
+  "death": {
+    "time": {
+      "startYear": 1770
+    }
+  }, 
+  "fc": "Charles Mosley", 
+  "gender": "Male", 
+  "id": 2715, 
+  "mda": "Mosley, Charles", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 343, 
+      "name": "Modern Moral Subject"
+    }
+  ], 
+  "startLetter": "M", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/charles-mosley-2715"
+}

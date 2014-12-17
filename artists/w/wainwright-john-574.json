@@ -1,0 +1,23 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "time": {
+      "startYear": 1845
+    }
+  }, 
+  "birthYear": 1845, 
+  "date": "active 1845\u20131873", 
+  "death": {
+    "time": {
+      "startYear": 1873
+    }
+  }, 
+  "fc": "John Wainwright", 
+  "gender": "Male", 
+  "id": 574, 
+  "mda": "Wainwright, John", 
+  "movements": [], 
+  "startLetter": "W", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-wainwright-574"
+}

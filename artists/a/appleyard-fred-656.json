@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Middlesbrough, United Kingdom", 
+      "placeName": "Middlesbrough", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1874
+    }
+  }, 
+  "birthYear": 1874, 
+  "date": "1874\u20131963", 
+  "death": {
+    "place": {
+      "name": "Hampshire, United Kingdom", 
+      "placeName": "Hampshire", 
+      "placeType": "county"
+    }, 
+    "time": {
+      "startYear": 1963
+    }
+  }, 
+  "fc": "Fred Appleyard", 
+  "gender": "Male", 
+  "id": 656, 
+  "mda": "Appleyard, Fred", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/fred-appleyard-656"
+}

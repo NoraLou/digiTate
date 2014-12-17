@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Greenwich, United Kingdom", 
+      "placeName": "Greenwich", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1905
+    }
+  }, 
+  "birthYear": 1905, 
+  "date": "1905\u20131983", 
+  "death": {
+    "time": {
+      "startYear": 1983
+    }
+  }, 
+  "fc": "John Aldridge", 
+  "gender": "Male", 
+  "id": 638, 
+  "mda": "Aldridge, John", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/john-aldridge-638"
+}

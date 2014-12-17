@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Pie\u0161tany, Slovensk\u00e1 Republika", 
+      "placeName": "Pie\u0161tany", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1939
+    }
+  }, 
+  "birthYear": 1939, 
+  "date": "1939\u20132007", 
+  "death": {
+    "place": {
+      "name": "Bratislava, Slovensk\u00e1 Republika", 
+      "placeName": "Bratislava", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 2007
+    }
+  }, 
+  "fc": "J\u00falius Koller", 
+  "gender": "Male", 
+  "id": 10345, 
+  "mda": "Koller, J\u00falius", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 436, 
+      "name": "Performance Art"
+    }
+  ], 
+  "startLetter": "K", 
+  "totalWorks": 20, 
+  "url": "http://www.tate.org.uk/art/artists/julius-koller-10345"
+}

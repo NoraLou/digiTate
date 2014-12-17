@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 2, 
+  "activePlaces": [
+    {
+      "name": "Deutschland", 
+      "placeName": "Deutschland", 
+      "placeType": "nation"
+    }, 
+    {
+      "name": "Great Britain, United Kingdom", 
+      "placeName": "Great Britain", 
+      "placeType": "island"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Tuszyn, Polska", 
+      "placeName": "Tuszyn", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1895
+    }
+  }, 
+  "birthYear": 1895, 
+  "date": "1895\u20131949", 
+  "death": {
+    "place": {
+      "name": "Aldbourne, United Kingdom", 
+      "placeName": "Aldbourne", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1949
+    }
+  }, 
+  "fc": "Jankel Adler", 
+  "gender": "Male", 
+  "id": 630, 
+  "mda": "Adler, Jankel", 
+  "movements": [], 
+  "startLetter": "A", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/jankel-adler-630"
+}

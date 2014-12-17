@@ -1,0 +1,28 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1930
+    }
+  }, 
+  "birthYear": 1930, 
+  "date": "1930\u20131994", 
+  "death": {
+    "time": {
+      "startYear": 1994
+    }
+  }, 
+  "fc": "Peter Hobbs", 
+  "gender": "Male", 
+  "id": 1292, 
+  "mda": "Hobbs, Peter", 
+  "movements": [], 
+  "startLetter": "H", 
+  "totalWorks": 7, 
+  "url": "http://www.tate.org.uk/art/artists/peter-hobbs-1292"
+}

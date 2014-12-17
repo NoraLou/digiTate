@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Salisbury, United Kingdom", 
+      "placeName": "Salisbury", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1642
+    }
+  }, 
+  "birthYear": 1642, 
+  "date": "1642\u20131676", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1676
+    }
+  }, 
+  "fc": "John Greenhill", 
+  "gender": "Male", 
+  "id": 2690, 
+  "mda": "Greenhill, John", 
+  "movements": [
+    {
+      "era": {
+        "id": 289, 
+        "name": "16th and 17th century"
+      }, 
+      "id": 413, 
+      "name": "Later Stuart"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/john-greenhill-2690"
+}

@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Herington, United States", 
+      "placeName": "Herington", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1944
+    }
+  }, 
+  "birthYear": 1944, 
+  "date": "1944\u20132005", 
+  "death": {
+    "place": {
+      "name": "Shelter Island, United States", 
+      "placeName": "Shelter Island", 
+      "placeType": "island"
+    }, 
+    "time": {
+      "startYear": 2005
+    }
+  }, 
+  "fc": "Alan Shields", 
+  "gender": "Male", 
+  "id": 6670, 
+  "mda": "Shields, Alan", 
+  "movements": [], 
+  "startLetter": "S", 
+  "totalWorks": 4, 
+  "url": "http://www.tate.org.uk/art/artists/alan-shields-6670"
+}

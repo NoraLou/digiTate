@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Citt\u00e0 di Castello, Italia", 
+      "placeName": "Citt\u00e0 di Castello", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1915
+    }
+  }, 
+  "birthYear": 1915, 
+  "date": "1915\u20131995", 
+  "death": {
+    "place": {
+      "name": "Nice, France", 
+      "placeName": "Nice", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1995
+    }
+  }, 
+  "fc": "Alberto Burri", 
+  "gender": "Male", 
+  "id": 838, 
+  "mda": "Burri, Alberto", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 8454, 
+      "name": "Art Informel"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 9378, 
+      "name": "Origine group"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/alberto-burri-838"
+}

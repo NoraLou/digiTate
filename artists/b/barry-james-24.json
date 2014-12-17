@@ -1,0 +1,50 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Cork, \u00c9ire", 
+      "placeName": "Cork", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1741
+    }
+  }, 
+  "birthYear": 1741, 
+  "date": "1741\u20131806", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1806
+    }
+  }, 
+  "fc": "James Barry", 
+  "gender": "Male", 
+  "id": 24, 
+  "mda": "Barry, James", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 6210, 
+      "name": "Grand Manner"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 344, 
+      "name": "Neo-Classicism"
+    }
+  ], 
+  "startLetter": "B", 
+  "totalWorks": 38, 
+  "url": "http://www.tate.org.uk/art/artists/james-barry-24"
+}

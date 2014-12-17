@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Chester, United Kingdom", 
+      "placeName": "Chester", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1846
+    }
+  }, 
+  "birthYear": 1846, 
+  "date": "1846\u20131886", 
+  "death": {
+    "place": {
+      "name": "Saint Augustine, United States", 
+      "placeName": "Saint Augustine", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1886
+    }
+  }, 
+  "fc": "Randolph Caldecott", 
+  "gender": "Male", 
+  "id": 76, 
+  "mda": "Caldecott, Randolph", 
+  "movements": [], 
+  "startLetter": "C", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/randolph-caldecott-76"
+}

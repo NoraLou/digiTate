@@ -1,0 +1,58 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Ann Arbor, United States", 
+      "placeName": "Ann Arbor", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1924
+    }
+  }, 
+  "birthYear": 1924, 
+  "date": "1924\u20131997", 
+  "death": {
+    "place": {
+      "name": "Truro, United States", 
+      "placeName": "Truro", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1997
+    }
+  }, 
+  "fc": "Douglas Huebler", 
+  "gender": "Male", 
+  "id": 1320, 
+  "mda": "Huebler, Douglas", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 421, 
+      "name": "Conceptual Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 422, 
+      "name": "Environmental Art"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 429, 
+      "name": "Land Art"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 2, 
+  "url": "http://www.tate.org.uk/art/artists/douglas-huebler-1320"
+}

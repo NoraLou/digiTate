@@ -1,0 +1,75 @@
+{
+  "activePlaceCount": 3, 
+  "activePlaces": [
+    {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Bath, United Kingdom", 
+      "placeName": "Bath", 
+      "placeType": "inhabited_place"
+    }, 
+    {
+      "name": "Ipswich, United Kingdom", 
+      "placeName": "Ipswich", 
+      "placeType": "inhabited_place"
+    }
+  ], 
+  "birth": {
+    "place": {
+      "name": "Sudbury, United Kingdom", 
+      "placeName": "Sudbury", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1727
+    }
+  }, 
+  "birthYear": 1727, 
+  "date": "1727\u20131788", 
+  "death": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1788
+    }
+  }, 
+  "fc": "Thomas Gainsborough", 
+  "gender": "Male", 
+  "id": 199, 
+  "mda": "Gainsborough, Thomas", 
+  "movements": [
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 341, 
+      "name": "Fancy Picture"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 345, 
+      "name": "Picturesque"
+    }, 
+    {
+      "era": {
+        "id": 290, 
+        "name": "18th century"
+      }, 
+      "id": 346, 
+      "name": "Rococo"
+    }
+  ], 
+  "startLetter": "G", 
+  "totalWorks": 160, 
+  "url": "http://www.tate.org.uk/art/artists/thomas-gainsborough-199"
+}

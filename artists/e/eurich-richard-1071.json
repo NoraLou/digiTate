@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Bradford, United Kingdom", 
+      "placeName": "Bradford", 
+      "placeType": "unitary_authority"
+    }, 
+    "time": {
+      "startYear": 1903
+    }
+  }, 
+  "birthYear": 1903, 
+  "date": "1903\u20131992", 
+  "death": {
+    "time": {
+      "startYear": 1992
+    }
+  }, 
+  "fc": "Richard Eurich", 
+  "gender": "Male", 
+  "id": 1071, 
+  "mda": "Eurich, Richard", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 10525, 
+      "name": "British War Art"
+    }
+  ], 
+  "startLetter": "E", 
+  "totalWorks": 5, 
+  "url": "http://www.tate.org.uk/art/artists/richard-eurich-1071"
+}

@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Grand Saline, United States", 
+      "placeName": "Grand Saline", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1918
+    }
+  }, 
+  "birthYear": 1918, 
+  "date": "1918\u20131997", 
+  "death": {
+    "place": {
+      "name": "Saint Ives, United Kingdom", 
+      "placeName": "Saint Ives", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1997
+    }
+  }, 
+  "fc": "Janet Leach", 
+  "gender": "Female", 
+  "id": 8805, 
+  "mda": "Leach, Janet", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 441, 
+      "name": "St Ives School"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 3, 
+  "url": "http://www.tate.org.uk/art/artists/janet-leach-8805"
+}

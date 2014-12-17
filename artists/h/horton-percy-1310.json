@@ -1,0 +1,37 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Brighton, United Kingdom", 
+      "placeName": "Brighton", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1897
+    }
+  }, 
+  "birthYear": 1897, 
+  "date": "1897\u20131970", 
+  "death": {
+    "time": {
+      "startYear": 1970
+    }
+  }, 
+  "fc": "Percy Horton", 
+  "gender": "Male", 
+  "id": 1310, 
+  "mda": "Horton, Percy", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 317, 
+      "name": "Realism"
+    }
+  ], 
+  "startLetter": "H", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/percy-horton-1310"
+}

@@ -1,0 +1,42 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Osnabr\u00fcck, Deutschland", 
+      "placeName": "Osnabr\u00fcck", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1899
+    }
+  }, 
+  "birthYear": 1899, 
+  "date": "1899\u20131962", 
+  "death": {
+    "place": {
+      "name": "Ulm, Deutschland", 
+      "placeName": "Ulm", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1962
+    }
+  }, 
+  "fc": "Friedrich Vordemberge-Gildewart", 
+  "gender": "Male", 
+  "id": 2111, 
+  "mda": "Vordemberge-Gildewart, Friedrich", 
+  "movements": [
+    {
+      "era": {
+        "id": 8, 
+        "name": "20th century 1900-1945"
+      }, 
+      "id": 1686, 
+      "name": "De Stijl"
+    }
+  ], 
+  "startLetter": "V", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/friedrich-vordemberge-gildewart-2111"
+}

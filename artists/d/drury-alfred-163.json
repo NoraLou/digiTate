@@ -1,0 +1,33 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "London, United Kingdom", 
+      "placeName": "London", 
+      "placeType": "inhabited_place"
+    }, 
+    "time": {
+      "startYear": 1856
+    }
+  }, 
+  "birthYear": 1856, 
+  "date": "1856\u20131944", 
+  "death": {
+    "place": {
+      "name": "Wimbledon, United Kingdom", 
+      "placeName": "Wimbledon", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1944
+    }
+  }, 
+  "fc": "Alfred Drury", 
+  "gender": "Male", 
+  "id": 163, 
+  "mda": "Drury, Alfred", 
+  "movements": [], 
+  "startLetter": "D", 
+  "totalWorks": 1, 
+  "url": "http://www.tate.org.uk/art/artists/alfred-drury-163"
+}

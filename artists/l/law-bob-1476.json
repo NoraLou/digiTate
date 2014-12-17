@@ -1,0 +1,45 @@
+{
+  "activePlaceCount": 0, 
+  "birth": {
+    "place": {
+      "name": "Brentford, United Kingdom", 
+      "placeName": "Brentford", 
+      "placeType": "neighbourhood"
+    }, 
+    "time": {
+      "startYear": 1934
+    }
+  }, 
+  "birthYear": 1934, 
+  "date": "1934\u20132004", 
+  "death": {
+    "time": {
+      "startYear": 2004
+    }
+  }, 
+  "fc": "Bob Law", 
+  "gender": "Male", 
+  "id": 1476, 
+  "mda": "Law, Bob", 
+  "movements": [
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 430, 
+      "name": "Minimalism"
+    }, 
+    {
+      "era": {
+        "id": 415, 
+        "name": "20th century post-1945"
+      }, 
+      "id": 441, 
+      "name": "St Ives School"
+    }
+  ], 
+  "startLetter": "L", 
+  "totalWorks": 21, 
+  "url": "http://www.tate.org.uk/art/artists/bob-law-1476"
+}
