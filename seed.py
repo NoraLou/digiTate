@@ -53,8 +53,8 @@ def load_artwork(session):
         if row[9].isdigit():
             artwork.year = row[9]
         # artwork.acquisitionYear = row[10]
-        if row[11].isdigit():
-                artwork.dimensions = row[11] 
+        # if row[11].isdigit():
+        artwork.dimensions = row[11] 
         if row[12].isdigit():
             artwork.width = row[12]
         if row[13].isdigit():
@@ -70,6 +70,19 @@ def load_artwork(session):
 
         session.add(artwork)
     session.commit()
+
+
+def loop_directories (file_path):
+    for directr in os.listdir(file_path):
+
+        print directr
+        new_dir = file_path + "/" + directr
+        print new_dir
+        print os.listdir(new_dir)
+        file_names = os.listdir(new_dir)
+        for i in file_names:
+            print i
+            load_json(new_dir + "/" + i)
 
 
 def load_json(file_name):
@@ -101,7 +114,23 @@ def load_json(file_name):
 
 
             movement_id = movement.get("id")
-            movement_name = movement.get("name") 
+            movement_name = movement.get("name")
+
+            if movement_id == 22012:
+                    continue;
+            if movement_id == 22014:
+                    continue;
+            if movement_id == 425:
+                    continue;
+            if movement_id == 343:
+                    continue;
+            if movement_id == 22043:
+                    continue;
+            if movement_id == 367:
+                    continue;
+            if movement_id == 293:
+                    continue;
+ 
 
             if movement_id:          
                 m = session.query(model.Movement).get(movement_id)
@@ -125,45 +154,59 @@ def load_json(file_name):
 
                 session.add(am)
 
-
     session.commit()
 
-def loop_directories (file_path):
-    for directr in os.listdir(file_path):
 
-        print directr
-        new_dir = file_path + "/" + directr
-        print new_dir
-        print os.listdir(new_dir)
-        file_names = os.listdir(new_dir)
-        for i in file_names:
-            print i
-            load_json(new_dir + "/" + i)
+def add_artist_details():
+
+     artists = model.session.query(model.Artist).all()
+     for artist in artists:
+        numImgs = 0
+        numArtwork = len(artist.artworks)
+        if numArtwork > 0 :
+            for art in range(len(artist.artworks)):
+                if artist.artworks[art].thumbnailURL:
+                    numImgs += 1
+                thumbnailURL = artist.artworks[0].thumbnailURL      
+
+        artist.numImgs = numImgs
+        artist.numArtwork = numArtwork
+        artist.thumbnailURL = thumbnailURL
+
+        session.add(artist)
+
+        session.commit()
+
+# only add artworks if there is a thumbnail!! 
+
+
+
+
 
 def add_details():
 
     movements = model.session.query(model.Movement).all()
 
+# get pieces of images avail for movment
     for movement in movements:
-        artwork_list = [] 
         numArtwork = 0
-
+        numArtist = 0
+        # for artists in the movement.
         for am in movement.artist_movements:
-            numArtwork += len(am.artist.artworks)
-            artwork_list.extend(am.artist.artworks)
+            # if artist in movement has numImgs < 0
+            if am.artist.numImgs > 0:
+                numArtist += 1
+            numArtwork += am.artist.numImgs
 
-    
-        rep_image = random.choice(artwork_list)
 
-        if rep_image.thumbnailURL:
-            thumbnailURL = rep_image.thumbnailURL
-        else: 
-            random.choice(artwork_list)
 
+# need function to find representative image
+
+  
 
         movement.thumbnailURL = thumbnailURL
         movement.numArtwork = numArtwork 
-        movement.numArtist = len(movement.artist_movements)
+        movement.numArtist = numArtist
 
         session.add(movement)
 
@@ -183,24 +226,6 @@ def add_details():
 
         session.add(era)
 
-    artists = model.session.query(model.Artist).all()
-
-    for artist in artists:
-        numImgs = 0
-        numArtwork = len(artist.artworks)
-        if numArtwork > 0 :
-            for art in range(len(artist.artworks)):
-                if artist.artworks[art].thumbnailURL:
-                    numImgs += 1
-                thumbnailURL = artist.artworks[0].thumbnailURL      
-
-        artist.numImgs = numImgs
-        artist.numArtwork = numArtwork
-        artist.thumbnailURL = thumbnailURL
-
-        session.add(artist)
-
-
     session.commit()
 
 
@@ -212,7 +237,7 @@ def main():
     load_artwork(session)
 
     loop_directories("./artists")
-
+    add_artist_details()
     add_details()
 
 

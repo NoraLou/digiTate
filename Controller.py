@@ -16,6 +16,35 @@ app.secret_key = os.environ.get('some_secret')
 @app.route("/")
 def index():
 
+    movements = model.session.query(model.Movement).limit(5).all()
+    print movements
+    for movement in movements:
+        print movement.name
+        numArtwork = 0
+        numArtist = 0
+        print "**************************************"
+        print len(movement.artist_movements)
+        for am in movement.artist_movements:
+            if am.artist.numImgs > 0:
+                numArtist += 1
+            print am.artist.name
+            print am.artist.numImgs
+            numArtwork += am.artist.numImgs
+        print "**********************************************"
+        print "**********************************************"
+        print "**********************************************"
+        print movement.name
+        print numArtwork
+        print numArtist
+
+
+
+            # numArtwork += len(am.artist.numImgs)
+        # print movement.name
+        # print movement.numArtwork
+
+
+
 
     page = render_template("index.html")
     return page

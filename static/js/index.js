@@ -10,6 +10,7 @@ movementsVisable = false;
 //Make ajax requests and return data to respective display container
 function addArtwork(url, data, container){	
 	$.get(url,data).done(function(rsp){	
+		console.log(rsp)
 
 		if(container == "artworkContainer"){	
 			displayArtwork(rsp, container);
@@ -59,8 +60,12 @@ function displayData(data, container){
 			numArtist = obj.numArtist;
 
 		}
- 
+
+//Display ind Artist representative image and stats. 
 		if(obj.hasOwnProperty("numImgs") && obj.hasOwnProperty("dates")){
+				if(obj.numImgs == 0){
+					continue;
+				}	
 			numImgs = obj.numImgs;
 			dates = obj.dates;
 
@@ -294,6 +299,7 @@ function init(){
 
  		$("#artistColumn").on("click", ".fan .stats_overlay", function(){ 
  			var artist = $(this).prev().attr("data-id");
+ 			console.log(artist);
  		 	transitionToArtwork(artist);
  		 	addArtwork("/api/artwork",{data:$(this).prev().attr("data-id")}, "artworkContainer");
 
