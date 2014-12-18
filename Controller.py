@@ -16,32 +16,25 @@ app.secret_key = os.environ.get('some_secret')
 @app.route("/")
 def index():
 
-    movements = model.session.query(model.Movement).limit(5).all()
-    print movements
-    for movement in movements:
+    movements = model.session.query(model.Movement).all()
+
+    for movement in  movements:
+        d = {}
+        print "*********************************"
         print movement.name
-        numArtwork = 0
-        numArtist = 0
-        print "**************************************"
-        print len(movement.artist_movements)
-        for am in movement.artist_movements:
-            if am.artist.numImgs > 0:
-                numArtist += 1
-            print am.artist.name
-            print am.artist.numImgs
-            numArtwork += am.artist.numImgs
-        print "**********************************************"
-        print "**********************************************"
-        print "**********************************************"
-        print movement.name
-        print numArtwork
-        print numArtist
+        if movement.numArtwork > 0:   
+              for am in movement.artist_movements:
+                  if am.artist.numImgs > 0:
+                    possible_thumbnailURL = am.artist.artworks[0].thumbnailURL
+                    # if the item isn't in our dictionary 
+                    if d.get(possible_thumbnailURL, 0) == 0 :
+                        d[possible_thumbnailURL] = d.get(possible_thumbnailURL, 1)
+                        thumbnailURL = possible_thumbnailURL
 
+        movement.thumbnailURL = thumbnailURL
+        print movement.thumbnailURL
+        print "*********************************"
 
-
-            # numArtwork += len(am.artist.numImgs)
-        # print movement.name
-        # print movement.numArtwork
 
 
 

@@ -29,14 +29,14 @@ function displayData(data, container){
 	if (container == null){
 		return;
 	}
-	var id,name,thumbnailURL,obj,img = null;
-
+	var id,name,thumbnailURL,obj,img = null
 	$('#'+container).empty();
 
 	for(var i = 0; i<data.length; i++){
 		obj = data[i];
 
-		if (id == "" || name == "" || thumbnailURL == ""){
+		if (obj.id === "" || obj.name === "" || obj.thumbnailURL === ""){
+			console.log("look here")
 			continue; 
 		}
 		
@@ -107,7 +107,9 @@ function displayData(data, container){
 			
 		}else{
 
+//Display movement and people in movement
 			var imgContainer = document.createElement('figure');
+
 			$(imgContainer).addClass('imgContainer');
 
 			var img = $(new Image()).attr({
@@ -118,6 +120,7 @@ function displayData(data, container){
 				"numArtwork" : numArtwork,
 				"numArtist" : numArtist
 			});
+			console.log(img)
 
 			var overlay = document.createElement('div');
 			$(overlay).addClass('stats_overlay');

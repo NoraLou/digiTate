@@ -197,18 +197,38 @@ def add_details():
             if am.artist.numImgs > 0:
                 numArtist += 1
             numArtwork += am.artist.numImgs
-
-
-
-# need function to find representative image
-
-  
-
-        movement.thumbnailURL = thumbnailURL
         movement.numArtwork = numArtwork 
         movement.numArtist = numArtist
+        session.add(movement)
+    session.commit()
+
+    movements = model.session.query(model.Movement).all()
+
+    for movement in  movements:
+        d = {}
+        print "*********************************"
+        print movement.name
+        if movement.numArtwork > 0:   
+              for am in movement.artist_movements:
+                  if am.artist.numImgs > 0:
+                    possible_thumbnailURL = am.artist.artworks[0].thumbnailURL
+                    # second_choice = am.artist.artworks.random()
+                    # if the item isn't in our dictionary 
+                    if d.get(possible_thumbnailURL, 0) == 0 :
+                        d[possible_thumbnailURL] = 1
+                        thumbnailURL = possible_thumbnailURL
+                        movement.thumbnailURL = thumbnailURL
+                        break
+              thumbnailURL =  possible_thumbnailURL
+              
+
+
+        print movement.thumbnailURL
+        print "*********************************"
+
 
         session.add(movement)
+    session.commit()
 
     eras = model.session.query(model.Era).all()
 
