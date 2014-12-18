@@ -54,8 +54,6 @@ class Artwork(Base):
     height = Column(Integer, nullable = True)
     depth = Column(Integer, nullable = True)
     units = Column(String(128), nullable = True)
-    # inscription = Column(String(128), nullable = True)
-    # thumbnailCopyright = Column(String(128), nullable = True)
     thumbnailURL = Column(String(128), nullable = True)
     url = Column(String(1024), nullable = True)
 

@@ -16,28 +16,6 @@ app.secret_key = os.environ.get('some_secret')
 @app.route("/")
 def index():
 
-    movements = model.session.query(model.Movement).all()
-
-    for movement in  movements:
-        d = {}
-        print "*********************************"
-        print movement.name
-        if movement.numArtwork > 0:   
-              for am in movement.artist_movements:
-                  if am.artist.numImgs > 0:
-                    possible_thumbnailURL = am.artist.artworks[0].thumbnailURL
-                    # if the item isn't in our dictionary 
-                    if d.get(possible_thumbnailURL, 0) == 0 :
-                        d[possible_thumbnailURL] = d.get(possible_thumbnailURL, 1)
-                        thumbnailURL = possible_thumbnailURL
-
-        movement.thumbnailURL = thumbnailURL
-        print movement.thumbnailURL
-        print "*********************************"
-
-
-
-
 
     page = render_template("index.html")
     return page

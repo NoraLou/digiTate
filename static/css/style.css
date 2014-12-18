@@ -26,9 +26,12 @@
 			padding-bottom: 1%;
 			padding-top: 0;
 			width: 60%;
+			display: -webkit-flex;
 			display:flex;
    	    	box-orient: horizontal;
+			-webkit-flex-direction: row;
    	    	flex-direction: row;
+			-webkit-box-pack:center;
    	    	justify-content: center;
 		}
 
@@ -59,7 +62,6 @@
 			height:100%;
 			width: 100%;
 			position: relative;
-
 			background-color:white;
 		}
 
@@ -75,13 +77,13 @@
 			background-color: white;
 			z-index: 100;
 			overflow: hidden;
-			/*height: 100%;*/
 			margin: 0;
 			padding-right: 10%;
 			padding-left: 10%;
 		}
 
 		#era {
+		display: -webkit-flex;
         display:flex;
    	    box-orient: horizontal;
    	    flex-direction: row;
