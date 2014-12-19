@@ -9,9 +9,14 @@ import random
 import logging
 logging.basicConfig()
 logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
+SECRET_KEY = os.environ.get("FLASK_SECRET_KEY", "development")
+
+
 
 app = Flask(__name__)
-app.secret_key = os.environ.get('some_secret')
+app.config['SECRET_KEY'] = SECRET_KEY
+app.config['DATABASE_URL'] = DATABASE_URL
+# app.secret_key = os.environ.get('some_secret')
 
  
 @app.route("/")

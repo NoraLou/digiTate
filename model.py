@@ -1,4 +1,4 @@
-
+import os
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
 from sqlalchemy import Column, Integer, String
@@ -7,7 +7,9 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import ForeignKey
 from sqlalchemy.orm import relationship, backref, scoped_session
 
-engine = create_engine("postgresql://localhost/tatedb", echo=False)
+DATABASE_URL = os.environ.get("DATABASE_URL", 'postgresql://localhost/tatedb')
+engine = create_engine(DATABASE_URL, echo=False)
+
 # engine = create_engine("sqlite:///tate.db", echo=False)
 
 session = scoped_session(sessionmaker(bind=engine,autocommit = False, autoflush=False))
