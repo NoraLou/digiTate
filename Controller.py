@@ -71,6 +71,13 @@ def load_artwork():
 
 
 if __name__ == "__main__":
-    DEBUG = "NO_DEBUG" not in os.environ
-    app.run(debug = DEBUG)
+
+    PORT = int(os.environ.get("PORT", 5000))
+
+    # T/F is NO_DEBUG in os.environ?
+    # if NO_DEBUG is in our environment then debug is fal
+
+    DEBUG = "NO_DEBUG" not in os.environ 
+
+    app.run(debug = DEBUG, host="0.0.0.0", port=PORT)
     
