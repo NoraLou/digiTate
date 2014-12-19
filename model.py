@@ -7,6 +7,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import ForeignKey
 from sqlalchemy.orm import relationship, backref, scoped_session
 
+# DATABASE_URL = "postgres://mmlwhgyehyapbb:ZvhbR-8OOh3rOUFSFXGOjRmNNd@ec2-54-204-42-119.compute-1.amazonaws.com:5432/dbvie29n4j53hl"
 DATABASE_URL = os.environ.get("DATABASE_URL", 'postgresql://localhost/tatedb')
 engine = create_engine(DATABASE_URL, echo=False)
 

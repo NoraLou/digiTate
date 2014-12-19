@@ -10,6 +10,7 @@ import logging
 logging.basicConfig()
 logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 SECRET_KEY = os.environ.get("FLASK_SECRET_KEY", "development")
+
 DATABASE_URL = os.environ.get("DATABASE_URL", 'postgresql://localhost/tatedb')
 
 
