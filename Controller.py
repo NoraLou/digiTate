@@ -4,6 +4,7 @@ import model
 from sqlalchemy.orm import subqueryload
 import json
 import os
+import random
 
 import logging
 logging.basicConfig()
@@ -70,5 +71,6 @@ def load_artwork():
 
 
 if __name__ == "__main__":
-    app.run(debug = False)
+    DEBUG = "NO_DEBUG" not in os.environ
+    app.run(debug = DEBUG)
     

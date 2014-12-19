@@ -12,6 +12,9 @@ function addArtwork(url, data, container){
 	$.get(url,data).done(function(rsp){	
 		console.log(rsp)
 
+
+		
+
 		if(container == "artworkContainer"){	
 			displayArtwork(rsp, container);
 

@@ -39,7 +39,6 @@ def load_artwork(session):
     for row in f2:
         artwork = model.Artwork()
         artwork.artworkId = int(row[0])
-        # artwork.accession_number = row[1]
         artwork.artistRole = row[3]
         if int(row[4])!= 19232:
             if int(row[4])!= 5265:
@@ -49,18 +48,13 @@ def load_artwork(session):
         artwork.title = row[5]
         artwork.dateText = row[6]
         artwork.medium = row[7]
-        # artwork.creditLine = row[8]
         if row[9].isdigit():
             artwork.year = row[9]
-        # artwork.acquisitionYear = row[10]
-        # if row[11].isdigit():
         artwork.dimensions = row[11] 
         if row[12].isdigit():
             artwork.width = row[12]
         if row[13].isdigit():
             artwork.height = row[13]
-        # artwork.depth = row[14]
-        # if row[15] !="":
         if row[15].isdigit():
             artwork.units = row[15]    
         artwork.inscription = row[16]
@@ -177,7 +171,7 @@ def add_artist_details():
 
         session.commit()
 
-# only add artworks if there is a thumbnail!! 
+
 
 
 
@@ -187,13 +181,10 @@ def add_details():
 
     movements = model.session.query(model.Movement).all()
 
-# get pieces of images avail for movment
     for movement in movements:
         numArtwork = 0
         numArtist = 0
-        # for artists in the movement.
         for am in movement.artist_movements:
-            # if artist in movement has numImgs < 0
             if am.artist.numImgs > 0:
                 numArtist += 1
             numArtwork += am.artist.numImgs
@@ -204,27 +195,25 @@ def add_details():
 
     movements = model.session.query(model.Movement).all()
 
-    for movement in  movements:
-        d = {}
-        print "*********************************"
-        print movement.name
-        if movement.numArtwork > 0:   
-              for am in movement.artist_movements:
-                  if am.artist.numImgs > 0:
-                    possible_thumbnailURL = am.artist.artworks[0].thumbnailURL
-                    # second_choice = am.artist.artworks.random()
-                    # if the item isn't in our dictionary 
-                    if d.get(possible_thumbnailURL, 0) == 0 :
-                        d[possible_thumbnailURL] = 1
-                        thumbnailURL = possible_thumbnailURL
-                        movement.thumbnailURL = thumbnailURL
-                        break
-              thumbnailURL =  possible_thumbnailURL
-              
 
+    used = set()
+    for movement in movements:
+        all_works_in_movement = set()
+        for a_m in movement.artist_movements:
+            all_works_in_movement.update([ artwork.thumbnailURL for artwork in a_m.artist.artworks if artwork.thumbnailURL != "" ])
+            # for artwork in a_m.artist.artworks:
+            #     if artwork.thumbnailURL != "":
+            #         possible_list.append(artwork.thumbnailURL)
 
-        print movement.thumbnailURL
-        print "*********************************"
+        possible_unused = all_works_in_movement - used
+        if possible_unused:
+            url = random.choice(list(possible_unused))
+            movement.thumbnailURL = url
+            used.add(url)
+            print movement.name, " will use", url
+        else:
+            movement.thumbnailURL = ""
+            print movement.name, " has no possible art"
 
 
         session.add(movement)
