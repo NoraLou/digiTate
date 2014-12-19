@@ -12,7 +12,7 @@ In order to achieve digiTate's specific drill-down structure, I had to create a 
 
 ###Stack
     
-Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, SQLite3, CSS3, HTML5
+Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, PostgreSQL, CSS3, HTML5
 
 ###
 
