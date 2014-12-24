@@ -248,11 +248,11 @@ function init(){
 					"width":"100%"
 				});
 
-				$("#logo").css({
-					"width": "300px",
-					"padding-left": "5%",
-					"padding-top":"10px",
-				});
+				// $("#logo").css({
+				// 	"width": "300px",
+				// 	"padding-left": "5%",
+				// 	"padding-top":"10px",
+				// });
 
 				$("#intro").remove();
 

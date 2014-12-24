@@ -6,13 +6,13 @@
 			font-family: Avenir, Arial, sans-serif; 
 		}
 
-		nav { 
+		nav {
 		  margin:0;
 		  padding:0;
-		  
 		}
 
 		#logo {	
+			/*display: block;*/
 			width: 300px;
 			padding-top:2%;
 			padding-left:15%;
@@ -43,7 +43,9 @@
     		flex: 1 1 auto;
     		margin: 5px;
     		text-align: center;
-			font-size: 1.75em;
+
+			font-size: 1.5em;
+
 		}
 		
 		#intro { 
