@@ -157,7 +157,7 @@ function displayArtwork(data, container){
 	for(var i = 0; i<data.length; i++){
 		obj = data[i];
 
-		if (thumbnailURL == ""){
+		if (thumbnailURL ===""){
 			continue; 
 		}
 
@@ -248,13 +248,20 @@ function init(){
 					"width":"100%"
 				});
 
-				// $("#logo").css({
-				// 	"width": "300px",
-				// 	"padding-left": "5%",
-				// 	"padding-top":"10px",
-				// });
+				$("#logo").css({
+					"max-width": "16%",
+					// "max-width":"175px",
+					"margin-left": "2%",
+					"margin-top":"1%",
+					"margin-bottom":"1%:",
+				});
 
 				$("#intro").remove();
+
+				$("#breadcrumbs_container").css({
+					"display":"inline-block"
+
+				})
 
 				$('#era').css({
 					"display": "block"
