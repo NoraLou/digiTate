@@ -249,10 +249,10 @@ function init(){
 				});
 
 				$("#logo").css({
-					"max-width": "16%",
+					"max-width": "12%",
 					// "max-width":"175px",
 					"margin-left": "2%",
-					"margin-top":"1%",
+					"margin-top":".5%",
 					"margin-bottom":"1%:",
 				});
 
