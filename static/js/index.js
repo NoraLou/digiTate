@@ -10,11 +10,7 @@ movementsVisable = false;
 //Make ajax requests and return data to respective display container
 function addArtwork(url, data, container){	
 	$.get(url,data).done(function(rsp){	
-		console.log(rsp)
-
-
 		
-
 		if(container == "artworkContainer"){	
 			displayArtwork(rsp, container);
 
@@ -39,7 +35,6 @@ function displayData(data, container){
 		obj = data[i];
 
 		if (obj.id === "" || obj.name === "" || obj.thumbnailURL === ""){
-			console.log("look here")
 			continue; 
 		}
 		
@@ -123,7 +118,6 @@ function displayData(data, container){
 				"numArtwork" : numArtwork,
 				"numArtist" : numArtist
 			});
-			console.log(img)
 
 			var overlay = document.createElement('div');
 			$(overlay).addClass('stats_overlay');
@@ -157,16 +151,15 @@ function displayArtwork(data, container){
 	for(var i = 0; i<data.length; i++){
 		obj = data[i];
 
-		if (thumbnailURL ===""){
-			continue; 
+		if(obj.hasOwnProperty("thumbnailURL")){
+			thumbnailURL = obj.thumbnailURL;
+			if(obj.thumbnailURL === "_9.jpg"){
+				continue;
+			}
 		}
 
 		if(obj.hasOwnProperty("id")){
 			id = obj.id;
-		}
-
-		if(obj.hasOwnProperty("thumbnailURL")){
-			thumbnailURL = obj.thumbnailURL;
 		}
 
 		if(obj.hasOwnProperty("artist")){
@@ -250,7 +243,6 @@ function init(){
 
 				$("#logo").css({
 					"max-width": "12%",
-					// "max-width":"175px",
 					"margin-left": "2%",
 					"margin-top":".5%",
 					"margin-bottom":"1%:",
@@ -312,7 +304,6 @@ function init(){
 
  		$("#artistColumn").on("click", ".fan .stats_overlay", function(){ 
  			var artist = $(this).prev().attr("data-id");
- 			console.log(artist);
  		 	transitionToArtwork(artist);
  		 	addArtwork("/api/artwork",{data:$(this).prev().attr("data-id")}, "artworkContainer");
 
@@ -351,21 +342,8 @@ function closePane(pane){
 
 //Close current display windows move to inital display 
 function transitionToEras(pane){
+		document.location.reload(true);
 
-		$("#eraColumn").animate({
-			"width": "100%"
-		},250,function(){
-			$('#breadcrumbs span').remove();
-			movementsVisable = false;
-		});
-		pane.children("div").animate({
-			"marginLeft": "20%"
-		});
-		pane.animate({
-			"width": "100%"
-		},250,function(){
-
-		});
 }
 
 
