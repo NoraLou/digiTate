@@ -27,37 +27,6 @@ Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, PostgreSQL, CSS3, HTML5
 
 
 
-###Installation 
-
-1. Clone this repo on your local machine.
-
-  ```
-  https://github.com/NoraLou/digiTate.git
-  ```
-2. Create a python virtual environment:
-
-  ```
-  virtualenv env
-  ```
-3. Activate the virtual environment:
-
-  ```
-  source env/bin/activate
-  ```
-4. Install the requirements:
-
-  ```
-  pip install -r requirements.txt
-  ```
-
-6. Start the program by typing:
-  ```
-  python Controller.py
-  ```
-  into your terminal. 
-
-7.  After Controller.py runs successfully, point your browser to http://localhost:5000/ and get started!
- 
 
 
   
