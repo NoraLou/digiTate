@@ -6,6 +6,11 @@ digiTate is  Art History exploration app based on open source data from London�
 
 You can visit digitTATE online at : http://nora-digitate.herokuapp.com/ It is best when viewed on Safari or Chrome for the moment.
 
+<p align="center">
+  <br/>
+  <img align="center" src="/screenshots/gif/Best_Screencast.gif" alt="Artist's page">
+</p>
+
 ###Front-end
 digiTate features a custom-built “fan” navigation system that allows users to visually browse the massive image set quickly.  Layers of information are initially nested on top of each other like a closed fan.  As a user drills-down into a selected time period, layers of the fan animate open and dynamically display data based on the user’s selections.  The responsive front-end structure is based on CSS3’s z-index and flexbox properties.  Ajax allows users to seamlessly switch image sets or rapidly drill-back across fan layers.  Javascript DOM manipulation is thoughtfully employed in the primary navigation functions to optimize browser memory as the fan layers re-stack.
 
@@ -16,15 +21,6 @@ In order to achieve digiTate's specific drill-down structure, I had to create a 
     
 Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, PostgreSQL, CSS3, HTML5
 
-###
-
-###Screenshots: 
-<p align="center">
-  <img align="center" src="/screenshots/Github.jpg" alt="Overview layer">
-  <br/>
-  <br/>
-  <img align="center" src="/screenshots/gif/Best_Screencast.gif" alt="Artist's page">
-</p>
   
 
 
