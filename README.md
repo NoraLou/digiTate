@@ -2,9 +2,12 @@ digiTate
 ========
 ###Project Overview
 
-digiTate is  Art History exploration app based on open source data from London’s Tate museum.  As an avid museum goer and technologist, I was excited to discover that the Tate had publicly released meta-data for 70,000 artworks and wanted to make a contribution. Previous treatments of this meta-data were primarily analytic and pre-supposed prior knowlegde of art history. I wanted to make this information accessible and engaging for all users. DigiTate is a flexible one-page app, that offers users from around the globe a playful, visually intuitive way to explore London’s cultural treasures from the 16th to 20th centuries.
+digiTate is an Art History exploration app based on open source data from London’s Tate museum.  As an avid museum goer and technologist, I was excited to discover that the Tate had publicly released meta-data for 70,000 artworks and wanted to make a contribution. Previous treatments of this meta-data were primarily analytic and pre-supposed prior knowlegde of art history. 
+I wanted to make this information engaging for all users, and create a visaully intuative user experience that would let the artwork speak for itself. 
 
-You can visit digitTATE online at : http://nora-digitate.herokuapp.com/ It is best when viewed on Safari or Chrome for the moment.
+DigiTate is a flexible one-page app, that offers users from around the globe a playful, visually intuitive way to explore London’s cultural treasures from the 16th to 20th centuries.
+
+You can visit digitTATE online at : http://nora-digitate.herokuapp.com/ It is currently deployed in Beta for webKit browers (Chrome, Safari).  
 
 <p align="center">
   <br/>
