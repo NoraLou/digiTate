@@ -14,6 +14,11 @@ You can visit digitTATE online at : http://nora-digitate.herokuapp.com/ It is cu
   <img align="center" src="/screenshots/gif/Best_Screencast.gif" alt="Artist's page">
 </p>
 
+
+###Stack
+Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, PostgreSQL, CSS3, HTML5
+
+
 ###Building digiTate
 digiTate was built in 4 weeks. Roughly, the breakdown of the project, week-by-week was:
 -  <b>Week 1</b>
@@ -52,9 +57,7 @@ Sample function to drill-back across two data-layers.
 ###Back-end
 In order to achieve digiTate's specific drill-down structure, I had to create a custom data model.  I built out the many relationships between historical periods, cultural movements, individual artists, and artworks by creating a seed script to loop through the files of json meta-data and extract the specific information I needed.  I further optimized this data by creating custom class attributes and methods to enhance the quick availability of data on the front-end.
 
-###Stack
-    
-Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, PostgreSQL, CSS3, HTML5
+
 
   
 
