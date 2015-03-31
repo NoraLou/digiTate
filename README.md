@@ -7,7 +7,7 @@ I wanted to make this information engaging for all users, and create a visaully 
 
 DigiTate is a flexible one-page app, that offers users from around the globe a playful, visually intuitive way to explore London’s cultural treasures from the 16th to 20th centuries.
 
-You can visit digitTATE online at : http://nora-digitate.herokuapp.com/ It is currently deployed in Beta for webKit browers (Chrome, Safari).  
+You can visit digitTATE online at : http://nora-digitate.herokuapp.com/ It is currently deployed in beta for WebKit browers (Chrome, Safari).  
 
 <p align="center">
   <br/>
