@@ -48,15 +48,89 @@ digiTate was built in 4 weeks. Roughly, the breakdown of the project, week-by-we
 ##Front-end
 digiTate features a custom-built “fan” navigation system that allows users to visually browse the massive image set quickly.  Layers of information are initially nested on top of each other like a closed fan.  As a user drills-down into a selected time period, layers of the fan animate open and dynamically display data based on the user’s selections.  The responsive front-end structure is based on CSS3’s z-index and flexbox properties.  Ajax allows users to seamlessly switch image sets or rapidly drill-back across fan layers.  Javascript DOM manipulation is thoughtfully employed in the primary navigation functions to optimize browser memory as the fan layers re-stack.
 
-Sample function to drill-back across two data-layers.
+Code snippet of function to drill-back across fan layers.
+```
+function closePane(pane){
 
+		var paneToExpand = pane.prev();
+		var paneToExpand2 = pane;
 
+		$('#breadcrumbs span:last-child')[0].remove();
+
+		pane.find(".fan").empty();
+		switch (paneToExpand.attr("id"))
+		{
+			case ("eraColumn"):
+				transitionToEras(pane);
+				break;
+			default:
+				transitionToPrev(paneToExpand2);
+				transitionToPrev(paneToExpand);
+		}
+}
+````
 
 
 
 ###Back-end
-In order to achieve digiTate's specific drill-down structure, I had to create a custom data model.  I built out the many relationships between historical periods, cultural movements, individual artists, and artworks by creating a seed script to loop through the files of json meta-data and extract the specific information I needed.  I further optimized this data by creating custom class attributes and methods to enhance the quick availability of data on the front-end.
+In order to achieve digiTate's specific drill-down structure, I had to create a custom data model.  The data-model is seperated from the presentation layer and acts as an internal API.   I built out some of the relationships between historical periods, cultural movements, individual artists, and artworks by using Python's OS module and creating a seed script to loop through the files of json meta-data and extract the specific information needed.  I further optimized this data by creating custom class attributes and methods to enhance the quick availability of data on the front-end.
 
+Code snippet of function to extract data from json files.
+```
+def load_json(file_name):
+    file = open(file_name)
+    json_text = file.read()
+    file.close()
+
+    data = json.loads(json_text)
+
+    artist_id = data.get("id")
+    artist = model.session.query(model.Artist).filter_by(id = artist_id).first()
+
+
+    if data.get("movements",[]):
+        for movement in data["movements"]:
+            if movement.get("era"):
+              
+                era_id = movement["era"].get("id")
+                era_name = movement["era"].get("name")
+                
+                if era_id:
+                    e = session.query(model.Era).get(era_id)
+                    if not e:
+                        e = model.Era()
+                        e.id = era_id
+                        e.name = era_name
+
+                        session.add(e)
+                        
+            movement_id = movement.get("id")
+            movement_name = movement.get("name")
+            
+            if movement_id:          
+                m = session.query(model.Movement).get(movement_id)
+                if not m:
+                    m = model.Movement()
+                    m.id = movement_id
+                    m.name = movement_name
+                    m.era_id = era_id
+                
+                    session.add(m)
+
+                else:
+                    if m.name != movement_name:
+                        print "ERROR!  movement name doesn't match!"
+                        print movement_id, movement_name
+                        print "database has: ", m.name
+
+                am = model.Artist_movement()
+                am.movementId = movement_id
+                am.artistId = artist_id
+
+                session.add(am)
+```
+###Thank you
+Thank you for your interest.  Please feel free to be in touch if you have any questions!
 
 
   
