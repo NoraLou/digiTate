@@ -1,6 +1,6 @@
 digiTate
 ========
-You can visit digitTATE online at <a href = http://nora-digitate.herokuapp.com/>HERE</a>. <br>It is currently deployed in beta for WebKit browers (Chrome, Safari).
+You can visit digitTATE online  <a href = http://nora-digitate.herokuapp.com/>HERE</a>. <br>It is currently deployed in beta for WebKit browers (Chrome, Safari).
 
 ###Project Overview
 
