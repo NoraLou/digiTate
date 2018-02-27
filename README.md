@@ -2,7 +2,7 @@ digiTate
 ========
 You can visit digitTATE online  <a href = http://nora-digitate.herokuapp.com/>HERE</a>. <br>It is currently deployed in beta for WebKit browers (Chrome, Safari).
 
-###Project Overview
+Project Overview
 
 digiTate is an Art History exploration app based on open source data from London’s Tate museum.  As an avid museum goer and technologist, I was excited to discover that the Tate had publicly released meta-data for 70,000 artworks and wanted to make a contribution. Previous treatments of this meta-data were primarily analytic and pre-supposed prior knowlegde of art history. 
 I wanted to make this information engaging for all users, and create a visually intuative User Experience that would let the artwork speak for itself. 
@@ -15,11 +15,11 @@ DigiTate is a flexible one-page app, that offers users from around the globe a p
 </p>
 
 
-###Stack
+Stack
 Python, Flask, Javascript, Jquery/Ajax, SQLAlchemy, PostgreSQL, CSS3, HTML5
 
 
-###Building digiTate
+Building digiTate
 digiTate was built in 4 weeks. Roughly, the breakdown of the project, week-by-week was:
 -  <b>Week 1</b>
   - Scoping the Project
@@ -43,9 +43,9 @@ digiTate was built in 4 weeks. Roughly, the breakdown of the project, week-by-we
   - Add nav-bar with updating breadcrumb display
   - Add comments and clean code to make it more maintainable.
   
-###Key Features
+Key Features
 
-##Front-end
+Front-end
 digiTate features a custom-built “fan” navigation system that allows users to visually browse the massive image set quickly.  Layers of information are initially nested on top of each other like a closed fan.  As a user drills-down into a selected time period, layers of the fan animate open and dynamically display data based on the user’s selections.  The responsive front-end structure is based on CSS3’s z-index and flexbox properties.  Ajax allows users to seamlessly switch image sets or rapidly drill-back across fan layers.  Javascript DOM manipulation is thoughtfully employed in the primary navigation functions to optimize browser memory as the fan layers re-stack.
 
 Code snippet of function to drill-back across fan layers.
@@ -129,7 +129,7 @@ def load_json(file_name):
 
                 session.add(am)
 ```
-###Thank you
+Thank you
 Thank you for your interest.  Please feel free to be in touch if you have any questions!
 
 
